@@ -2,6 +2,7 @@ import {readFile,writeFile,mkdir} from 'node:fs/promises';import {createHash} fr
 import {GithubStore} from './github-store.mjs';import {collectNews,enrichCandidate} from './sources.mjs';import {DEFAULT_POLICY,rankCandidates,runAutopilotTick} from './engine.mjs';import {InstagramClient} from './instagram.mjs';import {buildEditorial,DESIGN_VERSION} from './editorial.mjs';
 const exec=promisify(execFile),config=JSON.parse(await readFile(new URL('../config.json',import.meta.url),'utf8'));
 let secrets={};try{if(process.env.AUTOPILOT_CONFIG)secrets=JSON.parse(process.env.AUTOPILOT_CONFIG)}catch{console.log('CONFIG_SECRET_INVALID: AUTOPILOT_CONFIG JSON 형식을 확인하세요.');process.exit(1)}
+secrets.naver_client_id ||= secrets.NAVER_API_HUB_CLIENT_ID||process.env.NAVER_API_HUB_CLIENT_ID;secrets.naver_client_secret ||= secrets.NAVER_API_HUB_CLIENT_SECRET||process.env.NAVER_API_HUB_CLIENT_SECRET;
 const policy={...DEFAULT_POLICY,...config,dailyCap:Number.isInteger(secrets.daily_cap)&&secrets.daily_cap>0?secrets.daily_cap:config.dailyCap};
 const store=new GithubStore({repository:process.env.GH_REPOSITORY,token:process.env.GH_TOKEN,baseCommit:process.env.GH_COMMIT});
 await mkdir('work',{recursive:true});

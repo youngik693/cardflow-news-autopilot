@@ -25,6 +25,18 @@
 
 기존 `docs/previews/` 이미지와 [초기 시장 조사](docs/market-research.md)의 관계·생활 중심 제안은 이전 검토 기록입니다. 현재 운영 방향은 위 독립 뉴스 방침을 따릅니다. 기존 시안과 생성 초안은 보존하고 `news-v3`부터 새 방향을 적용합니다.
 
+## 네이버 API HUB 연결 — 2026-10-21 수정
+
+검색 API는 2026-07-31부터 기존 개발자센터에서 신규 신청이 중단됐다. 현재 기본값은 NAVER API HUB다. 기존 키를 구버전 주소로 호출하던 코드를 수정했으며, API HUB 키를 다시 발급할 필요는 없다.
+
+- 새 주소: `https://naverapihub.apigw.ntruss.com/search/v1/news`
+- 인증 헤더: `X-NCP-APIGW-API-KEY-ID`, `X-NCP-APIGW-API-KEY`
+- `AUTOPILOT_CONFIG`의 `naver_client_id`, `naver_client_secret` 이름은 유지하되 실제 값은 API HUB의 발급값이다.
+- 별도 Repository Secrets `NAVER_API_HUB_CLIENT_ID`, `NAVER_API_HUB_CLIENT_SECRET`도 지원한다. JSON에 값이 있으면 JSON 값이 우선한다.
+- 기존 개발자센터 키를 보유한 사용자는 명시적으로 `naver_api_mode: "legacy"`를 지정해야 한다. 실패 시 인증값을 다른 호스트로 자동 전송하지 않는다.
+- 공식 안내상 현재 한시적 무료이며 향후 유료 전환 가능성이 있다. 영구 무료로 보장하지 않는다. 이번 수정은 별도 클라우드 서버나 유료 상품을 생성하지 않는다.
+- [공식 이관 공지](https://developers.naver.com/notice/article/32530), [공식 뉴스 API 명세](https://api.ncloud-docs.com/docs/naver-api-hub-search-news), [공식 이용 요금 안내](https://guide.ncloud-docs.com/docs/apihub-overview)
+
 ## 1회 연결 설정
 
 [Settings → Secrets and variables → Actions](../../settings/secrets/actions)에서 Repository secret **AUTOPILOT_CONFIG**를 만드세요. 비밀값은 코드·이슈·채팅에 넣지 않습니다.
