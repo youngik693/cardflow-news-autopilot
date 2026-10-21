@@ -10,19 +10,15 @@
   "minimumInstagramMetrics": 2,
   "signalMaxAgeHours": 6,
   "requireInstagramEvidence": true,
-  "allowedCategories": [
-    "relationships",
-    "money_life",
-    "technology",
-    "food_travel"
-  ],
+  "allowedCategories": [],
   "queries": [
-    "연애 결혼 생활",
-    "청년 물가 소비 지원",
-    "인공지능 생활 도구"
+    "주요 뉴스",
+    "경제 산업 과학 기술",
+    "문화 연예 스포츠"
   ],
   "schemaVersion": 1,
-  "note": "계정 선택만 확정됨. 인증, 실제 한도, 인스타 관측 근거가 없으면 게시하지 않음. 초기 점수 가중치는 검증 전 가설.",
-  "editorialVersion": "editorial-v2",
-  "requireReaderRelevance": true
+  "note": "독립 카드뉴스 미디어. 내연사·운세 상품과 연결하지 않음. 계정은 기존 지정값 유지. 인증·게시 한도·실제 인스타 관측 근거 없이는 게시 보류.",
+  "editorialVersion": "news-v3",
+  "requireReaderRelevance": false,
+  "productMode": "standalone_news"
 }
