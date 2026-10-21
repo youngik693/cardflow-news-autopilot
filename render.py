@@ -85,7 +85,7 @@ def render(m,out):
    art(d,category,(48,670),dark,accent,paper)
    pill(d,(64,1170),e['hook']+'  →',accent,dark,29)
   elif i==1:
-   block(d,'먼저, 확인된 소식.',64,245,940,140,62,dark)
+   block(d,'오늘의 소식, 핵심부터.',64,245,940,140,62,dark)
    d.rounded_rectangle((64,430,1016,1010),radius=28,fill=dark)
    pill(d,(100,465),'기사 제목',accent,dark,22)
    block(d,e['headline'],100,535,875,220,49,paper)
@@ -98,8 +98,8 @@ def render(m,out):
     d.text((91,y+42),f'0{j+1}',font=font(38),fill=accent);block(d,q,188,y+30,775,110,38,paper)
    block(d,e['opinionLabel'],64,1160,940,55,23,paper,minsize=21)
   elif i==3:
-   block(d,'이 기준은 저장해 둬.',64,245,940,140,67,dark)
-   pill(d,(64,410),'뉴스를 읽는 체크리스트',dark,paper,25)
+   block(d,'나에게 해당하면, 이 순서로.',64,245,940,140,67,dark)
+   pill(d,(64,410),'조건 확인 후 실행 체크리스트',dark,paper,25)
    for j,c in enumerate(e['checks']):
     y=535+j*190;d.rounded_rectangle((64,y,1016,y+160),radius=20,fill=dark)
     d.rectangle((99,y+53,139,y+93),outline=accent,width=3);block(d,c,177,y+30,780,110,37,paper)

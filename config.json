@@ -18,8 +18,13 @@
   ],
   "schemaVersion": 1,
   "note": "독립 카드뉴스 미디어. 내연사·운세 상품과 연결하지 않음. 계정은 기존 지정값 유지. 인증·게시 한도·실제 인스타 관측 근거 없이는 게시 보류.",
-  "editorialVersion": "news-v3",
+  "editorialVersion": "news-v4-action",
   "requireReaderRelevance": false,
   "productMode": "standalone_news",
-  "naverApiMode": "hub"
+  "naverApiMode": "hub",
+  "enabledProviders": [
+    "daum"
+  ],
+  "requireContentRights": true,
+  "commercialDraftsOnly": true
 }
