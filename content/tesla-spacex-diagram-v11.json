@@ -1,0 +1,185 @@
+{
+  "id": "tesla-spacex-explained-diagram-v11-20261021",
+  "status": "research_preview_not_for_autopublish",
+  "asOf": "2026-10-21",
+  "thesis": "한 회사 안에서 AI 칩·컴퓨터·인력을 함께 배분해, 차·로봇·우주 사업의 개발 속도를 높이려는 구상.",
+  "thesisType": "회사 공시·경영진 발언·외부 분석을 종합한 편집 해석. 직접 인용 아님.",
+  "photo": {
+    "localReference": "work/editorial-v2/rocket.jpg",
+    "credit": "NASA/Keegan Barber",
+    "capturedAt": "2024-09-27",
+    "sourceURL": "https://images.nasa.gov/details/NHQ202409270003",
+    "usageURL": "https://www.nasa.gov/nasa-brand-center/images-and-media/"
+  },
+  "sources": [
+    {
+      "id": "S1",
+      "name": "SpaceX 2026 Q3 실적설명회 / Quartr 전사본",
+      "url": "https://stockanalysis.com/stocks/spcx/transcripts/723936-q3-2026/",
+      "date": "2026-10-20",
+      "type": "경영진 발언 기록",
+      "supports": [
+        "합병 검토·조건 미합의",
+        "SI 부문·전체 매출",
+        "설비투자",
+        "2028 Terafab 양산 목표"
+      ]
+    },
+    {
+      "id": "S2",
+      "name": "SpaceX SEC 제출 투자설명서",
+      "url": "https://www.sec.gov/Archives/edgar/data/1181412/000162828026041013/japanfwp_06042026.htm",
+      "date": "2026-06-05",
+      "type": "회사 공시",
+      "supports": [
+        "칩·인프라·전력 병목이라는 회사 판단",
+        "Terafab의 지상용·우주용 칩 구상",
+        "외부 공급 지속·사업 지연 및 실패 위험"
+      ]
+    },
+    {
+      "id": "S3",
+      "name": "Terafab 공식 프로젝트 설명",
+      "url": "https://terafab.ai/",
+      "date": "2026-10-21 확인",
+      "type": "회사 프로젝트 설명",
+      "supports": [
+        "FSD·Optimus·우주용 칩 구상"
+      ]
+    },
+    {
+      "id": "S4",
+      "name": "Morningstar / Seth Goldstein·Nicolas Owens",
+      "url": "https://www.morningstar.com/stocks/what-happens-if-tesla-spacex-merge",
+      "date": "2026-06-09",
+      "type": "독립 분석기관 해석",
+      "supports": [
+        "인력 이동·내부 자원 활용의 유연성",
+        "거버넌스 마찰",
+        "양사 가치평가에 따른 주주 이해관계"
+      ]
+    },
+    {
+      "id": "S5",
+      "name": "Reuters 합병 배경 해설",
+      "url": "https://www.reuters.com/legal/transactional/why-would-musk-merge-spacex-tesla-2026-10-21/",
+      "date": "2026-10-21",
+      "type": "교차 확인 보도",
+      "supports": [
+        "AI·제조·통신·운송 사업 통합이라는 맥락"
+      ]
+    },
+    {
+      "id": "S6",
+      "name": "다음·이데일리 최초 선택 기사",
+      "url": "https://v.daum.net/v/20261021072518657",
+      "date": "2026-10-21 07:25 KST",
+      "type": "기사 발견 경로",
+      "supports": [
+        "이슈 선택·합병 검토 사실 교차 확인"
+      ]
+    }
+  ],
+  "calculations": {
+    "period": "2026 Q3",
+    "unit": "USD billion",
+    "siRevenue": 7.6,
+    "totalRevenue": 14.6,
+    "siShareRoundedPct": 52,
+    "capex": 19.6,
+    "note": "경영진 설명의 반올림 수치 사용. SI 부문은 순수 AI 연산 임대만을 의미하지 않음. 설비투자는 SpaceX 전체이며 합병 비용이 아님."
+  },
+  "claimClasses": {
+    "fact": [
+      "양사 검토위원회 구성",
+      "거래 조건 미합의",
+      "발표된 분기 매출"
+    ],
+    "companyPlan": [
+      "Terafab 칩 생산",
+      "2028년 양산 목표",
+      "인프라 투자 확대"
+    ],
+    "analystAssessment": [
+      "합병으로 자원 배분·인력 이동의 마찰을 줄일 가능성"
+    ],
+    "conditionalScenario": [
+      "공급 확보·개발 속도·원가 개선 가능성",
+      "설비·공급망 발주 기회"
+    ]
+  },
+  "notEstablished": [
+    "합병 성사·완료일",
+    "교환비율·합병 가격",
+    "합병으로 절약할 금액·기간",
+    "통합이 실제 이익 증가로 연결되는 정도",
+    "자율주행이 Starlink 실시간 제어에 의존한다는 주장",
+    "특정 한국 종목의 수혜·주가 상승"
+  ],
+  "editorialSequence": [
+    "구상",
+    "병목",
+    "우주",
+    "합병",
+    "파장"
+  ],
+  "layout": "company_needs_component_roles_shared_chip_plan",
+  "brand": "1분속보리포트",
+  "palette": {
+    "question": "#eae2d4",
+    "conclusion": "#a6d9f4",
+    "text": "#101820"
+  },
+  "readingRoutes": {
+    "quick": "표지와 마지막 요약",
+    "scan": "각 장의 질문과 결론",
+    "deep": "본문 도식과 출처"
+  },
+  "copy": [
+    {
+      "question": "머스크는 왜\n두 회사를 합치려 하나?",
+      "deck": "공시·외부 분석을 종합한 해석 / 합병 미확정",
+      "answer": "차·로봇과 우주 AI에 필요한 칩·개발자·돈을\n한 회사에서 함께 쓰려는 구상이다.",
+      "next": "03  자동차와 우주는 무슨 관계일까?",
+      "refs": "SpaceX 회사 공시 · Morningstar 2026.06.09"
+    },
+    {
+      "question": "자동차와 우주,\n왜 연결하나?",
+      "deck": "서로 다른 두 사업을 이어 주는 것은 AI다.",
+      "answer": "차와 우주 AI에 필요한 칩을 함께 만들려는 계획.\n차·로봇용과 우주용은 서로 다른 칩을 개발한다.",
+      "next": "04  그렇다면 AI를 왜 우주로 보내나?",
+      "refs": "SpaceX SEC 공시 2026.06.05 · Terafab"
+    },
+    {
+      "question": "왜 AI 컴퓨터를\n우주로 보내려 하나?",
+      "deck": "AI에 필요한 전기를 우주 태양광으로 얻겠다는 계획.",
+      "answer": "우주에서 전기를 만들어 AI 컴퓨터를 돌리려는 계획.\n실제로 가능한지, 비용은 얼마나 들지 확인해야 한다.",
+      "next": "05  협력만 해도 되는데, 왜 합병까지?",
+      "refs": "SpaceX SEC 공시 2026.06.05 · 회사 목표"
+    },
+    {
+      "question": "이미 협업 중인데,\n왜 합병까지?",
+      "deck": "함께 기술을 만드는 것과 인력·돈을 함께 쓰는 것은 다르다.",
+      "answer": "예: 테슬라 개발자를 스페이스X AI 개발에도\n배치하기 쉬워질 수 있다는 분석이다.",
+      "next": "06  이 구상이 돈의 흐름을 바꿀까?",
+      "refs": "Morningstar 2026.06.09 · 독립 분석"
+    },
+    {
+      "question": "이 구상의\n파급효과는?",
+      "deck": "기대 효과가 실제 이익이 되려면 조건이 필요하다.",
+      "answer": "개발비가 줄고 장비 주문이 늘어날지는 실행에 달렸다.\n주주에게 유리한지는 합병 조건도 확인해야 한다.",
+      "next": "07  마지막 한 장에 다섯 가지 핵심 요약 →",
+      "refs": "SpaceX 공시 · Morningstar · 조건부 시나리오"
+    }
+  ],
+  "plainLanguageRules": {
+    "연산 자원": "AI에 필요한 고성능 컴퓨터와 칩",
+    "연산 기반 확대": "AI 컴퓨터를 더 설치해 AI를 더 많이 돌린다",
+    "마찰 감소": "예: 테슬라 개발자를 스페이스X AI 개발에도 배치하기 쉬워질 수 있다는 분석"
+  },
+  "brandPlacement": {
+    "page": 2,
+    "color": "#c5352c",
+    "otherPages": false
+  }
+}

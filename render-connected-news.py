@@ -111,12 +111,20 @@ def render(model,out,photo):
     panel(d,(x,883,x+455,1024),'#ffffff',LINE);tx(d,title,x+24,897,36,col,True);tx(d,sub,x+24,957,29,GRAY)
    tx(d,'+',523,926,42,INK,True)
   elif i==1:
-   for x,title,sub,kind,col in [(52,'테슬라','차·로봇의 AI','car',RED),(573,'스페이스X','AI 서비스·우주 컴퓨터','rocket',BLUE)]:
-    panel(d,(x,535,x+455,756),'#ffffff',LINE);icon(d,kind,x+27,564,col);tx(d,title,x+150,558,38,col,True);box(d,sub,x+150,622,283,88,29,GRAY)
-   d.line([(280,759),(280,790),(800,790),(800,759)],fill=GRAY,width=4);v.down(d,540,790)
-   for j,(title,kind) in enumerate([('AI 칩','chip'),('컴퓨터','bars'),('전력','power')]):
-    x=52+j*334;panel(d,(x,856,x+308,1014),LIGHT);icon(d,kind,x+15,884,BLUE);tx(d,title,x+122,908,32,INK,True)
-   tx(d,'Terafab: AI 칩을 함께 만드는 계획 / 외부 업체 칩도 계속 구매',52,1033,23,GRAY)
+   for x,title,sub,kind,col in [(52,'테슬라','차가 스스로 운전하고\n로봇이 움직이게 할 AI','car',RED),(573,'스페이스X','AI 컴퓨터를\n우주에서도 돌릴 계획','rocket',BLUE)]:
+    panel(d,(x,525,x+455,684),'#ffffff',LINE)
+    tx(d,title,x+23,538,34,col,True)
+    box(d,sub,x+23,594,409,80,28,INK)
+    small=Image.new('RGB',(115,105),'white');icon(ImageDraw.Draw(small),kind,5,3,col);im.paste(small.resize((66,60)),(x+365,537))
+   d=ImageDraw.Draw(im)
+   d.line([(280,685),(280,708),(800,708),(800,685)],fill=GRAY,width=3);v.down(d,540,707,BLUE)
+   tx(d,'둘 다 AI를 돌릴 장비와 전기가 필요하다',52,761,36,INK,True)
+   for j,(title,meaning) in enumerate([('AI 칩','AI가 계산하는 부품'),('컴퓨터','AI 프로그램을 실행하는 기계'),('전기','칩과 컴퓨터를 작동시킴')]):
+    x=52+j*334;panel(d,(x,829,x+308,952),LIGHT)
+    tx(d,title,x+20,841,32,BLUE,True)
+    box(d,meaning,x+20,897,268,50,24,INK)
+   panel(d,(52,974,1028,1057),IVORY)
+   box(d,'그래서 → AI 칩을 함께 만드는 공장(Terafab) 추진',75,994,930,52,30,INK,True)
   elif i==2:
    for j,(title,sub,kind) in enumerate([('태양광','태양빛으로 전기를 만들어\nAI 컴퓨터에 공급한다','sun'),('로켓','AI 컴퓨터를 실은 위성을\n로켓으로 우주에 보낸다','rocket'),('위성 기술','위성을 만들고 운영한 기술을\n우주 AI 컴퓨터에도 쓴다','sat')]):
     y=525+j*157;panel(d,(52,y,1028,y+145),'#ffffff',LINE);icon(d,kind,78,y+24,BLUE);tx(d,title,215,y+36,34,INK,True);arrow(d,455,y+72,BLUE);box(d,sub,520,y+29,480,105,31)
