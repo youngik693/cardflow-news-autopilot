@@ -1,1 +1,80 @@
-# cardflow-news-autopilot
+# 카드플로우 뉴스 자동운영
+
+대상 계정은 사용자가 지정한 **@my.love.manual**입니다.
+
+## 현재 단계
+
+10분 주기 실행, 다음 메인 수집, 새 기사 카드 JPEG 제작과 출처 보존, 네이버 API 연결 경로, 인스타 게시 제어 코드를 준비했습니다. **코드가 설치됐다는 사실은 인스타 게시가 시작됐다는 뜻이 아닙니다.**
+
+인스타 인증·운영 게시 상한·실제 인스타 반응 근거가 모두 확인된 기사만 게시합니다. 현재 반응 데이터가 없으면 초안만 만들고 게시를 보류합니다. 데이터가 없는 상태에서 ‘인스타 1위’라고 표시하지 않습니다.
+
+## 결과 확인
+
+- [Actions 실행 기록](../../actions): 실행을 열면 요약에 최근 카드 미리보기와 연결 상태가 표시됩니다.
+- `autopilot-data` 브랜치 `data/state.json`: 수집 상태, 후보, 초안, 게시 원장. 이 저장소는 공개이므로 이 파일에는 공개 뉴스 정보·공개 게시물 분석 정보만 저장합니다.
+- `autopilot-data` 브랜치 `media/`: 1080×1350 JPEG 카드. 직접 제작한 배경과 한글 글꼴을 사용하며 기사 사진은 가져오지 않습니다.
+- 실행은 매시간 04·14·24·34·44·54분을 목표로 하며 GitHub 사정으로 늦어질 수 있습니다. 정확한 실시간 보장은 아닙니다.
+
+## 1회 연결 설정
+
+[Settings → Secrets and variables → Actions](../../settings/secrets/actions)에서 Repository secret **AUTOPILOT_CONFIG**를 만드세요. 비밀값은 코드·이슈·채팅에 넣지 않습니다.
+
+값의 구조(아래 예시 문자열은 실제 키가 아닙니다):
+
+```json
+{
+  "naver_client_id": "네이버 검색 API Client ID",
+  "naver_client_secret": "네이버 검색 API Client Secret",
+  "ig_user_id": "인스타 프로페셔널 계정 ID",
+  "ig_access_token": "게시 권한이 있는 Meta 액세스 토큰",
+  "ig_graph_host": "graph.instagram.com",
+  "ig_graph_version": "Meta 앱에서 확인한 v숫자.숫자 API 버전",
+  "daily_cap": 2
+}
+```
+
+- `daily_cap`의 2는 형식 예시입니다. 안전한 최대량이나 추천 성과를 뜻하지 않습니다. 계정 API 허용 상한과 운영 상한은 별도로 검사합니다.
+- 토큰의 권한·만료·재연결은 실제 계정에 맞춰 확인해야 합니다. 현재 코드는 토큰 자동 갱신을 구현하지 않았습니다. 만료 시 게시를 중지합니다.
+- Facebook Login을 쓰는 계정은 해당 토큰과 `graph.facebook.com` 호스트를 사용해야 합니다. 계정 소유자명이 @my.love.manual과 일치하는지 게시 전에 검사합니다.
+- 네이버 값이 없으면 다음 메인만 수집합니다. 그 상태를 두 소스 연결 완료로 표시하지 않습니다.
+
+## 인스타 인기 선별 데이터
+
+`data/state.json`의 `signals`에는 **실제로 관측한 게시물**의 근거가 필요합니다. 자동 수집 어댑터 연결은 아직 남아 있습니다. 임의 값이나 추정 수치를 넣지 않습니다.
+
+```json
+{
+  "platform": "instagram",
+  "storyKey": "실제 뉴스 후보의 storyKey",
+  "url": "실제로 관측한 인스타 게시물 URL",
+  "observedAt": "ISO 8601 관측 시각",
+  "metrics": {"comments": 30, "likes": 100},
+  "baselines": {"comments": 10, "likes": 50}
+}
+```
+
+누락된 조회수·저장·공유를 0으로 채우지 않습니다. 비교 기준이 없는 수치를 보편적인 인기 점수로 바꾸지 않습니다. 점수 가중치와 제목 키워드 카테고리는 검증 전 초기 가설입니다. 전 세계·한국 전체 인스타의 카테고리 1위를 의미하지 않습니다.
+
+## 실행·비용·중복 게시
+
+공개 저장소의 표준 GitHub Linux 실행기를 사용합니다. 실행에는 GitHub 및 네이버·Meta의 이용 한도가 적용됩니다. 별도 유료 AI 호출은 사용하지 않습니다. 렌더링은 Pillow와 Noto CJK 글꼴로 처리합니다.
+
+같은 계정의 작업은 GitHub Actions concurrency로 직렬화합니다. 게시 전 원장을 GitHub에 먼저 저장하고, 게시 결과가 불명확하면 `needs_reconcile` 상태로 멈춥니다. 동일 기사를 무조건 다시 게시하지 않습니다.
+
+카드가 매번 생성되는 것을 보장하지 않습니다. 중복·오래된 기사·출처 접속 실패·관측 근거 부족·게시 한도 도달 때는 생성을 생략하거나 게시를 보류합니다. 생성한 초안은 공개 저장소에 보관되므로 장기간 운영 시 미디어 호스팅과 보관 정책을 분리해야 합니다.
+
+## 검증
+
+```sh
+npm test
+```
+
+단위 테스트는 모의 응답으로 검증합니다. 실제 Meta 게시·권한·계정 할당량은 인증 연결 후 따로 확인해야 합니다.
+
+## 조사 근거
+
+- https://metricool.com/instagram-trends/
+- https://www.socialinsider.io/social-media-benchmarks/social-media-content-trends
+- https://docs.github.com/en/actions/reference/workflows-and-actions/events-that-trigger-workflows
+- https://docs.github.com/en/billing/concepts/product-billing/github-actions
+- https://developers.facebook.com/docs/instagram-platform/content-publishing/

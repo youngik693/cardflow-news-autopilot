@@ -1,0 +1,41 @@
+name: 뉴스 수집 · 카드뉴스 자동 제작
+on:
+  schedule:
+    - cron: '4,14,24,34,44,54 * * * *'
+  workflow_dispatch:
+  push:
+    branches: [main]
+    paths: ['src/**', 'lib/**', 'render.py', 'config.json', 'package.json', 'requirements.txt', '.github/workflows/autopilot.yml']
+permissions:
+  contents: write
+concurrency:
+  group: cardflow-my-love-manual
+  cancel-in-progress: false
+jobs:
+  run:
+    runs-on: ubuntu-latest
+    timeout-minutes: 8
+    steps:
+      - uses: actions/checkout@v6
+        with:
+          persist-credentials: false
+      - uses: actions/setup-node@v6
+        with:
+          node-version: '24'
+      - uses: actions/setup-python@v6
+        with:
+          python-version: '3.12'
+      - name: 한글 글꼴과 이미지 제작 도구 준비
+        run: |
+          sudo apt-get update -qq
+          sudo apt-get install -y -qq fonts-noto-cjk
+          python -m pip install --disable-pip-version-check -q -r requirements.txt
+      - name: 게시 제어 검사
+        run: npm test
+      - name: 최신 뉴스 확인 · 이미지 제작 · 조건 충족 시 게시
+        env:
+          GH_TOKEN: ${{ github.token }}
+          GH_REPOSITORY: ${{ github.repository }}
+          GH_COMMIT: ${{ github.sha }}
+          AUTOPILOT_CONFIG: ${{ secrets.AUTOPILOT_CONFIG }}
+        run: npm run run
