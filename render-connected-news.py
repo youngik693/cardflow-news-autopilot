@@ -7,10 +7,10 @@ W,H=1080,1350
 INK,PAPER,RED,GOLD,GRAY,LINE=v.INK,v.PAPER,v.RED,v.GOLD,v.GRAY,v.LINE
 BLUE='#4082a9';SKY='#a6d9f4';IVORY='#eae2d4';LIGHT='#edf4f6';STEPS=['왜 합병','연결 이유','우주 AI','합병 효과','파급효과']
 PAGES=[
- {'question':'머스크는 왜\n두 회사를 합치려 하나?','deck':'공시·외부 분석을 종합한 해석 / 합병 미확정','answer':'차·로봇과 우주 AI에 필요한 칩·인력·돈을\n한 회사에서 함께 쓰려는 구상이다.','next':'03  자동차와 우주는 무슨 관계일까?','refs':'SpaceX 회사 공시 · Morningstar 2026.06.09'},
+ {'question':'머스크는 왜\n두 회사를 합치려 하나?','deck':'공시·외부 분석을 종합한 해석 / 합병 미확정','answer':'차·로봇과 우주 AI에 필요한 칩·개발자·돈을\n한 회사에서 함께 쓰려는 구상이다.','next':'03  자동차와 우주는 무슨 관계일까?','refs':'SpaceX 회사 공시 · Morningstar 2026.06.09'},
  {'question':'자동차와 우주,\n왜 연결하나?','deck':'제품은 달라도, 둘 다 더 많은 AI가 필요하다.','answer':'차·로봇도 우주 AI도 고성능 컴퓨터가 필요하다.\n그 핵심 부품인 AI 칩을 함께 만들려는 구상.','next':'04  그렇다면 AI를 왜 우주로 보내나?','refs':'SpaceX SEC 공시 2026.06.05 · Terafab'},
  {'question':'왜 AI 컴퓨터를\n우주로 보내려 하나?','deck':'AI에 필요한 전기를 우주 태양광으로 얻겠다는 계획.','answer':'우주에서 전기를 만들어 AI 컴퓨터를 돌리려는 계획.\n실제로 가능한지, 비용은 얼마나 들지 확인해야 한다.','next':'05  협력만 해도 되는데, 왜 합병까지?','refs':'SpaceX SEC 공시 2026.06.05 · 회사 목표'},
- {'question':'이미 협업 중인데,\n왜 합병까지?','deck':'함께 기술을 만드는 것과 인력·돈을 함께 쓰는 것은 다르다.','answer':'합병하면 필요한 사업에 인력과 돈을\n더 쉽게 옮겨 쓸 수 있다는 분석이다.','next':'06  이 구상이 돈의 흐름을 바꿀까?','refs':'Morningstar 2026.06.09 · 독립 분석'},
+ {'question':'이미 협업 중인데,\n왜 합병까지?','deck':'함께 기술을 만드는 것과 인력·돈을 함께 쓰는 것은 다르다.','answer':'예: 테슬라 개발자를 스페이스X AI 개발에도\n배치하기 쉬워질 수 있다는 분석이다.','next':'06  이 구상이 돈의 흐름을 바꿀까?','refs':'Morningstar 2026.06.09 · 독립 분석'},
  {'question':'이 구상의\n파급효과는?','deck':'기대 효과가 실제 이익이 되려면 조건이 필요하다.','answer':'개발비가 줄고 장비 주문이 늘어날지는 실행에 달렸다.\n주주에게 유리한지는 합병 조건도 확인해야 한다.','next':'07  마지막 한 장에 다섯 가지 핵심 요약 →','refs':'SpaceX 공시 · Morningstar · 조건부 시나리오'}
 ]
 def tx(d,*a,**kw):return v.tx(d,*a,**kw)
@@ -78,7 +78,7 @@ def summary_card():
  d.line((52,103,1028,103),fill=LINE,width=2)
  tx(d,'다섯 장을 한눈에',52,141,28,BLUE,True)
  box(d,'머스크의 합병 구상,\n핵심은 이 다섯 가지',52,190,976,166,61,INK,True)
- rows=[('왜 합치나?','AI 칩·인력·돈을 한 회사에서 함께 쓰려는 구상'),('차와 우주는?','차·로봇도 우주 AI도 고성능 컴퓨터가 필요'),('왜 우주 AI?','우주 태양광으로 AI 컴퓨터를 돌리려는 계획'),('협업보다 합병?','인력·돈을 필요한 사업에 옮겨 쓰기 쉬워질 수 있음'),('경제적 파장은?','개발비·장비 주문·주주에게 남는 몫을 확인')]
+ rows=[('왜 합치나?','AI 칩·개발자·돈을 한 회사에서 함께 쓰려는 구상'),('차와 우주는?','차·로봇도 우주 AI도 고성능 컴퓨터가 필요'),('왜 우주 AI?','우주 태양광으로 AI 컴퓨터를 돌리려는 계획'),('협업보다 합병?','개발자가 두 회사의 AI 개발을 오가기 쉬워질 수 있음'),('경제적 파장은?','개발비·장비 주문·주주에게 남는 몫을 확인')]
  for j,(question,answer) in enumerate(rows):
   y=400+j*122
   tx(d,f'0{j+1}',52,y+12,28,BLUE,True)
@@ -93,6 +93,8 @@ def summary_card():
  return im
 
 def render(model,out,photo):
+ global PAGES
+ PAGES=model.get('copy',PAGES)
  out=pathlib.Path(out);out.mkdir(parents=True,exist_ok=True);pages=[cover(photo)]
  pages[0].save(out/'01.jpg',quality=95,optimize=True)
  for i in range(5):
@@ -119,9 +121,9 @@ def render(model,out,photo):
    for x,title,col in [(79,'테슬라',RED),(589,'스페이스X',BLUE)]:
     panel(d,(x,610,x+412,718),PAPER);tx(d,title,x+22,619,31,col,True);tx(d,'인력·돈을 따로 관리',x+22,668,25,GRAY)
    v.down(d,540,760,BLUE)
-   panel(d,(52,827,1028,977),LIGHT);tx(d,'합병 시: 하나의 회사 안에서',78,841,32,BLUE,True)
-   tx(d,'AI 프로젝트  ←  인력 · 투자  →  AI 프로젝트',78,903,35,INK,True)
-   box(d,'Morningstar의 분석: 인력과 돈을 옮겨 쓰기 쉬워질 수 있다는 뜻.\n실제로 개발이 빨라지고 이익이 늘지는 아직 확인되지 않았다.',52,1000,976,77,24,GRAY)
+   panel(d,(52,827,1028,977),LIGHT);tx(d,'합병하면 이런 배치가 쉬워질 수 있다',78,841,32,BLUE,True)
+   tx(d,'예: 테슬라 개발자  →  스페이스X AI 개발',78,903,35,INK,True)
+   box(d,'위 인력 배치는 Morningstar 분석을 풀어 쓴 예시로, 확정 인사가 아니다.\n실제로 개발이 빨라지고 이익이 늘지는 아직 확인되지 않았다.',52,1000,976,77,24,GRAY)
   else:
    for j,(a,b,c) in enumerate([('AI 개발 비용','개발 시간·비용 절감','필요한 칩의 공급·성능이 좋아질 때'),('공장·설비 업체','관련 주문 증가 가능','실제 공장 투자·장비 주문이 있어야'),('주주에게 남는 몫','합병 조건에 따라 달라짐','받을 주식 수·투자 부담을 확인')]):
     y=535+j*155;panel(d,(52,y,1028,y+139),'#ffffff',LINE)
