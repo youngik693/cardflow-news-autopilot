@@ -1,10 +1,10 @@
 {
   "targetAccount": "my.love.manual",
   "targetConfirmed": true,
-  "cadenceMinutes": 5,
+  "cadenceMinutes": 10,
   "mode": "live",
   "dailyCap": 3,
-  "minGapMinutes": 180,
+  "minGapMinutes": 10,
   "maxAgeHours": 12,
   "minScore": 65,
   "minimumInstagramMetrics": 2,
@@ -17,7 +17,7 @@
     "문화 연예 스포츠"
   ],
   "schemaVersion": 1,
-  "note": "독립 카드뉴스. 초기 운영 가설: 하루 최대 3건, 최소 3시간 간격. 플랫폼 허용 최대량이나 성과 최적값이 아님. 네이버 사용 범위 미확인으로 비활성. 포털 초안은 권리 확인 후 게시.",
+  "note": "독립 인스타뉴스. 10분 검사 목표, 오늘18시(KST) 이후 발행 차단. 하루3건은 운영 가설이며 플랫폼 최대량 아님. 독립 검증기·권리·인스타 반응·실제 할당량 없으면 발행 보류. 검증기는 아직 미연결.",
   "editorialVersion": "news-v4-action",
   "requireReaderRelevance": false,
   "productMode": "standalone_news",
@@ -26,5 +26,8 @@
     "daum"
   ],
   "requireContentRights": true,
-  "commercialDraftsOnly": true
+  "commercialDraftsOnly": true,
+  "requirePrepublicationVerification": true,
+  "publicationUntil": "2026-10-21T18:00:00+09:00",
+  "displayBrand": "인스타뉴스"
 }

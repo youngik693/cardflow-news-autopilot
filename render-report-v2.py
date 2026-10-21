@@ -57,14 +57,13 @@ def household(d,p):
   text(d,label,72,y+7,936,32,25,BLUE,True)
   text(d,body,72,y+40,936,39,29,INK,True)
 def region(d,p):
- text(d,'수혜지역',52,512,450,58,42,BLUE,True)
- text(d,'비교지역',579,512,449,58,42,INK,True)
- panel(d,(52,581,512,774),'#e5eef3');panel(d,(552,581,1028,774),'white',LINE)
- text(d,'이천 · 화성\n청주 등',75,601,414,134,49,INK,True)
- text(d,'반도체 종사자\n거주 비중이 낮은 곳',575,606,430,124,35,GRAY,True)
- text(d,'수혜지역 소비  최대 약 4%↑',52,801,976,83,51,BLUE,True)
- text(d,'비교지역 대비 · 성과급 지급 후 효과 추정',52,884,976,48,30,GRAY)
- text(d,p['note'],52,949,976,76,26,GRAY)
+ text(d,'전국 소비 증가율과 얼마나 차이 나나?',52,513,976,50,33,BLUE,True)
+ for j,(city,value,meaning) in enumerate(p['cities']):
+  y=580+j*117;panel(d,(52,y,1028,y+102),'white',LINE)
+  text(d,city,75,y+17,360,65,43,INK,True)
+  text(d,value,440,y+5,315,72,49,BLUE if j else RED,True)
+  text(d,meaning,440,y+68,553,30,22,GRAY)
+ text(d,p['note'],52,947,976,80,26,GRAY)
 def policy(d,p):
  for j,pb in enumerate(p['benefitBoxes']):
   y=510+j*258;panel(d,(52,y,1028,y+244),'white',LINE)

@@ -9,7 +9,7 @@ tx,box,panel,arrow=v.tx,v.box,v.panel,v.arrow
 def header(m,page):
  im=Image.new('RGB',(W,H),PAPER);d=ImageDraw.Draw(im)
  if page==2:
-  tx(d,'1분속보리포트',52,23,35,'#c5352c',True);tx(d,m['context']+' / '+m['asOf'],340,33,21,GRAY)
+  tx(d,m.get('brand','1분속보리포트'),52,23,35,'#c5352c',True);tx(d,m['context']+' / '+m['asOf'],340,33,21,GRAY)
  else:tx(d,m['context']+' / '+m['asOf']+' 기준',52,29,24,GRAY)
  tx(d,f'{page:02}/07',941,30,23)
  return im,d
