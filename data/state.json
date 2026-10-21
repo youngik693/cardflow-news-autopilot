@@ -573,7 +573,7 @@
   ],
   "signals": [],
   "lastRun": {
-    "at": "2026-10-21T05:35:45.722Z",
+    "at": "2026-10-21T05:55:11.754Z",
     "sources": [
       {
         "provider": "daum",
@@ -589,8 +589,9 @@
     "candidates": 13,
     "eligible": 0,
     "status": "awaiting_connections",
-    "draftStatus": "created",
+    "draftStatus": "no_new_commercial_candidate",
     "blockers": [
+      "INDEPENDENT_VERIFIER_NOT_CONNECTED",
       "INSTAGRAM_AUTH_REQUIRED",
       "NO_NEWS_WITH_VERIFIED_INSTAGRAM_EVIDENCE",
       "CONTENT_RIGHTS_UNVERIFIED"
@@ -598,51 +599,15 @@
   },
   "candidates": [
     {
-      "title": "이러니 폴란드 안절부절…“푸틴, 국경 코앞에 ‘초대형 레이더’ 건설”[포착]",
-      "description": "",
-      "url": "https://v.daum.net/v/20261021130229546",
-      "source": "서울신문",
-      "publishedAt": "2026-10-21T04:02:29.000Z",
-      "descriptionKind": "headline_only",
-      "provider": "daum",
-      "portalRank": 1,
-      "storyKey": "4651e007eb5ed402d283420e",
-      "sources": [
-        {
-          "provider": "daum",
-          "url": "https://v.daum.net/v/20261021130229546"
-        }
-      ],
-      "category": "other",
-      "categoryMethod": "headline_keyword_hypothesis",
-      "ageHours": 1.554645,
-      "instagram": {
-        "score": null,
-        "availableMetrics": [],
-        "sampleCount": 0,
-        "scope": "관측한 계정·게시물만 비교, 인스타 전체 순위 아님",
-        "sources": []
-      },
-      "score": null,
-      "proxyScore": 74,
-      "portalProxyOnly": true,
-      "eligible": false,
-      "blocks": [
-        "CONTENT_RIGHTS_UNVERIFIED",
-        "INSTAGRAM_EVIDENCE_MISSING",
-        "BELOW_SELECTION_THRESHOLD"
-      ]
-    },
-    {
-      "title": "“이번엔 가스관 내려올 것” 기대하는 주민들…“한국 투자 말라”는 알래스카 어부[르포]",
+      "title": "알래스카 현지서 날아온 경고 “한국은 LNG 투자 말라”···도대체 왜?[르포]",
       "description": "",
       "url": "https://v.daum.net/v/20261021135108166",
       "source": "경향신문",
       "publishedAt": "2026-10-21T04:51:08.000Z",
       "descriptionKind": "headline_only",
       "provider": "daum",
-      "portalRank": 2,
-      "storyKey": "0587d965934dcf263a275696",
+      "portalRank": 1,
+      "storyKey": "3c68c0d4ad046bc8b7337fff",
       "sources": [
         {
           "provider": "daum",
@@ -651,7 +616,7 @@
       ],
       "category": "other",
       "categoryMethod": "headline_keyword_hypothesis",
-      "ageHours": 0.7438116666666666,
+      "ageHours": 1.0677091666666667,
       "instagram": {
         "score": null,
         "availableMetrics": [],
@@ -660,7 +625,7 @@
         "sources": []
       },
       "score": null,
-      "proxyScore": 68,
+      "proxyScore": 76,
       "portalProxyOnly": true,
       "eligible": false,
       "blocks": [
@@ -670,24 +635,24 @@
       ]
     },
     {
-      "title": "7분 사이 200m 떨어진 두 빌딩에 불…역삼동 연쇄 방화 현장감식[포토타임]",
+      "title": "HD현대 첫 양팔 로봇 등장…AI 로봇들이 바꾸는 제조현장[르포]",
       "description": "",
-      "url": "https://v.daum.net/v/20261021141143108",
-      "source": "중앙일보",
-      "publishedAt": "2026-10-21T05:11:43.000Z",
+      "url": "https://v.daum.net/v/20261021144042499",
+      "source": "머니투데이",
+      "publishedAt": "2026-10-21T05:40:42.000Z",
       "descriptionKind": "headline_only",
       "provider": "daum",
       "portalRank": 3,
-      "storyKey": "aa423f8a9484d7d15d4e8b56",
+      "storyKey": "11d501679977a85e25fb671a",
       "sources": [
         {
           "provider": "daum",
-          "url": "https://v.daum.net/v/20261021141143108"
+          "url": "https://v.daum.net/v/20261021144042499"
         }
       ],
-      "category": "other",
+      "category": "technology",
       "categoryMethod": "headline_keyword_hypothesis",
-      "ageHours": 0.4007561111111111,
+      "ageHours": 0.24159805555555555,
       "instagram": {
         "score": null,
         "availableMetrics": [],
@@ -706,24 +671,24 @@
       ]
     },
     {
-      "title": "상어 '부캉이' 이번엔 바다로 보낸다…잠수사도 투입",
+      "title": "이러니 폴란드 안절부절…“푸틴, 국경 코앞에 ‘초대형 레이더’ 건설”[포착]",
       "description": "",
-      "url": "https://v.daum.net/v/20261021111733526",
-      "source": "연합뉴스",
-      "publishedAt": "2026-10-21T02:17:33.000Z",
+      "url": "https://v.daum.net/v/20261021130229546",
+      "source": "서울신문",
+      "publishedAt": "2026-10-21T04:02:29.000Z",
       "descriptionKind": "headline_only",
       "provider": "daum",
-      "portalRank": 4,
-      "storyKey": "a78fd615801547fc64475127",
+      "portalRank": 2,
+      "storyKey": "4651e007eb5ed402d283420e",
       "sources": [
         {
           "provider": "daum",
-          "url": "https://v.daum.net/v/20261021111733526"
+          "url": "https://v.daum.net/v/20261021130229546"
         }
       ],
       "category": "other",
       "categoryMethod": "headline_keyword_hypothesis",
-      "ageHours": 3.303533888888889,
+      "ageHours": 1.8785425,
       "instagram": {
         "score": null,
         "availableMetrics": [],
@@ -732,7 +697,7 @@
         "sources": []
       },
       "score": null,
-      "proxyScore": 51,
+      "proxyScore": 63,
       "portalProxyOnly": true,
       "eligible": false,
       "blocks": [
@@ -742,24 +707,24 @@
       ]
     },
     {
-      "title": "'가장 성공한 특검'의 몰락.. 박영수, 2심 징역 6년",
+      "title": "7분 사이 200m 떨어진 두 빌딩에 불…역삼동 연쇄 방화 현장감식[포토타임]",
       "description": "",
-      "url": "https://v.daum.net/v/20261021123232739",
-      "source": "오마이뉴스",
-      "publishedAt": "2026-10-21T03:32:32.000Z",
+      "url": "https://v.daum.net/v/20261021141143108",
+      "source": "중앙일보",
+      "publishedAt": "2026-10-21T05:11:43.000Z",
       "descriptionKind": "headline_only",
       "provider": "daum",
-      "portalRank": 9,
-      "storyKey": "1fb0f4e7ed84a323fc3fae41",
+      "portalRank": 4,
+      "storyKey": "aa423f8a9484d7d15d4e8b56",
       "sources": [
         {
           "provider": "daum",
-          "url": "https://v.daum.net/v/20261021123232739"
+          "url": "https://v.daum.net/v/20261021141143108"
         }
       ],
       "category": "other",
       "categoryMethod": "headline_keyword_hypothesis",
-      "ageHours": 2.053811666666667,
+      "ageHours": 0.7246536111111112,
       "instagram": {
         "score": null,
         "availableMetrics": [],
@@ -768,7 +733,79 @@
         "sources": []
       },
       "score": null,
-      "proxyScore": 51,
+      "proxyScore": 62,
+      "portalProxyOnly": true,
+      "eligible": false,
+      "blocks": [
+        "CONTENT_RIGHTS_UNVERIFIED",
+        "INSTAGRAM_EVIDENCE_MISSING",
+        "BELOW_SELECTION_THRESHOLD"
+      ]
+    },
+    {
+      "title": "특검 조사받은 선관위 직원 숨진채 발견…선관위 “엄중한 사안”",
+      "description": "",
+      "url": "https://v.daum.net/v/20261021133431534",
+      "source": "동아일보",
+      "publishedAt": "2026-10-21T04:34:31.000Z",
+      "descriptionKind": "headline_only",
+      "provider": "daum",
+      "portalRank": 12,
+      "storyKey": "9139953b89304e91e807036e",
+      "sources": [
+        {
+          "provider": "daum",
+          "url": "https://v.daum.net/v/20261021133431534"
+        }
+      ],
+      "category": "other",
+      "categoryMethod": "headline_keyword_hypothesis",
+      "ageHours": 1.3446536111111111,
+      "instagram": {
+        "score": null,
+        "availableMetrics": [],
+        "sampleCount": 0,
+        "scope": "관측한 계정·게시물만 비교, 인스타 전체 순위 아님",
+        "sources": []
+      },
+      "score": null,
+      "proxyScore": 53,
+      "portalProxyOnly": true,
+      "eligible": false,
+      "blocks": [
+        "CONTENT_RIGHTS_UNVERIFIED",
+        "INSTAGRAM_EVIDENCE_MISSING",
+        "BELOW_SELECTION_THRESHOLD"
+      ]
+    },
+    {
+      "title": "'대장동 로비' 박영수, 2심서 징역 6년…1심보다 1년 줄어",
+      "description": "",
+      "url": "https://v.daum.net/v/20261021130122517",
+      "source": "뉴스1",
+      "publishedAt": "2026-10-21T04:01:22.000Z",
+      "descriptionKind": "headline_only",
+      "provider": "daum",
+      "portalRank": 9,
+      "storyKey": "8dd12771bbcd674c713a3224",
+      "sources": [
+        {
+          "provider": "daum",
+          "url": "https://v.daum.net/v/20261021130122517"
+        }
+      ],
+      "category": "other",
+      "categoryMethod": "headline_keyword_hypothesis",
+      "ageHours": 1.8971536111111111,
+      "instagram": {
+        "score": null,
+        "availableMetrics": [],
+        "sampleCount": 0,
+        "scope": "관측한 계정·게시물만 비교, 인스타 전체 순위 아님",
+        "sources": []
+      },
+      "score": null,
+      "proxyScore": 52,
       "portalProxyOnly": true,
       "eligible": false,
       "blocks": [
@@ -795,7 +832,7 @@
       ],
       "category": "other",
       "categoryMethod": "headline_keyword_hypothesis",
-      "ageHours": 3.3402005555555556,
+      "ageHours": 3.6640980555555553,
       "instagram": {
         "score": null,
         "availableMetrics": [],
@@ -804,7 +841,7 @@
         "sources": []
       },
       "score": null,
-      "proxyScore": 49,
+      "proxyScore": 48,
       "portalProxyOnly": true,
       "eligible": false,
       "blocks": [
@@ -831,7 +868,7 @@
       ],
       "category": "other",
       "categoryMethod": "headline_keyword_hypothesis",
-      "ageHours": 2.5415894444444445,
+      "ageHours": 2.8654869444444446,
       "instagram": {
         "score": null,
         "availableMetrics": [],
@@ -840,7 +877,7 @@
         "sources": []
       },
       "score": null,
-      "proxyScore": 49,
+      "proxyScore": 48,
       "portalProxyOnly": true,
       "eligible": false,
       "blocks": [
@@ -850,60 +887,24 @@
       ]
     },
     {
-      "title": "권한 커진 경찰에 개혁 주문한 李대통령…'수사 점검장치' 주문",
+      "title": "이 대통령 \"제미나이에 물어보니\".. 중수청장 국무회의 참석 비판에 \"위헌적 억지\" 반박",
       "description": "",
-      "url": "https://v.daum.net/v/20261021111320290",
-      "source": "연합뉴스",
-      "publishedAt": "2026-10-21T02:13:20.000Z",
-      "descriptionKind": "headline_only",
-      "provider": "daum",
-      "portalRank": 12,
-      "storyKey": "eb27323c4a195b89ddff71c3",
-      "sources": [
-        {
-          "provider": "daum",
-          "url": "https://v.daum.net/v/20261021111320290"
-        }
-      ],
-      "category": "other",
-      "categoryMethod": "headline_keyword_hypothesis",
-      "ageHours": 3.3738116666666667,
-      "instagram": {
-        "score": null,
-        "availableMetrics": [],
-        "sampleCount": 0,
-        "scope": "관측한 계정·게시물만 비교, 인스타 전체 순위 아님",
-        "sources": []
-      },
-      "score": null,
-      "proxyScore": 45,
-      "portalProxyOnly": true,
-      "eligible": false,
-      "blocks": [
-        "CONTENT_RIGHTS_UNVERIFIED",
-        "INSTAGRAM_EVIDENCE_MISSING",
-        "BELOW_SELECTION_THRESHOLD"
-      ]
-    },
-    {
-      "title": "李 “제미나이에 물어봤더니 중수청장 국무회의 배제론은 궤변”",
-      "description": "",
-      "url": "https://v.daum.net/v/20261021100922517",
-      "source": "동아일보",
-      "publishedAt": "2026-10-21T01:09:22.000Z",
+      "url": "https://v.daum.net/v/20261021101307726",
+      "source": "한국일보",
+      "publishedAt": "2026-10-21T01:13:07.000Z",
       "descriptionKind": "headline_only",
       "provider": "daum",
       "portalRank": 6,
-      "storyKey": "703c481310e263b60a988cce",
+      "storyKey": "869a415c0d86caaa04900550",
       "sources": [
         {
           "provider": "daum",
-          "url": "https://v.daum.net/v/20261021100922517"
+          "url": "https://v.daum.net/v/20261021101307726"
         }
       ],
       "category": "other",
       "categoryMethod": "headline_keyword_hypothesis",
-      "ageHours": 4.439922777777777,
+      "ageHours": 4.701320277777778,
       "instagram": {
         "score": null,
         "availableMetrics": [],
@@ -912,7 +913,43 @@
         "sources": []
       },
       "score": null,
-      "proxyScore": 44,
+      "proxyScore": 43,
+      "portalProxyOnly": true,
+      "eligible": false,
+      "blocks": [
+        "CONTENT_RIGHTS_UNVERIFIED",
+        "INSTAGRAM_EVIDENCE_MISSING",
+        "BELOW_SELECTION_THRESHOLD"
+      ]
+    },
+    {
+      "title": "與, '소방재정 설화' 추미애·부승찬에 경고…\"성찰·재발 방지\"",
+      "description": "",
+      "url": "https://v.daum.net/v/20261021104827818",
+      "source": "연합뉴스",
+      "publishedAt": "2026-10-21T01:48:27.000Z",
+      "descriptionKind": "headline_only",
+      "provider": "daum",
+      "portalRank": 8,
+      "storyKey": "60f516c9b596d70b6aa5f672",
+      "sources": [
+        {
+          "provider": "daum",
+          "url": "https://v.daum.net/v/20261021104827818"
+        }
+      ],
+      "category": "other",
+      "categoryMethod": "headline_keyword_hypothesis",
+      "ageHours": 4.112431388888889,
+      "instagram": {
+        "score": null,
+        "availableMetrics": [],
+        "sampleCount": 0,
+        "scope": "관측한 계정·게시물만 비교, 인스타 전체 순위 아님",
+        "sources": []
+      },
+      "score": null,
+      "proxyScore": 43,
       "portalProxyOnly": true,
       "eligible": false,
       "blocks": [
@@ -939,43 +976,7 @@
       ],
       "category": "technology",
       "categoryMethod": "headline_keyword_hypothesis",
-      "ageHours": 4.565756111111111,
-      "instagram": {
-        "score": null,
-        "availableMetrics": [],
-        "sampleCount": 0,
-        "scope": "관측한 계정·게시물만 비교, 인스타 전체 순위 아님",
-        "sources": []
-      },
-      "score": null,
-      "proxyScore": 42,
-      "portalProxyOnly": true,
-      "eligible": false,
-      "blocks": [
-        "CONTENT_RIGHTS_UNVERIFIED",
-        "INSTAGRAM_EVIDENCE_MISSING",
-        "BELOW_SELECTION_THRESHOLD"
-      ]
-    },
-    {
-      "title": "與최고위, 추미애·부승찬에 ‘경고’…“무거운 성찰 촉구”",
-      "description": "",
-      "url": "https://v.daum.net/v/20261021095229552",
-      "source": "동아일보",
-      "publishedAt": "2026-10-21T00:52:29.000Z",
-      "descriptionKind": "headline_only",
-      "provider": "daum",
-      "portalRank": 8,
-      "storyKey": "8bd9f78995c6798623a4d1f0",
-      "sources": [
-        {
-          "provider": "daum",
-          "url": "https://v.daum.net/v/20261021095229552"
-        }
-      ],
-      "category": "other",
-      "categoryMethod": "headline_keyword_hypothesis",
-      "ageHours": 4.721311666666667,
+      "ageHours": 4.889653611111111,
       "instagram": {
         "score": null,
         "availableMetrics": [],
@@ -994,24 +995,24 @@
       ]
     },
     {
-      "title": "머스크, 테슬라·스페이스X 합병검토 공식화…\"슈퍼지능 시너지\"",
+      "title": "머스크, '테슬라·스페이스X' 합병 공식 검토…슈퍼지능 시너지 기대",
       "description": "",
-      "url": "https://v.daum.net/v/20261021083723270",
-      "source": "연합뉴스",
-      "publishedAt": "2026-10-20T23:37:23.000Z",
+      "url": "https://v.daum.net/v/20261021085447754",
+      "source": "EBN산업경제",
+      "publishedAt": "2026-10-20T23:54:47.000Z",
       "descriptionKind": "headline_only",
       "provider": "daum",
       "portalRank": 13,
-      "storyKey": "d4146959af7c83f3c5247d6e",
+      "storyKey": "d8e4de5263da433ce384b2e5",
       "sources": [
         {
           "provider": "daum",
-          "url": "https://v.daum.net/v/20261021083723270"
+          "url": "https://v.daum.net/v/20261021085447754"
         }
       ],
       "category": "other",
       "categoryMethod": "headline_keyword_hypothesis",
-      "ageHours": 5.972978333333334,
+      "ageHours": 6.006875833333333,
       "instagram": {
         "score": null,
         "availableMetrics": [],
@@ -1047,7 +1048,7 @@
       ],
       "category": "other",
       "categoryMethod": "headline_keyword_hypothesis",
-      "ageHours": 14.574645,
+      "ageHours": 14.8985425,
       "instagram": {
         "score": null,
         "availableMetrics": [],
@@ -1103,7 +1104,7 @@
     }
   ],
   "commercialDashboard": {
-    "updatedAt": "2026-10-21T05:35:54.083Z",
+    "updatedAt": "2026-10-21T05:55:11.756Z",
     "offers": [
       {
         "id": "creative_only",
