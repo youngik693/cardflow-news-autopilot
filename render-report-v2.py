@@ -38,24 +38,24 @@ def market(d,p):
   text(d,row[1],x+14,881,286,40,28,GRAY)
  text(d,p['note'],52,948,976,71,25,GRAY)
 def outlook(d,p):
- tag(d,'시장 전망',52,514,181)
- text(d,p['lead'],255,516,773,52,38,BLUE,True)
- for j,(year,a,b) in enumerate(p['timeline']):
-  y=585+j*114;tx(d,year,52,y+8,35,BLUE,True)
-  text(d,a,207,y,821,52,35,INK,True);text(d,b,207,y+53,821,48,29,GRAY)
-  d.line((207,y+107,1028,y+107),fill=LINE,width=2)
- text(d,p['industry'],52,835,976,96,30,INK,True)
- text(d,p['note'],52,947,976,72,25,GRAY)
+ for j,(year,verdict,evidence,meaning) in enumerate(p['yearOutlooks']):
+  y=516+j*183;panel(d,(52,y,1028,y+166),'white',LINE)
+  tag(d,year,74,y+17,132);text(d,verdict,230,y+16,772,58,43,BLUE,True)
+  text(d,evidence,74,y+78,925,43,31,INK,True)
+  text(d,meaning,74,y+121,925,36,26,GRAY)
+ panel(d,(52,886,1028,966),'#e5eef3')
+ text(d,p['risk'],74,894,931,74,29,INK,True)
+ text(d,p['note'],52,981,976,41,25,GRAY)
 def household(d,p):
  for j,(label,num,desc) in enumerate(p['metrics']):
   x=52+j*331;panel(d,(x,516,x+313,722),'white',LINE)
   text(d,label,x+16,532,281,48,33,INK,True)
   text(d,num,x+16,582,281,80,59,BLUE if j<2 else RED,True)
   text(d,desc,x+16,667,281,42,26,GRAY)
- text(d,p['contrast'],52,744,976,97,33,INK,True)
- panel(d,(52,850,1028,937),'#e5eef3')
- text(d,p['debt'],72,862,936,78,29,INK,True)
- text(d,p['note'],52,953,976,69,25,GRAY)
+ for j,(label,body) in enumerate(p['contextBoxes']):
+  y=743+j*94;panel(d,(52,y,1028,y+82),'#e5eef3' if j==1 else '#eeece7')
+  text(d,label,72,y+7,936,32,25,BLUE,True)
+  text(d,body,72,y+40,936,39,29,INK,True)
 def region(d,p):
  text(d,'수혜지역',52,512,450,58,42,BLUE,True)
  text(d,'비교지역',579,512,449,58,42,INK,True)
@@ -66,13 +66,12 @@ def region(d,p):
  text(d,'비교지역 대비 · 성과급 지급 후 효과 추정',52,884,976,48,30,GRAY)
  text(d,p['note'],52,949,976,76,26,GRAY)
 def policy(d,p):
- tag(d,'2027 정부 예산안 · 확정 전',52,512,976)
- for j,(who,benefit,action) in enumerate(p['policies']):
-  y=581+j*126;tx(d,who,52,y,29,BLUE,True)
-  text(d,benefit,275,y,753,54,35,INK,True)
-  text(d,action,275,y+55,753,65,28,GRAY)
-  d.line((52,y+115,1028,y+115),fill=LINE,width=1)
- text(d,p['note'],52,972,976,50,26,GRAY)
+ for j,pb in enumerate(p['benefitBoxes']):
+  y=510+j*258;panel(d,(52,y,1028,y+244),'white',LINE)
+  text(d,pb['title'],74,y+12,931,44,31,BLUE,True)
+  text(d,pb['benefit'],74,y+61,931,58,41,INK,True)
+  text(d,pb['detail'],74,y+125,931,73,28,INK)
+  text(d,pb['action'],74,y+201,931,40,27,RED if j==0 else GRAY,True)
 def end(d,p):
  bubble(d,1039,203,SKY,'한 줄 결론',p['answer'])
  text(d,p['next'],52,1254,976,38,23,INK,True)
@@ -84,7 +83,7 @@ def cover(m,photo):
  text(d,m['cover']['label'],52,838,976,95,35,SKY,True)
  text(d,m['cover']['headline'],52,947,976,192,74,'white',True)
  text(d,m['cover']['sub'],52,1150,976,113,31,IVORY)
- tx(d,'반도체 → 내 살림 → 2027년 혜택   /   핵심 요약은 마지막 장',52,1293,25,SKY,True)
+ tx(d,'반도체 전망 → 내 살림 → 확정 혜택   /   핵심 요약은 마지막 장',52,1293,25,SKY,True)
  return im
 def summary(m):
  im,d=r.header(m,7)
@@ -96,7 +95,7 @@ def summary(m):
   d.line((121,y+114,1028,y+114),fill=LINE,width=1)
  bubble(d,1039,203,SKY,'오늘의 판단',m['summaryAnswer'])
  tx(d,'오늘 집계·과거 연구·향후 전망은 서로 다른 기간의 자료입니다.',52,1260,23,GRAY)
- tx(d,'근거: 관세청 · 산업부 · WSTS · 한국은행 · 국가데이터처 · 정부 예산안',52,1305,20,GRAY)
+ tx(d,'근거: 관세청·산업부·TrendForce·Micron·한국은행·국가데이터처·금융위',52,1305,20,GRAY)
  return im
 def render(m,out,photo):
  out=pathlib.Path(out);out.mkdir(parents=True,exist_ok=True);photo=Image.open(photo).convert('RGB')
