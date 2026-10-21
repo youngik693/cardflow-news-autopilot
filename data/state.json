@@ -19,11 +19,68 @@
         "sources": []
       },
       "qualification": "portal_proxy_only"
+    },
+    {
+      "designVersion": "news-v3",
+      "editorial": {
+        "designVersion": "news-v3",
+        "productMode": "standalone_news",
+        "category": "other",
+        "label": "NEWS / 주요 이슈",
+        "prompt": "이 뉴스에서\n더 확인하고 싶은 것은?",
+        "a": "사건의 배경",
+        "b": "앞으로의 공식 발표",
+        "kicker": "카드플로우 뉴스 브리핑",
+        "hook": "사실부터, 맥락까지",
+        "lens": "이 뉴스를 읽을 때\n함께 확인할 질문",
+        "questions": [
+          "발생·발표 시점과 보도 시점은 같은가?",
+          "공식 발표와 아직 확인되지 않은 부분은?",
+          "수치·인용·전망의 원출처는 어디인가?"
+        ],
+        "checks": [
+          "사실과 주장·전망을 나누어 읽기",
+          "숫자는 기간과 비교 대상을 함께 보기",
+          "후속 발표가 나왔는지 원문에서 확인하기"
+        ],
+        "headline": "트럼프 뒤통수 친 러시아…이란과 손잡고 “역사상 가장 긴밀해” 자랑[포착]",
+        "excerpt": "",
+        "factLabel": "기사에서 확인한 내용",
+        "opinionLabel": "편집 확인 질문 · 확인 완료된 사실 목록이 아닙니다",
+        "conversion": {
+          "status": "not_connected",
+          "route": "독립 미디어의 광고·스폰서십·뉴스레터 사업 검증"
+        },
+        "cta": "기억해 둘 이슈라면 저장하고\n이 주제가 궁금한 사람과 함께 읽어보세요.",
+        "experiment": {
+          "id": "news-v3",
+          "status": "hypothesis_not_validated"
+        }
+      },
+      "storyKey": "195adf521a0bc972fde4d38f",
+      "title": "트럼프 뒤통수 친 러시아…이란과 손잡고 “역사상 가장 긴밀해” 자랑[포착]",
+      "sourceURL": "https://v.daum.net/v/20261021075318165",
+      "images": [
+        "https://raw.githubusercontent.com/youngik693/cardflow-news-autopilot/d99c72e5220a2b5c13526c4588355bd3b5cae00a/media/bcb8d0a95acb0e24a6fdb3aa/01.jpg",
+        "https://raw.githubusercontent.com/youngik693/cardflow-news-autopilot/e091259b0544ebc22b498dac942692339a47e830/media/bcb8d0a95acb0e24a6fdb3aa/02.jpg",
+        "https://raw.githubusercontent.com/youngik693/cardflow-news-autopilot/fcbb2e091b5d0e8e8ab98764852c4526bd0f8bd7/media/bcb8d0a95acb0e24a6fdb3aa/03.jpg",
+        "https://raw.githubusercontent.com/youngik693/cardflow-news-autopilot/dd7e21b6d6829faadfe3b763e19a1fb21ca78293/media/bcb8d0a95acb0e24a6fdb3aa/04.jpg",
+        "https://raw.githubusercontent.com/youngik693/cardflow-news-autopilot/3372da84bc5b671dac771817a960cd9b14490a62/media/bcb8d0a95acb0e24a6fdb3aa/05.jpg"
+      ],
+      "at": "2026-10-21T02:02:09.201Z",
+      "instagramEvidence": {
+        "score": null,
+        "availableMetrics": [],
+        "sampleCount": 0,
+        "scope": "관측한 계정·게시물만 비교, 인스타 전체 순위 아님",
+        "sources": []
+      },
+      "qualification": "portal_proxy_only"
     }
   ],
   "signals": [],
   "lastRun": {
-    "at": "2026-10-21T01:52:39.328Z",
+    "at": "2026-10-21T02:02:01.121Z",
     "sources": [
       {
         "provider": "daum",
@@ -65,7 +122,7 @@
       ],
       "category": "other",
       "categoryMethod": "headline_keyword_hypothesis",
-      "ageHours": 2.9892575,
+      "ageHours": 3.145311111111111,
       "instagram": {
         "score": null,
         "availableMetrics": [],
@@ -74,12 +131,10 @@
         "sources": []
       },
       "score": null,
-      "proxyScore": 68,
+      "proxyScore": 67,
       "portalProxyOnly": true,
       "eligible": false,
       "blocks": [
-        "CATEGORY_OUTSIDE_SCOPE",
-        "EDITORIAL_TOPIC_MISMATCH",
         "INSTAGRAM_EVIDENCE_MISSING",
         "BELOW_SELECTION_THRESHOLD"
       ]
@@ -102,7 +157,7 @@
       ],
       "category": "other",
       "categoryMethod": "headline_keyword_hypothesis",
-      "ageHours": 0.7589797222222222,
+      "ageHours": 0.9150333333333334,
       "instagram": {
         "score": null,
         "availableMetrics": [],
@@ -111,12 +166,10 @@
         "sources": []
       },
       "score": null,
-      "proxyScore": 68,
+      "proxyScore": 67,
       "portalProxyOnly": true,
       "eligible": false,
       "blocks": [
-        "CATEGORY_OUTSIDE_SCOPE",
-        "EDITORIAL_TOPIC_MISMATCH",
         "INSTAGRAM_EVIDENCE_MISSING",
         "BELOW_SELECTION_THRESHOLD"
       ]
@@ -139,7 +192,7 @@
       ],
       "category": "other",
       "categoryMethod": "headline_keyword_hypothesis",
-      "ageHours": 1.0028686111111111,
+      "ageHours": 1.1589222222222222,
       "instagram": {
         "score": null,
         "availableMetrics": [],
@@ -152,8 +205,6 @@
       "portalProxyOnly": true,
       "eligible": false,
       "blocks": [
-        "CATEGORY_OUTSIDE_SCOPE",
-        "EDITORIAL_TOPIC_MISMATCH",
         "INSTAGRAM_EVIDENCE_MISSING",
         "BELOW_SELECTION_THRESHOLD"
       ]
@@ -166,7 +217,7 @@
       "publishedAt": "2026-10-21T01:09:22.000Z",
       "descriptionKind": "headline_only",
       "provider": "daum",
-      "portalRank": 9,
+      "portalRank": 7,
       "storyKey": "703c481310e263b60a988cce",
       "sources": [
         {
@@ -176,7 +227,7 @@
       ],
       "category": "other",
       "categoryMethod": "headline_keyword_hypothesis",
-      "ageHours": 0.7214797222222222,
+      "ageHours": 0.8775333333333334,
       "instagram": {
         "score": null,
         "availableMetrics": [],
@@ -185,12 +236,10 @@
         "sources": []
       },
       "score": null,
-      "proxyScore": 57,
+      "proxyScore": 58,
       "portalProxyOnly": true,
       "eligible": false,
       "blocks": [
-        "CATEGORY_OUTSIDE_SCOPE",
-        "EDITORIAL_TOPIC_MISMATCH",
         "INSTAGRAM_EVIDENCE_MISSING",
         "BELOW_SELECTION_THRESHOLD"
       ]
@@ -203,7 +252,7 @@
       "publishedAt": "2026-10-21T01:01:49.000Z",
       "descriptionKind": "headline_only",
       "provider": "daum",
-      "portalRank": 11,
+      "portalRank": 10,
       "storyKey": "87e8d9fc763c0e02e2539b9e",
       "sources": [
         {
@@ -213,7 +262,7 @@
       ],
       "category": "technology",
       "categoryMethod": "headline_keyword_hypothesis",
-      "ageHours": 0.8473130555555556,
+      "ageHours": 1.0033666666666667,
       "instagram": {
         "score": null,
         "availableMetrics": [],
@@ -222,11 +271,10 @@
         "sources": []
       },
       "score": null,
-      "proxyScore": 56,
+      "proxyScore": 55,
       "portalProxyOnly": true,
       "eligible": false,
       "blocks": [
-        "EDITORIAL_TOPIC_MISMATCH",
         "INSTAGRAM_EVIDENCE_MISSING",
         "BELOW_SELECTION_THRESHOLD"
       ]
@@ -239,7 +287,7 @@
       "publishedAt": "2026-10-20T22:25:18.000Z",
       "descriptionKind": "headline_only",
       "provider": "daum",
-      "portalRank": 8,
+      "portalRank": 9,
       "storyKey": "e483a5969b1796063774dddf",
       "sources": [
         {
@@ -249,7 +297,7 @@
       ],
       "category": "other",
       "categoryMethod": "headline_keyword_hypothesis",
-      "ageHours": 3.4559241666666667,
+      "ageHours": 3.6119777777777777,
       "instagram": {
         "score": null,
         "availableMetrics": [],
@@ -258,12 +306,10 @@
         "sources": []
       },
       "score": null,
-      "proxyScore": 46,
+      "proxyScore": 45,
       "portalProxyOnly": true,
       "eligible": false,
       "blocks": [
-        "CATEGORY_OUTSIDE_SCOPE",
-        "EDITORIAL_TOPIC_MISMATCH",
         "INSTAGRAM_EVIDENCE_MISSING",
         "BELOW_SELECTION_THRESHOLD"
       ]
@@ -276,7 +322,7 @@
       "publishedAt": "2026-10-20T20:03:38.000Z",
       "descriptionKind": "headline_only",
       "provider": "daum",
-      "portalRank": 4,
+      "portalRank": 3,
       "storyKey": "2788fdb106ab81d436cb356c",
       "sources": [
         {
@@ -286,7 +332,7 @@
       ],
       "category": "other",
       "categoryMethod": "headline_keyword_hypothesis",
-      "ageHours": 5.817035277777777,
+      "ageHours": 5.9730888888888884,
       "instagram": {
         "score": null,
         "availableMetrics": [],
@@ -295,12 +341,10 @@
         "sources": []
       },
       "score": null,
-      "proxyScore": 41,
+      "proxyScore": 42,
       "portalProxyOnly": true,
       "eligible": false,
       "blocks": [
-        "CATEGORY_OUTSIDE_SCOPE",
-        "EDITORIAL_TOPIC_MISMATCH",
         "INSTAGRAM_EVIDENCE_MISSING",
         "BELOW_SELECTION_THRESHOLD"
       ]
@@ -313,7 +357,7 @@
       "publishedAt": "2026-10-20T21:06:21.000Z",
       "descriptionKind": "headline_only",
       "provider": "daum",
-      "portalRank": 7,
+      "portalRank": 8,
       "storyKey": "3af6b74d20d3c4d93c940953",
       "sources": [
         {
@@ -323,43 +367,7 @@
       ],
       "category": "technology",
       "categoryMethod": "headline_keyword_hypothesis",
-      "ageHours": 4.7717575,
-      "instagram": {
-        "score": null,
-        "availableMetrics": [],
-        "sampleCount": 0,
-        "scope": "관측한 계정·게시물만 비교, 인스타 전체 순위 아님",
-        "sources": []
-      },
-      "score": null,
-      "proxyScore": 41,
-      "portalProxyOnly": true,
-      "eligible": false,
-      "blocks": [
-        "EDITORIAL_TOPIC_MISMATCH",
-        "INSTAGRAM_EVIDENCE_MISSING",
-        "BELOW_SELECTION_THRESHOLD"
-      ]
-    },
-    {
-      "title": "이틀째 야간 통행금지‥대테러 부대 투입",
-      "description": "",
-      "url": "https://v.daum.net/v/20261021061307167",
-      "source": "MBC",
-      "publishedAt": "2026-10-20T21:13:07.000Z",
-      "descriptionKind": "headline_only",
-      "provider": "daum",
-      "portalRank": 10,
-      "storyKey": "ac016e205a05596eb48523bc",
-      "sources": [
-        {
-          "provider": "daum",
-          "url": "https://v.daum.net/v/20261021061307167"
-        }
-      ],
-      "category": "other",
-      "categoryMethod": "headline_keyword_hypothesis",
-      "ageHours": 4.658979722222222,
+      "ageHours": 4.927811111111111,
       "instagram": {
         "score": null,
         "availableMetrics": [],
@@ -372,8 +380,41 @@
       "portalProxyOnly": true,
       "eligible": false,
       "blocks": [
-        "CATEGORY_OUTSIDE_SCOPE",
-        "EDITORIAL_TOPIC_MISMATCH",
+        "INSTAGRAM_EVIDENCE_MISSING",
+        "BELOW_SELECTION_THRESHOLD"
+      ]
+    },
+    {
+      "title": "이틀째 야간 통행금지‥대테러 부대 투입",
+      "description": "",
+      "url": "https://v.daum.net/v/20261021061307167",
+      "source": "MBC",
+      "publishedAt": "2026-10-20T21:13:07.000Z",
+      "descriptionKind": "headline_only",
+      "provider": "daum",
+      "portalRank": 11,
+      "storyKey": "ac016e205a05596eb48523bc",
+      "sources": [
+        {
+          "provider": "daum",
+          "url": "https://v.daum.net/v/20261021061307167"
+        }
+      ],
+      "category": "other",
+      "categoryMethod": "headline_keyword_hypothesis",
+      "ageHours": 4.815033333333333,
+      "instagram": {
+        "score": null,
+        "availableMetrics": [],
+        "sampleCount": 0,
+        "scope": "관측한 계정·게시물만 비교, 인스타 전체 순위 아님",
+        "sources": []
+      },
+      "score": null,
+      "proxyScore": 39,
+      "portalProxyOnly": true,
+      "eligible": false,
+      "blocks": [
         "INSTAGRAM_EVIDENCE_MISSING",
         "BELOW_SELECTION_THRESHOLD"
       ]
@@ -386,7 +427,7 @@
       "publishedAt": "2026-10-20T20:38:22.000Z",
       "descriptionKind": "headline_only",
       "provider": "daum",
-      "portalRank": 12,
+      "portalRank": 13,
       "storyKey": "9a559a553ffeaa65c2871814",
       "sources": [
         {
@@ -396,7 +437,7 @@
       ],
       "category": "other",
       "categoryMethod": "headline_keyword_hypothesis",
-      "ageHours": 5.238146388888889,
+      "ageHours": 5.3942,
       "instagram": {
         "score": null,
         "availableMetrics": [],
@@ -405,35 +446,33 @@
         "sources": []
       },
       "score": null,
-      "proxyScore": 37,
+      "proxyScore": 36,
       "portalProxyOnly": true,
       "eligible": false,
       "blocks": [
-        "CATEGORY_OUTSIDE_SCOPE",
-        "EDITORIAL_TOPIC_MISMATCH",
         "INSTAGRAM_EVIDENCE_MISSING",
         "BELOW_SELECTION_THRESHOLD"
       ]
     },
     {
-      "title": "'韓엘리스 폭락' 외신 집중조명…\"참담한 데뷔, AI투자 우려 증폭\"",
+      "title": "李대통령 “입주로 이어져야 정책 신뢰”…3기 신도시 교통·교육도 점검",
       "description": "",
-      "url": "https://v.daum.net/v/20261021032122100",
-      "source": "연합뉴스",
-      "publishedAt": "2026-10-20T18:21:22.000Z",
+      "url": "https://v.daum.net/v/20261021051639070",
+      "source": "디지털타임스",
+      "publishedAt": "2026-10-20T20:16:39.000Z",
       "descriptionKind": "headline_only",
       "provider": "daum",
-      "portalRank": 13,
-      "storyKey": "65235f8b7031e159cca3fa48",
+      "portalRank": 12,
+      "storyKey": "7694b1ede5b42e8c04b5bf7d",
       "sources": [
         {
           "provider": "daum",
-          "url": "https://v.daum.net/v/20261021032122100"
+          "url": "https://v.daum.net/v/20261021051639070"
         }
       ],
-      "category": "technology",
+      "category": "other",
       "categoryMethod": "headline_keyword_hypothesis",
-      "ageHours": 7.521479722222222,
+      "ageHours": 5.756144444444445,
       "instagram": {
         "score": null,
         "availableMetrics": [],
@@ -442,11 +481,10 @@
         "sources": []
       },
       "score": null,
-      "proxyScore": 27,
+      "proxyScore": 35,
       "portalProxyOnly": true,
       "eligible": false,
       "blocks": [
-        "EDITORIAL_TOPIC_MISMATCH",
         "INSTAGRAM_EVIDENCE_MISSING",
         "BELOW_SELECTION_THRESHOLD"
       ]
@@ -459,7 +497,7 @@
       "publishedAt": "2026-10-20T15:32:50.000Z",
       "descriptionKind": "headline_only",
       "provider": "daum",
-      "portalRank": 3,
+      "portalRank": 4,
       "storyKey": "d5965cc49a186fb054a04932",
       "sources": [
         {
@@ -469,7 +507,7 @@
       ],
       "category": "other",
       "categoryMethod": "headline_keyword_hypothesis",
-      "ageHours": 10.330368611111112,
+      "ageHours": 10.486422222222222,
       "instagram": {
         "score": null,
         "availableMetrics": [],
@@ -478,12 +516,10 @@
         "sources": []
       },
       "score": null,
-      "proxyScore": 24,
+      "proxyScore": 21,
       "portalProxyOnly": true,
       "eligible": false,
       "blocks": [
-        "CATEGORY_OUTSIDE_SCOPE",
-        "EDITORIAL_TOPIC_MISMATCH",
         "INSTAGRAM_EVIDENCE_MISSING",
         "BELOW_SELECTION_THRESHOLD"
       ]
@@ -506,7 +542,7 @@
       ],
       "category": "other",
       "categoryMethod": "headline_keyword_hypothesis",
-      "ageHours": 10.856201944444445,
+      "ageHours": 11.012255555555555,
       "instagram": {
         "score": null,
         "availableMetrics": [],
@@ -515,12 +551,10 @@
         "sources": []
       },
       "score": null,
-      "proxyScore": 17,
+      "proxyScore": 16,
       "portalProxyOnly": true,
       "eligible": false,
       "blocks": [
-        "CATEGORY_OUTSIDE_SCOPE",
-        "EDITORIAL_TOPIC_MISMATCH",
         "INSTAGRAM_EVIDENCE_MISSING",
         "BELOW_SELECTION_THRESHOLD"
       ]
