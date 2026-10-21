@@ -1,0 +1,506 @@
+{
+  "ledger": [],
+  "drafts": [
+    {
+      "storyKey": "848e5c6a1ed40e1dfcadcec1",
+      "title": "“신의 이름으로” 시위 프랑스 학생들, 왜 아랍어 구호를 외칠까 [이윤정 기자의 소소월드]",
+      "sourceURL": "https://v.daum.net/v/20261021100707393",
+      "images": [
+        "https://raw.githubusercontent.com/youngik693/cardflow-news-autopilot/2228b153c4fe80582fca849571cf64a4f75ab7c5/media/c4092bc574569875fcb1f4e5/01.jpg",
+        "https://raw.githubusercontent.com/youngik693/cardflow-news-autopilot/8129e6daf6c8e364a30677080ffabe34dee219fc/media/c4092bc574569875fcb1f4e5/02.jpg",
+        "https://raw.githubusercontent.com/youngik693/cardflow-news-autopilot/f0de37b0a0e6249cdbfb3581ee533b0f631a8c14/media/c4092bc574569875fcb1f4e5/03.jpg"
+      ],
+      "at": "2026-10-21T01:31:44.568Z",
+      "instagramEvidence": {
+        "score": null,
+        "availableMetrics": [],
+        "sampleCount": 0,
+        "scope": "관측한 계정·게시물만 비교, 인스타 전체 순위 아님",
+        "sources": []
+      },
+      "qualification": "portal_proxy_only"
+    }
+  ],
+  "signals": [],
+  "lastRun": {
+    "at": "2026-10-21T01:31:38.256Z",
+    "sources": [
+      {
+        "provider": "daum",
+        "status": "ok",
+        "count": 13
+      },
+      {
+        "provider": "naver",
+        "status": "credentials_required",
+        "count": 0
+      }
+    ],
+    "candidates": 13,
+    "eligible": 0,
+    "status": "awaiting_connections",
+    "blockers": [
+      "NAVER_KEYS_REQUIRED",
+      "INSTAGRAM_AUTH_REQUIRED",
+      "DAILY_CAP_NOT_CONFIGURED",
+      "NO_NEWS_WITH_VERIFIED_INSTAGRAM_EVIDENCE"
+    ]
+  },
+  "candidates": [
+    {
+      "title": "“신의 이름으로” 시위 프랑스 학생들, 왜 아랍어 구호를 외칠까 [이윤정 기자의 소소월드]",
+      "description": "",
+      "url": "https://v.daum.net/v/20261021100707393",
+      "source": "경향신문",
+      "publishedAt": "2026-10-21T01:07:07.000Z",
+      "descriptionKind": "headline_only",
+      "provider": "daum",
+      "portalRank": 2,
+      "storyKey": "848e5c6a1ed40e1dfcadcec1",
+      "sources": [
+        {
+          "provider": "daum",
+          "url": "https://v.daum.net/v/20261021100707393"
+        }
+      ],
+      "category": "other",
+      "categoryMethod": "headline_keyword_hypothesis",
+      "ageHours": 0.40868194444444444,
+      "instagram": {
+        "score": null,
+        "availableMetrics": [],
+        "sampleCount": 0,
+        "scope": "관측한 계정·게시물만 비교, 인스타 전체 순위 아님",
+        "sources": []
+      },
+      "score": null,
+      "proxyScore": 70,
+      "portalProxyOnly": true,
+      "eligible": false,
+      "blocks": [
+        "INSTAGRAM_EVIDENCE_MISSING",
+        "BELOW_SELECTION_THRESHOLD"
+      ]
+    },
+    {
+      "title": "트럼프 뒤통수 친 러시아…이란과 손잡고 “역사상 가장 긴밀해” 자랑[포착]",
+      "description": "",
+      "url": "https://v.daum.net/v/20261021075318165",
+      "source": "서울신문",
+      "publishedAt": "2026-10-20T22:53:18.000Z",
+      "descriptionKind": "headline_only",
+      "provider": "daum",
+      "portalRank": 1,
+      "storyKey": "195adf521a0bc972fde4d38f",
+      "sources": [
+        {
+          "provider": "daum",
+          "url": "https://v.daum.net/v/20261021075318165"
+        }
+      ],
+      "category": "other",
+      "categoryMethod": "headline_keyword_hypothesis",
+      "ageHours": 2.6389597222222223,
+      "instagram": {
+        "score": null,
+        "availableMetrics": [],
+        "sampleCount": 0,
+        "scope": "관측한 계정·게시물만 비교, 인스타 전체 순위 아님",
+        "sources": []
+      },
+      "score": null,
+      "proxyScore": 69,
+      "portalProxyOnly": true,
+      "eligible": false,
+      "blocks": [
+        "INSTAGRAM_EVIDENCE_MISSING",
+        "BELOW_SELECTION_THRESHOLD"
+      ]
+    },
+    {
+      "title": "'소방 재정 빨대' 논란에 수습 나선 민주당…추미애·부승찬 나란히 경고",
+      "description": "",
+      "url": "https://v.daum.net/v/20261021094534240",
+      "source": "경북도민일보",
+      "publishedAt": "2026-10-21T00:45:34.000Z",
+      "descriptionKind": "headline_only",
+      "provider": "daum",
+      "portalRank": 8,
+      "storyKey": "82d19afe845ed34ca157e183",
+      "sources": [
+        {
+          "provider": "daum",
+          "url": "https://v.daum.net/v/20261021094534240"
+        }
+      ],
+      "category": "other",
+      "categoryMethod": "headline_keyword_hypothesis",
+      "ageHours": 0.7678486111111111,
+      "instagram": {
+        "score": null,
+        "availableMetrics": [],
+        "sampleCount": 0,
+        "scope": "관측한 계정·게시물만 비교, 인스타 전체 순위 아님",
+        "sources": []
+      },
+      "score": null,
+      "proxyScore": 57,
+      "portalProxyOnly": true,
+      "eligible": false,
+      "blocks": [
+        "INSTAGRAM_EVIDENCE_MISSING",
+        "BELOW_SELECTION_THRESHOLD"
+      ]
+    },
+    {
+      "title": "카카오, AI의 ‘눈’ 비전 인코더 2종 공개…“구글·메타 모델 능가”",
+      "description": "",
+      "url": "https://v.daum.net/v/20261021092836275",
+      "source": "헤럴드경제",
+      "publishedAt": "2026-10-21T00:28:36.000Z",
+      "descriptionKind": "headline_only",
+      "provider": "daum",
+      "portalRank": 12,
+      "storyKey": "ce53cb413b7bf5e65aef83ef",
+      "sources": [
+        {
+          "provider": "daum",
+          "url": "https://v.daum.net/v/20261021092836275"
+        }
+      ],
+      "category": "technology",
+      "categoryMethod": "headline_keyword_hypothesis",
+      "ageHours": 1.050626388888889,
+      "instagram": {
+        "score": null,
+        "availableMetrics": [],
+        "sampleCount": 0,
+        "scope": "관측한 계정·게시물만 비교, 인스타 전체 순위 아님",
+        "sources": []
+      },
+      "score": null,
+      "proxyScore": 54,
+      "portalProxyOnly": true,
+      "eligible": false,
+      "blocks": [
+        "INSTAGRAM_EVIDENCE_MISSING",
+        "BELOW_SELECTION_THRESHOLD"
+      ]
+    },
+    {
+      "title": "머스크 \"스페이스X·테슬라 합병 논의 중\"…양사 특별위원회 구성",
+      "description": "",
+      "url": "https://v.daum.net/v/20261021072518657",
+      "source": "이데일리",
+      "publishedAt": "2026-10-20T22:25:18.000Z",
+      "descriptionKind": "headline_only",
+      "provider": "daum",
+      "portalRank": 7,
+      "storyKey": "e483a5969b1796063774dddf",
+      "sources": [
+        {
+          "provider": "daum",
+          "url": "https://v.daum.net/v/20261021072518657"
+        }
+      ],
+      "category": "other",
+      "categoryMethod": "headline_keyword_hypothesis",
+      "ageHours": 3.105626388888889,
+      "instagram": {
+        "score": null,
+        "availableMetrics": [],
+        "sampleCount": 0,
+        "scope": "관측한 계정·게시물만 비교, 인스타 전체 순위 아님",
+        "sources": []
+      },
+      "score": null,
+      "proxyScore": 48,
+      "portalProxyOnly": true,
+      "eligible": false,
+      "blocks": [
+        "INSTAGRAM_EVIDENCE_MISSING",
+        "BELOW_SELECTION_THRESHOLD"
+      ]
+    },
+    {
+      "title": "스페이스X, 상장 후 첫 흑자…AI 매출 9배 폭증하며 스타링크 추월",
+      "description": "",
+      "url": "https://v.daum.net/v/20261021062628472",
+      "source": "이데일리",
+      "publishedAt": "2026-10-20T21:26:28.000Z",
+      "descriptionKind": "headline_only",
+      "provider": "daum",
+      "portalRank": 6,
+      "storyKey": "59dd9b2febdf2a59c82f74b1",
+      "sources": [
+        {
+          "provider": "daum",
+          "url": "https://v.daum.net/v/20261021062628472"
+        }
+      ],
+      "category": "technology",
+      "categoryMethod": "headline_keyword_hypothesis",
+      "ageHours": 4.086181944444444,
+      "instagram": {
+        "score": null,
+        "availableMetrics": [],
+        "sampleCount": 0,
+        "scope": "관측한 계정·게시물만 비교, 인스타 전체 순위 아님",
+        "sources": []
+      },
+      "score": null,
+      "proxyScore": 45,
+      "portalProxyOnly": true,
+      "eligible": false,
+      "blocks": [
+        "INSTAGRAM_EVIDENCE_MISSING",
+        "BELOW_SELECTION_THRESHOLD"
+      ]
+    },
+    {
+      "title": "트럼프 \"러시아는 거대한 나라…젤렌스키, 종전 합의해야\"",
+      "description": "",
+      "url": "https://v.daum.net/v/20261021053822363",
+      "source": "연합뉴스",
+      "publishedAt": "2026-10-20T20:38:22.000Z",
+      "descriptionKind": "headline_only",
+      "provider": "daum",
+      "portalRank": 5,
+      "storyKey": "9a559a553ffeaa65c2871814",
+      "sources": [
+        {
+          "provider": "daum",
+          "url": "https://v.daum.net/v/20261021053822363"
+        }
+      ],
+      "category": "other",
+      "categoryMethod": "headline_keyword_hypothesis",
+      "ageHours": 4.887848611111111,
+      "instagram": {
+        "score": null,
+        "availableMetrics": [],
+        "sampleCount": 0,
+        "scope": "관측한 계정·게시물만 비교, 인스타 전체 순위 아님",
+        "sources": []
+      },
+      "score": null,
+      "proxyScore": 43,
+      "portalProxyOnly": true,
+      "eligible": false,
+      "blocks": [
+        "INSTAGRAM_EVIDENCE_MISSING",
+        "BELOW_SELECTION_THRESHOLD"
+      ]
+    },
+    {
+      "title": "‘초장거리 자폭드론’ 韓 덮치나…북·러 기술밀착이 부를 대참사 [Focus 인사이드]",
+      "description": "",
+      "url": "https://v.daum.net/v/20261021050338853",
+      "source": "중앙일보",
+      "publishedAt": "2026-10-20T20:03:38.000Z",
+      "descriptionKind": "headline_only",
+      "provider": "daum",
+      "portalRank": 4,
+      "storyKey": "2788fdb106ab81d436cb356c",
+      "sources": [
+        {
+          "provider": "daum",
+          "url": "https://v.daum.net/v/20261021050338853"
+        }
+      ],
+      "category": "other",
+      "categoryMethod": "headline_keyword_hypothesis",
+      "ageHours": 5.4667375,
+      "instagram": {
+        "score": null,
+        "availableMetrics": [],
+        "sampleCount": 0,
+        "scope": "관측한 계정·게시물만 비교, 인스타 전체 순위 아님",
+        "sources": []
+      },
+      "score": null,
+      "proxyScore": 42,
+      "portalProxyOnly": true,
+      "eligible": false,
+      "blocks": [
+        "INSTAGRAM_EVIDENCE_MISSING",
+        "BELOW_SELECTION_THRESHOLD"
+      ]
+    },
+    {
+      "title": "이틀째 야간 통행금지‥대테러 부대 투입",
+      "description": "",
+      "url": "https://v.daum.net/v/20261021061307167",
+      "source": "MBC",
+      "publishedAt": "2026-10-20T21:13:07.000Z",
+      "descriptionKind": "headline_only",
+      "provider": "daum",
+      "portalRank": 9,
+      "storyKey": "ac016e205a05596eb48523bc",
+      "sources": [
+        {
+          "provider": "daum",
+          "url": "https://v.daum.net/v/20261021061307167"
+        }
+      ],
+      "category": "other",
+      "categoryMethod": "headline_keyword_hypothesis",
+      "ageHours": 4.308681944444444,
+      "instagram": {
+        "score": null,
+        "availableMetrics": [],
+        "sampleCount": 0,
+        "scope": "관측한 계정·게시물만 비교, 인스타 전체 순위 아님",
+        "sources": []
+      },
+      "score": null,
+      "proxyScore": 42,
+      "portalProxyOnly": true,
+      "eligible": false,
+      "blocks": [
+        "INSTAGRAM_EVIDENCE_MISSING",
+        "BELOW_SELECTION_THRESHOLD"
+      ]
+    },
+    {
+      "title": "실적 호조·유가 하락에 다우 1.02%↑…나스닥은 약보합",
+      "description": "",
+      "url": "https://v.daum.net/v/20261021055717569",
+      "source": "조선일보",
+      "publishedAt": "2026-10-20T20:57:17.000Z",
+      "descriptionKind": "headline_only",
+      "provider": "daum",
+      "portalRank": 13,
+      "storyKey": "0ae607821da1b22a5cf6246c",
+      "sources": [
+        {
+          "provider": "daum",
+          "url": "https://v.daum.net/v/20261021055717569"
+        }
+      ],
+      "category": "other",
+      "categoryMethod": "headline_keyword_hypothesis",
+      "ageHours": 4.572570833333334,
+      "instagram": {
+        "score": null,
+        "availableMetrics": [],
+        "sampleCount": 0,
+        "scope": "관측한 계정·게시물만 비교, 인스타 전체 순위 아님",
+        "sources": []
+      },
+      "score": null,
+      "proxyScore": 39,
+      "portalProxyOnly": true,
+      "eligible": false,
+      "blocks": [
+        "INSTAGRAM_EVIDENCE_MISSING",
+        "BELOW_SELECTION_THRESHOLD"
+      ]
+    },
+    {
+      "title": "李대통령 “입주로 이어져야 정책 신뢰”…3기 신도시 교통·교육도 점검",
+      "description": "",
+      "url": "https://v.daum.net/v/20261021051639070",
+      "source": "디지털타임스",
+      "publishedAt": "2026-10-20T20:16:39.000Z",
+      "descriptionKind": "headline_only",
+      "provider": "daum",
+      "portalRank": 10,
+      "storyKey": "7694b1ede5b42e8c04b5bf7d",
+      "sources": [
+        {
+          "provider": "daum",
+          "url": "https://v.daum.net/v/20261021051639070"
+        }
+      ],
+      "category": "other",
+      "categoryMethod": "headline_keyword_hypothesis",
+      "ageHours": 5.249793055555555,
+      "instagram": {
+        "score": null,
+        "availableMetrics": [],
+        "sampleCount": 0,
+        "scope": "관측한 계정·게시물만 비교, 인스타 전체 순위 아님",
+        "sources": []
+      },
+      "score": null,
+      "proxyScore": 38,
+      "portalProxyOnly": true,
+      "eligible": false,
+      "blocks": [
+        "INSTAGRAM_EVIDENCE_MISSING",
+        "BELOW_SELECTION_THRESHOLD"
+      ]
+    },
+    {
+      "title": "'韓엘리스 폭락' 외신 집중조명…\"참담한 데뷔, AI투자 우려 증폭\"",
+      "description": "",
+      "url": "https://v.daum.net/v/20261021032122100",
+      "source": "연합뉴스",
+      "publishedAt": "2026-10-20T18:21:22.000Z",
+      "descriptionKind": "headline_only",
+      "provider": "daum",
+      "portalRank": 11,
+      "storyKey": "65235f8b7031e159cca3fa48",
+      "sources": [
+        {
+          "provider": "daum",
+          "url": "https://v.daum.net/v/20261021032122100"
+        }
+      ],
+      "category": "technology",
+      "categoryMethod": "headline_keyword_hypothesis",
+      "ageHours": 7.171181944444444,
+      "instagram": {
+        "score": null,
+        "availableMetrics": [],
+        "sampleCount": 0,
+        "scope": "관측한 계정·게시물만 비교, 인스타 전체 순위 아님",
+        "sources": []
+      },
+      "score": null,
+      "proxyScore": 29,
+      "portalProxyOnly": true,
+      "eligible": false,
+      "blocks": [
+        "INSTAGRAM_EVIDENCE_MISSING",
+        "BELOW_SELECTION_THRESHOLD"
+      ]
+    },
+    {
+      "title": "“탱크 16개 분량이 2주면 동나”… 중동 빈자리 채우는 K윤활기유",
+      "description": "",
+      "url": "https://v.daum.net/v/20261021003250469",
+      "source": "동아일보",
+      "publishedAt": "2026-10-20T15:32:50.000Z",
+      "descriptionKind": "headline_only",
+      "provider": "daum",
+      "portalRank": 3,
+      "storyKey": "d5965cc49a186fb054a04932",
+      "sources": [
+        {
+          "provider": "daum",
+          "url": "https://v.daum.net/v/20261021003250469"
+        }
+      ],
+      "category": "other",
+      "categoryMethod": "headline_keyword_hypothesis",
+      "ageHours": 9.980070833333333,
+      "instagram": {
+        "score": null,
+        "availableMetrics": [],
+        "sampleCount": 0,
+        "scope": "관측한 계정·게시물만 비교, 인스타 전체 순위 아님",
+        "sources": []
+      },
+      "score": null,
+      "proxyScore": 26,
+      "portalProxyOnly": true,
+      "eligible": false,
+      "blocks": [
+        "INSTAGRAM_EVIDENCE_MISSING",
+        "BELOW_SELECTION_THRESHOLD"
+      ]
+    }
+  ]
+}
