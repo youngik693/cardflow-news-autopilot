@@ -29,3 +29,7 @@
   https://www.hankyung.com/article/2026102150157
 
 사진 원문: https://commons.wikimedia.org/wiki/File:Shipping_containers_in_a_port_(Unsplash).jpg
+# 개정 안내
+
+이 문서는 v1 조사 기록이다. 2026-10-21 사용자 피드백 이후 결과물은 **v2**로 교체했다. 현재 판정·수치·제약은 [v2 검증](exports-20261021-v2-verification.md)과 [독자 수요 조사](exports-20261021-audience-research.md)가 우선한다. 반도체 비중은 관세청 공식44.7%로 수정했고, 상식적 도식을 비반도체 비교·전망·가계 통계·지원 정책으로 대체했다.
+
