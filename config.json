@@ -33,5 +33,12 @@
   "brandStatus": "user_selected_name_design_in_review",
   "requireLiveSourceRecheck": true,
   "watchHistoryDays": 30,
-  "maxWatchedArticles": 60
+  "maxWatchedArticles": 60,
+  "publicationSlots": [
+    "2026-10-21T16:00:00+09:00",
+    "2026-10-21T16:30:00+09:00",
+    "2026-10-21T17:00:00+09:00",
+    "2026-10-21T17:30:00+09:00"
+  ],
+  "slotWindowMinutes": 10
 }
