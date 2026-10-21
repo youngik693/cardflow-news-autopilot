@@ -5,12 +5,12 @@ from importlib.util import spec_from_file_location,module_from_spec
 spec=spec_from_file_location('deep',pathlib.Path(__file__).with_name('render-deep-news.py'));v=module_from_spec(spec);spec.loader.exec_module(v)
 W,H=1080,1350
 INK,PAPER,RED,GOLD,GRAY,LINE=v.INK,v.PAPER,v.RED,v.GOLD,v.GRAY,v.LINE
-BLUE='#2458c6';LIGHT='#e9effb';STEPS=['왜 합병','연결 이유','우주 AI','합병 효과','파급효과']
+BLUE='#4082a9';SKY='#a6d9f4';IVORY='#eae2d4';LIGHT='#edf4f6';STEPS=['왜 합병','연결 이유','우주 AI','합병 효과','파급효과']
 PAGES=[
- {'question':'머스크는 왜\n두 회사를 합치려 하나?','deck':'공시·외부 분석을 종합한 해석 / 합병 미확정','answer':'차·로봇과 우주 AI에 필요한 자원을\n한 회사 안에서 배분하려는 구상이다.','next':'02  자동차와 우주는 무슨 관계일까?','refs':'SpaceX 회사 공시 · Morningstar 2026.06.09'},
- {'question':'자동차와 우주,\n왜 연결하나?','deck':'제품은 달라도, 둘 다 더 많은 AI가 필요하다.','answer':'두 사업 모두 AI 칩·연산 자원이 필요해,\n지상용·우주용 칩을 함께 개발하려는 구상.','next':'03  그렇다면 AI를 왜 우주로 보내나?','refs':'SpaceX SEC 공시 2026.06.05 · Terafab'},
- {'question':'왜 AI를 우주에서\n돌리려 하나?','deck':'지상에서 부족해지는 전력을 우주에서도 찾는 구상.','answer':'우주 태양광과 발사·위성 기술로\nAI 연산 기반을 넓히겠다는 계획이다.','next':'04  협력만 해도 되는데, 왜 합병까지?','refs':'SpaceX SEC 공시 2026.06.05 · 회사 목표'},
- {'question':'이미 협업 중인데,\n왜 합병까지?','deck':'기술을 함께 개발하는 것과 자원을 나누는 것은 다르다.','answer':'기술 협력에 더해 인력·투자를\n내부에서 유연하게 배분할 수 있다는 분석.','next':'05  이 구상이 돈의 흐름을 바꿀까?','refs':'Morningstar 2026.06.09 · 독립 분석'},
+ {'question':'머스크는 왜\n두 회사를 합치려 하나?','deck':'공시·외부 분석을 종합한 해석 / 합병 미확정','answer':'차·로봇과 우주 AI에 필요한 자원을\n한 회사 안에서 배분하려는 구상이다.','next':'03  자동차와 우주는 무슨 관계일까?','refs':'SpaceX 회사 공시 · Morningstar 2026.06.09'},
+ {'question':'자동차와 우주,\n왜 연결하나?','deck':'제품은 달라도, 둘 다 더 많은 AI가 필요하다.','answer':'두 사업 모두 AI 칩·연산 자원이 필요해,\n지상용·우주용 칩을 함께 개발하려는 구상.','next':'04  그렇다면 AI를 왜 우주로 보내나?','refs':'SpaceX SEC 공시 2026.06.05 · Terafab'},
+ {'question':'왜 AI를 우주에서\n돌리려 하나?','deck':'지상에서 부족해지는 전력을 우주에서도 찾는 구상.','answer':'우주 태양광과 발사·위성 기술로\nAI 연산 기반을 넓히겠다는 계획이다.','next':'05  협력만 해도 되는데, 왜 합병까지?','refs':'SpaceX SEC 공시 2026.06.05 · 회사 목표'},
+ {'question':'이미 협업 중인데,\n왜 합병까지?','deck':'기술을 함께 개발하는 것과 자원을 나누는 것은 다르다.','answer':'기술 협력에 더해 인력·투자를\n내부에서 유연하게 배분할 수 있다는 분석.','next':'06  이 구상이 돈의 흐름을 바꿀까?','refs':'Morningstar 2026.06.09 · 독립 분석'},
  {'question':'이 구상의\n파급효과는?','deck':'기대 효과가 실제 이익이 되려면 조건이 필요하다.','answer':'기업의 원가·공급망 발주·주주의 지분,\n이 세 가지가 경제효과를 가른다.','next':'핵심: 큰 구상 다음엔 실제 실행과 거래 조건을 본다.','refs':'SpaceX 공시 · Morningstar · 조건부 시나리오'}
 ]
 def tx(d,*a,**kw):return v.tx(d,*a,**kw)
@@ -19,7 +19,7 @@ def arrow(d,x,y,c=RED,length=38):
  d.line((x,y,x+length-8,y),fill=c,width=4);d.polygon([(x+length,y),(x+length-14,y-9),(x+length-14,y+9)],fill=c)
 def panel(d,r,fill=PAPER,outline=None):d.rounded_rectangle(r,radius=22,fill=fill,outline=outline,width=2)
 def bubble(d,y,h,fill,label,text,textcolor):
- panel(d,(52,y,1028,y+h),fill);d.polygon([(94,y+h-1),(116,y+h+20),(140,y+h-1)],fill=fill)
+ panel(d,(52,y,1028,y+h),fill)
  tx(d,label,77,y+15,24,textcolor,True)
  box(d,text,77,y+53,926,h-64,55 if label=='이번 장의 질문' else 38,textcolor,True)
 def icon(d,kind,x,y,c=INK):
@@ -45,21 +45,34 @@ def icon(d,kind,x,y,c=INK):
   for k in range(3):d.rounded_rectangle((x+5+k*30,y+57-k*19,x+26+k*30,y+91),radius=3,fill=c)
 def base(i):
  im=Image.new('RGB',(W,H),PAPER);d=ImageDraw.Draw(im);p=PAGES[i]
- tx(d,'카드플로우',52,23,32,INK,True);tx(d,'테슬라·스페이스X / 2026.10.21 기준',277,29,22,GRAY);tx(d,f'{i+1:02}/05',941,30,23)
+ tx(d,'1분 리포트',52,23,32,INK,True);tx(d,'테슬라·스페이스X / 2026.10.21 기준',277,29,22,GRAY);tx(d,f'{i+2:02}/06',941,30,23)
  for j,s in enumerate(STEPS):
   x=52+j*202;panel(d,(x,94,x+161,147),INK if i==j else '#e7e4dd');tx(d,s,x+16,104,25,'white' if i==j else GRAY,i==j)
   if j<4:arrow(d,x+167,120,length=29)
- bubble(d,179,222,GOLD,'이번 장의 질문',p['question'],INK)
+ bubble(d,179,222,IVORY,'이번 장의 질문',p['question'],INK)
  box(d,p['deck'],52,440,976,76,30,GRAY)
  return im,d
 
 def tail(d,i):
- p=PAGES[i];bubble(d,1080,155,BLUE,'한 줄 결론',p['answer'],'white')
+ p=PAGES[i];bubble(d,1080,155,SKY,'한 줄 결론',p['answer'],INK)
  tx(d,p['next'],52,1264,23,INK,True)
  tx(d,'근거: '+p['refs']+' · 합병 미확정',52,1304,19,GRAY)
 
+def cover(photo):
+ im=Image.new('RGB',(W,H),PAPER);d=ImageDraw.Draw(im)
+ tx(d,'1분 리포트',52,24,39,INK,True);tx(d,'2026.10.21 / 합병 검토',485,35,25,GRAY);tx(d,'01/06',942,36,23,INK)
+ im.paste(ImageOps.fit(Image.open(photo).convert('RGB'),(1080,748),centering=(.5,.28)),(0,109));d=ImageDraw.Draw(im)
+ d.rectangle((0,857,1080,1350),fill=INK)
+ tx(d,'테슬라 × 스페이스X',52,885,27,'#a6d9f4',True)
+ box(d,'왜 합병을\n검토하나',52,939,976,221,88,'white',True)
+ box(d,'자동차·로봇과 우주 AI를\n하나의 전략으로 묶으려는 이유',52,1170,976,100,37,'#eae2d4')
+ tx(d,'자료사진 NASA / Keegan Barber · 2024.09.27',52,811,20,'white')
+ tx(d,'합병 미확정 · 공시와 외부 분석을 종합한 해설',52,1302,21,'#b9c4cc')
+ return im
+
 def render(model,out,photo):
- out=pathlib.Path(out);out.mkdir(parents=True,exist_ok=True);pages=[]
+ out=pathlib.Path(out);out.mkdir(parents=True,exist_ok=True);pages=[cover(photo)]
+ pages[0].save(out/'01.jpg',quality=95,optimize=True)
  for i in range(5):
   im,d=base(i)
   if i==0:
@@ -93,12 +106,8 @@ def render(model,out,photo):
     d.ellipse((74,y+28,142,y+96),fill=BLUE);tx(d,str(j+1),95,y+36,33,'white',True)
     tx(d,a,166,y+19,33,INK,True);arrow(d,438,y+62,RED);tx(d,b,516,y+17,31,BLUE,True);tx(d,c,516,y+75,25,GRAY)
    tx(d,'조건부 전망 · 확정 수혜나 합병에 따른 절감액은 아직 없음',52,1030,24,GRAY)
-  tail(d,i);im.save(out/f'{i+1:02}.jpg',quality=95,optimize=True);pages.append(im)
+  tail(d,i);im.save(out/f'{i+2:02}.jpg',quality=95,optimize=True);pages.append(im)
  sheet=Image.new('RGB',(1680,1440),'#dedbd6')
  for i,im in enumerate(pages):sheet.paste(im.resize((540,675)),(10+(i%3)*560,10+(i//3)*715))
- d=ImageDraw.Draw(sheet);tx(d,'질문 → 시각적 설명 → 결론',1140,839,30,INK,True)
- for y,fill,label in [(938,GOLD,'위: 독자가 궁금한 질문'),(1066,BLUE,'아래: 본문을 압축한 결론')]:
-  panel(d,(1140,y,1637,y+91),fill);tx(d,label,1160,y+27,27,'white' if fill==BLUE else INK,True)
- tx(d,'2026.10.21 기준 / 게시 전 검토본',1140,1250,24,GRAY)
  sheet.save(out/'preview.jpg',quality=95)
 if __name__=='__main__':render(json.loads(pathlib.Path(sys.argv[1]).read_text()),sys.argv[2],sys.argv[3])
