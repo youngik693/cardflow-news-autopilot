@@ -6,5 +6,16 @@ export class GithubStore{
  async load(){if(this.current)return this.current;await this.ensureBranch();const f=await this.api('contents/data/state.json?ref=autopilot-data');this.fileSha=f?.sha||null;this.current=f?JSON.parse(Buffer.from(f.content,'base64').toString()):{ledger:[],drafts:[],signals:[]};return this.current}
  async save(data){this.current=data;const payload={message:'Update automation state',content:Buffer.from(JSON.stringify(data,null,2)+'\n').toString('base64'),branch:'autopilot-data',...(this.fileSha?{sha:this.fileSha}:{})};const result=await this.api('contents/data/state.json','PUT',payload);if(!result?.content?.sha)throw Error('STATE_WRITE_UNCONFIRMED');this.fileSha=result.content.sha;return result.commit.sha}
  async putImage(path,file){const old=await this.api('contents/'+path+'?ref=autopilot-data');const result=await this.api('contents/'+path,'PUT',{message:'Create card image',branch:'autopilot-data',content:(await readFile(file)).toString('base64'),...(old?{sha:old.sha}:{})});if(!result?.commit?.sha)throw Error('MEDIA_WRITE_UNCONFIRMED');return 'https://raw.githubusercontent.com/'+this.repository+'/'+result.commit.sha+'/'+path}
- async withAccountLease(account,fn){if(process.env.GITHUB_ACTIONS!=='true'&&process.env.ALLOW_LOCAL_DRY_RUN!=='true')throw Error('GITHUB_CONCURRENCY_REQUIRED');if(this.insideLease)throw Error('OVERLAPPING_TICK');this.insideLease=true;try{return await fn()}finally{this.insideLease=false}}
+ async withAccountLease(account,fn){
+  if(process.env.GITHUB_ACTIONS!=='true'&&process.env.ALLOW_LOCAL_DRY_RUN!=='true')throw Error('GITHUB_CONCURRENCY_REQUIRED');
+  if(this.insideLease)throw Error('OVERLAPPING_TICK');
+  if(!/^[a-zA-Z0-9._-]+$/.test(account||''))throw Error('LOCK_ACCOUNT_REQUIRED');
+  const ref='heads/autopilot-lock-'+account;
+  const acquired=await this.api('git/refs','POST',{ref:'refs/'+ref,sha:this.baseCommit});
+  if(!acquired?.ref)throw Error('DURABLE_ACCOUNT_LOCK_UNCONFIRMED');
+  // Existing refs return 422. Never expire/steal a lock: a killed publisher may
+  // have an unresolved side effect. Reconcile before manually deleting it.
+  this.insideLease=true;this.current=null;this.fileSha=null;
+  try{return await fn()}finally{this.insideLease=false;await this.api('git/refs/'+ref,'DELETE')}
+ }
 }

@@ -1,1 +1,13 @@
-{"name":"cardflow-news-autopilot","private":true,"type":"module","engines":{"node":">=24"},"scripts":{"test":"node --test tests/*.test.mjs","run":"node src/run.mjs"}}
+{
+  "name": "cardflow-news-autopilot",
+  "private": true,
+  "type": "module",
+  "engines": {
+    "node": ">=24"
+  },
+  "scripts": {
+    "test": "node --test tests/*.test.mjs",
+    "run": "node src/run.mjs",
+    "research:private": "node src/private-research.mjs"
+  }
+}

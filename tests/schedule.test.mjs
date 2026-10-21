@@ -61,3 +61,5 @@ test('카드 제작 중 회차가 닫히면 게시하지 않고 다음 허용 �
     else {assert.equal(result.status,'published');assert.equal(data.ledger[0].slotAt,policy.publicationSlots[1]);}
   }
 });
+
+test('permanent slot outcomes preserve absolute keys, expired reasons and real URLs',async()=>{const {recordSlotOutcomes}=await import('../src/schedule.mjs');const policy={targetAccount:'account',slotWindowMinutes:10,publicationSlots:['2026-10-21T16:00:00+09:00','2026-10-21T16:30:00+09:00']};const state={ledger:[]};recordSlotOutcomes(state,policy,{now:Date.parse('2026-10-21T16:11:00+09:00'),blockers:['AUTH_REQUIRED']});assert.equal(state.slotOutcomes[0].status,'SKIPPED');assert.equal(state.slotOutcomes[1].status,'PENDING');state.ledger.push({account:'account',slotAt:policy.publicationSlots[1],status:'published',externalPostURL:'https://www.instagram.com/p/test/'});recordSlotOutcomes(state,policy,{now:Date.parse('2026-10-22T16:00:00+09:00')});assert.equal(state.slotOutcomes[1].status,'POSTED');assert.equal(state.slotOutcomes[1].publicURL,'https://www.instagram.com/p/test/');assert(state.slotOutcomes[0].reasons.includes('AUTH_REQUIRED'))});
