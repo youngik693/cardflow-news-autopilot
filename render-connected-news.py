@@ -45,7 +45,10 @@ def icon(d,kind,x,y,c=INK):
   for k in range(3):d.rounded_rectangle((x+5+k*30,y+57-k*19,x+26+k*30,y+91),radius=3,fill=c)
 def base(i):
  im=Image.new('RGB',(W,H),PAPER);d=ImageDraw.Draw(im);p=PAGES[i]
- tx(d,'1분 리포트',52,23,32,INK,True);tx(d,'테슬라·스페이스X / 2026.10.21 기준',277,29,22,GRAY);tx(d,f'{i+2:02}/07',941,30,23)
+ if i==0:
+  tx(d,'1분속보리포트',52,23,35,'#c5352c',True);tx(d,'테슬라·스페이스X / 2026.10.21',340,33,21,GRAY)
+ else:tx(d,'테슬라·스페이스X / 2026.10.21 기준',52,29,24,GRAY)
+ tx(d,f'{i+2:02}/07',941,30,23)
  for j,s in enumerate(STEPS):
   x=52+j*202;panel(d,(x,94,x+161,147),INK if i==j else '#e7e4dd');tx(d,s,x+16,104,25,'white' if i==j else GRAY,i==j)
   if j<4:arrow(d,x+167,120,length=29)
@@ -60,21 +63,23 @@ def tail(d,i):
 
 def cover(photo):
  im=Image.new('RGB',(W,H),PAPER);d=ImageDraw.Draw(im)
- tx(d,'1분 리포트',52,24,39,INK,True);tx(d,'2026.10.21 / 합병 검토',485,35,25,GRAY);tx(d,'01/07',942,36,23,INK)
+ tx(d,'2026.10.21',64,32,28,GRAY);tx(d,'테슬라·스페이스X 합병 검토',407,35,25,INK);tx(d,'01/07',942,36,23,INK)
  im.paste(ImageOps.fit(Image.open(photo).convert('RGB'),(1080,748),centering=(.5,.28)),(0,109));d=ImageDraw.Draw(im)
+ d.rectangle((0,807,1080,857),fill=INK)
+ tx(d,'자료사진 NASA / Keegan Barber · 2024.09.27',64,817,21,'#d1dae0')
  d.rectangle((0,857,1080,1350),fill=INK)
- d.rounded_rectangle((52,884,1028,973),radius=12,fill='#a6d9f4')
- tx(d,'테슬라 × 스페이스X',76,895,57,INK,True)
- box(d,'왜 합병을\n검토하나',52,996,976,176,76,'white',True)
- box(d,'자동차·로봇과 우주 AI를\n하나의 전략으로 묶으려는 이유',52,1182,976,90,34,'#eae2d4')
- tx(d,'자료사진 NASA / Keegan Barber · 2024.09.27',52,811,20,'white')
- tx(d,'바쁘다면 마지막 장 핵심 요약 →',52,1287,26,'#a6d9f4',True)
- tx(d,'합병 미확정 · 공시와 외부 분석을 종합한 해설',52,1324,16,'#b9c4cc')
+ tx(d,'테슬라 × 스페이스X',64,884,56,'#a6d9f4',True)
+ d.line((64,979,1016,979),fill='#3e4d57',width=2)
+ box(d,'왜 합병을 검토하나',64,1000,952,102,73,'white',True)
+ box(d,'자동차·로봇과 우주 AI,\n두 회사를 하나로 묶으려는 이유',64,1121,952,108,38,'#eae2d4')
+ d.line((64,1253,1016,1253),fill='#3e4d57',width=1)
+ tx(d,'마지막 장에 핵심 요약 →',64,1274,26,'#a6d9f4',True)
+ tx(d,'합병 미확정 · 자료 종합 해석',64,1314,18,'#b9c4cc')
  return im
 
 def summary_card():
  im=Image.new('RGB',(W,H),PAPER);d=ImageDraw.Draw(im)
- tx(d,'1분 리포트',52,25,35,INK,True);tx(d,'테슬라·스페이스X / 핵심 요약',278,34,24,GRAY);tx(d,'07/07',941,34,23,INK)
+ tx(d,'테슬라·스페이스X / 핵심 요약',52,34,27,GRAY);tx(d,'07/07',941,34,23,INK)
  d.line((52,103,1028,103),fill=LINE,width=2)
  tx(d,'다섯 장을 한눈에',52,141,28,BLUE,True)
  box(d,'머스크의 합병 구상,\n핵심은 이 다섯 가지',52,190,976,166,61,INK,True)
