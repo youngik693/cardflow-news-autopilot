@@ -133,11 +133,68 @@
         "sources": []
       },
       "qualification": "portal_proxy_only"
+    },
+    {
+      "designVersion": "news-v3",
+      "editorial": {
+        "designVersion": "news-v3",
+        "productMode": "standalone_news",
+        "category": "other",
+        "label": "NEWS / 주요 이슈",
+        "prompt": "이 뉴스에서\n더 확인하고 싶은 것은?",
+        "a": "사건의 배경",
+        "b": "앞으로의 공식 발표",
+        "kicker": "카드플로우 뉴스 브리핑",
+        "hook": "사실부터, 맥락까지",
+        "lens": "이 뉴스를 읽을 때\n함께 확인할 질문",
+        "questions": [
+          "발생·발표 시점과 보도 시점은 같은가?",
+          "공식 발표와 아직 확인되지 않은 부분은?",
+          "수치·인용·전망의 원출처는 어디인가?"
+        ],
+        "checks": [
+          "사실과 주장·전망을 나누어 읽기",
+          "숫자는 기간과 비교 대상을 함께 보기",
+          "후속 발표가 나왔는지 원문에서 확인하기"
+        ],
+        "headline": "與최고위, 추미애·부승찬에 ‘경고’…“무거운 성찰 촉구”",
+        "excerpt": "",
+        "factLabel": "기사에서 확인한 내용",
+        "opinionLabel": "편집 확인 질문 · 확인 완료된 사실 목록이 아닙니다",
+        "conversion": {
+          "status": "not_connected",
+          "route": "독립 미디어의 광고·스폰서십·뉴스레터 사업 검증"
+        },
+        "cta": "기억해 둘 이슈라면 저장하고\n이 주제가 궁금한 사람과 함께 읽어보세요.",
+        "experiment": {
+          "id": "news-v3",
+          "status": "hypothesis_not_validated"
+        }
+      },
+      "storyKey": "8bd9f78995c6798623a4d1f0",
+      "title": "與최고위, 추미애·부승찬에 ‘경고’…“무거운 성찰 촉구”",
+      "sourceURL": "https://v.daum.net/v/20261021095229552",
+      "images": [
+        "https://raw.githubusercontent.com/youngik693/cardflow-news-autopilot/54f55dca2a53304aa16d8003f710afadf5df58bb/media/c77e29ad24bd115f9df72140/01.jpg",
+        "https://raw.githubusercontent.com/youngik693/cardflow-news-autopilot/e74c80f89a422e31511748b47b1f86d37d21b379/media/c77e29ad24bd115f9df72140/02.jpg",
+        "https://raw.githubusercontent.com/youngik693/cardflow-news-autopilot/757bfc66c1f3d5997113ec55fb53a7b7a43c7d51/media/c77e29ad24bd115f9df72140/03.jpg",
+        "https://raw.githubusercontent.com/youngik693/cardflow-news-autopilot/fb4e46301e120c74f5f7a629c97032eca7cf25d4/media/c77e29ad24bd115f9df72140/04.jpg",
+        "https://raw.githubusercontent.com/youngik693/cardflow-news-autopilot/f63f272c290d412a6f562e152f395e0b0fc32aeb/media/c77e29ad24bd115f9df72140/05.jpg"
+      ],
+      "at": "2026-10-21T02:15:43.603Z",
+      "instagramEvidence": {
+        "score": null,
+        "availableMetrics": [],
+        "sampleCount": 0,
+        "scope": "관측한 계정·게시물만 비교, 인스타 전체 순위 아님",
+        "sources": []
+      },
+      "qualification": "portal_proxy_only"
     }
   ],
   "signals": [],
   "lastRun": {
-    "at": "2026-10-21T02:12:55.429Z",
+    "at": "2026-10-21T02:15:34.629Z",
     "sources": [
       {
         "provider": "daum",
@@ -147,13 +204,16 @@
       {
         "provider": "naver",
         "status": "fetch_failed",
-        "count": 0
+        "count": 0,
+        "errorCode": "NAVER_HTTP_401",
+        "apiCode": "024"
       }
     ],
     "candidates": 13,
     "eligible": 0,
     "status": "awaiting_connections",
     "blockers": [
+      "NAVER_FETCH_FAILED",
       "INSTAGRAM_AUTH_REQUIRED",
       "DAILY_CAP_NOT_CONFIGURED",
       "NO_NEWS_WITH_VERIFIED_INSTAGRAM_EVIDENCE"
@@ -178,7 +238,7 @@
       ],
       "category": "other",
       "categoryMethod": "headline_keyword_hypothesis",
-      "ageHours": 3.3270633333333333,
+      "ageHours": 3.3712855555555556,
       "instagram": {
         "score": null,
         "availableMetrics": [],
@@ -213,7 +273,7 @@
       ],
       "category": "other",
       "categoryMethod": "headline_keyword_hypothesis",
-      "ageHours": 1.0967855555555555,
+      "ageHours": 1.1410077777777778,
       "instagram": {
         "score": null,
         "availableMetrics": [],
@@ -248,7 +308,7 @@
       ],
       "category": "other",
       "categoryMethod": "headline_keyword_hypothesis",
-      "ageHours": 1.3406744444444445,
+      "ageHours": 1.3848966666666667,
       "instagram": {
         "score": null,
         "availableMetrics": [],
@@ -283,7 +343,7 @@
       ],
       "category": "technology",
       "categoryMethod": "headline_keyword_hypothesis",
-      "ageHours": 1.1851188888888888,
+      "ageHours": 1.2293411111111112,
       "instagram": {
         "score": null,
         "availableMetrics": [],
@@ -318,7 +378,7 @@
       ],
       "category": "other",
       "categoryMethod": "headline_keyword_hypothesis",
-      "ageHours": 1.0592855555555556,
+      "ageHours": 1.1035077777777778,
       "instagram": {
         "score": null,
         "availableMetrics": [],
@@ -343,7 +403,7 @@
       "publishedAt": "2026-10-21T01:38:39.000Z",
       "descriptionKind": "headline_only",
       "provider": "daum",
-      "portalRank": 10,
+      "portalRank": 9,
       "storyKey": "05c08b4cb649d41aa2f5fe43",
       "sources": [
         {
@@ -353,7 +413,7 @@
       ],
       "category": "other",
       "categoryMethod": "headline_keyword_hypothesis",
-      "ageHours": 0.57123,
+      "ageHours": 0.6154522222222222,
       "instagram": {
         "score": null,
         "availableMetrics": [],
@@ -388,7 +448,7 @@
       ],
       "category": "other",
       "categoryMethod": "headline_keyword_hypothesis",
-      "ageHours": 6.154841111111111,
+      "ageHours": 6.199063333333333,
       "instagram": {
         "score": null,
         "availableMetrics": [],
@@ -397,7 +457,7 @@
         "sources": []
       },
       "score": null,
-      "proxyScore": 46,
+      "proxyScore": 45,
       "portalProxyOnly": true,
       "eligible": false,
       "blocks": [
@@ -413,7 +473,7 @@
       "publishedAt": "2026-10-20T22:25:18.000Z",
       "descriptionKind": "headline_only",
       "provider": "daum",
-      "portalRank": 9,
+      "portalRank": 10,
       "storyKey": "e483a5969b1796063774dddf",
       "sources": [
         {
@@ -423,7 +483,7 @@
       ],
       "category": "other",
       "categoryMethod": "headline_keyword_hypothesis",
-      "ageHours": 3.79373,
+      "ageHours": 3.8379522222222224,
       "instagram": {
         "score": null,
         "availableMetrics": [],
@@ -432,7 +492,7 @@
         "sources": []
       },
       "score": null,
-      "proxyScore": 44,
+      "proxyScore": 43,
       "portalProxyOnly": true,
       "eligible": false,
       "blocks": [
@@ -458,7 +518,7 @@
       ],
       "category": "technology",
       "categoryMethod": "headline_keyword_hypothesis",
-      "ageHours": 4.774285555555555,
+      "ageHours": 4.818507777777778,
       "instagram": {
         "score": null,
         "availableMetrics": [],
@@ -493,7 +553,7 @@
       ],
       "category": "other",
       "categoryMethod": "headline_keyword_hypothesis",
-      "ageHours": 4.996785555555555,
+      "ageHours": 5.041007777777778,
       "instagram": {
         "score": null,
         "availableMetrics": [],
@@ -528,7 +588,7 @@
       ],
       "category": "other",
       "categoryMethod": "headline_keyword_hypothesis",
-      "ageHours": 5.937896666666667,
+      "ageHours": 5.9821188888888885,
       "instagram": {
         "score": null,
         "availableMetrics": [],
@@ -537,7 +597,7 @@
         "sources": []
       },
       "score": null,
-      "proxyScore": 34,
+      "proxyScore": 33,
       "portalProxyOnly": true,
       "eligible": false,
       "blocks": [
@@ -563,7 +623,7 @@
       ],
       "category": "other",
       "categoryMethod": "headline_keyword_hypothesis",
-      "ageHours": 10.668174444444444,
+      "ageHours": 10.712396666666667,
       "instagram": {
         "score": null,
         "availableMetrics": [],
@@ -598,7 +658,7 @@
       ],
       "category": "other",
       "categoryMethod": "headline_keyword_hypothesis",
-      "ageHours": 11.194007777777777,
+      "ageHours": 11.23823,
       "instagram": {
         "score": null,
         "availableMetrics": [],
