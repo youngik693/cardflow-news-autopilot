@@ -247,11 +247,109 @@
         "sources": []
       },
       "qualification": "portal_proxy_only"
+    },
+    {
+      "designVersion": "news-v4-action",
+      "editorial": {
+        "designVersion": "news-v4-action",
+        "productMode": "standalone_news",
+        "category": "food_travel",
+        "label": "CULTURE / 문화",
+        "prompt": "다음 편에서 더\n확인하고 싶은 것은?",
+        "a": "대상 조건·실제 비용",
+        "b": "신청·이용하는 순서",
+        "kicker": "카드플로우 뉴스 브리핑",
+        "hook": "저장하기 전에 비용·조건 확인",
+        "lens": "가기 전에 확인할 정보\n나에게 해당하는 조건은?",
+        "questions": [
+          "공식 일정과 실제 예약 가능 시점은?",
+          "교통·입장료·취소 비용까지 합친 금액은?",
+          "이용 제한·혼잡·변경 공지는 없는가?"
+        ],
+        "checks": [
+          "공식 일정과 예약 페이지 확인",
+          "교통·입장·취소 비용을 함께 비교",
+          "동행인에게 조건과 준비 사항 공유"
+        ],
+        "headline": "김치명인의 ‘김장문화 축제’ 가보니..“유네스코 등재 이유 있었네”",
+        "excerpt": "",
+        "factLabel": "기사에서 확인한 내용",
+        "opinionLabel": "편집 확인 질문 · 확인 완료된 사실 목록이 아닙니다",
+        "conversion": {
+          "status": "not_connected",
+          "route": "독립 미디어의 광고·스폰서십·뉴스레터 사업 검증"
+        },
+        "cta": "해당되는 사람이 떠오르면 공유하고\n공식 조건 확인용으로 저장하세요.",
+        "experiment": {
+          "id": "news-v4-action",
+          "status": "hypothesis_not_validated"
+        },
+        "commercial": {
+          "id": "weekend",
+          "label": "가기 전에 확인할 정보",
+          "audience": "주말·여행 일정을 준비하는 독자",
+          "hook": "저장하기 전에 비용·조건 확인",
+          "questions": [
+            "공식 일정과 실제 예약 가능 시점은?",
+            "교통·입장료·취소 비용까지 합친 금액은?",
+            "이용 제한·혼잡·변경 공지는 없는가?"
+          ],
+          "checks": [
+            "공식 일정과 예약 페이지 확인",
+            "교통·입장·취소 비용을 함께 비교",
+            "동행인에게 조건과 준비 사항 공유"
+          ],
+          "route": "지역·문화 브랜드 스폰서십",
+          "score": 70,
+          "eligible": true,
+          "basis": "headline_keyword_hypothesis"
+        }
+      },
+      "storyKey": "a853a1930783e40a6ec689b1",
+      "title": "김치명인의 ‘김장문화 축제’ 가보니..“유네스코 등재 이유 있었네”",
+      "sourceURL": "https://v.daum.net/v/20261021060300905",
+      "images": [
+        "https://raw.githubusercontent.com/youngik693/cardflow-news-autopilot/004509b60a041a558b1637110973f3583235833c/media/ca671dc0298841752d039837/01.jpg",
+        "https://raw.githubusercontent.com/youngik693/cardflow-news-autopilot/6096f6773c347157056fe916c8ab937716935e98/media/ca671dc0298841752d039837/02.jpg",
+        "https://raw.githubusercontent.com/youngik693/cardflow-news-autopilot/25e7a41c51a5ccf5de9c8bfefbb9a5676250ac6a/media/ca671dc0298841752d039837/03.jpg",
+        "https://raw.githubusercontent.com/youngik693/cardflow-news-autopilot/3631aa6b6d41311eb34f21a2e0106422bb4e682d/media/ca671dc0298841752d039837/04.jpg",
+        "https://raw.githubusercontent.com/youngik693/cardflow-news-autopilot/58e8d0f96d86c3934950ba66170d7140e77ff202/media/ca671dc0298841752d039837/05.jpg"
+      ],
+      "at": "2026-10-21T02:37:57.134Z",
+      "commercial": {
+        "id": "weekend",
+        "label": "가기 전에 확인할 정보",
+        "audience": "주말·여행 일정을 준비하는 독자",
+        "hook": "저장하기 전에 비용·조건 확인",
+        "questions": [
+          "공식 일정과 실제 예약 가능 시점은?",
+          "교통·입장료·취소 비용까지 합친 금액은?",
+          "이용 제한·혼잡·변경 공지는 없는가?"
+        ],
+        "checks": [
+          "공식 일정과 예약 페이지 확인",
+          "교통·입장·취소 비용을 함께 비교",
+          "동행인에게 조건과 준비 사항 공유"
+        ],
+        "route": "지역·문화 브랜드 스폰서십",
+        "score": 70,
+        "eligible": true,
+        "basis": "headline_keyword_hypothesis"
+      },
+      "rightsStatus": "unverified_draft_only",
+      "instagramEvidence": {
+        "score": null,
+        "availableMetrics": [],
+        "sampleCount": 0,
+        "scope": "관측한 계정·게시물만 비교, 인스타 전체 순위 아님",
+        "sources": []
+      },
+      "qualification": "portal_proxy_only"
     }
   ],
   "signals": [],
   "lastRun": {
-    "at": "2026-10-21T02:21:55.230Z",
+    "at": "2026-10-21T02:37:47.351Z",
     "sources": [
       {
         "provider": "daum",
@@ -260,23 +358,58 @@
       },
       {
         "provider": "naver",
-        "status": "fetch_failed",
-        "count": 0,
-        "errorCode": "NAVER_HTTP_401",
-        "apiCode": 401
+        "status": "disabled_pending_usage_permission",
+        "count": 0
       }
     ],
     "candidates": 13,
     "eligible": 0,
     "status": "awaiting_connections",
+    "draftStatus": "created",
     "blockers": [
-      "NAVER_FETCH_FAILED",
       "INSTAGRAM_AUTH_REQUIRED",
       "DAILY_CAP_NOT_CONFIGURED",
-      "NO_NEWS_WITH_VERIFIED_INSTAGRAM_EVIDENCE"
+      "NO_NEWS_WITH_VERIFIED_INSTAGRAM_EVIDENCE",
+      "CONTENT_RIGHTS_UNVERIFIED"
     ]
   },
   "candidates": [
+    {
+      "title": "“신의 이름으로” 시위 프랑스 학생들, 왜 아랍어 구호를 외칠까 [이윤정 기자의 소소월드]",
+      "description": "",
+      "url": "https://v.daum.net/v/20261021100707393",
+      "source": "경향신문",
+      "publishedAt": "2026-10-21T01:07:07.000Z",
+      "descriptionKind": "headline_only",
+      "provider": "daum",
+      "portalRank": 2,
+      "storyKey": "848e5c6a1ed40e1dfcadcec1",
+      "sources": [
+        {
+          "provider": "daum",
+          "url": "https://v.daum.net/v/20261021100707393"
+        }
+      ],
+      "category": "other",
+      "categoryMethod": "headline_keyword_hypothesis",
+      "ageHours": 1.5112083333333333,
+      "instagram": {
+        "score": null,
+        "availableMetrics": [],
+        "sampleCount": 0,
+        "scope": "관측한 계정·게시물만 비교, 인스타 전체 순위 아님",
+        "sources": []
+      },
+      "score": null,
+      "proxyScore": 65,
+      "portalProxyOnly": true,
+      "eligible": false,
+      "blocks": [
+        "CONTENT_RIGHTS_UNVERIFIED",
+        "INSTAGRAM_EVIDENCE_MISSING",
+        "BELOW_SELECTION_THRESHOLD"
+      ]
+    },
     {
       "title": "트럼프 뒤통수 친 러시아…이란과 손잡고 “역사상 가장 긴밀해” 자랑[포착]",
       "description": "",
@@ -295,7 +428,7 @@
       ],
       "category": "other",
       "categoryMethod": "headline_keyword_hypothesis",
-      "ageHours": 3.4770080555555554,
+      "ageHours": 3.741486111111111,
       "instagram": {
         "score": null,
         "availableMetrics": [],
@@ -304,33 +437,34 @@
         "sources": []
       },
       "score": null,
-      "proxyScore": 66,
+      "proxyScore": 64,
       "portalProxyOnly": true,
       "eligible": false,
       "blocks": [
+        "CONTENT_RIGHTS_UNVERIFIED",
         "INSTAGRAM_EVIDENCE_MISSING",
         "BELOW_SELECTION_THRESHOLD"
       ]
     },
     {
-      "title": "“신의 이름으로” 시위 프랑스 학생들, 왜 아랍어 구호를 외칠까 [이윤정 기자의 소소월드]",
+      "title": "친일파 유묵 일파만파…유홍준 관장 15개월 만에 사의표명",
       "description": "",
-      "url": "https://v.daum.net/v/20261021100707393",
-      "source": "경향신문",
-      "publishedAt": "2026-10-21T01:07:07.000Z",
+      "url": "https://v.daum.net/v/20261021111521391",
+      "source": "헤럴드경제",
+      "publishedAt": "2026-10-21T02:15:21.000Z",
       "descriptionKind": "headline_only",
       "provider": "daum",
-      "portalRank": 3,
-      "storyKey": "848e5c6a1ed40e1dfcadcec1",
+      "portalRank": 5,
+      "storyKey": "ade7c6e833208e5df96ce56b",
       "sources": [
         {
           "provider": "daum",
-          "url": "https://v.daum.net/v/20261021100707393"
+          "url": "https://v.daum.net/v/20261021111521391"
         }
       ],
       "category": "other",
       "categoryMethod": "headline_keyword_hypothesis",
-      "ageHours": 1.2467302777777778,
+      "ageHours": 0.37398611111111113,
       "instagram": {
         "score": null,
         "availableMetrics": [],
@@ -343,41 +477,7 @@
       "portalProxyOnly": true,
       "eligible": false,
       "blocks": [
-        "INSTAGRAM_EVIDENCE_MISSING",
-        "BELOW_SELECTION_THRESHOLD"
-      ]
-    },
-    {
-      "title": "‘셀프 출품’ 유홍준 국립중앙박물관장 사의 표명",
-      "description": "",
-      "url": "https://v.daum.net/v/20261021103839203",
-      "source": "조선일보",
-      "publishedAt": "2026-10-21T01:38:39.000Z",
-      "descriptionKind": "headline_only",
-      "provider": "daum",
-      "portalRank": 7,
-      "storyKey": "05c08b4cb649d41aa2f5fe43",
-      "sources": [
-        {
-          "provider": "daum",
-          "url": "https://v.daum.net/v/20261021103839203"
-        }
-      ],
-      "category": "other",
-      "categoryMethod": "headline_keyword_hypothesis",
-      "ageHours": 0.7211747222222222,
-      "instagram": {
-        "score": null,
-        "availableMetrics": [],
-        "sampleCount": 0,
-        "scope": "관측한 계정·게시물만 비교, 인스타 전체 순위 아님",
-        "sources": []
-      },
-      "score": null,
-      "proxyScore": 58,
-      "portalProxyOnly": true,
-      "eligible": false,
-      "blocks": [
+        "CONTENT_RIGHTS_UNVERIFIED",
         "INSTAGRAM_EVIDENCE_MISSING",
         "BELOW_SELECTION_THRESHOLD"
       ]
@@ -390,7 +490,7 @@
       "publishedAt": "2026-10-21T00:52:29.000Z",
       "descriptionKind": "headline_only",
       "provider": "daum",
-      "portalRank": 5,
+      "portalRank": 6,
       "storyKey": "8bd9f78995c6798623a4d1f0",
       "sources": [
         {
@@ -400,77 +500,7 @@
       ],
       "category": "other",
       "categoryMethod": "headline_keyword_hypothesis",
-      "ageHours": 1.4906191666666666,
-      "instagram": {
-        "score": null,
-        "availableMetrics": [],
-        "sampleCount": 0,
-        "scope": "관측한 계정·게시물만 비교, 인스타 전체 순위 아님",
-        "sources": []
-      },
-      "score": null,
-      "proxyScore": 57,
-      "portalProxyOnly": true,
-      "eligible": false,
-      "blocks": [
-        "INSTAGRAM_EVIDENCE_MISSING",
-        "BELOW_SELECTION_THRESHOLD"
-      ]
-    },
-    {
-      "title": "KT, 인천 앞바다서 UAM 띄웠다…AI 교통관리 기술 검증",
-      "description": "",
-      "url": "https://v.daum.net/v/20261021100149091",
-      "source": "헤럴드경제",
-      "publishedAt": "2026-10-21T01:01:49.000Z",
-      "descriptionKind": "headline_only",
-      "provider": "daum",
-      "portalRank": 6,
-      "storyKey": "87e8d9fc763c0e02e2539b9e",
-      "sources": [
-        {
-          "provider": "daum",
-          "url": "https://v.daum.net/v/20261021100149091"
-        }
-      ],
-      "category": "technology",
-      "categoryMethod": "headline_keyword_hypothesis",
-      "ageHours": 1.3350636111111112,
-      "instagram": {
-        "score": null,
-        "availableMetrics": [],
-        "sampleCount": 0,
-        "scope": "관측한 계정·게시물만 비교, 인스타 전체 순위 아님",
-        "sources": []
-      },
-      "score": null,
-      "proxyScore": 57,
-      "portalProxyOnly": true,
-      "eligible": false,
-      "blocks": [
-        "INSTAGRAM_EVIDENCE_MISSING",
-        "BELOW_SELECTION_THRESHOLD"
-      ]
-    },
-    {
-      "title": "李 “제미나이에 물어봤더니 중수청장 국무회의 배제론은 궤변”",
-      "description": "",
-      "url": "https://v.daum.net/v/20261021100922517",
-      "source": "동아일보",
-      "publishedAt": "2026-10-21T01:09:22.000Z",
-      "descriptionKind": "headline_only",
-      "provider": "daum",
-      "portalRank": 9,
-      "storyKey": "703c481310e263b60a988cce",
-      "sources": [
-        {
-          "provider": "daum",
-          "url": "https://v.daum.net/v/20261021100922517"
-        }
-      ],
-      "category": "other",
-      "categoryMethod": "headline_keyword_hypothesis",
-      "ageHours": 1.2092302777777777,
+      "ageHours": 1.7550972222222223,
       "instagram": {
         "score": null,
         "availableMetrics": [],
@@ -483,6 +513,79 @@
       "portalProxyOnly": true,
       "eligible": false,
       "blocks": [
+        "CONTENT_RIGHTS_UNVERIFIED",
+        "INSTAGRAM_EVIDENCE_MISSING",
+        "BELOW_SELECTION_THRESHOLD"
+      ]
+    },
+    {
+      "title": "KT, 인천 앞바다서 UAM 띄웠다…AI 교통관리 기술 검증",
+      "description": "",
+      "url": "https://v.daum.net/v/20261021100149091",
+      "source": "헤럴드경제",
+      "publishedAt": "2026-10-21T01:01:49.000Z",
+      "descriptionKind": "headline_only",
+      "provider": "daum",
+      "portalRank": 7,
+      "storyKey": "87e8d9fc763c0e02e2539b9e",
+      "sources": [
+        {
+          "provider": "daum",
+          "url": "https://v.daum.net/v/20261021100149091"
+        }
+      ],
+      "category": "technology",
+      "categoryMethod": "headline_keyword_hypothesis",
+      "ageHours": 1.5995416666666666,
+      "instagram": {
+        "score": null,
+        "availableMetrics": [],
+        "sampleCount": 0,
+        "scope": "관측한 계정·게시물만 비교, 인스타 전체 순위 아님",
+        "sources": []
+      },
+      "score": null,
+      "proxyScore": 55,
+      "portalProxyOnly": true,
+      "eligible": false,
+      "blocks": [
+        "CONTENT_RIGHTS_UNVERIFIED",
+        "INSTAGRAM_EVIDENCE_MISSING",
+        "BELOW_SELECTION_THRESHOLD"
+      ]
+    },
+    {
+      "title": "李 “제미나이에 물어봤더니 중수청장 국무회의 배제론은 궤변”",
+      "description": "",
+      "url": "https://v.daum.net/v/20261021100922517",
+      "source": "동아일보",
+      "publishedAt": "2026-10-21T01:09:22.000Z",
+      "descriptionKind": "headline_only",
+      "provider": "daum",
+      "portalRank": 8,
+      "storyKey": "703c481310e263b60a988cce",
+      "sources": [
+        {
+          "provider": "daum",
+          "url": "https://v.daum.net/v/20261021100922517"
+        }
+      ],
+      "category": "other",
+      "categoryMethod": "headline_keyword_hypothesis",
+      "ageHours": 1.4737083333333334,
+      "instagram": {
+        "score": null,
+        "availableMetrics": [],
+        "sampleCount": 0,
+        "scope": "관측한 계정·게시물만 비교, 인스타 전체 순위 아님",
+        "sources": []
+      },
+      "score": null,
+      "proxyScore": 54,
+      "portalProxyOnly": true,
+      "eligible": false,
+      "blocks": [
+        "CONTENT_RIGHTS_UNVERIFIED",
         "INSTAGRAM_EVIDENCE_MISSING",
         "BELOW_SELECTION_THRESHOLD"
       ]
@@ -505,7 +608,7 @@
       ],
       "category": "technology",
       "categoryMethod": "headline_keyword_hypothesis",
-      "ageHours": 1.5567302777777778,
+      "ageHours": 1.8212083333333333,
       "instagram": {
         "score": null,
         "availableMetrics": [],
@@ -514,10 +617,11 @@
         "sources": []
       },
       "score": null,
-      "proxyScore": 52,
+      "proxyScore": 51,
       "portalProxyOnly": true,
       "eligible": false,
       "blocks": [
+        "CONTENT_RIGHTS_UNVERIFIED",
         "INSTAGRAM_EVIDENCE_MISSING",
         "BELOW_SELECTION_THRESHOLD"
       ]
@@ -530,7 +634,7 @@
       "publishedAt": "2026-10-20T21:03:00.000Z",
       "descriptionKind": "headline_only",
       "provider": "daum",
-      "portalRank": 4,
+      "portalRank": 3,
       "storyKey": "a853a1930783e40a6ec689b1",
       "sources": [
         {
@@ -540,7 +644,7 @@
       ],
       "category": "food_travel",
       "categoryMethod": "headline_keyword_hypothesis",
-      "ageHours": 5.315341388888889,
+      "ageHours": 5.579819444444444,
       "instagram": {
         "score": null,
         "availableMetrics": [],
@@ -549,10 +653,11 @@
         "sources": []
       },
       "score": null,
-      "proxyScore": 43,
+      "proxyScore": 44,
       "portalProxyOnly": true,
       "eligible": false,
       "blocks": [
+        "CONTENT_RIGHTS_UNVERIFIED",
         "INSTAGRAM_EVIDENCE_MISSING",
         "BELOW_SELECTION_THRESHOLD"
       ]
@@ -565,7 +670,7 @@
       "publishedAt": "2026-10-20T22:25:18.000Z",
       "descriptionKind": "headline_only",
       "provider": "daum",
-      "portalRank": 10,
+      "portalRank": 9,
       "storyKey": "e483a5969b1796063774dddf",
       "sources": [
         {
@@ -575,7 +680,7 @@
       ],
       "category": "other",
       "categoryMethod": "headline_keyword_hypothesis",
-      "ageHours": 3.943674722222222,
+      "ageHours": 4.208152777777777,
       "instagram": {
         "score": null,
         "availableMetrics": [],
@@ -584,10 +689,47 @@
         "sources": []
       },
       "score": null,
-      "proxyScore": 43,
+      "proxyScore": 42,
       "portalProxyOnly": true,
       "eligible": false,
       "blocks": [
+        "CONTENT_RIGHTS_UNVERIFIED",
+        "INSTAGRAM_EVIDENCE_MISSING",
+        "BELOW_SELECTION_THRESHOLD"
+      ]
+    },
+    {
+      "title": "‘초장거리 자폭드론’ 韓 덮치나…북·러 기술밀착이 부를 대참사 [Focus 인사이드]",
+      "description": "",
+      "url": "https://v.daum.net/v/20261021050338853",
+      "source": "중앙일보",
+      "publishedAt": "2026-10-20T20:03:38.000Z",
+      "descriptionKind": "headline_only",
+      "provider": "daum",
+      "portalRank": 4,
+      "storyKey": "2788fdb106ab81d436cb356c",
+      "sources": [
+        {
+          "provider": "daum",
+          "url": "https://v.daum.net/v/20261021050338853"
+        }
+      ],
+      "category": "other",
+      "categoryMethod": "headline_keyword_hypothesis",
+      "ageHours": 6.569263888888889,
+      "instagram": {
+        "score": null,
+        "availableMetrics": [],
+        "sampleCount": 0,
+        "scope": "관측한 계정·게시물만 비교, 인스타 전체 순위 아님",
+        "sources": []
+      },
+      "score": null,
+      "proxyScore": 38,
+      "portalProxyOnly": true,
+      "eligible": false,
+      "blocks": [
+        "CONTENT_RIGHTS_UNVERIFIED",
         "INSTAGRAM_EVIDENCE_MISSING",
         "BELOW_SELECTION_THRESHOLD"
       ]
@@ -610,7 +752,7 @@
       ],
       "category": "technology",
       "categoryMethod": "headline_keyword_hypothesis",
-      "ageHours": 4.924230277777778,
+      "ageHours": 5.1887083333333335,
       "instagram": {
         "score": null,
         "availableMetrics": [],
@@ -619,10 +761,11 @@
         "sources": []
       },
       "score": null,
-      "proxyScore": 39,
+      "proxyScore": 37,
       "portalProxyOnly": true,
       "eligible": false,
       "blocks": [
+        "CONTENT_RIGHTS_UNVERIFIED",
         "INSTAGRAM_EVIDENCE_MISSING",
         "BELOW_SELECTION_THRESHOLD"
       ]
@@ -645,7 +788,7 @@
       ],
       "category": "other",
       "categoryMethod": "headline_keyword_hypothesis",
-      "ageHours": 5.1467302777777775,
+      "ageHours": 5.411208333333334,
       "instagram": {
         "score": null,
         "availableMetrics": [],
@@ -654,45 +797,11 @@
         "sources": []
       },
       "score": null,
-      "proxyScore": 37,
+      "proxyScore": 36,
       "portalProxyOnly": true,
       "eligible": false,
       "blocks": [
-        "INSTAGRAM_EVIDENCE_MISSING",
-        "BELOW_SELECTION_THRESHOLD"
-      ]
-    },
-    {
-      "title": "“탱크 16개 분량이 2주면 동나”… 중동 빈자리 채우는 K윤활기유",
-      "description": "",
-      "url": "https://v.daum.net/v/20261021003250469",
-      "source": "동아일보",
-      "publishedAt": "2026-10-20T15:32:50.000Z",
-      "descriptionKind": "headline_only",
-      "provider": "daum",
-      "portalRank": 2,
-      "storyKey": "d5965cc49a186fb054a04932",
-      "sources": [
-        {
-          "provider": "daum",
-          "url": "https://v.daum.net/v/20261021003250469"
-        }
-      ],
-      "category": "other",
-      "categoryMethod": "headline_keyword_hypothesis",
-      "ageHours": 10.818119166666667,
-      "instagram": {
-        "score": null,
-        "availableMetrics": [],
-        "sampleCount": 0,
-        "scope": "관측한 계정·게시물만 비교, 인스타 전체 순위 아님",
-        "sources": []
-      },
-      "score": null,
-      "proxyScore": 26,
-      "portalProxyOnly": true,
-      "eligible": false,
-      "blocks": [
+        "CONTENT_RIGHTS_UNVERIFIED",
         "INSTAGRAM_EVIDENCE_MISSING",
         "BELOW_SELECTION_THRESHOLD"
       ]
@@ -705,7 +814,7 @@
       "publishedAt": "2026-10-20T15:01:17.000Z",
       "descriptionKind": "headline_only",
       "provider": "daum",
-      "portalRank": 8,
+      "portalRank": 10,
       "storyKey": "1ddf57029a2a3cec2a6ec922",
       "sources": [
         {
@@ -715,7 +824,7 @@
       ],
       "category": "other",
       "categoryMethod": "headline_keyword_hypothesis",
-      "ageHours": 11.3439525,
+      "ageHours": 11.608430555555556,
       "instagram": {
         "score": null,
         "availableMetrics": [],
@@ -724,10 +833,11 @@
         "sources": []
       },
       "score": null,
-      "proxyScore": 13,
+      "proxyScore": 11,
       "portalProxyOnly": true,
       "eligible": false,
       "blocks": [
+        "CONTENT_RIGHTS_UNVERIFIED",
         "INSTAGRAM_EVIDENCE_MISSING",
         "BELOW_SELECTION_THRESHOLD"
       ]
