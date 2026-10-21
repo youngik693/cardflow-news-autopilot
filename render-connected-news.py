@@ -7,11 +7,11 @@ W,H=1080,1350
 INK,PAPER,RED,GOLD,GRAY,LINE=v.INK,v.PAPER,v.RED,v.GOLD,v.GRAY,v.LINE
 BLUE='#4082a9';SKY='#a6d9f4';IVORY='#eae2d4';LIGHT='#edf4f6';STEPS=['왜 합병','연결 이유','우주 AI','합병 효과','파급효과']
 PAGES=[
- {'question':'머스크는 왜\n두 회사를 합치려 하나?','deck':'공시·외부 분석을 종합한 해석 / 합병 미확정','answer':'차·로봇과 우주 AI에 필요한 자원을\n한 회사 안에서 배분하려는 구상이다.','next':'03  자동차와 우주는 무슨 관계일까?','refs':'SpaceX 회사 공시 · Morningstar 2026.06.09'},
- {'question':'자동차와 우주,\n왜 연결하나?','deck':'제품은 달라도, 둘 다 더 많은 AI가 필요하다.','answer':'두 사업 모두 AI 칩·연산 자원이 필요해,\n지상용·우주용 칩을 함께 개발하려는 구상.','next':'04  그렇다면 AI를 왜 우주로 보내나?','refs':'SpaceX SEC 공시 2026.06.05 · Terafab'},
- {'question':'왜 AI를 우주에서\n돌리려 하나?','deck':'지상에서 부족해지는 전력을 우주에서도 찾는 구상.','answer':'우주 태양광과 발사·위성 기술로\nAI 연산 기반을 넓히겠다는 계획이다.','next':'05  협력만 해도 되는데, 왜 합병까지?','refs':'SpaceX SEC 공시 2026.06.05 · 회사 목표'},
- {'question':'이미 협업 중인데,\n왜 합병까지?','deck':'기술을 함께 개발하는 것과 자원을 나누는 것은 다르다.','answer':'기술 협력에 더해 인력·투자를\n내부에서 유연하게 배분할 수 있다는 분석.','next':'06  이 구상이 돈의 흐름을 바꿀까?','refs':'Morningstar 2026.06.09 · 독립 분석'},
- {'question':'이 구상의\n파급효과는?','deck':'기대 효과가 실제 이익이 되려면 조건이 필요하다.','answer':'기업의 원가·공급망 발주·주주의 지분,\n이 세 가지가 경제효과를 가른다.','next':'07  마지막 한 장에 다섯 가지 핵심 요약 →','refs':'SpaceX 공시 · Morningstar · 조건부 시나리오'}
+ {'question':'머스크는 왜\n두 회사를 합치려 하나?','deck':'공시·외부 분석을 종합한 해석 / 합병 미확정','answer':'차·로봇과 우주 AI에 필요한 칩·인력·돈을\n한 회사에서 함께 쓰려는 구상이다.','next':'03  자동차와 우주는 무슨 관계일까?','refs':'SpaceX 회사 공시 · Morningstar 2026.06.09'},
+ {'question':'자동차와 우주,\n왜 연결하나?','deck':'제품은 달라도, 둘 다 더 많은 AI가 필요하다.','answer':'차·로봇도 우주 AI도 고성능 컴퓨터가 필요하다.\n그 핵심 부품인 AI 칩을 함께 만들려는 구상.','next':'04  그렇다면 AI를 왜 우주로 보내나?','refs':'SpaceX SEC 공시 2026.06.05 · Terafab'},
+ {'question':'왜 AI 컴퓨터를\n우주로 보내려 하나?','deck':'AI에 필요한 전기를 우주 태양광으로 얻겠다는 계획.','answer':'우주에서 전기를 만들어 AI 컴퓨터를 돌리려는 계획.\n실제로 가능한지, 비용은 얼마나 들지 확인해야 한다.','next':'05  협력만 해도 되는데, 왜 합병까지?','refs':'SpaceX SEC 공시 2026.06.05 · 회사 목표'},
+ {'question':'이미 협업 중인데,\n왜 합병까지?','deck':'함께 기술을 만드는 것과 인력·돈을 함께 쓰는 것은 다르다.','answer':'합병하면 필요한 사업에 인력과 돈을\n더 쉽게 옮겨 쓸 수 있다는 분석이다.','next':'06  이 구상이 돈의 흐름을 바꿀까?','refs':'Morningstar 2026.06.09 · 독립 분석'},
+ {'question':'이 구상의\n파급효과는?','deck':'기대 효과가 실제 이익이 되려면 조건이 필요하다.','answer':'개발비가 줄고 장비 주문이 늘어날지는 실행에 달렸다.\n주주에게 유리한지는 합병 조건도 확인해야 한다.','next':'07  마지막 한 장에 다섯 가지 핵심 요약 →','refs':'SpaceX 공시 · Morningstar · 조건부 시나리오'}
 ]
 def tx(d,*a,**kw):return v.tx(d,*a,**kw)
 def box(d,*a,**kw):return v.box(d,*a,**kw)
@@ -63,9 +63,10 @@ def cover(photo):
  tx(d,'1분 리포트',52,24,39,INK,True);tx(d,'2026.10.21 / 합병 검토',485,35,25,GRAY);tx(d,'01/07',942,36,23,INK)
  im.paste(ImageOps.fit(Image.open(photo).convert('RGB'),(1080,748),centering=(.5,.28)),(0,109));d=ImageDraw.Draw(im)
  d.rectangle((0,857,1080,1350),fill=INK)
- tx(d,'테슬라 × 스페이스X',52,885,27,'#a6d9f4',True)
- box(d,'왜 합병을\n검토하나',52,939,976,221,88,'white',True)
- box(d,'자동차·로봇과 우주 AI를\n하나의 전략으로 묶으려는 이유',52,1170,976,100,37,'#eae2d4')
+ d.rounded_rectangle((52,884,1028,973),radius=12,fill='#a6d9f4')
+ tx(d,'테슬라 × 스페이스X',76,895,57,INK,True)
+ box(d,'왜 합병을\n검토하나',52,996,976,176,76,'white',True)
+ box(d,'자동차·로봇과 우주 AI를\n하나의 전략으로 묶으려는 이유',52,1182,976,90,34,'#eae2d4')
  tx(d,'자료사진 NASA / Keegan Barber · 2024.09.27',52,811,20,'white')
  tx(d,'바쁘다면 마지막 장 핵심 요약 →',52,1287,26,'#a6d9f4',True)
  tx(d,'합병 미확정 · 공시와 외부 분석을 종합한 해설',52,1324,16,'#b9c4cc')
@@ -77,7 +78,7 @@ def summary_card():
  d.line((52,103,1028,103),fill=LINE,width=2)
  tx(d,'다섯 장을 한눈에',52,141,28,BLUE,True)
  box(d,'머스크의 합병 구상,\n핵심은 이 다섯 가지',52,190,976,166,61,INK,True)
- rows=[('왜 합치나?','AI 칩·인력·투자를 함께 배분'),('차와 우주는?','차·로봇도 우주 AI도 연산 자원이 필요'),('왜 우주 AI?','태양광·발사·위성 기술로 연산 기반 확대'),('협업보다 합병?','회사 간 자원 이동의 마찰을 줄일 가능성'),('경제적 파장은?','원가·실제 발주·주주 지분을 확인')]
+ rows=[('왜 합치나?','AI 칩·인력·돈을 한 회사에서 함께 쓰려는 구상'),('차와 우주는?','차·로봇도 우주 AI도 고성능 컴퓨터가 필요'),('왜 우주 AI?','우주 태양광으로 AI 컴퓨터를 돌리려는 계획'),('협업보다 합병?','인력·돈을 필요한 사업에 옮겨 쓰기 쉬워질 수 있음'),('경제적 파장은?','개발비·장비 주문·주주에게 남는 몫을 확인')]
  for j,(question,answer) in enumerate(rows):
   y=400+j*122
   tx(d,f'0{j+1}',52,y+12,28,BLUE,True)
@@ -86,7 +87,7 @@ def summary_card():
   d.line((115,y+117,1028,y+117),fill=LINE,width=1)
  panel(d,(52,1056,1028,1215),SKY)
  tx(d,'그래서 무엇을 봐야 하나',77,1072,25,INK,True)
- box(d,'AI 자원을 묶는 구상, 이익은 실행에 달렸다.\n실제 투자·원가·합병 조건을 확인하자.',77,1116,926,88,35,INK,True)
+ box(d,'AI에 필요한 칩·사람·돈을 함께 쓰려는 구상.\n실제 이익이 날지, 합병 조건이 유리할지 봐야 한다.',77,1116,926,88,35,INK,True)
  tx(d,'2026.10.21 기준 · 합병 미확정 · 계획·분석·조건부 전망의 요약',52,1246,22,GRAY)
  tx(d,'근거: SpaceX 공시 · Terafab · Morningstar 2026.06.09',52,1288,22,GRAY)
  return im
@@ -103,29 +104,29 @@ def render(model,out,photo):
     panel(d,(x,883,x+455,1024),'#ffffff',LINE);tx(d,title,x+24,897,36,col,True);tx(d,sub,x+24,957,29,GRAY)
    tx(d,'+',523,926,42,INK,True)
   elif i==1:
-   for x,title,sub,kind,col in [(52,'테슬라','차·로봇의 AI','car',RED),(573,'스페이스X','AI 서비스·우주 연산','rocket',BLUE)]:
+   for x,title,sub,kind,col in [(52,'테슬라','차·로봇의 AI','car',RED),(573,'스페이스X','AI 서비스·우주 컴퓨터','rocket',BLUE)]:
     panel(d,(x,535,x+455,756),'#ffffff',LINE);icon(d,kind,x+27,564,col);tx(d,title,x+150,558,38,col,True);box(d,sub,x+150,622,283,88,29,GRAY)
    d.line([(280,759),(280,790),(800,790),(800,759)],fill=GRAY,width=4);v.down(d,540,790)
-   for j,(title,kind) in enumerate([('AI 칩','chip'),('연산 설비','bars'),('전력','power')]):
+   for j,(title,kind) in enumerate([('AI 칩','chip'),('컴퓨터','bars'),('전력','power')]):
     x=52+j*334;panel(d,(x,856,x+308,1014),LIGHT);icon(d,kind,x+15,884,BLUE);tx(d,title,x+122,908,32,INK,True)
-   tx(d,'Terafab: 지상용·우주용 칩 개발 구상 / 외부 조달도 지속',52,1033,23,GRAY)
+   tx(d,'Terafab: AI 칩을 함께 만드는 계획 / 외부 업체 칩도 계속 구매',52,1033,23,GRAY)
   elif i==2:
-   for j,(title,sub,kind) in enumerate([('태양광','AI를 돌릴 전력 확보','sun'),('재사용 로켓','AI 위성을 궤도로 운송','rocket'),('위성 운영 기술','궤도 연산망에 경험 활용','sat')]):
-    y=535+j*151;panel(d,(52,y,1028,y+135),'#ffffff',LINE);icon(d,kind,78,y+17,BLUE);tx(d,title,215,y+20,34,INK,True);arrow(d,492,y+65,BLUE);box(d,sub,566,y+38,432,73,32)
-   box(d,'회사 계획: 지상 전력 제약을 넘으려는 접근.\n우주 AI의 비용·냉각·운영 경제성은 검증 과제.',52,1001,976,77,25,GRAY)
+   for j,(title,sub,kind) in enumerate([('태양광','태양빛으로 전기를 만들어\nAI 컴퓨터에 공급한다','sun'),('로켓','AI 컴퓨터를 실은 위성을\n로켓으로 우주에 보낸다','rocket'),('위성 기술','위성을 만들고 운영한 기술을\n우주 AI 컴퓨터에도 쓴다','sat')]):
+    y=525+j*157;panel(d,(52,y,1028,y+145),'#ffffff',LINE);icon(d,kind,78,y+24,BLUE);tx(d,title,215,y+36,34,INK,True);arrow(d,455,y+72,BLUE);box(d,sub,520,y+29,480,105,31)
+   box(d,'회사의 구상이다. 실제로 우주에서 컴퓨터를 돌릴 때 드는 비용과\n열을 식히는 문제, 고장 없이 운영할 수 있는지는 더 확인해야 한다.',52,1008,976,69,24,GRAY)
   elif i==3:
    panel(d,(52,535,1028,748),'#ffffff',LINE);tx(d,'지금: 서로 다른 회사',78,548,31,GRAY,True)
    for x,title,col in [(79,'테슬라',RED),(589,'스페이스X',BLUE)]:
-    panel(d,(x,610,x+412,718),PAPER);tx(d,title,x+22,619,31,col,True);tx(d,'인력·예산을 별도로 조율',x+22,668,25,GRAY)
+    panel(d,(x,610,x+412,718),PAPER);tx(d,title,x+22,619,31,col,True);tx(d,'인력·돈을 따로 관리',x+22,668,25,GRAY)
    v.down(d,540,760,BLUE)
    panel(d,(52,827,1028,977),LIGHT);tx(d,'합병 시: 하나의 회사 안에서',78,841,32,BLUE,True)
    tx(d,'AI 프로젝트  ←  인력 · 투자  →  AI 프로젝트',78,903,35,INK,True)
-   box(d,'Morningstar의 합병 논리. 자원 이동의 마찰을 줄일 가능성이며,\n실제 개발 속도·이익 개선이 입증됐다는 뜻은 아니다.',52,1000,976,77,24,GRAY)
+   box(d,'Morningstar의 분석: 인력과 돈을 옮겨 쓰기 쉬워질 수 있다는 뜻.\n실제로 개발이 빨라지고 이익이 늘지는 아직 확인되지 않았다.',52,1000,976,77,24,GRAY)
   else:
-   for j,(a,b,c) in enumerate([('AI 개발 효율','원가·개발 기간 개선','칩 공급과 성능 개선이 전제'),('공급망 투자','공장·설비 발주 기회','실제 투자 집행이 전제'),('주주의 이익','통합 사업 성과 참여','교환비율·투자 부담을 확인')]):
+   for j,(a,b,c) in enumerate([('AI 개발 비용','개발 시간·비용 절감','필요한 칩의 공급·성능이 좋아질 때'),('공장·설비 업체','관련 주문 증가 가능','실제 공장 투자·장비 주문이 있어야'),('주주에게 남는 몫','합병 조건에 따라 달라짐','받을 주식 수·투자 부담을 확인')]):
     y=535+j*155;panel(d,(52,y,1028,y+139),'#ffffff',LINE)
     d.ellipse((74,y+28,142,y+96),fill=BLUE);tx(d,str(j+1),95,y+36,33,'white',True)
-    tx(d,a,166,y+19,33,INK,True);arrow(d,438,y+62,RED);tx(d,b,516,y+17,31,BLUE,True);tx(d,c,516,y+75,25,GRAY)
+    box(d,a,166,y+19,260,99,31,INK,True);arrow(d,438,y+62,RED);box(d,b,516,y+17,485,52,30,BLUE,True);box(d,c,516,y+75,485,54,24,GRAY)
    tx(d,'조건부 전망 · 확정 수혜나 합병에 따른 절감액은 아직 없음',52,1030,24,GRAY)
   tail(d,i);im.save(out/f'{i+2:02}.jpg',quality=95,optimize=True);pages.append(im)
  pages.append(summary_card());pages[-1].save(out/'07.jpg',quality=95,optimize=True)
