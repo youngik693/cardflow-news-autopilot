@@ -2,6 +2,8 @@ import {readFile,writeFile,mkdir} from 'node:fs/promises';
 import {execFile} from 'node:child_process';import {promisify} from 'node:util';
 import {ClaudeClient} from './claude.mjs';import {ApiBudget} from './api-budget.mjs';import {researchDraft,digest} from './research.mjs';
 // Explicit local execution: never schedules, publishes, uploads or touches public state.
+const config=JSON.parse(await readFile(new URL('../config.json',import.meta.url),'utf8'));
+if(config.claudeApiEnabled!==true)throw Error('CLAUDE_API_DISABLED');
 const exec=promisify(execFile);const dir=process.env.PRIVATE_RESEARCH_DIR;
 if(!dir||!dir.startsWith('/'))throw Error('PRIVATE_RESEARCH_DIRECTORY_REQUIRED');
 await mkdir(dir,{recursive:true,mode:0o700});
