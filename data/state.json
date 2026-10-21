@@ -76,11 +76,68 @@
         "sources": []
       },
       "qualification": "portal_proxy_only"
+    },
+    {
+      "designVersion": "news-v3",
+      "editorial": {
+        "designVersion": "news-v3",
+        "productMode": "standalone_news",
+        "category": "other",
+        "label": "NEWS / 주요 이슈",
+        "prompt": "이 뉴스에서\n더 확인하고 싶은 것은?",
+        "a": "사건의 배경",
+        "b": "앞으로의 공식 발표",
+        "kicker": "카드플로우 뉴스 브리핑",
+        "hook": "사실부터, 맥락까지",
+        "lens": "이 뉴스를 읽을 때\n함께 확인할 질문",
+        "questions": [
+          "발생·발표 시점과 보도 시점은 같은가?",
+          "공식 발표와 아직 확인되지 않은 부분은?",
+          "수치·인용·전망의 원출처는 어디인가?"
+        ],
+        "checks": [
+          "사실과 주장·전망을 나누어 읽기",
+          "숫자는 기간과 비교 대상을 함께 보기",
+          "후속 발표가 나왔는지 원문에서 확인하기"
+        ],
+        "headline": "“신의 이름으로” 시위 프랑스 학생들, 왜 아랍어 구호를 외칠까 [이윤정 기자의 소소월드]",
+        "excerpt": "",
+        "factLabel": "기사에서 확인한 내용",
+        "opinionLabel": "편집 확인 질문 · 확인 완료된 사실 목록이 아닙니다",
+        "conversion": {
+          "status": "not_connected",
+          "route": "독립 미디어의 광고·스폰서십·뉴스레터 사업 검증"
+        },
+        "cta": "기억해 둘 이슈라면 저장하고\n이 주제가 궁금한 사람과 함께 읽어보세요.",
+        "experiment": {
+          "id": "news-v3",
+          "status": "hypothesis_not_validated"
+        }
+      },
+      "storyKey": "848e5c6a1ed40e1dfcadcec1",
+      "title": "“신의 이름으로” 시위 프랑스 학생들, 왜 아랍어 구호를 외칠까 [이윤정 기자의 소소월드]",
+      "sourceURL": "https://v.daum.net/v/20261021100707393",
+      "images": [
+        "https://raw.githubusercontent.com/youngik693/cardflow-news-autopilot/46270fcb0c076e20d0da9c737a0f048f19e67dfc/media/f5a4980f53345f37c0775511/01.jpg",
+        "https://raw.githubusercontent.com/youngik693/cardflow-news-autopilot/e98f934a07f629e2b33709437653faa5fad8bc07/media/f5a4980f53345f37c0775511/02.jpg",
+        "https://raw.githubusercontent.com/youngik693/cardflow-news-autopilot/8315019e45bac0bf761f05d7d82050f2f90b2fbf/media/f5a4980f53345f37c0775511/03.jpg",
+        "https://raw.githubusercontent.com/youngik693/cardflow-news-autopilot/456ab681d4028d543fc1a00e741216421737e624/media/f5a4980f53345f37c0775511/04.jpg",
+        "https://raw.githubusercontent.com/youngik693/cardflow-news-autopilot/059d79efa77cd9c3cecd460df68b278222d442d6/media/f5a4980f53345f37c0775511/05.jpg"
+      ],
+      "at": "2026-10-21T02:13:03.749Z",
+      "instagramEvidence": {
+        "score": null,
+        "availableMetrics": [],
+        "sampleCount": 0,
+        "scope": "관측한 계정·게시물만 비교, 인스타 전체 순위 아님",
+        "sources": []
+      },
+      "qualification": "portal_proxy_only"
     }
   ],
   "signals": [],
   "lastRun": {
-    "at": "2026-10-21T02:02:01.121Z",
+    "at": "2026-10-21T02:12:55.429Z",
     "sources": [
       {
         "provider": "daum",
@@ -89,7 +146,7 @@
       },
       {
         "provider": "naver",
-        "status": "credentials_required",
+        "status": "fetch_failed",
         "count": 0
       }
     ],
@@ -97,7 +154,6 @@
     "eligible": 0,
     "status": "awaiting_connections",
     "blockers": [
-      "NAVER_KEYS_REQUIRED",
       "INSTAGRAM_AUTH_REQUIRED",
       "DAILY_CAP_NOT_CONFIGURED",
       "NO_NEWS_WITH_VERIFIED_INSTAGRAM_EVIDENCE"
@@ -122,7 +178,7 @@
       ],
       "category": "other",
       "categoryMethod": "headline_keyword_hypothesis",
-      "ageHours": 3.145311111111111,
+      "ageHours": 3.3270633333333333,
       "instagram": {
         "score": null,
         "availableMetrics": [],
@@ -131,7 +187,7 @@
         "sources": []
       },
       "score": null,
-      "proxyScore": 67,
+      "proxyScore": 66,
       "portalProxyOnly": true,
       "eligible": false,
       "blocks": [
@@ -147,7 +203,7 @@
       "publishedAt": "2026-10-21T01:07:07.000Z",
       "descriptionKind": "headline_only",
       "provider": "daum",
-      "portalRank": 2,
+      "portalRank": 4,
       "storyKey": "848e5c6a1ed40e1dfcadcec1",
       "sources": [
         {
@@ -157,7 +213,7 @@
       ],
       "category": "other",
       "categoryMethod": "headline_keyword_hypothesis",
-      "ageHours": 0.9150333333333334,
+      "ageHours": 1.0967855555555555,
       "instagram": {
         "score": null,
         "availableMetrics": [],
@@ -166,7 +222,7 @@
         "sources": []
       },
       "score": null,
-      "proxyScore": 67,
+      "proxyScore": 60,
       "portalProxyOnly": true,
       "eligible": false,
       "blocks": [
@@ -192,7 +248,7 @@
       ],
       "category": "other",
       "categoryMethod": "headline_keyword_hypothesis",
-      "ageHours": 1.1589222222222222,
+      "ageHours": 1.3406744444444445,
       "instagram": {
         "score": null,
         "availableMetrics": [],
@@ -201,7 +257,42 @@
         "sources": []
       },
       "score": null,
-      "proxyScore": 59,
+      "proxyScore": 58,
+      "portalProxyOnly": true,
+      "eligible": false,
+      "blocks": [
+        "INSTAGRAM_EVIDENCE_MISSING",
+        "BELOW_SELECTION_THRESHOLD"
+      ]
+    },
+    {
+      "title": "KT, 인천 앞바다서 UAM 띄웠다…AI 교통관리 기술 검증",
+      "description": "",
+      "url": "https://v.daum.net/v/20261021100149091",
+      "source": "헤럴드경제",
+      "publishedAt": "2026-10-21T01:01:49.000Z",
+      "descriptionKind": "headline_only",
+      "provider": "daum",
+      "portalRank": 6,
+      "storyKey": "87e8d9fc763c0e02e2539b9e",
+      "sources": [
+        {
+          "provider": "daum",
+          "url": "https://v.daum.net/v/20261021100149091"
+        }
+      ],
+      "category": "technology",
+      "categoryMethod": "headline_keyword_hypothesis",
+      "ageHours": 1.1851188888888888,
+      "instagram": {
+        "score": null,
+        "availableMetrics": [],
+        "sampleCount": 0,
+        "scope": "관측한 계정·게시물만 비교, 인스타 전체 순위 아님",
+        "sources": []
+      },
+      "score": null,
+      "proxyScore": 57,
       "portalProxyOnly": true,
       "eligible": false,
       "blocks": [
@@ -227,7 +318,7 @@
       ],
       "category": "other",
       "categoryMethod": "headline_keyword_hypothesis",
-      "ageHours": 0.8775333333333334,
+      "ageHours": 1.0592855555555556,
       "instagram": {
         "score": null,
         "availableMetrics": [],
@@ -236,7 +327,7 @@
         "sources": []
       },
       "score": null,
-      "proxyScore": 58,
+      "proxyScore": 57,
       "portalProxyOnly": true,
       "eligible": false,
       "blocks": [
@@ -245,24 +336,24 @@
       ]
     },
     {
-      "title": "KT, 인천 앞바다서 UAM 띄웠다…AI 교통관리 기술 검증",
+      "title": "‘셀프 출품’ 유홍준 국립중앙박물관장 사의 표명",
       "description": "",
-      "url": "https://v.daum.net/v/20261021100149091",
-      "source": "헤럴드경제",
-      "publishedAt": "2026-10-21T01:01:49.000Z",
+      "url": "https://v.daum.net/v/20261021103839203",
+      "source": "조선일보",
+      "publishedAt": "2026-10-21T01:38:39.000Z",
       "descriptionKind": "headline_only",
       "provider": "daum",
       "portalRank": 10,
-      "storyKey": "87e8d9fc763c0e02e2539b9e",
+      "storyKey": "05c08b4cb649d41aa2f5fe43",
       "sources": [
         {
           "provider": "daum",
-          "url": "https://v.daum.net/v/20261021100149091"
+          "url": "https://v.daum.net/v/20261021103839203"
         }
       ],
-      "category": "technology",
+      "category": "other",
       "categoryMethod": "headline_keyword_hypothesis",
-      "ageHours": 1.0033666666666667,
+      "ageHours": 0.57123,
       "instagram": {
         "score": null,
         "availableMetrics": [],
@@ -271,7 +362,42 @@
         "sources": []
       },
       "score": null,
-      "proxyScore": 55,
+      "proxyScore": 57,
+      "portalProxyOnly": true,
+      "eligible": false,
+      "blocks": [
+        "INSTAGRAM_EVIDENCE_MISSING",
+        "BELOW_SELECTION_THRESHOLD"
+      ]
+    },
+    {
+      "title": "‘초장거리 자폭드론’ 韓 덮치나…북·러 기술밀착이 부를 대참사 [Focus 인사이드]",
+      "description": "",
+      "url": "https://v.daum.net/v/20261021050338853",
+      "source": "중앙일보",
+      "publishedAt": "2026-10-20T20:03:38.000Z",
+      "descriptionKind": "headline_only",
+      "provider": "daum",
+      "portalRank": 2,
+      "storyKey": "2788fdb106ab81d436cb356c",
+      "sources": [
+        {
+          "provider": "daum",
+          "url": "https://v.daum.net/v/20261021050338853"
+        }
+      ],
+      "category": "other",
+      "categoryMethod": "headline_keyword_hypothesis",
+      "ageHours": 6.154841111111111,
+      "instagram": {
+        "score": null,
+        "availableMetrics": [],
+        "sampleCount": 0,
+        "scope": "관측한 계정·게시물만 비교, 인스타 전체 순위 아님",
+        "sources": []
+      },
+      "score": null,
+      "proxyScore": 46,
       "portalProxyOnly": true,
       "eligible": false,
       "blocks": [
@@ -297,7 +423,7 @@
       ],
       "category": "other",
       "categoryMethod": "headline_keyword_hypothesis",
-      "ageHours": 3.6119777777777777,
+      "ageHours": 3.79373,
       "instagram": {
         "score": null,
         "availableMetrics": [],
@@ -306,7 +432,7 @@
         "sources": []
       },
       "score": null,
-      "proxyScore": 45,
+      "proxyScore": 44,
       "portalProxyOnly": true,
       "eligible": false,
       "blocks": [
@@ -315,94 +441,24 @@
       ]
     },
     {
-      "title": "‘초장거리 자폭드론’ 韓 덮치나…북·러 기술밀착이 부를 대참사 [Focus 인사이드]",
+      "title": "스페이스X, 상장 후 첫 흑자…AI 매출 9배 폭증하며 스타링크 추월",
       "description": "",
-      "url": "https://v.daum.net/v/20261021050338853",
-      "source": "중앙일보",
-      "publishedAt": "2026-10-20T20:03:38.000Z",
+      "url": "https://v.daum.net/v/20261021062628472",
+      "source": "이데일리",
+      "publishedAt": "2026-10-20T21:26:28.000Z",
       "descriptionKind": "headline_only",
       "provider": "daum",
-      "portalRank": 3,
-      "storyKey": "2788fdb106ab81d436cb356c",
+      "portalRank": 11,
+      "storyKey": "59dd9b2febdf2a59c82f74b1",
       "sources": [
         {
           "provider": "daum",
-          "url": "https://v.daum.net/v/20261021050338853"
-        }
-      ],
-      "category": "other",
-      "categoryMethod": "headline_keyword_hypothesis",
-      "ageHours": 5.9730888888888884,
-      "instagram": {
-        "score": null,
-        "availableMetrics": [],
-        "sampleCount": 0,
-        "scope": "관측한 계정·게시물만 비교, 인스타 전체 순위 아님",
-        "sources": []
-      },
-      "score": null,
-      "proxyScore": 42,
-      "portalProxyOnly": true,
-      "eligible": false,
-      "blocks": [
-        "INSTAGRAM_EVIDENCE_MISSING",
-        "BELOW_SELECTION_THRESHOLD"
-      ]
-    },
-    {
-      "title": "스페이스X, 3분기 매출 161% 급증…AI 견인에 흑자 전환까지",
-      "description": "",
-      "url": "https://v.daum.net/v/20261021060621012",
-      "source": "연합뉴스",
-      "publishedAt": "2026-10-20T21:06:21.000Z",
-      "descriptionKind": "headline_only",
-      "provider": "daum",
-      "portalRank": 8,
-      "storyKey": "3af6b74d20d3c4d93c940953",
-      "sources": [
-        {
-          "provider": "daum",
-          "url": "https://v.daum.net/v/20261021060621012"
+          "url": "https://v.daum.net/v/20261021062628472"
         }
       ],
       "category": "technology",
       "categoryMethod": "headline_keyword_hypothesis",
-      "ageHours": 4.927811111111111,
-      "instagram": {
-        "score": null,
-        "availableMetrics": [],
-        "sampleCount": 0,
-        "scope": "관측한 계정·게시물만 비교, 인스타 전체 순위 아님",
-        "sources": []
-      },
-      "score": null,
-      "proxyScore": 40,
-      "portalProxyOnly": true,
-      "eligible": false,
-      "blocks": [
-        "INSTAGRAM_EVIDENCE_MISSING",
-        "BELOW_SELECTION_THRESHOLD"
-      ]
-    },
-    {
-      "title": "이틀째 야간 통행금지‥대테러 부대 투입",
-      "description": "",
-      "url": "https://v.daum.net/v/20261021061307167",
-      "source": "MBC",
-      "publishedAt": "2026-10-20T21:13:07.000Z",
-      "descriptionKind": "headline_only",
-      "provider": "daum",
-      "portalRank": 11,
-      "storyKey": "ac016e205a05596eb48523bc",
-      "sources": [
-        {
-          "provider": "daum",
-          "url": "https://v.daum.net/v/20261021061307167"
-        }
-      ],
-      "category": "other",
-      "categoryMethod": "headline_keyword_hypothesis",
-      "ageHours": 4.815033333333333,
+      "ageHours": 4.774285555555555,
       "instagram": {
         "score": null,
         "availableMetrics": [],
@@ -420,24 +476,24 @@
       ]
     },
     {
-      "title": "트럼프 \"러시아는 거대한 나라…젤렌스키, 종전 합의해야\"",
+      "title": "이틀째 야간 통행금지‥대테러 부대 투입",
       "description": "",
-      "url": "https://v.daum.net/v/20261021053822363",
-      "source": "연합뉴스",
-      "publishedAt": "2026-10-20T20:38:22.000Z",
+      "url": "https://v.daum.net/v/20261021061307167",
+      "source": "MBC",
+      "publishedAt": "2026-10-20T21:13:07.000Z",
       "descriptionKind": "headline_only",
       "provider": "daum",
-      "portalRank": 13,
-      "storyKey": "9a559a553ffeaa65c2871814",
+      "portalRank": 12,
+      "storyKey": "ac016e205a05596eb48523bc",
       "sources": [
         {
           "provider": "daum",
-          "url": "https://v.daum.net/v/20261021053822363"
+          "url": "https://v.daum.net/v/20261021061307167"
         }
       ],
       "category": "other",
       "categoryMethod": "headline_keyword_hypothesis",
-      "ageHours": 5.3942,
+      "ageHours": 4.996785555555555,
       "instagram": {
         "score": null,
         "availableMetrics": [],
@@ -446,7 +502,7 @@
         "sources": []
       },
       "score": null,
-      "proxyScore": 36,
+      "proxyScore": 38,
       "portalProxyOnly": true,
       "eligible": false,
       "blocks": [
@@ -462,7 +518,7 @@
       "publishedAt": "2026-10-20T20:16:39.000Z",
       "descriptionKind": "headline_only",
       "provider": "daum",
-      "portalRank": 12,
+      "portalRank": 13,
       "storyKey": "7694b1ede5b42e8c04b5bf7d",
       "sources": [
         {
@@ -472,7 +528,7 @@
       ],
       "category": "other",
       "categoryMethod": "headline_keyword_hypothesis",
-      "ageHours": 5.756144444444445,
+      "ageHours": 5.937896666666667,
       "instagram": {
         "score": null,
         "availableMetrics": [],
@@ -481,7 +537,7 @@
         "sources": []
       },
       "score": null,
-      "proxyScore": 35,
+      "proxyScore": 34,
       "portalProxyOnly": true,
       "eligible": false,
       "blocks": [
@@ -497,7 +553,7 @@
       "publishedAt": "2026-10-20T15:32:50.000Z",
       "descriptionKind": "headline_only",
       "provider": "daum",
-      "portalRank": 4,
+      "portalRank": 3,
       "storyKey": "d5965cc49a186fb054a04932",
       "sources": [
         {
@@ -507,7 +563,7 @@
       ],
       "category": "other",
       "categoryMethod": "headline_keyword_hypothesis",
-      "ageHours": 10.486422222222222,
+      "ageHours": 10.668174444444444,
       "instagram": {
         "score": null,
         "availableMetrics": [],
@@ -516,7 +572,7 @@
         "sources": []
       },
       "score": null,
-      "proxyScore": 21,
+      "proxyScore": 23,
       "portalProxyOnly": true,
       "eligible": false,
       "blocks": [
@@ -532,7 +588,7 @@
       "publishedAt": "2026-10-20T15:01:17.000Z",
       "descriptionKind": "headline_only",
       "provider": "daum",
-      "portalRank": 6,
+      "portalRank": 8,
       "storyKey": "1ddf57029a2a3cec2a6ec922",
       "sources": [
         {
@@ -542,7 +598,7 @@
       ],
       "category": "other",
       "categoryMethod": "headline_keyword_hypothesis",
-      "ageHours": 11.012255555555555,
+      "ageHours": 11.194007777777777,
       "instagram": {
         "score": null,
         "availableMetrics": [],
@@ -551,7 +607,7 @@
         "sources": []
       },
       "score": null,
-      "proxyScore": 16,
+      "proxyScore": 14,
       "portalProxyOnly": true,
       "eligible": false,
       "blocks": [
