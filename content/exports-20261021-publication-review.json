@@ -1,0 +1,167 @@
+{
+  "manualPublicationAuthorized": true,
+  "authorization": "사용자 명시 요청: 두번째 수출 뉴스 완성본 인스타에 올려줘",
+  "targetAccount": "my.love.manual",
+  "reviewedAtKST": "2026-10-21T15:34:04.605419+09:00",
+  "mode": "manual_source_and_render_review",
+  "automatedIndependentVerifierConnected": false,
+  "excluded": [
+    "tesla-reader-benefit"
+  ],
+  "media": [
+    {
+      "path": "work/exports-20261021-v6/cards/01.jpg",
+      "sha256": "17a2d7f99abf0f21dea24719019a3f7910fda381b5a8043c19774c1373c95569"
+    },
+    {
+      "path": "work/exports-20261021-v6/cards/02.jpg",
+      "sha256": "92cb7b961e0e10fcc677c476e2d7176779555561b35af618658d4bc2eda4504d"
+    },
+    {
+      "path": "work/exports-20261021-v6/cards/03.jpg",
+      "sha256": "25e547c63852966d3ba62251dfe266e71715a723ee847aadd5b2f891aeb7d54e"
+    },
+    {
+      "path": "work/exports-20261021-v6/cards/04.jpg",
+      "sha256": "312afe822ca04c305d5b746d637a76933e821031470a0a0f232801d58c824478"
+    },
+    {
+      "path": "work/exports-20261021-v6/cards/05.jpg",
+      "sha256": "2f70e931a120449e1817a92712d882b7b0d00b5fe2c7779c1db00d9ce04efa12"
+    },
+    {
+      "path": "work/exports-20261021-v6/cards/06.jpg",
+      "sha256": "dc0d61a8b1fca08f8d9ca9582cd10560a177d2aeee8ad21092e0e7787b94019f"
+    },
+    {
+      "path": "work/exports-20261021-v6/cards/07.jpg",
+      "sha256": "e23275eb6b6a6b87c1c9796369699a91870ec597455d9a20b9c2ed28595c29aa"
+    }
+  ],
+  "checks": [
+    "관세청 원 PDF 재다운로드 동일 해시·수치 확인",
+    "Micron 원 PDF 재다운로드 2027·28 수급 문장 대조",
+    "금융위 공식 공고 신청마감·개설일·2255만원 조건 대조",
+    "KB 2026.10.21 공시 연5~8% 확인",
+    "가계 공식 브리핑·한국은행 부채 발표 대조",
+    "지역 원문 그림9·기여도 구분·과거 기간 표시",
+    "표지 CC0 사진·자료사진 표시",
+    "직접 작성한 설명·도표·사실 데이터; 기사 문장·원 도표·사진 복제 없음",
+    "전체7장 렌더 시각 검수"
+  ],
+  "sourceRechecks": [
+    {
+      "id": "S1",
+      "url": "https://customs.go.kr/common/nttFileDownload.do?fileKey=8e52ff3b420933f48fead4e199333669",
+      "ok": true,
+      "sha256": "3c25f7dc79c44df47c3e0d64a9639d9c7f9236ff322892e2d480cd445fe4509d",
+      "bytes": 460569
+    },
+    {
+      "id": "S4",
+      "url": "https://www.motir.go.kr/kor/article/ATCL3f49a5a8c/171803/view",
+      "ok": true,
+      "sha256": "66a50cdc8c7e63c771087052388e9b6f04313e967ee7333be6e273f5a59b02bc",
+      "bytes": 204106
+    },
+    {
+      "id": "S6",
+      "url": "https://www.korea.kr/briefing/policyBriefingView.do?newsId=156775693",
+      "ok": true,
+      "sha256": "b1d2ce66810814d57977f43fb8a21c2167a23e7812b15abe55f686a5691d45a8",
+      "bytes": 169655
+    },
+    {
+      "id": "S7",
+      "url": "https://www.bok.or.kr/portal/bbs/B0000501/view.do?menuNo=201264&nttId=11063896",
+      "ok": true,
+      "sha256": "c4ee0c350604ef4da4dec6331b78457e73eed9f6c13c5f04469af96d0f0d5044",
+      "bytes": 407120
+    },
+    {
+      "id": "S14",
+      "url": "https://www.trendforce.com/presscenter/news/20260929-13255.html",
+      "ok": true,
+      "sha256": "98f5b86b182ebe894637c7678754e7f8cc0dd86e367a73f9945467d2654ade95",
+      "bytes": 147977
+    },
+    {
+      "id": "S15",
+      "url": "https://s25.q4cdn.com/621799436/files/doc_financials/2026/q4/Q4-FY26-Prepared-Remarks.pdf",
+      "ok": true,
+      "sha256": "2821d4ccaae50b40dcd28cd4e766c69c509e73d666e4109d5907c7205a03b700",
+      "bytes": 116740
+    },
+    {
+      "id": "S16",
+      "url": "https://fsc.go.kr/po010104/87880",
+      "ok": true,
+      "sha256": "412e904d6866aed67c6e6e05ccd0ceb5201633f79c783ee11e4c9a1724d728e5",
+      "bytes": 155576
+    },
+    {
+      "id": "S18",
+      "url": "https://ombr2.kbstar.com/quics?TmpltID=TP03037&page=C106592",
+      "ok": true,
+      "sha256": "2827a27798b5f1ce32cb334fdf85267e35b756cbacf659277d44b68aeaa39221",
+      "bytes": 128064
+    },
+    {
+      "id": "S19",
+      "url": "https://www.korea.kr/news/policyNewsView.do?newsId=148972822",
+      "ok": true,
+      "sha256": "7d75779b5dbaaa57e05c91a291e93b1346970f856ab902abd2eeadf51a050b51",
+      "bytes": 173159
+    }
+  ],
+  "publicationReceipt": {
+    "contentId": "exports-household-20261021",
+    "editionId": "exports-household-20261021-researched-v5-render-v6",
+    "provider": "metricool",
+    "brandId": "7390149",
+    "account": "my.love.manual",
+    "postId": 401822122,
+    "uuid": "6612424619151083793",
+    "status": "published",
+    "publicURL": "https://www.instagram.com/p/Devx5fHDQUF/",
+    "publicationDate": {
+      "dateTime": "2026-10-21T15:36:00",
+      "timezone": "Asia/Seoul"
+    },
+    "verifiedAt": "2026-10-21T06:38:21.906058+00:00",
+    "publishedAt": "2026-10-21T06:38:21.906058+00:00",
+    "publishedAtBasis": "First recorded PUBLISHED confirmation; exact Instagram completion timestamp not returned",
+    "images": [
+      {
+        "path": "work/exports-20261021-v6/cards/01.jpg",
+        "sha256": "17a2d7f99abf0f21dea24719019a3f7910fda381b5a8043c19774c1373c95569"
+      },
+      {
+        "path": "work/exports-20261021-v6/cards/02.jpg",
+        "sha256": "92cb7b961e0e10fcc677c476e2d7176779555561b35af618658d4bc2eda4504d"
+      },
+      {
+        "path": "work/exports-20261021-v6/cards/03.jpg",
+        "sha256": "25e547c63852966d3ba62251dfe266e71715a723ee847aadd5b2f891aeb7d54e"
+      },
+      {
+        "path": "work/exports-20261021-v6/cards/04.jpg",
+        "sha256": "312afe822ca04c305d5b746d637a76933e821031470a0a0f232801d58c824478"
+      },
+      {
+        "path": "work/exports-20261021-v6/cards/05.jpg",
+        "sha256": "2f70e931a120449e1817a92712d882b7b0d00b5fe2c7779c1db00d9ce04efa12"
+      },
+      {
+        "path": "work/exports-20261021-v6/cards/06.jpg",
+        "sha256": "dc0d61a8b1fca08f8d9ca9582cd10560a177d2aeee8ad21092e0e7787b94019f"
+      },
+      {
+        "path": "work/exports-20261021-v6/cards/07.jpg",
+        "sha256": "e23275eb6b6a6b87c1c9796369699a91870ec597455d9a20b9c2ed28595c29aa"
+      }
+    ],
+    "scope": "사용자가 완성본7장 게시를 명시 승인한 수동 발행. 무인 독립 검증기 연결 완료를 의미하지 않음. 테슬라 실용정보 카드 제외.",
+    "note": "Metricool Instagram provider PUBLISHED 및 실제 publicUrl·7개 매체 확인"
+  }
+}

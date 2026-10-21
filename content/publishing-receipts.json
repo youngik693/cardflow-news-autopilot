@@ -86,5 +86,55 @@
     "publishedAt": "2026-10-21T04:37:03.646286+00:00",
     "publishedAtBasis": "First recorded PUBLISHED confirmation timestamp; exact Instagram completion timestamp was not returned",
     "note": "Metricool provider status PUBLISHED and actual Instagram publicUrl verified; 7 media items."
+  },
+  {
+    "contentId": "exports-household-20261021",
+    "editionId": "exports-household-20261021-researched-v5-render-v6",
+    "provider": "metricool",
+    "brandId": "7390149",
+    "account": "my.love.manual",
+    "postId": 401822122,
+    "uuid": "6612424619151083793",
+    "status": "published",
+    "publicURL": "https://www.instagram.com/p/Devx5fHDQUF/",
+    "publicationDate": {
+      "dateTime": "2026-10-21T15:36:00",
+      "timezone": "Asia/Seoul"
+    },
+    "verifiedAt": "2026-10-21T06:38:21.906058+00:00",
+    "publishedAt": "2026-10-21T06:38:21.906058+00:00",
+    "publishedAtBasis": "First recorded PUBLISHED confirmation; exact Instagram completion timestamp not returned",
+    "images": [
+      {
+        "path": "work/exports-20261021-v6/cards/01.jpg",
+        "sha256": "17a2d7f99abf0f21dea24719019a3f7910fda381b5a8043c19774c1373c95569"
+      },
+      {
+        "path": "work/exports-20261021-v6/cards/02.jpg",
+        "sha256": "92cb7b961e0e10fcc677c476e2d7176779555561b35af618658d4bc2eda4504d"
+      },
+      {
+        "path": "work/exports-20261021-v6/cards/03.jpg",
+        "sha256": "25e547c63852966d3ba62251dfe266e71715a723ee847aadd5b2f891aeb7d54e"
+      },
+      {
+        "path": "work/exports-20261021-v6/cards/04.jpg",
+        "sha256": "312afe822ca04c305d5b746d637a76933e821031470a0a0f232801d58c824478"
+      },
+      {
+        "path": "work/exports-20261021-v6/cards/05.jpg",
+        "sha256": "2f70e931a120449e1817a92712d882b7b0d00b5fe2c7779c1db00d9ce04efa12"
+      },
+      {
+        "path": "work/exports-20261021-v6/cards/06.jpg",
+        "sha256": "dc0d61a8b1fca08f8d9ca9582cd10560a177d2aeee8ad21092e0e7787b94019f"
+      },
+      {
+        "path": "work/exports-20261021-v6/cards/07.jpg",
+        "sha256": "e23275eb6b6a6b87c1c9796369699a91870ec597455d9a20b9c2ed28595c29aa"
+      }
+    ],
+    "scope": "사용자가 완성본7장 게시를 명시 승인한 수동 발행. 무인 독립 검증기 연결 완료를 의미하지 않음. 테슬라 실용정보 카드 제외.",
+    "note": "Metricool Instagram provider PUBLISHED 및 실제 publicUrl·7개 매체 확인"
   }
 ]
