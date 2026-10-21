@@ -5,7 +5,7 @@ on:
   workflow_dispatch:
   push:
     branches: [main]
-    paths: ['src/**', 'lib/**', 'render.py', 'config.json', 'package.json', 'requirements.txt', '.github/workflows/autopilot.yml']
+    paths: ['src/**', 'lib/**', 'render.py', 'render-news.py', 'render-editorial.py', 'content/**', 'config.json', 'package.json', 'requirements.txt', '.github/workflows/autopilot.yml']
 permissions:
   contents: write
 concurrency:
