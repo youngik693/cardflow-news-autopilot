@@ -373,11 +373,109 @@
         "sources": []
       },
       "qualification": "portal_proxy_only"
+    },
+    {
+      "designVersion": "news-v4-action",
+      "editorial": {
+        "designVersion": "news-v4-action",
+        "productMode": "standalone_news",
+        "category": "other",
+        "label": "NEWS / 주요 이슈",
+        "prompt": "다음 편에서 더\n확인하고 싶은 것은?",
+        "a": "대상 조건·실제 비용",
+        "b": "신청·이용하는 순서",
+        "kicker": "카드플로우 뉴스 브리핑",
+        "hook": "내가 내는 돈도 달라질까?",
+        "lens": "내 지출에 생기는 변화\n나에게 해당하는 조건은?",
+        "questions": [
+          "변경 대상·적용 시점은 언제인가?",
+          "기존 조건과 비교하면 무엇이 달라지는가?",
+          "수수료·예외를 포함한 실제 비용은 얼마인가?"
+        ],
+        "checks": [
+          "내 계약·청구서의 적용 대상부터 확인",
+          "변경 전후 총비용과 예외 조건 비교",
+          "공식 안내 확인 전 성급한 가입·해지 보류"
+        ],
+        "headline": "“이번엔 가스관 내려올 것” 기대하는 주민들…“한국은 투자 말라”는 알래스카 어부[르포]",
+        "excerpt": "",
+        "factLabel": "기사에서 확인한 내용",
+        "opinionLabel": "편집 확인 질문 · 확인 완료된 사실 목록이 아닙니다",
+        "conversion": {
+          "status": "not_connected",
+          "route": "독립 미디어의 광고·스폰서십·뉴스레터 사업 검증"
+        },
+        "cta": "해당되는 사람이 떠오르면 공유하고\n공식 조건 확인용으로 저장하세요.",
+        "experiment": {
+          "id": "news-v4-action",
+          "status": "hypothesis_not_validated"
+        },
+        "commercial": {
+          "id": "living_cost",
+          "label": "내 지출에 생기는 변화",
+          "audience": "생활비를 관리하는 독자",
+          "hook": "내가 내는 돈도 달라질까?",
+          "questions": [
+            "변경 대상·적용 시점은 언제인가?",
+            "기존 조건과 비교하면 무엇이 달라지는가?",
+            "수수료·예외를 포함한 실제 비용은 얼마인가?"
+          ],
+          "checks": [
+            "내 계약·청구서의 적용 대상부터 확인",
+            "변경 전후 총비용과 예외 조건 비교",
+            "공식 안내 확인 전 성급한 가입·해지 보류"
+          ],
+          "route": "생활 서비스 스폰서십·허용된 제휴 링크",
+          "score": 85,
+          "eligible": true,
+          "basis": "headline_keyword_hypothesis"
+        }
+      },
+      "storyKey": "cd60108f13e35a1b18bcde10",
+      "title": "“이번엔 가스관 내려올 것” 기대하는 주민들…“한국은 투자 말라”는 알래스카 어부[르포]",
+      "sourceURL": "https://v.daum.net/v/20261021135108166",
+      "images": [
+        "https://raw.githubusercontent.com/youngik693/cardflow-news-autopilot/65f5a30a21a596a42a17599996ccc757b8d87a79/media/e36578c192ec79c2512d223b/01.jpg",
+        "https://raw.githubusercontent.com/youngik693/cardflow-news-autopilot/e4b117fcef65c9abfe2fbdbee922e8579e110d25/media/e36578c192ec79c2512d223b/02.jpg",
+        "https://raw.githubusercontent.com/youngik693/cardflow-news-autopilot/4b200ddd6f7fa9f541228fcdb4622cac0f118040/media/e36578c192ec79c2512d223b/03.jpg",
+        "https://raw.githubusercontent.com/youngik693/cardflow-news-autopilot/6b2916ebd6d7de46bfd7d62ac808064dd770f0b0/media/e36578c192ec79c2512d223b/04.jpg",
+        "https://raw.githubusercontent.com/youngik693/cardflow-news-autopilot/c87924702a037db88a85426785853eb1c618ff55/media/e36578c192ec79c2512d223b/05.jpg"
+      ],
+      "at": "2026-10-21T05:17:40.968Z",
+      "commercial": {
+        "id": "living_cost",
+        "label": "내 지출에 생기는 변화",
+        "audience": "생활비를 관리하는 독자",
+        "hook": "내가 내는 돈도 달라질까?",
+        "questions": [
+          "변경 대상·적용 시점은 언제인가?",
+          "기존 조건과 비교하면 무엇이 달라지는가?",
+          "수수료·예외를 포함한 실제 비용은 얼마인가?"
+        ],
+        "checks": [
+          "내 계약·청구서의 적용 대상부터 확인",
+          "변경 전후 총비용과 예외 조건 비교",
+          "공식 안내 확인 전 성급한 가입·해지 보류"
+        ],
+        "route": "생활 서비스 스폰서십·허용된 제휴 링크",
+        "score": 85,
+        "eligible": true,
+        "basis": "headline_keyword_hypothesis"
+      },
+      "rightsStatus": "unverified_draft_only",
+      "instagramEvidence": {
+        "score": null,
+        "availableMetrics": [],
+        "sampleCount": 0,
+        "scope": "관측한 계정·게시물만 비교, 인스타 전체 순위 아님",
+        "sources": []
+      },
+      "qualification": "portal_proxy_only"
     }
   ],
   "signals": [],
   "lastRun": {
-    "at": "2026-10-21T04:39:14.647Z",
+    "at": "2026-10-21T05:17:31.864Z",
     "sources": [
       {
         "provider": "daum",
@@ -393,7 +491,7 @@
     "candidates": 13,
     "eligible": 0,
     "status": "awaiting_connections",
-    "draftStatus": "no_new_commercial_candidate",
+    "draftStatus": "created",
     "blockers": [
       "INSTAGRAM_AUTH_REQUIRED",
       "NO_NEWS_WITH_VERIFIED_INSTAGRAM_EVIDENCE",
@@ -402,24 +500,24 @@
   },
   "candidates": [
     {
-      "title": "상어 '부캉이' 이번엔 바다로 보낸다…잠수사도 투입",
+      "title": "이러니 폴란드 안절부절…“푸틴, 국경 코앞에 ‘초대형 레이더’ 건설”[포착]",
       "description": "",
-      "url": "https://v.daum.net/v/20261021111733526",
-      "source": "연합뉴스",
-      "publishedAt": "2026-10-21T02:17:33.000Z",
+      "url": "https://v.daum.net/v/20261021130229546",
+      "source": "서울신문",
+      "publishedAt": "2026-10-21T04:02:29.000Z",
       "descriptionKind": "headline_only",
       "provider": "daum",
-      "portalRank": 2,
-      "storyKey": "a78fd615801547fc64475127",
+      "portalRank": 1,
+      "storyKey": "4651e007eb5ed402d283420e",
       "sources": [
         {
           "provider": "daum",
-          "url": "https://v.daum.net/v/20261021111733526"
+          "url": "https://v.daum.net/v/20261021130229546"
         }
       ],
       "category": "other",
       "categoryMethod": "headline_keyword_hypothesis",
-      "ageHours": 2.361568611111111,
+      "ageHours": 1.2507952777777778,
       "instagram": {
         "score": null,
         "availableMetrics": [],
@@ -428,7 +526,7 @@
         "sources": []
       },
       "score": null,
-      "proxyScore": 61,
+      "proxyScore": 75,
       "portalProxyOnly": true,
       "eligible": false,
       "blocks": [
@@ -438,24 +536,24 @@
       ]
     },
     {
-      "title": "트럼프 뒤통수 친 러시아…이란과 손잡고 “역사상 가장 긴밀해” 자랑[포착]",
+      "title": "“이번엔 가스관 내려올 것” 기대하는 주민들…“한국은 투자 말라”는 알래스카 어부[르포]",
       "description": "",
-      "url": "https://v.daum.net/v/20261021075318165",
-      "source": "서울신문",
-      "publishedAt": "2026-10-20T22:53:18.000Z",
+      "url": "https://v.daum.net/v/20261021135108166",
+      "source": "경향신문",
+      "publishedAt": "2026-10-21T04:51:08.000Z",
       "descriptionKind": "headline_only",
       "provider": "daum",
-      "portalRank": 1,
-      "storyKey": "195adf521a0bc972fde4d38f",
+      "portalRank": 2,
+      "storyKey": "cd60108f13e35a1b18bcde10",
       "sources": [
         {
           "provider": "daum",
-          "url": "https://v.daum.net/v/20261021075318165"
+          "url": "https://v.daum.net/v/20261021135108166"
         }
       ],
       "category": "other",
       "categoryMethod": "headline_keyword_hypothesis",
-      "ageHours": 5.765735277777778,
+      "ageHours": 0.4399619444444444,
       "instagram": {
         "score": null,
         "availableMetrics": [],
@@ -464,7 +562,187 @@
         "sources": []
       },
       "score": null,
-      "proxyScore": 56,
+      "proxyScore": 69,
+      "portalProxyOnly": true,
+      "eligible": false,
+      "blocks": [
+        "CONTENT_RIGHTS_UNVERIFIED",
+        "INSTAGRAM_EVIDENCE_MISSING",
+        "BELOW_SELECTION_THRESHOLD"
+      ]
+    },
+    {
+      "title": "\"사기당했다\"던 역삼 방화범…운동기구 디자인 국내외 정상등록",
+      "description": "",
+      "url": "https://v.daum.net/v/20261021135428313",
+      "source": "연합뉴스",
+      "publishedAt": "2026-10-21T04:54:28.000Z",
+      "descriptionKind": "headline_only",
+      "provider": "daum",
+      "portalRank": 5,
+      "storyKey": "74bfd7fdfd95ca1e94ad56cf",
+      "sources": [
+        {
+          "provider": "daum",
+          "url": "https://v.daum.net/v/20261021135428313"
+        }
+      ],
+      "category": "other",
+      "categoryMethod": "headline_keyword_hypothesis",
+      "ageHours": 0.3844063888888889,
+      "instagram": {
+        "score": null,
+        "availableMetrics": [],
+        "sampleCount": 0,
+        "scope": "관측한 계정·게시물만 비교, 인스타 전체 순위 아님",
+        "sources": []
+      },
+      "score": null,
+      "proxyScore": 62,
+      "portalProxyOnly": true,
+      "eligible": false,
+      "blocks": [
+        "CONTENT_RIGHTS_UNVERIFIED",
+        "INSTAGRAM_EVIDENCE_MISSING",
+        "BELOW_SELECTION_THRESHOLD"
+      ]
+    },
+    {
+      "title": "특검 조사받은 선관위 직원 숨진채 발견…선관위 “엄중한 사안”",
+      "description": "",
+      "url": "https://v.daum.net/v/20261021133431534",
+      "source": "동아일보",
+      "publishedAt": "2026-10-21T04:34:31.000Z",
+      "descriptionKind": "headline_only",
+      "provider": "daum",
+      "portalRank": 8,
+      "storyKey": "9139953b89304e91e807036e",
+      "sources": [
+        {
+          "provider": "daum",
+          "url": "https://v.daum.net/v/20261021133431534"
+        }
+      ],
+      "category": "other",
+      "categoryMethod": "headline_keyword_hypothesis",
+      "ageHours": 0.7169063888888889,
+      "instagram": {
+        "score": null,
+        "availableMetrics": [],
+        "sampleCount": 0,
+        "scope": "관측한 계정·게시물만 비교, 인스타 전체 순위 아님",
+        "sources": []
+      },
+      "score": null,
+      "proxyScore": 58,
+      "portalProxyOnly": true,
+      "eligible": false,
+      "blocks": [
+        "CONTENT_RIGHTS_UNVERIFIED",
+        "INSTAGRAM_EVIDENCE_MISSING",
+        "BELOW_SELECTION_THRESHOLD"
+      ]
+    },
+    {
+      "title": "\"군 면제 싹 다 없애라\" 국감장 발칵… 유승민 회장 \"아마추어는 무슨 죄? 신중히 접근해야\"",
+      "description": "",
+      "url": "https://v.daum.net/v/20261021131542929",
+      "source": "파이낸셜뉴스",
+      "publishedAt": "2026-10-21T04:15:42.000Z",
+      "descriptionKind": "headline_only",
+      "provider": "daum",
+      "portalRank": 7,
+      "storyKey": "8b7bc4ed99f1c2b55c422246",
+      "sources": [
+        {
+          "provider": "daum",
+          "url": "https://v.daum.net/v/20261021131542929"
+        }
+      ],
+      "category": "other",
+      "categoryMethod": "headline_keyword_hypothesis",
+      "ageHours": 1.0305175,
+      "instagram": {
+        "score": null,
+        "availableMetrics": [],
+        "sampleCount": 0,
+        "scope": "관측한 계정·게시물만 비교, 인스타 전체 순위 아님",
+        "sources": []
+      },
+      "score": null,
+      "proxyScore": 57,
+      "portalProxyOnly": true,
+      "eligible": false,
+      "blocks": [
+        "CONTENT_RIGHTS_UNVERIFIED",
+        "INSTAGRAM_EVIDENCE_MISSING",
+        "BELOW_SELECTION_THRESHOLD"
+      ]
+    },
+    {
+      "title": "케네디家 또 비극…로버트의 손녀 카일, 42세로 사망",
+      "description": "",
+      "url": "https://v.daum.net/v/20261021134828074",
+      "source": "동아일보",
+      "publishedAt": "2026-10-21T04:48:28.000Z",
+      "descriptionKind": "headline_only",
+      "provider": "daum",
+      "portalRank": 11,
+      "storyKey": "a9d3246e301ffe37577d8e31",
+      "sources": [
+        {
+          "provider": "daum",
+          "url": "https://v.daum.net/v/20261021134828074"
+        }
+      ],
+      "category": "other",
+      "categoryMethod": "headline_keyword_hypothesis",
+      "ageHours": 0.4844063888888889,
+      "instagram": {
+        "score": null,
+        "availableMetrics": [],
+        "sampleCount": 0,
+        "scope": "관측한 계정·게시물만 비교, 인스타 전체 순위 아님",
+        "sources": []
+      },
+      "score": null,
+      "proxyScore": 57,
+      "portalProxyOnly": true,
+      "eligible": false,
+      "blocks": [
+        "CONTENT_RIGHTS_UNVERIFIED",
+        "INSTAGRAM_EVIDENCE_MISSING",
+        "BELOW_SELECTION_THRESHOLD"
+      ]
+    },
+    {
+      "title": "상어 '부캉이' 이번엔 바다로 보낸다…잠수사도 투입",
+      "description": "",
+      "url": "https://v.daum.net/v/20261021111733526",
+      "source": "연합뉴스",
+      "publishedAt": "2026-10-21T02:17:33.000Z",
+      "descriptionKind": "headline_only",
+      "provider": "daum",
+      "portalRank": 3,
+      "storyKey": "a78fd615801547fc64475127",
+      "sources": [
+        {
+          "provider": "daum",
+          "url": "https://v.daum.net/v/20261021111733526"
+        }
+      ],
+      "category": "other",
+      "categoryMethod": "headline_keyword_hypothesis",
+      "ageHours": 2.9996841666666665,
+      "instagram": {
+        "score": null,
+        "availableMetrics": [],
+        "sampleCount": 0,
+        "scope": "관측한 계정·게시물만 비교, 인스타 전체 순위 아님",
+        "sources": []
+      },
+      "score": null,
+      "proxyScore": 55,
       "portalProxyOnly": true,
       "eligible": false,
       "blocks": [
@@ -491,7 +769,7 @@
       ],
       "category": "other",
       "categoryMethod": "headline_keyword_hypothesis",
-      "ageHours": 2.0957352777777776,
+      "ageHours": 2.7338508333333333,
       "instagram": {
         "score": null,
         "availableMetrics": [],
@@ -500,7 +778,43 @@
         "sources": []
       },
       "score": null,
-      "proxyScore": 56,
+      "proxyScore": 54,
+      "portalProxyOnly": true,
+      "eligible": false,
+      "blocks": [
+        "CONTENT_RIGHTS_UNVERIFIED",
+        "INSTAGRAM_EVIDENCE_MISSING",
+        "BELOW_SELECTION_THRESHOLD"
+      ]
+    },
+    {
+      "title": "\"듀엣 연습하던 다정한 부부\"… 윤석열·김건희 노래 영상 공개, 왜?",
+      "description": "",
+      "url": "https://v.daum.net/v/20261021124356047",
+      "source": "한국일보",
+      "publishedAt": "2026-10-21T03:43:56.000Z",
+      "descriptionKind": "headline_only",
+      "provider": "daum",
+      "portalRank": 10,
+      "storyKey": "6cbb1a13fc033c5d93dbdb8f",
+      "sources": [
+        {
+          "provider": "daum",
+          "url": "https://v.daum.net/v/20261021124356047"
+        }
+      ],
+      "category": "relationships",
+      "categoryMethod": "headline_keyword_hypothesis",
+      "ageHours": 1.5599619444444444,
+      "instagram": {
+        "score": null,
+        "availableMetrics": [],
+        "sampleCount": 0,
+        "scope": "관측한 계정·게시물만 비교, 인스타 전체 순위 아님",
+        "sources": []
+      },
+      "score": null,
+      "proxyScore": 53,
       "portalProxyOnly": true,
       "eligible": false,
       "blocks": [
@@ -527,43 +841,7 @@
       ],
       "category": "other",
       "categoryMethod": "headline_keyword_hypothesis",
-      "ageHours": 0.6312908333333334,
-      "instagram": {
-        "score": null,
-        "availableMetrics": [],
-        "sampleCount": 0,
-        "scope": "관측한 계정·게시물만 비교, 인스타 전체 순위 아님",
-        "sources": []
-      },
-      "score": null,
-      "proxyScore": 56,
-      "portalProxyOnly": true,
-      "eligible": false,
-      "blocks": [
-        "CONTENT_RIGHTS_UNVERIFIED",
-        "INSTAGRAM_EVIDENCE_MISSING",
-        "BELOW_SELECTION_THRESHOLD"
-      ]
-    },
-    {
-      "title": "“신의 이름으로” 시위 프랑스 학생들, 왜 아랍어 구호를 외칠까 [이윤정 기자의 소소월드]",
-      "description": "",
-      "url": "https://v.daum.net/v/20261021100707393",
-      "source": "경향신문",
-      "publishedAt": "2026-10-21T01:07:07.000Z",
-      "descriptionKind": "headline_only",
-      "provider": "daum",
-      "portalRank": 3,
-      "storyKey": "848e5c6a1ed40e1dfcadcec1",
-      "sources": [
-        {
-          "provider": "daum",
-          "url": "https://v.daum.net/v/20261021100707393"
-        }
-      ],
-      "category": "other",
-      "categoryMethod": "headline_keyword_hypothesis",
-      "ageHours": 3.5354575,
+      "ageHours": 1.269406388888889,
       "instagram": {
         "score": null,
         "availableMetrics": [],
@@ -582,132 +860,24 @@
       ]
     },
     {
-      "title": "선관위 특검, 노태악 前 대법관 주거지 압수수색.. '출장보고서 허위기재' 혐의 수사",
+      "title": "코스피, 4% 이상 급등에 두달 만의 '매수' 사이드카…외국인 순매수세",
       "description": "",
-      "url": "https://v.daum.net/v/20261021120316109",
-      "source": "파이낸셜뉴스",
-      "publishedAt": "2026-10-21T03:03:16.000Z",
-      "descriptionKind": "headline_only",
-      "provider": "daum",
-      "portalRank": 9,
-      "storyKey": "8530717d7c8e0a6adda367a4",
-      "sources": [
-        {
-          "provider": "daum",
-          "url": "https://v.daum.net/v/20261021120316109"
-        }
-      ],
-      "category": "other",
-      "categoryMethod": "headline_keyword_hypothesis",
-      "ageHours": 1.5996241666666666,
-      "instagram": {
-        "score": null,
-        "availableMetrics": [],
-        "sampleCount": 0,
-        "scope": "관측한 계정·게시물만 비교, 인스타 전체 순위 아님",
-        "sources": []
-      },
-      "score": null,
-      "proxyScore": 53,
-      "portalProxyOnly": true,
-      "eligible": false,
-      "blocks": [
-        "CONTENT_RIGHTS_UNVERIFIED",
-        "INSTAGRAM_EVIDENCE_MISSING",
-        "BELOW_SELECTION_THRESHOLD"
-      ]
-    },
-    {
-      "title": "친일파 유묵 일파만파…유홍준 관장 15개월 만에 사의표명",
-      "description": "",
-      "url": "https://v.daum.net/v/20261021111521391",
-      "source": "헤럴드경제",
-      "publishedAt": "2026-10-21T02:15:21.000Z",
+      "url": "https://v.daum.net/v/20261021112118746",
+      "source": "연합뉴스",
+      "publishedAt": "2026-10-21T02:21:18.000Z",
       "descriptionKind": "headline_only",
       "provider": "daum",
       "portalRank": 6,
-      "storyKey": "ade7c6e833208e5df96ce56b",
+      "storyKey": "2732e07f7b8c9ac8dc7178a6",
       "sources": [
         {
           "provider": "daum",
-          "url": "https://v.daum.net/v/20261021111521391"
+          "url": "https://v.daum.net/v/20261021112118746"
         }
       ],
       "category": "other",
       "categoryMethod": "headline_keyword_hypothesis",
-      "ageHours": 2.398235277777778,
-      "instagram": {
-        "score": null,
-        "availableMetrics": [],
-        "sampleCount": 0,
-        "scope": "관측한 계정·게시물만 비교, 인스타 전체 순위 아님",
-        "sources": []
-      },
-      "score": null,
-      "proxyScore": 52,
-      "portalProxyOnly": true,
-      "eligible": false,
-      "blocks": [
-        "CONTENT_RIGHTS_UNVERIFIED",
-        "INSTAGRAM_EVIDENCE_MISSING",
-        "BELOW_SELECTION_THRESHOLD"
-      ]
-    },
-    {
-      "title": "李대통령 \"경찰 신뢰 흔들…권한 만큼 책임도 더 커져\"",
-      "description": "",
-      "url": "https://v.daum.net/v/20261021121200381",
-      "source": "노컷뉴스",
-      "publishedAt": "2026-10-21T03:12:00.000Z",
-      "descriptionKind": "headline_only",
-      "provider": "daum",
-      "portalRank": 13,
-      "storyKey": "d8aedf27ac6938245975b256",
-      "sources": [
-        {
-          "provider": "daum",
-          "url": "https://v.daum.net/v/20261021121200381"
-        }
-      ],
-      "category": "other",
-      "categoryMethod": "headline_keyword_hypothesis",
-      "ageHours": 1.4540686111111112,
-      "instagram": {
-        "score": null,
-        "availableMetrics": [],
-        "sampleCount": 0,
-        "scope": "관측한 계정·게시물만 비교, 인스타 전체 순위 아님",
-        "sources": []
-      },
-      "score": null,
-      "proxyScore": 52,
-      "portalProxyOnly": true,
-      "eligible": false,
-      "blocks": [
-        "CONTENT_RIGHTS_UNVERIFIED",
-        "INSTAGRAM_EVIDENCE_MISSING",
-        "BELOW_SELECTION_THRESHOLD"
-      ]
-    },
-    {
-      "title": "李대통령 “공소청장·중수청장 국무회의 배석 불가론, 위헌·궤변”",
-      "description": "",
-      "url": "https://v.daum.net/v/20261021101938098",
-      "source": "서울경제",
-      "publishedAt": "2026-10-21T01:19:38.000Z",
-      "descriptionKind": "headline_only",
-      "provider": "daum",
-      "portalRank": 5,
-      "storyKey": "6931e01062952df96cf90064",
-      "sources": [
-        {
-          "provider": "daum",
-          "url": "https://v.daum.net/v/20261021101938098"
-        }
-      ],
-      "category": "other",
-      "categoryMethod": "headline_keyword_hypothesis",
-      "ageHours": 3.326846388888889,
+      "ageHours": 2.9371841666666665,
       "instagram": {
         "score": null,
         "availableMetrics": [],
@@ -726,24 +896,24 @@
       ]
     },
     {
-      "title": "與최고위, 추미애·부승찬에 ‘경고’…“무거운 성찰 촉구”",
+      "title": "“국감은 훈계장 아냐” 김상욱 울산시장 답변 태도에 국민의힘 의원 퇴장",
       "description": "",
-      "url": "https://v.daum.net/v/20261021095229552",
-      "source": "동아일보",
-      "publishedAt": "2026-10-21T00:52:29.000Z",
+      "url": "https://v.daum.net/v/20261021111956658",
+      "source": "서울경제",
+      "publishedAt": "2026-10-21T02:19:56.000Z",
       "descriptionKind": "headline_only",
       "provider": "daum",
-      "portalRank": 7,
-      "storyKey": "8bd9f78995c6798623a4d1f0",
+      "portalRank": 13,
+      "storyKey": "bb45ace96013b51795fa75f8",
       "sources": [
         {
           "provider": "daum",
-          "url": "https://v.daum.net/v/20261021095229552"
+          "url": "https://v.daum.net/v/20261021111956658"
         }
       ],
       "category": "other",
       "categoryMethod": "headline_keyword_hypothesis",
-      "ageHours": 3.779346388888889,
+      "ageHours": 2.9599619444444443,
       "instagram": {
         "score": null,
         "availableMetrics": [],
@@ -762,60 +932,24 @@
       ]
     },
     {
-      "title": "KT, 인천 앞바다서 UAM 띄웠다…AI 교통관리 기술 검증",
+      "title": "유인태 \"추미애, 盧 당선 사흘 만에 가족 휴가지에 불쑥 오더니…\"[월간 이유불문]",
       "description": "",
-      "url": "https://v.daum.net/v/20261021100149091",
-      "source": "헤럴드경제",
-      "publishedAt": "2026-10-21T01:01:49.000Z",
+      "url": "https://v.daum.net/v/20261021102712493",
+      "source": "노컷뉴스",
+      "publishedAt": "2026-10-21T01:27:12.000Z",
       "descriptionKind": "headline_only",
       "provider": "daum",
-      "portalRank": 8,
-      "storyKey": "87e8d9fc763c0e02e2539b9e",
+      "portalRank": 9,
+      "storyKey": "7ac4e27633ee852430fefa07",
       "sources": [
         {
           "provider": "daum",
-          "url": "https://v.daum.net/v/20261021100149091"
-        }
-      ],
-      "category": "technology",
-      "categoryMethod": "headline_keyword_hypothesis",
-      "ageHours": 3.6237908333333335,
-      "instagram": {
-        "score": null,
-        "availableMetrics": [],
-        "sampleCount": 0,
-        "scope": "관측한 계정·게시물만 비교, 인스타 전체 순위 아님",
-        "sources": []
-      },
-      "score": null,
-      "proxyScore": 46,
-      "portalProxyOnly": true,
-      "eligible": false,
-      "blocks": [
-        "CONTENT_RIGHTS_UNVERIFIED",
-        "INSTAGRAM_EVIDENCE_MISSING",
-        "BELOW_SELECTION_THRESHOLD"
-      ]
-    },
-    {
-      "title": "머스크, 테슬라·스페이스X 합병검토 공식화…\"슈퍼지능 시너지\"",
-      "description": "",
-      "url": "https://v.daum.net/v/20261021083723270",
-      "source": "연합뉴스",
-      "publishedAt": "2026-10-20T23:37:23.000Z",
-      "descriptionKind": "headline_only",
-      "provider": "daum",
-      "portalRank": 11,
-      "storyKey": "d4146959af7c83f3c5247d6e",
-      "sources": [
-        {
-          "provider": "daum",
-          "url": "https://v.daum.net/v/20261021083723270"
+          "url": "https://v.daum.net/v/20261021102712493"
         }
       ],
       "category": "other",
       "categoryMethod": "headline_keyword_hypothesis",
-      "ageHours": 5.0310130555555554,
+      "ageHours": 3.8388508333333333,
       "instagram": {
         "score": null,
         "availableMetrics": [],
@@ -824,48 +958,11 @@
         "sources": []
       },
       "score": null,
-      "proxyScore": 38,
+      "proxyScore": 44,
       "portalProxyOnly": true,
       "eligible": false,
       "blocks": [
         "CONTENT_RIGHTS_UNVERIFIED",
-        "INSTAGRAM_EVIDENCE_MISSING",
-        "BELOW_SELECTION_THRESHOLD"
-      ]
-    },
-    {
-      "title": "경찰, 금융권 해킹 중대범죄 판단..중수청 통보 예정",
-      "description": "",
-      "url": "https://v.daum.net/v/20261021000117906",
-      "source": "YTN",
-      "publishedAt": "2026-10-20T15:01:17.000Z",
-      "descriptionKind": "headline_only",
-      "provider": "daum",
-      "portalRank": 10,
-      "storyKey": "1ddf57029a2a3cec2a6ec922",
-      "sources": [
-        {
-          "provider": "daum",
-          "url": "https://v.daum.net/v/20261021000117906"
-        }
-      ],
-      "category": "other",
-      "categoryMethod": "headline_keyword_hypothesis",
-      "ageHours": 13.632679722222223,
-      "instagram": {
-        "score": null,
-        "availableMetrics": [],
-        "sampleCount": 0,
-        "scope": "관측한 계정·게시물만 비교, 인스타 전체 순위 아님",
-        "sources": []
-      },
-      "score": null,
-      "proxyScore": 9,
-      "portalProxyOnly": true,
-      "eligible": false,
-      "blocks": [
-        "CONTENT_RIGHTS_UNVERIFIED",
-        "ARTICLE_STALE_OR_FUTURE",
         "INSTAGRAM_EVIDENCE_MISSING",
         "BELOW_SELECTION_THRESHOLD"
       ]
@@ -907,7 +1004,7 @@
     }
   ],
   "commercialDashboard": {
-    "updatedAt": "2026-10-21T04:39:14.648Z",
+    "updatedAt": "2026-10-21T05:17:40.969Z",
     "offers": [
       {
         "id": "creative_only",
