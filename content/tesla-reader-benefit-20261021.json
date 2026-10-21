@@ -1,0 +1,42 @@
+{
+  "id": "tesla-connectivity-reader-benefit-20261021",
+  "status": "research_preview_not_for_autopublish",
+  "brand": "BREAK BRIEFING",
+  "checkedAtKST": "2026-10-21T15:17:54+09:00",
+  "headline": "테슬라 차주라면,\n연 11만 8,800원 점검",
+  "context": "합병과 별개로 지금 확인할 수 있는 관련 실용 정보",
+  "currentMonthlyKRW": 9900,
+  "annualCalculation": "9900 * 12 = 118800",
+  "annualCostKRW": 118800,
+  "eligibility": "현재 유료 프리미엄 커넥티비티를 구독하고, 스탠더드 커넥티비티가 유효하며 프리미엄 전용 기능이 필요 없는 차주",
+  "facts": [
+    "교통 상황을 반영한 경로 안내·기본 지도는 스탠더드에 포함",
+    "무선 소프트웨어 업데이트는 모든 차량에서 지원",
+    "프리미엄 구독은 FSD(감독형)의 작동 방식에 영향을 주지 않음"
+  ],
+  "tradeoffs": [
+    "위성 지도·실시간 교통 시각화·차량 셀룰러 스트리밍 등 유료 기능 차이를 확인",
+    "핫스팟을 이용할 경우 통신사 데이터 요금·제한 별도",
+    "스탠더드 무료 기간과 무료 프리미엄 제공 여부는 차량·주문일 등에 따라 확인"
+  ],
+  "action": "Tesla 앱 → 업그레이드 → 관리 → 프리미엄 커넥티비티 → 필요 기능·요금 확인 후 구독 여부 결정",
+  "notClaimed": [
+    "합병으로 통신비가 인하됨",
+    "해지해도 모든 기능 유지",
+    "모든 차주가 연118800원을 절약",
+    "미래12개월 요금이 보장됨",
+    "합병이 확정됨"
+  ],
+  "sources": [
+    {
+      "name": "Tesla 한국 공식 커넥티비티 지원",
+      "url": "https://www.tesla.com/ko_kr/support/connectivity",
+      "supports": "월9900원, 기본내비·업데이트·FSD와의 구분, 무료기간·해지·핫스팟 조건"
+    },
+    {
+      "name": "Tesla 2026년10월19일 위임장 공시",
+      "url": "https://www.sec.gov/Archives/edgar/data/1318605/000110465926116700/tm267596-1_def14a.htm",
+      "supports": "Tesla의 SpaceX 지분 투자 및 관련 거래. 합병 확정 공시로 전용하지 않음"
+    }
+  ]
+}

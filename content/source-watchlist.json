@@ -1,0 +1,73 @@
+{
+  "schemaVersion": 1,
+  "scope": "등록한 공개 원자료와 업데이트 목록만 확인. 전 세계 최신 정보를 모두 검색했다고 취급하지 않음.",
+  "allowedOrigins": [
+    "https://ir.tesla.com",
+    "https://www.tesla.com",
+    "https://ir.spacex.com",
+    "https://www.sec.gov",
+    "https://customs.go.kr",
+    "https://www.bok.or.kr",
+    "https://fsc.go.kr",
+    "https://www.fsc.go.kr",
+    "https://www.korea.kr",
+    "https://v.daum.net"
+  ],
+  "stories": [
+    {
+      "storyKey": "news-tesla-spacex-merger-review-20261021-press-v2",
+      "sources": [
+        {
+          "id": "tesla-ir-updates",
+          "url": "https://ir.tesla.com/",
+          "role": "discovery",
+          "linkPattern": "(?:sec-filings|press|_flysystem|sec.gov|quarterly|shareholder)"
+        },
+        {
+          "id": "tesla-sec-updates",
+          "url": "https://ir.tesla.com/sec-filings",
+          "role": "discovery",
+          "linkPattern": "(?:sec.gov/Archives|_flysystem|node/|sec-filings/)"
+        },
+        {
+          "id": "tesla-proxy-20261019",
+          "url": "https://www.sec.gov/Archives/edgar/data/1318605/000110465926116700/tm267596-1_def14a.htm",
+          "role": "evidence",
+          "maxBytes": 8000000
+        },
+        {
+          "id": "tesla-kr-connectivity",
+          "url": "https://www.tesla.com/ko_kr/support/connectivity",
+          "role": "evidence"
+        }
+      ]
+    },
+    {
+      "storyKey": "exports-household-20261021",
+      "sources": [
+        {
+          "id": "customs-release-updates",
+          "url": "https://customs.go.kr/kcs/na/ntt/selectNttList.do?bbsId=1362&mi=2891",
+          "role": "discovery",
+          "linkPattern": "selectNttInfo",
+          "extractor": "customs-board"
+        },
+        {
+          "id": "customs-exports-20261021",
+          "url": "https://customs.go.kr/kcs/na/ntt/selectNttInfo.do?bbsId=1362&mi=2891&nttSn=10180465&nttSnUrl=3b279b0d8ae0387ac138c4741fb65b67",
+          "role": "evidence"
+        },
+        {
+          "id": "youth-savings-20261006",
+          "url": "https://fsc.go.kr/po010104/87880",
+          "role": "evidence"
+        },
+        {
+          "id": "october-policy-confirmed",
+          "url": "https://www.korea.kr/news/policyNewsView.do?newsId=148972822",
+          "role": "evidence"
+        }
+      ]
+    }
+  ]
+}

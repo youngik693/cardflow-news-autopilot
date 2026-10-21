@@ -9,7 +9,11 @@ tx,box,panel,arrow=v.tx,v.box,v.panel,v.arrow
 def header(m,page):
  im=Image.new('RGB',(W,H),PAPER);d=ImageDraw.Draw(im)
  if page==2:
-  tx(d,m.get('brand','1분속보리포트'),52,23,35,'#c5352c',True);tx(d,m['context']+' / '+m['asOf'],340,33,21,GRAY)
+  if m.get('brand')=='BREAK BRIEFING':
+   d.rectangle((52,12,131,35),fill='#c91925');tx(d,'BREAK',59,12,16,'white',True)
+   tx(d,'BRIEFING',52,37,30,INK,True);d.line((52,79,267,79),fill='#c91925',width=2)
+  else:tx(d,m.get('brand','뉴스 분석'),52,23,35,'#c5352c',True)
+  tx(d,m['context']+' / '+m['asOf'],340,33,21,GRAY)
  else:tx(d,m['context']+' / '+m['asOf']+' 기준',52,29,24,GRAY)
  tx(d,f'{page:02}/07',941,30,23)
  return im,d
