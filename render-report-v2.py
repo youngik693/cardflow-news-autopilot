@@ -57,12 +57,17 @@ def household(d,p):
   text(d,label,72,y+7,936,32,25,BLUE,True)
   text(d,body,72,y+40,936,39,29,INK,True)
 def region(d,p):
- text(d,'전국 소비 증가율과 얼마나 차이 나나?',52,513,976,50,33,BLUE,True)
- for j,(city,value,meaning) in enumerate(p['cities']):
-  y=580+j*117;panel(d,(52,y,1028,y+102),'white',LINE)
-  text(d,city,75,y+17,360,65,43,INK,True)
-  text(d,value,440,y+5,315,72,49,BLUE if j else RED,True)
-  text(d,meaning,440,y+68,553,30,22,GRAY)
+ text(d,p['tableTitle'],52,512,976,52,36,INK,True)
+ text(d,'지역',75,591,340,45,30,GRAY,True)
+ text(d,'전체 격차',440,591,270,45,30,GRAY,True)
+ text(d,'외식의 몫',765,591,246,45,30,GRAY,True)
+ d.line((52,651,1028,651),fill=INK,width=3)
+ for j,(city,total,food) in enumerate(p['cities']):
+  y=666+j*86
+  text(d,city,75,y+9,350,58,39,INK,True)
+  text(d,total,440,y,270,67,48,GRAY,True)
+  text(d,food,765,y,246,67,48,BLUE if j else RED,True)
+  d.line((52,y+79,1028,y+79),fill=LINE,width=1)
  text(d,p['note'],52,947,976,80,26,GRAY)
 def policy(d,p):
  for j,pb in enumerate(p['benefitBoxes']):
