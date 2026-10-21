@@ -349,7 +349,7 @@
   ],
   "signals": [],
   "lastRun": {
-    "at": "2026-10-21T02:37:47.351Z",
+    "at": "2026-10-21T02:44:12.837Z",
     "sources": [
       {
         "provider": "daum",
@@ -365,34 +365,33 @@
     "candidates": 13,
     "eligible": 0,
     "status": "awaiting_connections",
-    "draftStatus": "created",
+    "draftStatus": "no_new_commercial_candidate",
     "blockers": [
       "INSTAGRAM_AUTH_REQUIRED",
-      "DAILY_CAP_NOT_CONFIGURED",
       "NO_NEWS_WITH_VERIFIED_INSTAGRAM_EVIDENCE",
       "CONTENT_RIGHTS_UNVERIFIED"
     ]
   },
   "candidates": [
     {
-      "title": "“신의 이름으로” 시위 프랑스 학생들, 왜 아랍어 구호를 외칠까 [이윤정 기자의 소소월드]",
+      "title": "\"중국사는 줄줄 외면서 정작 우리 역사는 모른다\"는 김부식의 한탄",
       "description": "",
-      "url": "https://v.daum.net/v/20261021100707393",
-      "source": "경향신문",
-      "publishedAt": "2026-10-21T01:07:07.000Z",
+      "url": "https://v.daum.net/v/20261021113330514",
+      "source": "한스경제",
+      "publishedAt": "2026-10-21T02:33:30.000Z",
       "descriptionKind": "headline_only",
       "provider": "daum",
       "portalRank": 2,
-      "storyKey": "848e5c6a1ed40e1dfcadcec1",
+      "storyKey": "224a89f8a3dfe1a6f284edbf",
       "sources": [
         {
           "provider": "daum",
-          "url": "https://v.daum.net/v/20261021100707393"
+          "url": "https://v.daum.net/v/20261021113330514"
         }
       ],
       "category": "other",
       "categoryMethod": "headline_keyword_hypothesis",
-      "ageHours": 1.5112083333333333,
+      "ageHours": 0.17856555555555556,
       "instagram": {
         "score": null,
         "availableMetrics": [],
@@ -401,7 +400,7 @@
         "sources": []
       },
       "score": null,
-      "proxyScore": 65,
+      "proxyScore": 70,
       "portalProxyOnly": true,
       "eligible": false,
       "blocks": [
@@ -428,7 +427,7 @@
       ],
       "category": "other",
       "categoryMethod": "headline_keyword_hypothesis",
-      "ageHours": 3.741486111111111,
+      "ageHours": 3.8485655555555556,
       "instagram": {
         "score": null,
         "availableMetrics": [],
@@ -438,6 +437,42 @@
       },
       "score": null,
       "proxyScore": 64,
+      "portalProxyOnly": true,
+      "eligible": false,
+      "blocks": [
+        "CONTENT_RIGHTS_UNVERIFIED",
+        "INSTAGRAM_EVIDENCE_MISSING",
+        "BELOW_SELECTION_THRESHOLD"
+      ]
+    },
+    {
+      "title": "“신의 이름으로” 시위 프랑스 학생들, 왜 아랍어 구호를 외칠까 [이윤정 기자의 소소월드]",
+      "description": "",
+      "url": "https://v.daum.net/v/20261021100707393",
+      "source": "경향신문",
+      "publishedAt": "2026-10-21T01:07:07.000Z",
+      "descriptionKind": "headline_only",
+      "provider": "daum",
+      "portalRank": 3,
+      "storyKey": "848e5c6a1ed40e1dfcadcec1",
+      "sources": [
+        {
+          "provider": "daum",
+          "url": "https://v.daum.net/v/20261021100707393"
+        }
+      ],
+      "category": "other",
+      "categoryMethod": "headline_keyword_hypothesis",
+      "ageHours": 1.6182877777777778,
+      "instagram": {
+        "score": null,
+        "availableMetrics": [],
+        "sampleCount": 0,
+        "scope": "관측한 계정·게시물만 비교, 인스타 전체 순위 아님",
+        "sources": []
+      },
+      "score": null,
+      "proxyScore": 61,
       "portalProxyOnly": true,
       "eligible": false,
       "blocks": [
@@ -464,7 +499,7 @@
       ],
       "category": "other",
       "categoryMethod": "headline_keyword_hypothesis",
-      "ageHours": 0.37398611111111113,
+      "ageHours": 0.4810655555555556,
       "instagram": {
         "score": null,
         "availableMetrics": [],
@@ -473,7 +508,43 @@
         "sources": []
       },
       "score": null,
-      "proxyScore": 62,
+      "proxyScore": 61,
+      "portalProxyOnly": true,
+      "eligible": false,
+      "blocks": [
+        "CONTENT_RIGHTS_UNVERIFIED",
+        "INSTAGRAM_EVIDENCE_MISSING",
+        "BELOW_SELECTION_THRESHOLD"
+      ]
+    },
+    {
+      "title": "李대통령 “공소청장·중수청장 국무회의 배석 불가론, 위헌·궤변”",
+      "description": "",
+      "url": "https://v.daum.net/v/20261021101938098",
+      "source": "서울경제",
+      "publishedAt": "2026-10-21T01:19:38.000Z",
+      "descriptionKind": "headline_only",
+      "provider": "daum",
+      "portalRank": 8,
+      "storyKey": "6931e01062952df96cf90064",
+      "sources": [
+        {
+          "provider": "daum",
+          "url": "https://v.daum.net/v/20261021101938098"
+        }
+      ],
+      "category": "other",
+      "categoryMethod": "headline_keyword_hypothesis",
+      "ageHours": 1.4096766666666667,
+      "instagram": {
+        "score": null,
+        "availableMetrics": [],
+        "sampleCount": 0,
+        "scope": "관측한 계정·게시물만 비교, 인스타 전체 순위 아님",
+        "sources": []
+      },
+      "score": null,
+      "proxyScore": 55,
       "portalProxyOnly": true,
       "eligible": false,
       "blocks": [
@@ -500,7 +571,7 @@
       ],
       "category": "other",
       "categoryMethod": "headline_keyword_hypothesis",
-      "ageHours": 1.7550972222222223,
+      "ageHours": 1.8621766666666666,
       "instagram": {
         "score": null,
         "availableMetrics": [],
@@ -509,7 +580,7 @@
         "sources": []
       },
       "score": null,
-      "proxyScore": 55,
+      "proxyScore": 54,
       "portalProxyOnly": true,
       "eligible": false,
       "blocks": [
@@ -536,43 +607,7 @@
       ],
       "category": "technology",
       "categoryMethod": "headline_keyword_hypothesis",
-      "ageHours": 1.5995416666666666,
-      "instagram": {
-        "score": null,
-        "availableMetrics": [],
-        "sampleCount": 0,
-        "scope": "관측한 계정·게시물만 비교, 인스타 전체 순위 아님",
-        "sources": []
-      },
-      "score": null,
-      "proxyScore": 55,
-      "portalProxyOnly": true,
-      "eligible": false,
-      "blocks": [
-        "CONTENT_RIGHTS_UNVERIFIED",
-        "INSTAGRAM_EVIDENCE_MISSING",
-        "BELOW_SELECTION_THRESHOLD"
-      ]
-    },
-    {
-      "title": "李 “제미나이에 물어봤더니 중수청장 국무회의 배제론은 궤변”",
-      "description": "",
-      "url": "https://v.daum.net/v/20261021100922517",
-      "source": "동아일보",
-      "publishedAt": "2026-10-21T01:09:22.000Z",
-      "descriptionKind": "headline_only",
-      "provider": "daum",
-      "portalRank": 8,
-      "storyKey": "703c481310e263b60a988cce",
-      "sources": [
-        {
-          "provider": "daum",
-          "url": "https://v.daum.net/v/20261021100922517"
-        }
-      ],
-      "category": "other",
-      "categoryMethod": "headline_keyword_hypothesis",
-      "ageHours": 1.4737083333333334,
+      "ageHours": 1.7066211111111111,
       "instagram": {
         "score": null,
         "availableMetrics": [],
@@ -591,24 +626,24 @@
       ]
     },
     {
-      "title": "“AI 혁신으로 보건의료 난제 해결…국제적 연대 나서야”",
+      "title": "취임 후 첫 韓 방문 WHO 총장 \"AI 혜택, 전 인류에게\"",
       "description": "",
-      "url": "https://v.daum.net/v/20261021094831377",
-      "source": "헤럴드경제",
-      "publishedAt": "2026-10-21T00:48:31.000Z",
+      "url": "https://v.daum.net/v/20261021095707793",
+      "source": "아시아경제",
+      "publishedAt": "2026-10-21T00:57:07.000Z",
       "descriptionKind": "headline_only",
       "provider": "daum",
       "portalRank": 13,
-      "storyKey": "932cbc6a72e92d8aa2defd6e",
+      "storyKey": "7a121df9a4f3c312c9a88181",
       "sources": [
         {
           "provider": "daum",
-          "url": "https://v.daum.net/v/20261021094831377"
+          "url": "https://v.daum.net/v/20261021095707793"
         }
       ],
       "category": "technology",
       "categoryMethod": "headline_keyword_hypothesis",
-      "ageHours": 1.8212083333333333,
+      "ageHours": 1.7849544444444445,
       "instagram": {
         "score": null,
         "availableMetrics": [],
@@ -618,42 +653,6 @@
       },
       "score": null,
       "proxyScore": 51,
-      "portalProxyOnly": true,
-      "eligible": false,
-      "blocks": [
-        "CONTENT_RIGHTS_UNVERIFIED",
-        "INSTAGRAM_EVIDENCE_MISSING",
-        "BELOW_SELECTION_THRESHOLD"
-      ]
-    },
-    {
-      "title": "김치명인의 ‘김장문화 축제’ 가보니..“유네스코 등재 이유 있었네”",
-      "description": "",
-      "url": "https://v.daum.net/v/20261021060300905",
-      "source": "매일경제",
-      "publishedAt": "2026-10-20T21:03:00.000Z",
-      "descriptionKind": "headline_only",
-      "provider": "daum",
-      "portalRank": 3,
-      "storyKey": "a853a1930783e40a6ec689b1",
-      "sources": [
-        {
-          "provider": "daum",
-          "url": "https://v.daum.net/v/20261021060300905"
-        }
-      ],
-      "category": "food_travel",
-      "categoryMethod": "headline_keyword_hypothesis",
-      "ageHours": 5.579819444444444,
-      "instagram": {
-        "score": null,
-        "availableMetrics": [],
-        "sampleCount": 0,
-        "scope": "관측한 계정·게시물만 비교, 인스타 전체 순위 아님",
-        "sources": []
-      },
-      "score": null,
-      "proxyScore": 44,
       "portalProxyOnly": true,
       "eligible": false,
       "blocks": [
@@ -680,7 +679,7 @@
       ],
       "category": "other",
       "categoryMethod": "headline_keyword_hypothesis",
-      "ageHours": 4.208152777777777,
+      "ageHours": 4.315232222222222,
       "instagram": {
         "score": null,
         "availableMetrics": [],
@@ -699,24 +698,24 @@
       ]
     },
     {
-      "title": "‘초장거리 자폭드론’ 韓 덮치나…북·러 기술밀착이 부를 대참사 [Focus 인사이드]",
+      "title": "김치명인의 ‘김장문화 축제’ 가보니..“유네스코 등재 이유 있었네”",
       "description": "",
-      "url": "https://v.daum.net/v/20261021050338853",
-      "source": "중앙일보",
-      "publishedAt": "2026-10-20T20:03:38.000Z",
+      "url": "https://v.daum.net/v/20261021060300905",
+      "source": "매일경제",
+      "publishedAt": "2026-10-20T21:03:00.000Z",
       "descriptionKind": "headline_only",
       "provider": "daum",
       "portalRank": 4,
-      "storyKey": "2788fdb106ab81d436cb356c",
+      "storyKey": "a853a1930783e40a6ec689b1",
       "sources": [
         {
           "provider": "daum",
-          "url": "https://v.daum.net/v/20261021050338853"
+          "url": "https://v.daum.net/v/20261021060300905"
         }
       ],
-      "category": "other",
+      "category": "food_travel",
       "categoryMethod": "headline_keyword_hypothesis",
-      "ageHours": 6.569263888888889,
+      "ageHours": 5.686898888888889,
       "instagram": {
         "score": null,
         "availableMetrics": [],
@@ -725,7 +724,7 @@
         "sources": []
       },
       "score": null,
-      "proxyScore": 38,
+      "proxyScore": 41,
       "portalProxyOnly": true,
       "eligible": false,
       "blocks": [
@@ -735,24 +734,24 @@
       ]
     },
     {
-      "title": "스페이스X, 상장 후 첫 흑자…AI 매출 9배 폭증하며 스타링크 추월",
+      "title": "스페이스X, 3분기 매출 161% 급증…AI 견인에 흑자 전환까지",
       "description": "",
-      "url": "https://v.daum.net/v/20261021062628472",
-      "source": "이데일리",
-      "publishedAt": "2026-10-20T21:26:28.000Z",
+      "url": "https://v.daum.net/v/20261021060621012",
+      "source": "연합뉴스",
+      "publishedAt": "2026-10-20T21:06:21.000Z",
       "descriptionKind": "headline_only",
       "provider": "daum",
       "portalRank": 11,
-      "storyKey": "59dd9b2febdf2a59c82f74b1",
+      "storyKey": "3af6b74d20d3c4d93c940953",
       "sources": [
         {
           "provider": "daum",
-          "url": "https://v.daum.net/v/20261021062628472"
+          "url": "https://v.daum.net/v/20261021060621012"
         }
       ],
       "category": "technology",
       "categoryMethod": "headline_keyword_hypothesis",
-      "ageHours": 5.1887083333333335,
+      "ageHours": 5.631065555555556,
       "instagram": {
         "score": null,
         "availableMetrics": [],
@@ -761,7 +760,7 @@
         "sources": []
       },
       "score": null,
-      "proxyScore": 37,
+      "proxyScore": 36,
       "portalProxyOnly": true,
       "eligible": false,
       "blocks": [
@@ -788,7 +787,7 @@
       ],
       "category": "other",
       "categoryMethod": "headline_keyword_hypothesis",
-      "ageHours": 5.411208333333334,
+      "ageHours": 5.518287777777778,
       "instagram": {
         "score": null,
         "availableMetrics": [],
@@ -824,7 +823,7 @@
       ],
       "category": "other",
       "categoryMethod": "headline_keyword_hypothesis",
-      "ageHours": 11.608430555555556,
+      "ageHours": 11.71551,
       "instagram": {
         "score": null,
         "availableMetrics": [],
@@ -841,6 +840,23 @@
         "INSTAGRAM_EVIDENCE_MISSING",
         "BELOW_SELECTION_THRESHOLD"
       ]
+    }
+  ],
+  "ownedDrafts": [
+    {
+      "id": "original-spending-checklist-001",
+      "title": "할인인데, 왜 지출은 늘었을까?",
+      "images": [
+        "https://raw.githubusercontent.com/youngik693/cardflow-news-autopilot/3603216c5f524b65d354dbad190b0c1b657d528d/media/dd11b5d9e409654b65d33f33/01.jpg",
+        "https://raw.githubusercontent.com/youngik693/cardflow-news-autopilot/12859a11a6993dd8692cbc24b882b8292c50c4d5/media/dd11b5d9e409654b65d33f33/02.jpg",
+        "https://raw.githubusercontent.com/youngik693/cardflow-news-autopilot/bf524df5a02ce61b729f8f44de3eaa991de9f36c/media/dd11b5d9e409654b65d33f33/03.jpg",
+        "https://raw.githubusercontent.com/youngik693/cardflow-news-autopilot/b44861be52649be33bdb5e156294c8df0581bce8/media/dd11b5d9e409654b65d33f33/04.jpg",
+        "https://raw.githubusercontent.com/youngik693/cardflow-news-autopilot/24b31e19e270599ff073abf32be7dfedfd8dd870/media/dd11b5d9e409654b65d33f33/05.jpg"
+      ],
+      "caption": "할인율보다 먼저 볼 숫자는 ‘내가 실제로 내는 총액’입니다.\n\n① 사려던 물건인가\n② 배송비·최소 주문금액까지 더하면 얼마인가\n③ 첫 달 이후에도 같은 요금인가\n④ 해지·환불 조건은 무엇인가\n⑤ 할인 때문에 다른 물건까지 추가했는가\n\n오늘은 결제 직전 딱 한 번, 할인 전 가격 대신 최종 결제 금액을 확인해 보세요.\n\n다음에 더 궁금한 주제는? A. 생활비·혜택 / B. 업무 도구·시간 절약\n\n카드플로우 자체 작성 · 협찬 없는 편집 콘텐츠\n#생활비 #소비습관 #구독관리 #카드뉴스",
+      "rightsStatus": "self_authored",
+      "at": "2026-10-21T02:44:20.405Z",
+      "status": "ready_for_connector_scheduling"
     }
   ]
 }
