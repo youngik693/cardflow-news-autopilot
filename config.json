@@ -1,7 +1,7 @@
 {
   "targetAccount": "my.love.manual",
   "targetConfirmed": true,
-  "cadenceMinutes": 10,
+  "cadenceMinutes": 5,
   "mode": "live",
   "dailyCap": null,
   "minGapMinutes": 60,
@@ -10,8 +10,19 @@
   "minimumInstagramMetrics": 2,
   "signalMaxAgeHours": 6,
   "requireInstagramEvidence": true,
-  "allowedCategories": [],
-  "queries": ["인공지능", "생활 물가 소비", "연애 결혼"],
+  "allowedCategories": [
+    "relationships",
+    "money_life",
+    "technology",
+    "food_travel"
+  ],
+  "queries": [
+    "연애 결혼 생활",
+    "청년 물가 소비 지원",
+    "인공지능 생활 도구"
+  ],
   "schemaVersion": 1,
-  "note": "계정 선택만 확정됨. 인증, 실제 한도, 인스타 관측 근거가 없으면 게시하지 않음. 초기 점수 가중치는 검증 전 가설."
+  "note": "계정 선택만 확정됨. 인증, 실제 한도, 인스타 관측 근거가 없으면 게시하지 않음. 초기 점수 가중치는 검증 전 가설.",
+  "editorialVersion": "editorial-v2",
+  "requireReaderRelevance": true
 }

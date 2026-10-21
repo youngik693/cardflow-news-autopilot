@@ -1,7 +1,7 @@
 name: 뉴스 수집 · 카드뉴스 자동 제작
 on:
   schedule:
-    - cron: '4,14,24,34,44,54 * * * *'
+    - cron: '2/5 * * * *'
   workflow_dispatch:
   push:
     branches: [main]
