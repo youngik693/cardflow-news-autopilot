@@ -739,11 +739,109 @@
         "sources": []
       },
       "qualification": "portal_proxy_only"
+    },
+    {
+      "designVersion": "news-v4-action",
+      "editorial": {
+        "designVersion": "news-v4-action",
+        "productMode": "standalone_news",
+        "category": "money_life",
+        "label": "ECONOMY / 경제",
+        "prompt": "다음 편에서 더\n확인하고 싶은 것은?",
+        "a": "대상 조건·실제 비용",
+        "b": "신청·이용하는 순서",
+        "kicker": "카드플로우 뉴스 브리핑",
+        "hook": "내가 내는 돈도 달라질까?",
+        "lens": "내 지출에 생기는 변화\n나에게 해당하는 조건은?",
+        "questions": [
+          "변경 대상·적용 시점은 언제인가?",
+          "기존 조건과 비교하면 무엇이 달라지는가?",
+          "수수료·예외를 포함한 실제 비용은 얼마인가?"
+        ],
+        "checks": [
+          "내 계약·청구서의 적용 대상부터 확인",
+          "변경 전후 총비용과 예외 조건 비교",
+          "공식 안내 확인 전 성급한 가입·해지 보류"
+        ],
+        "headline": "신현송 “10월 금리 유지는 호미질의 결실”.. 추가 인상 가능성 남겨둬",
+        "excerpt": "",
+        "factLabel": "기사에서 확인한 내용",
+        "opinionLabel": "편집 확인 질문 · 확인 완료된 사실 목록이 아닙니다",
+        "conversion": {
+          "status": "not_connected",
+          "route": "독립 미디어의 광고·스폰서십·뉴스레터 사업 검증"
+        },
+        "cta": "해당되는 사람이 떠오르면 공유하고\n공식 조건 확인용으로 저장하세요.",
+        "experiment": {
+          "id": "news-v4-action",
+          "status": "hypothesis_not_validated"
+        },
+        "commercial": {
+          "id": "living_cost",
+          "label": "내 지출에 생기는 변화",
+          "audience": "생활비를 관리하는 독자",
+          "hook": "내가 내는 돈도 달라질까?",
+          "questions": [
+            "변경 대상·적용 시점은 언제인가?",
+            "기존 조건과 비교하면 무엇이 달라지는가?",
+            "수수료·예외를 포함한 실제 비용은 얼마인가?"
+          ],
+          "checks": [
+            "내 계약·청구서의 적용 대상부터 확인",
+            "변경 전후 총비용과 예외 조건 비교",
+            "공식 안내 확인 전 성급한 가입·해지 보류"
+          ],
+          "route": "생활 서비스 스폰서십·허용된 제휴 링크",
+          "score": 85,
+          "eligible": true,
+          "basis": "headline_keyword_hypothesis"
+        }
+      },
+      "storyKey": "23aa7e69ca0aa42e075ae802",
+      "title": "신현송 “10월 금리 유지는 호미질의 결실”.. 추가 인상 가능성 남겨둬",
+      "sourceURL": "https://v.daum.net/v/20261022122131178",
+      "images": [
+        "https://raw.githubusercontent.com/youngik693/cardflow-news-autopilot/442bab05e3af1016ec88991c70a91496b89da296/media/b99fd1e1ac93ae93463f83cb/01.jpg",
+        "https://raw.githubusercontent.com/youngik693/cardflow-news-autopilot/392d006f39bf0d7e871ee2f3a2c580a14ac5eaba/media/b99fd1e1ac93ae93463f83cb/02.jpg",
+        "https://raw.githubusercontent.com/youngik693/cardflow-news-autopilot/ad2040bd31da55aa808dd25491ceb481344eeb94/media/b99fd1e1ac93ae93463f83cb/03.jpg",
+        "https://raw.githubusercontent.com/youngik693/cardflow-news-autopilot/ffca7cf38e3dfeb760ecae15b9e7cea522289aad/media/b99fd1e1ac93ae93463f83cb/04.jpg",
+        "https://raw.githubusercontent.com/youngik693/cardflow-news-autopilot/89193444788a40a88086d43808f8b20f2e7c8afd/media/b99fd1e1ac93ae93463f83cb/05.jpg"
+      ],
+      "at": "2026-10-22T05:39:45.037Z",
+      "commercial": {
+        "id": "living_cost",
+        "label": "내 지출에 생기는 변화",
+        "audience": "생활비를 관리하는 독자",
+        "hook": "내가 내는 돈도 달라질까?",
+        "questions": [
+          "변경 대상·적용 시점은 언제인가?",
+          "기존 조건과 비교하면 무엇이 달라지는가?",
+          "수수료·예외를 포함한 실제 비용은 얼마인가?"
+        ],
+        "checks": [
+          "내 계약·청구서의 적용 대상부터 확인",
+          "변경 전후 총비용과 예외 조건 비교",
+          "공식 안내 확인 전 성급한 가입·해지 보류"
+        ],
+        "route": "생활 서비스 스폰서십·허용된 제휴 링크",
+        "score": 85,
+        "eligible": true,
+        "basis": "headline_keyword_hypothesis"
+      },
+      "rightsStatus": "unverified_draft_only",
+      "instagramEvidence": {
+        "score": null,
+        "availableMetrics": [],
+        "sampleCount": 0,
+        "scope": "관측한 계정·게시물만 비교, 인스타 전체 순위 아님",
+        "sources": []
+      },
+      "qualification": "portal_proxy_only"
     }
   ],
   "signals": [],
   "lastRun": {
-    "at": "2026-10-22T00:56:43.024Z",
+    "at": "2026-10-22T05:39:36.227Z",
     "sources": [
       {
         "provider": "daum",
@@ -761,14 +859,13 @@
     "status": "awaiting_connections",
     "sourceWatch": {
       "checked": 65,
-      "changed": 4,
+      "changed": 6,
       "failed": 3,
-      "initial": 11,
-      "at": "2026-10-22T00:56:32.205Z"
+      "initial": 12,
+      "at": "2026-10-22T05:39:24.179Z"
     },
-    "draftStatus": "no_new_commercial_candidate",
+    "draftStatus": "created",
     "blockers": [
-      "OPERATIONAL_CAP_REACHED",
       "INDEPENDENT_VERIFIER_NOT_CONNECTED",
       "PUBLICATION_WINDOW_CLOSED",
       "INSTAGRAM_AUTH_REQUIRED",
@@ -784,24 +881,24 @@
   },
   "candidates": [
     {
-      "title": "상어 부캉이, 차단막 뚫고 돌아와… 30m×30m 좁은 공간서 맴돌아",
+      "title": "\"14만원에 왔다\" 한국 온 중국인들 쫓아가보니…'수상한' 여행",
       "description": "",
-      "url": "https://v.daum.net/v/20261022084830870",
-      "source": "서울신문",
-      "publishedAt": "2026-10-21T23:48:30.000Z",
+      "url": "https://v.daum.net/v/20261022115512038",
+      "source": "아시아경제",
+      "publishedAt": "2026-10-22T02:55:12.000Z",
       "descriptionKind": "headline_only",
       "provider": "daum",
       "portalRank": 1,
-      "storyKey": "7e1877eb3b6f7e63ecfb1ff0",
+      "storyKey": "c4b2fb8d9ed8ba7a1df6764a",
       "sources": [
         {
           "provider": "daum",
-          "url": "https://v.daum.net/v/20261022084830870"
+          "url": "https://v.daum.net/v/20261022115512038"
         }
       ],
-      "category": "other",
+      "category": "food_travel",
       "categoryMethod": "headline_keyword_hypothesis",
-      "ageHours": 1.1369508333333334,
+      "ageHours": 2.7400627777777777,
       "instagram": {
         "score": null,
         "availableMetrics": [],
@@ -810,7 +907,7 @@
         "sources": []
       },
       "score": null,
-      "proxyScore": 75,
+      "proxyScore": 69,
       "portalProxyOnly": true,
       "eligible": false,
       "blocks": [
@@ -820,24 +917,24 @@
       ]
     },
     {
-      "title": "요리사 꿈꾸던 19세 강민수 씨, 7명에게 새 삶 선물하고 떠났다",
+      "title": "“등교시키던 애엄마가 음주운전 걸렸네요”…이온음료 발뺌했지만 면허정지",
       "description": "",
-      "url": "https://v.daum.net/v/20261022094429765",
-      "source": "키즈맘",
-      "publishedAt": "2026-10-22T00:44:29.000Z",
+      "url": "https://v.daum.net/v/20261022141200166",
+      "source": "매일경제",
+      "publishedAt": "2026-10-22T05:12:00.000Z",
       "descriptionKind": "headline_only",
       "provider": "daum",
       "portalRank": 2,
-      "storyKey": "e40d4a957eec2a464417e397",
+      "storyKey": "5788d38fae1b483b688033cf",
       "sources": [
         {
           "provider": "daum",
-          "url": "https://v.daum.net/v/20261022094429765"
+          "url": "https://v.daum.net/v/20261022141200166"
         }
       ],
       "category": "other",
       "categoryMethod": "headline_keyword_hypothesis",
-      "ageHours": 0.20389527777777777,
+      "ageHours": 0.46006277777777776,
       "instagram": {
         "score": null,
         "availableMetrics": [],
@@ -846,7 +943,7 @@
         "sources": []
       },
       "score": null,
-      "proxyScore": 70,
+      "proxyScore": 69,
       "portalProxyOnly": true,
       "eligible": false,
       "blocks": [
@@ -856,24 +953,96 @@
       ]
     },
     {
-      "title": "그물 뚫고 수로로 재진입한 부캉이..앞으로의 대응은?",
+      "title": "유승민 “정부, 자본시장 선 넘었다…국정조사·특검 필요”[단독 인터뷰]",
       "description": "",
-      "url": "https://v.daum.net/v/20261022090419571",
-      "source": "YTN",
-      "publishedAt": "2026-10-22T00:04:19.000Z",
+      "url": "https://v.daum.net/v/20261022143149097",
+      "source": "에너지경제",
+      "publishedAt": "2026-10-22T05:31:49.000Z",
       "descriptionKind": "headline_only",
       "provider": "daum",
-      "portalRank": 8,
-      "storyKey": "e95971924910e207a486dd22",
+      "portalRank": 3,
+      "storyKey": "e69406287c7fae166420d9c9",
       "sources": [
         {
           "provider": "daum",
-          "url": "https://v.daum.net/v/20261022090419571"
+          "url": "https://v.daum.net/v/20261022143149097"
         }
       ],
       "category": "other",
       "categoryMethod": "headline_keyword_hypothesis",
-      "ageHours": 0.8733397222222222,
+      "ageHours": 0.129785,
+      "instagram": {
+        "score": null,
+        "availableMetrics": [],
+        "sampleCount": 0,
+        "scope": "관측한 계정·게시물만 비교, 인스타 전체 순위 아님",
+        "sources": []
+      },
+      "score": null,
+      "proxyScore": 67,
+      "portalProxyOnly": true,
+      "eligible": false,
+      "blocks": [
+        "CONTENT_RIGHTS_UNVERIFIED",
+        "INSTAGRAM_EVIDENCE_MISSING",
+        "BELOW_SELECTION_THRESHOLD"
+      ]
+    },
+    {
+      "title": "물 위로 쑥 올라오더니 드론 발사…호주 무인잠수정 ‘고스트샤크’ 영상 공개[포착]",
+      "description": "",
+      "url": "https://v.daum.net/v/20261022140239660",
+      "source": "서울신문",
+      "publishedAt": "2026-10-22T05:02:39.000Z",
+      "descriptionKind": "headline_only",
+      "provider": "daum",
+      "portalRank": 4,
+      "storyKey": "6e5ff594c329b494ab6a08a1",
+      "sources": [
+        {
+          "provider": "daum",
+          "url": "https://v.daum.net/v/20261022140239660"
+        }
+      ],
+      "category": "other",
+      "categoryMethod": "headline_keyword_hypothesis",
+      "ageHours": 0.6158961111111111,
+      "instagram": {
+        "score": null,
+        "availableMetrics": [],
+        "sampleCount": 0,
+        "scope": "관측한 계정·게시물만 비교, 인스타 전체 순위 아님",
+        "sources": []
+      },
+      "score": null,
+      "proxyScore": 62,
+      "portalProxyOnly": true,
+      "eligible": false,
+      "blocks": [
+        "CONTENT_RIGHTS_UNVERIFIED",
+        "INSTAGRAM_EVIDENCE_MISSING",
+        "BELOW_SELECTION_THRESHOLD"
+      ]
+    },
+    {
+      "title": "李 “중수청 지휘 포기는 탄핵 사유”…국무회의 참석 방침 고수",
+      "description": "",
+      "url": "https://v.daum.net/v/20261022135039106",
+      "source": "중앙일보",
+      "publishedAt": "2026-10-22T04:50:39.000Z",
+      "descriptionKind": "headline_only",
+      "provider": "daum",
+      "portalRank": 9,
+      "storyKey": "2ca03eedd9df6adfb5559bc5",
+      "sources": [
+        {
+          "provider": "daum",
+          "url": "https://v.daum.net/v/20261022135039106"
+        }
+      ],
+      "category": "other",
+      "categoryMethod": "headline_keyword_hypothesis",
+      "ageHours": 0.8158961111111112,
       "instagram": {
         "score": null,
         "availableMetrics": [],
@@ -892,96 +1061,24 @@
       ]
     },
     {
-      "title": "한국전쟁 참전 미군이 삼키기 싫어했던 음식 세 가지",
+      "title": "신현송 “10월 금리 유지는 호미질의 결실”.. 추가 인상 가능성 남겨둬",
       "description": "",
-      "url": "https://v.daum.net/v/20261022071722842",
-      "source": "오마이뉴스",
-      "publishedAt": "2026-10-21T22:17:22.000Z",
-      "descriptionKind": "headline_only",
-      "provider": "daum",
-      "portalRank": 3,
-      "storyKey": "c86ee48b03bb690794bee5db",
-      "sources": [
-        {
-          "provider": "daum",
-          "url": "https://v.daum.net/v/20261022071722842"
-        }
-      ],
-      "category": "food_travel",
-      "categoryMethod": "headline_keyword_hypothesis",
-      "ageHours": 2.6558397222222223,
-      "instagram": {
-        "score": null,
-        "availableMetrics": [],
-        "sampleCount": 0,
-        "scope": "관측한 계정·게시물만 비교, 인스타 전체 순위 아님",
-        "sources": []
-      },
-      "score": null,
-      "proxyScore": 56,
-      "portalProxyOnly": true,
-      "eligible": false,
-      "blocks": [
-        "CONTENT_RIGHTS_UNVERIFIED",
-        "INSTAGRAM_EVIDENCE_MISSING",
-        "BELOW_SELECTION_THRESHOLD"
-      ]
-    },
-    {
-      "title": "수로 밖 나간 상어 '부캉이' 다시 돌아왔다…외해 복귀 못 해",
-      "description": "",
-      "url": "https://v.daum.net/v/20261022081928087",
-      "source": "연합뉴스",
-      "publishedAt": "2026-10-21T23:19:28.000Z",
-      "descriptionKind": "headline_only",
-      "provider": "daum",
-      "portalRank": 10,
-      "storyKey": "545e8f9883f359c160dbdfe3",
-      "sources": [
-        {
-          "provider": "daum",
-          "url": "https://v.daum.net/v/20261022081928087"
-        }
-      ],
-      "category": "other",
-      "categoryMethod": "headline_keyword_hypothesis",
-      "ageHours": 1.6208397222222222,
-      "instagram": {
-        "score": null,
-        "availableMetrics": [],
-        "sampleCount": 0,
-        "scope": "관측한 계정·게시물만 비교, 인스타 전체 순위 아님",
-        "sources": []
-      },
-      "score": null,
-      "proxyScore": 53,
-      "portalProxyOnly": true,
-      "eligible": false,
-      "blocks": [
-        "CONTENT_RIGHTS_UNVERIFIED",
-        "INSTAGRAM_EVIDENCE_MISSING",
-        "BELOW_SELECTION_THRESHOLD"
-      ]
-    },
-    {
-      "title": "北 김여정 \"전 국경선에서 대남 확성기 곧 대기 상태 돌입\"",
-      "description": "",
-      "url": "https://v.daum.net/v/20261022070956752",
-      "source": "뉴스1",
-      "publishedAt": "2026-10-21T22:09:56.000Z",
+      "url": "https://v.daum.net/v/20261022122131178",
+      "source": "조선비즈",
+      "publishedAt": "2026-10-22T03:21:31.000Z",
       "descriptionKind": "headline_only",
       "provider": "daum",
       "portalRank": 5,
-      "storyKey": "f4b7d903205f77a583d1594b",
+      "storyKey": "23aa7e69ca0aa42e075ae802",
       "sources": [
         {
           "provider": "daum",
-          "url": "https://v.daum.net/v/20261022070956752"
+          "url": "https://v.daum.net/v/20261022122131178"
         }
       ],
-      "category": "other",
+      "category": "money_life",
       "categoryMethod": "headline_keyword_hypothesis",
-      "ageHours": 2.779728611111111,
+      "ageHours": 2.3014516666666665,
       "instagram": {
         "score": null,
         "availableMetrics": [],
@@ -990,7 +1087,7 @@
         "sources": []
       },
       "score": null,
-      "proxyScore": 52,
+      "proxyScore": 54,
       "portalProxyOnly": true,
       "eligible": false,
       "blocks": [
@@ -1000,132 +1097,24 @@
       ]
     },
     {
-      "title": "추미애 \"눈물 날 정도..내년엔 하루 이자만 5억\"",
+      "title": "靑, ‘중수청장 국무회의’ 논란에 “수사·공소지휘 일체 안 다룰 것”",
       "description": "",
-      "url": "https://v.daum.net/v/20261022054317604",
-      "source": "이데일리",
-      "publishedAt": "2026-10-21T20:43:17.000Z",
-      "descriptionKind": "headline_only",
-      "provider": "daum",
-      "portalRank": 4,
-      "storyKey": "15b52a345d1578a467900bb4",
-      "sources": [
-        {
-          "provider": "daum",
-          "url": "https://v.daum.net/v/20261022054317604"
-        }
-      ],
-      "category": "other",
-      "categoryMethod": "headline_keyword_hypothesis",
-      "ageHours": 4.223895277777777,
-      "instagram": {
-        "score": null,
-        "availableMetrics": [],
-        "sampleCount": 0,
-        "scope": "관측한 계정·게시물만 비교, 인스타 전체 순위 아님",
-        "sources": []
-      },
-      "score": null,
-      "proxyScore": 47,
-      "portalProxyOnly": true,
-      "eligible": false,
-      "blocks": [
-        "CONTENT_RIGHTS_UNVERIFIED",
-        "INSTAGRAM_EVIDENCE_MISSING",
-        "BELOW_SELECTION_THRESHOLD"
-      ]
-    },
-    {
-      "title": "‘셀프 출품’ 유홍준 국립중앙박물관장 사퇴",
-      "description": "",
-      "url": "https://v.daum.net/v/20261022043327321",
-      "source": "동아일보",
-      "publishedAt": "2026-10-21T19:33:27.000Z",
-      "descriptionKind": "headline_only",
-      "provider": "daum",
-      "portalRank": 9,
-      "storyKey": "d97d694702a7719a518625df",
-      "sources": [
-        {
-          "provider": "daum",
-          "url": "https://v.daum.net/v/20261022043327321"
-        }
-      ],
-      "category": "other",
-      "categoryMethod": "headline_keyword_hypothesis",
-      "ageHours": 5.387784166666667,
-      "instagram": {
-        "score": null,
-        "availableMetrics": [],
-        "sampleCount": 0,
-        "scope": "관측한 계정·게시물만 비교, 인스타 전체 순위 아님",
-        "sources": []
-      },
-      "score": null,
-      "proxyScore": 38,
-      "portalProxyOnly": true,
-      "eligible": false,
-      "blocks": [
-        "CONTENT_RIGHTS_UNVERIFIED",
-        "INSTAGRAM_EVIDENCE_MISSING",
-        "BELOW_SELECTION_THRESHOLD"
-      ]
-    },
-    {
-      "title": "거세지는 강경파 \"조희대 탄핵\" 요구.. 與 '국정조사'로 출구 찾나",
-      "description": "",
-      "url": "https://v.daum.net/v/20261022043328322",
-      "source": "한국일보",
-      "publishedAt": "2026-10-21T19:33:28.000Z",
-      "descriptionKind": "headline_only",
-      "provider": "daum",
-      "portalRank": 12,
-      "storyKey": "f3c9026087006e09d1a5e63e",
-      "sources": [
-        {
-          "provider": "daum",
-          "url": "https://v.daum.net/v/20261022043328322"
-        }
-      ],
-      "category": "other",
-      "categoryMethod": "headline_keyword_hypothesis",
-      "ageHours": 5.387506388888889,
-      "instagram": {
-        "score": null,
-        "availableMetrics": [],
-        "sampleCount": 0,
-        "scope": "관측한 계정·게시물만 비교, 인스타 전체 순위 아님",
-        "sources": []
-      },
-      "score": null,
-      "proxyScore": 36,
-      "portalProxyOnly": true,
-      "eligible": false,
-      "blocks": [
-        "CONTENT_RIGHTS_UNVERIFIED",
-        "INSTAGRAM_EVIDENCE_MISSING",
-        "BELOW_SELECTION_THRESHOLD"
-      ]
-    },
-    {
-      "title": "창원 한 병원 혈액투석실서 14명 C형간염 감염",
-      "description": "",
-      "url": "https://v.daum.net/v/20261022043345346",
-      "source": "동아일보",
-      "publishedAt": "2026-10-21T19:33:45.000Z",
+      "url": "https://v.daum.net/v/20261022113621019",
+      "source": "서울경제",
+      "publishedAt": "2026-10-22T02:36:21.000Z",
       "descriptionKind": "headline_only",
       "provider": "daum",
       "portalRank": 13,
-      "storyKey": "f4bf01e18701b8562d8e1373",
+      "storyKey": "e07c9444732c8517c85f9c95",
       "sources": [
         {
           "provider": "daum",
-          "url": "https://v.daum.net/v/20261022043345346"
+          "url": "https://v.daum.net/v/20261022113621019"
         }
       ],
       "category": "other",
       "categoryMethod": "headline_keyword_hypothesis",
-      "ageHours": 5.382784166666666,
+      "ageHours": 3.0542294444444447,
       "instagram": {
         "score": null,
         "availableMetrics": [],
@@ -1134,7 +1123,7 @@
         "sources": []
       },
       "score": null,
-      "proxyScore": 36,
+      "proxyScore": 46,
       "portalProxyOnly": true,
       "eligible": false,
       "blocks": [
@@ -1144,24 +1133,204 @@
       ]
     },
     {
-      "title": "PHP 웹해킹 비상속 일부 배포업체, 패치유출 논란…숨죽인 6시간",
+      "title": "금융위, 솔리다임 美상장은 ‘중복상장’ 재확인… 이억원 “SK 주주보호 의무 충실해야”",
       "description": "",
-      "url": "https://v.daum.net/v/20261022030923093",
-      "source": "연합뉴스",
-      "publishedAt": "2026-10-21T18:09:23.000Z",
+      "url": "https://v.daum.net/v/20261022110240688",
+      "source": "조선일보",
+      "publishedAt": "2026-10-22T02:02:40.000Z",
       "descriptionKind": "headline_only",
       "provider": "daum",
-      "portalRank": 7,
-      "storyKey": "c11d9c0868534c610cc27b5d",
+      "portalRank": 10,
+      "storyKey": "d48c5d845231c3f6695e3e82",
       "sources": [
         {
           "provider": "daum",
-          "url": "https://v.daum.net/v/20261022030923093"
+          "url": "https://v.daum.net/v/20261022110240688"
         }
       ],
       "category": "other",
       "categoryMethod": "headline_keyword_hypothesis",
-      "ageHours": 6.788895277777778,
+      "ageHours": 3.6156183333333334,
+      "instagram": {
+        "score": null,
+        "availableMetrics": [],
+        "sampleCount": 0,
+        "scope": "관측한 계정·게시물만 비교, 인스타 전체 순위 아님",
+        "sources": []
+      },
+      "score": null,
+      "proxyScore": 44,
+      "portalProxyOnly": true,
+      "eligible": false,
+      "blocks": [
+        "CONTENT_RIGHTS_UNVERIFIED",
+        "INSTAGRAM_EVIDENCE_MISSING",
+        "BELOW_SELECTION_THRESHOLD"
+      ]
+    },
+    {
+      "title": "연세대도 뚫렸다…“학번·성명 등 개인정보 유출”",
+      "description": "",
+      "url": "https://v.daum.net/v/20261022093756371",
+      "source": "서울경제",
+      "publishedAt": "2026-10-22T00:37:56.000Z",
+      "descriptionKind": "headline_only",
+      "provider": "daum",
+      "portalRank": 7,
+      "storyKey": "8f98268fd9f11f2ed907941a",
+      "sources": [
+        {
+          "provider": "daum",
+          "url": "https://v.daum.net/v/20261022093756371"
+        }
+      ],
+      "category": "other",
+      "categoryMethod": "headline_keyword_hypothesis",
+      "ageHours": 5.027840555555556,
+      "instagram": {
+        "score": null,
+        "availableMetrics": [],
+        "sampleCount": 0,
+        "scope": "관측한 계정·게시물만 비교, 인스타 전체 순위 아님",
+        "sources": []
+      },
+      "score": null,
+      "proxyScore": 40,
+      "portalProxyOnly": true,
+      "eligible": false,
+      "blocks": [
+        "CONTENT_RIGHTS_UNVERIFIED",
+        "INSTAGRAM_EVIDENCE_MISSING",
+        "BELOW_SELECTION_THRESHOLD"
+      ]
+    },
+    {
+      "title": "한은, 기준금리 연 3.00%로 동결… 2연속 인상 뒤 숨고르기",
+      "description": "",
+      "url": "https://v.daum.net/v/20261022095924648",
+      "source": "대전일보",
+      "publishedAt": "2026-10-22T00:59:24.000Z",
+      "descriptionKind": "headline_only",
+      "provider": "daum",
+      "portalRank": 11,
+      "storyKey": "7544365762aad8edc7174e27",
+      "sources": [
+        {
+          "provider": "daum",
+          "url": "https://v.daum.net/v/20261022095924648"
+        }
+      ],
+      "category": "money_life",
+      "categoryMethod": "headline_keyword_hypothesis",
+      "ageHours": 4.670062777777778,
+      "instagram": {
+        "score": null,
+        "availableMetrics": [],
+        "sampleCount": 0,
+        "scope": "관측한 계정·게시물만 비교, 인스타 전체 순위 아님",
+        "sources": []
+      },
+      "score": null,
+      "proxyScore": 40,
+      "portalProxyOnly": true,
+      "eligible": false,
+      "blocks": [
+        "CONTENT_RIGHTS_UNVERIFIED",
+        "INSTAGRAM_EVIDENCE_MISSING",
+        "BELOW_SELECTION_THRESHOLD"
+      ]
+    },
+    {
+      "title": "북 김여정 연이틀 위협..\"전 국경선서 새 대응수단·확성기 임무 대기\"",
+      "description": "",
+      "url": "https://v.daum.net/v/20261022081018877",
+      "source": "YTN",
+      "publishedAt": "2026-10-21T23:10:18.000Z",
+      "descriptionKind": "headline_only",
+      "provider": "daum",
+      "portalRank": 6,
+      "storyKey": "62ce81f7afb546ffe3279188",
+      "sources": [
+        {
+          "provider": "daum",
+          "url": "https://v.daum.net/v/20261022081018877"
+        }
+      ],
+      "category": "other",
+      "categoryMethod": "headline_keyword_hypothesis",
+      "ageHours": 6.488396111111111,
+      "instagram": {
+        "score": null,
+        "availableMetrics": [],
+        "sampleCount": 0,
+        "scope": "관측한 계정·게시물만 비교, 인스타 전체 순위 아님",
+        "sources": []
+      },
+      "score": null,
+      "proxyScore": 35,
+      "portalProxyOnly": true,
+      "eligible": false,
+      "blocks": [
+        "CONTENT_RIGHTS_UNVERIFIED",
+        "INSTAGRAM_EVIDENCE_MISSING",
+        "BELOW_SELECTION_THRESHOLD"
+      ]
+    },
+    {
+      "title": "그물 뚫고 수로로 재진입한 부캉이..앞으로의 대응은?",
+      "description": "",
+      "url": "https://v.daum.net/v/20261022090419571",
+      "source": "YTN",
+      "publishedAt": "2026-10-22T00:04:19.000Z",
+      "descriptionKind": "headline_only",
+      "provider": "daum",
+      "portalRank": 12,
+      "storyKey": "e95971924910e207a486dd22",
+      "sources": [
+        {
+          "provider": "daum",
+          "url": "https://v.daum.net/v/20261022090419571"
+        }
+      ],
+      "category": "other",
+      "categoryMethod": "headline_keyword_hypothesis",
+      "ageHours": 5.588118333333333,
+      "instagram": {
+        "score": null,
+        "availableMetrics": [],
+        "sampleCount": 0,
+        "scope": "관측한 계정·게시물만 비교, 인스타 전체 순위 아님",
+        "sources": []
+      },
+      "score": null,
+      "proxyScore": 35,
+      "portalProxyOnly": true,
+      "eligible": false,
+      "blocks": [
+        "CONTENT_RIGHTS_UNVERIFIED",
+        "INSTAGRAM_EVIDENCE_MISSING",
+        "BELOW_SELECTION_THRESHOLD"
+      ]
+    },
+    {
+      "title": "PHP 보안 패치 사전유출 파장…일부 유럽 국가들 시스템 오프라인 전환",
+      "description": "",
+      "url": "https://v.daum.net/v/20261022080143678",
+      "source": "뉴시스",
+      "publishedAt": "2026-10-21T23:01:43.000Z",
+      "descriptionKind": "headline_only",
+      "provider": "daum",
+      "portalRank": 8,
+      "storyKey": "1581efbd7a4e8a20630519e2",
+      "sources": [
+        {
+          "provider": "daum",
+          "url": "https://v.daum.net/v/20261022080143678"
+        }
+      ],
+      "category": "other",
+      "categoryMethod": "headline_keyword_hypothesis",
+      "ageHours": 6.631451666666667,
       "instagram": {
         "score": null,
         "availableMetrics": [],
@@ -1171,78 +1340,6 @@
       },
       "score": null,
       "proxyScore": 33,
-      "portalProxyOnly": true,
-      "eligible": false,
-      "blocks": [
-        "CONTENT_RIGHTS_UNVERIFIED",
-        "INSTAGRAM_EVIDENCE_MISSING",
-        "BELOW_SELECTION_THRESHOLD"
-      ]
-    },
-    {
-      "title": "러시아 \"우크라 종전 협상, 내달 중순 UAE 아부다비 개최 가능성\"",
-      "description": "",
-      "url": "https://v.daum.net/v/20261022012723897",
-      "source": "뉴스1",
-      "publishedAt": "2026-10-21T16:27:23.000Z",
-      "descriptionKind": "headline_only",
-      "provider": "daum",
-      "portalRank": 6,
-      "storyKey": "8ae147ad676d383d7ff9b0a9",
-      "sources": [
-        {
-          "provider": "daum",
-          "url": "https://v.daum.net/v/20261022012723897"
-        }
-      ],
-      "category": "other",
-      "categoryMethod": "headline_keyword_hypothesis",
-      "ageHours": 8.488895277777777,
-      "instagram": {
-        "score": null,
-        "availableMetrics": [],
-        "sampleCount": 0,
-        "scope": "관측한 계정·게시물만 비교, 인스타 전체 순위 아님",
-        "sources": []
-      },
-      "score": null,
-      "proxyScore": 27,
-      "portalProxyOnly": true,
-      "eligible": false,
-      "blocks": [
-        "CONTENT_RIGHTS_UNVERIFIED",
-        "INSTAGRAM_EVIDENCE_MISSING",
-        "BELOW_SELECTION_THRESHOLD"
-      ]
-    },
-    {
-      "title": "지뢰 도발 한달 된 날, 김여정 “이달 중 확성기 가동”",
-      "description": "",
-      "url": "https://v.daum.net/v/20261022005633709",
-      "source": "조선일보",
-      "publishedAt": "2026-10-21T15:56:33.000Z",
-      "descriptionKind": "headline_only",
-      "provider": "daum",
-      "portalRank": 11,
-      "storyKey": "02e5dd89795e308116213f65",
-      "sources": [
-        {
-          "provider": "daum",
-          "url": "https://v.daum.net/v/20261022005633709"
-        }
-      ],
-      "category": "other",
-      "categoryMethod": "headline_keyword_hypothesis",
-      "ageHours": 9.002784166666666,
-      "instagram": {
-        "score": null,
-        "availableMetrics": [],
-        "sampleCount": 0,
-        "scope": "관측한 계정·게시물만 비교, 인스타 전체 순위 아님",
-        "sources": []
-      },
-      "score": null,
-      "proxyScore": 22,
       "portalProxyOnly": true,
       "eligible": false,
       "blocks": [
@@ -1288,7 +1385,7 @@
     }
   ],
   "commercialDashboard": {
-    "updatedAt": "2026-10-22T00:56:43.026Z",
+    "updatedAt": "2026-10-22T05:39:45.038Z",
     "offers": [
       {
         "id": "creative_only",
@@ -1413,7 +1510,7 @@
       "at": "2026-10-21T03:13:07.287Z",
       "invalidation": {
         "reason": "SOURCE_UNVERIFIED",
-        "at": "2026-10-22T00:56:32.925Z",
+        "at": "2026-10-22T05:39:24.537Z",
         "sourceId": "tesla-kr-connectivity"
       },
       "publicationAuthorized": false,
@@ -1479,6 +1576,84 @@
       "priority": true
     },
     {
+      "url": "https://v.daum.net/v/20261022090419571",
+      "storyKey": "e95971924910e207a486dd22",
+      "firstSeenAt": "2026-10-22T00:56:32.204Z",
+      "lastSeenAt": "2026-10-22T05:39:24.178Z"
+    },
+    {
+      "url": "https://v.daum.net/v/20261022115512038",
+      "storyKey": "c4b2fb8d9ed8ba7a1df6764a",
+      "firstSeenAt": "2026-10-22T05:39:24.178Z",
+      "lastSeenAt": "2026-10-22T05:39:24.178Z"
+    },
+    {
+      "url": "https://v.daum.net/v/20261022141200166",
+      "storyKey": "5788d38fae1b483b688033cf",
+      "firstSeenAt": "2026-10-22T05:39:24.178Z",
+      "lastSeenAt": "2026-10-22T05:39:24.178Z"
+    },
+    {
+      "url": "https://v.daum.net/v/20261022143149097",
+      "storyKey": "e69406287c7fae166420d9c9",
+      "firstSeenAt": "2026-10-22T05:39:24.178Z",
+      "lastSeenAt": "2026-10-22T05:39:24.178Z"
+    },
+    {
+      "url": "https://v.daum.net/v/20261022140239660",
+      "storyKey": "6e5ff594c329b494ab6a08a1",
+      "firstSeenAt": "2026-10-22T05:39:24.178Z",
+      "lastSeenAt": "2026-10-22T05:39:24.178Z"
+    },
+    {
+      "url": "https://v.daum.net/v/20261022122131178",
+      "storyKey": "23aa7e69ca0aa42e075ae802",
+      "firstSeenAt": "2026-10-22T05:39:24.178Z",
+      "lastSeenAt": "2026-10-22T05:39:24.178Z"
+    },
+    {
+      "url": "https://v.daum.net/v/20261022081018877",
+      "storyKey": "62ce81f7afb546ffe3279188",
+      "firstSeenAt": "2026-10-22T05:39:24.178Z",
+      "lastSeenAt": "2026-10-22T05:39:24.178Z"
+    },
+    {
+      "url": "https://v.daum.net/v/20261022093756371",
+      "storyKey": "8f98268fd9f11f2ed907941a",
+      "firstSeenAt": "2026-10-22T05:39:24.178Z",
+      "lastSeenAt": "2026-10-22T05:39:24.178Z"
+    },
+    {
+      "url": "https://v.daum.net/v/20261022080143678",
+      "storyKey": "1581efbd7a4e8a20630519e2",
+      "firstSeenAt": "2026-10-22T05:39:24.178Z",
+      "lastSeenAt": "2026-10-22T05:39:24.178Z"
+    },
+    {
+      "url": "https://v.daum.net/v/20261022135039106",
+      "storyKey": "2ca03eedd9df6adfb5559bc5",
+      "firstSeenAt": "2026-10-22T05:39:24.178Z",
+      "lastSeenAt": "2026-10-22T05:39:24.178Z"
+    },
+    {
+      "url": "https://v.daum.net/v/20261022110240688",
+      "storyKey": "d48c5d845231c3f6695e3e82",
+      "firstSeenAt": "2026-10-22T05:39:24.178Z",
+      "lastSeenAt": "2026-10-22T05:39:24.178Z"
+    },
+    {
+      "url": "https://v.daum.net/v/20261022095924648",
+      "storyKey": "7544365762aad8edc7174e27",
+      "firstSeenAt": "2026-10-22T05:39:24.178Z",
+      "lastSeenAt": "2026-10-22T05:39:24.178Z"
+    },
+    {
+      "url": "https://v.daum.net/v/20261022113621019",
+      "storyKey": "e07c9444732c8517c85f9c95",
+      "firstSeenAt": "2026-10-22T05:39:24.178Z",
+      "lastSeenAt": "2026-10-22T05:39:24.178Z"
+    },
+    {
       "url": "https://v.daum.net/v/20261022070956752",
       "storyKey": "f4b7d903205f77a583d1594b",
       "firstSeenAt": "2026-10-21T22:44:15.711Z",
@@ -1523,12 +1698,6 @@
     {
       "url": "https://v.daum.net/v/20261022030923093",
       "storyKey": "c11d9c0868534c610cc27b5d",
-      "firstSeenAt": "2026-10-22T00:56:32.204Z",
-      "lastSeenAt": "2026-10-22T00:56:32.204Z"
-    },
-    {
-      "url": "https://v.daum.net/v/20261022090419571",
-      "storyKey": "e95971924910e207a486dd22",
       "firstSeenAt": "2026-10-22T00:56:32.204Z",
       "lastSeenAt": "2026-10-22T00:56:32.204Z"
     },
@@ -1717,78 +1886,6 @@
       "storyKey": "11d501679977a85e25fb671a",
       "firstSeenAt": "2026-10-21T07:22:10.889Z",
       "lastSeenAt": "2026-10-21T10:51:56.413Z"
-    },
-    {
-      "url": "https://v.daum.net/v/20261021170223041",
-      "storyKey": "666dfb754892cfee70cb27ab",
-      "firstSeenAt": "2026-10-21T10:51:56.413Z",
-      "lastSeenAt": "2026-10-21T10:51:56.413Z"
-    },
-    {
-      "url": "https://v.daum.net/v/20261021175109368",
-      "storyKey": "05df23a184ed5d7474704439",
-      "firstSeenAt": "2026-10-21T10:51:56.413Z",
-      "lastSeenAt": "2026-10-21T10:51:56.413Z"
-    },
-    {
-      "url": "https://v.daum.net/v/20261021154524111",
-      "storyKey": "478b9d9d693a132984be9046",
-      "firstSeenAt": "2026-10-21T10:51:56.413Z",
-      "lastSeenAt": "2026-10-21T10:51:56.413Z"
-    },
-    {
-      "url": "https://v.daum.net/v/20261021143518233",
-      "storyKey": "299c5c54dd302d2e9878d2e7",
-      "firstSeenAt": "2026-10-21T10:51:56.413Z",
-      "lastSeenAt": "2026-10-21T10:51:56.413Z"
-    },
-    {
-      "url": "https://v.daum.net/v/20261021120150968",
-      "storyKey": "e35ad9c574d0b799a04b5a82",
-      "firstSeenAt": "2026-10-21T10:51:56.413Z",
-      "lastSeenAt": "2026-10-21T10:51:56.413Z"
-    },
-    {
-      "url": "https://v.daum.net/v/20261021163718857",
-      "storyKey": "2a3e9e563d181e05279c01ac",
-      "firstSeenAt": "2026-10-21T10:51:56.413Z",
-      "lastSeenAt": "2026-10-21T10:51:56.413Z"
-    },
-    {
-      "url": "https://v.daum.net/v/20261021134941117",
-      "storyKey": "3778d99577a7021558e636eb",
-      "firstSeenAt": "2026-10-21T10:51:56.413Z",
-      "lastSeenAt": "2026-10-21T10:51:56.413Z"
-    },
-    {
-      "url": "https://v.daum.net/v/20261021142029492",
-      "storyKey": "823f92fb36b75eee4d145993",
-      "firstSeenAt": "2026-10-21T10:51:56.413Z",
-      "lastSeenAt": "2026-10-21T10:51:56.413Z"
-    },
-    {
-      "url": "https://v.daum.net/v/20261021151121296",
-      "storyKey": "d3254846e75d07c07a11a8a0",
-      "firstSeenAt": "2026-10-21T10:51:56.413Z",
-      "lastSeenAt": "2026-10-21T10:51:56.413Z"
-    },
-    {
-      "url": "https://v.daum.net/v/20261021151917731",
-      "storyKey": "eb80429065b1d206de64536e",
-      "firstSeenAt": "2026-10-21T06:23:59.404Z",
-      "lastSeenAt": "2026-10-21T07:22:10.889Z"
-    },
-    {
-      "url": "https://v.daum.net/v/20261021133431534",
-      "storyKey": "9139953b89304e91e807036e",
-      "firstSeenAt": "2026-10-21T06:23:59.404Z",
-      "lastSeenAt": "2026-10-21T07:22:10.889Z"
-    },
-    {
-      "url": "https://v.daum.net/v/20261021111521391",
-      "storyKey": "ade7c6e833208e5df96ce56b",
-      "firstSeenAt": "2026-10-21T06:23:59.404Z",
-      "lastSeenAt": "2026-10-21T07:22:10.889Z"
     }
   ],
   "sourceSnapshots": {
@@ -1796,14 +1893,14 @@
       "sourceId": "tesla-ir-updates",
       "url": "https://ir.tesla.com/",
       "status": "unverified",
-      "lastAttemptAt": "2026-10-22T00:56:32.924Z",
+      "lastAttemptAt": "2026-10-22T05:39:24.537Z",
       "error": "SOURCE_HTTP_403"
     },
     "tesla-sec-updates": {
       "sourceId": "tesla-sec-updates",
       "url": "https://ir.tesla.com/sec-filings",
       "status": "unverified",
-      "lastAttemptAt": "2026-10-22T00:56:32.924Z",
+      "lastAttemptAt": "2026-10-22T05:39:24.537Z",
       "error": "SOURCE_HTTP_403"
     },
     "tesla-proxy-20261019": {
@@ -1815,7 +1912,7 @@
       "links": [],
       "modifiedAt": null,
       "lastModified": "Mon, 19 Oct 2026 10:16:00 GMT",
-      "fetchedAt": "2026-10-22T00:56:32.924Z",
+      "fetchedAt": "2026-10-22T05:39:24.537Z",
       "status": "checked",
       "coverage": "registered_public_endpoint_only",
       "lastChangedAt": null
@@ -1824,7 +1921,7 @@
       "sourceId": "tesla-kr-connectivity",
       "url": "https://www.tesla.com/ko_kr/support/connectivity",
       "status": "unverified",
-      "lastAttemptAt": "2026-10-22T00:56:32.925Z",
+      "lastAttemptAt": "2026-10-22T05:39:24.537Z",
       "error": "SOURCE_HTTP_403"
     },
     "customs-release-updates": {
@@ -1832,9 +1929,8 @@
       "url": "https://customs.go.kr/kcs/na/ntt/selectNttList.do?bbsId=1362&mi=2891",
       "scope": "public_text",
       "role": "discovery",
-      "sha256": "6e9502219dcb1dec129ecbb05b95d599edc98a0e0ceb352e72c70e27b4d990d9",
+      "sha256": "c7b4f95e3e7f350d2bc7c8c6fb6bb59ff9b67bd253009ebda9af8786857d68fe",
       "links": [
-        "https://customs.go.kr/kcs/na/ntt/selectNttInfo.do?bbsId=1362&mi=2891&nttSn=10179604&nttSnUrl=6547a366b7903adfa436d4ad3ed7432f",
         "https://customs.go.kr/kcs/na/ntt/selectNttInfo.do?bbsId=1362&mi=2891&nttSn=10179605&nttSnUrl=0f8a9958a2a2a2905f59d9887bb2906f",
         "https://customs.go.kr/kcs/na/ntt/selectNttInfo.do?bbsId=1362&mi=2891&nttSn=10179763&nttSnUrl=94e483116f9b898190458b9bf79546a3",
         "https://customs.go.kr/kcs/na/ntt/selectNttInfo.do?bbsId=1362&mi=2891&nttSn=10179764&nttSnUrl=85ecfa8eed3f4098ece86ef6db0520a7",
@@ -1843,56 +1939,57 @@
         "https://customs.go.kr/kcs/na/ntt/selectNttInfo.do?bbsId=1362&mi=2891&nttSn=10180364&nttSnUrl=1b12048e2a1dfd9e5283250b747545c0",
         "https://customs.go.kr/kcs/na/ntt/selectNttInfo.do?bbsId=1362&mi=2891&nttSn=10180465&nttSnUrl=3b279b0d8ae0387ac138c4741fb65b67",
         "https://customs.go.kr/kcs/na/ntt/selectNttInfo.do?bbsId=1362&mi=2891&nttSn=10180466&nttSnUrl=29dec63b1187c0982a0a699dd92c7dfc",
-        "https://customs.go.kr/kcs/na/ntt/selectNttInfo.do?bbsId=1362&mi=2891&nttSn=10180503&nttSnUrl=53b39589b0b15e6f805640cc681acf5c"
+        "https://customs.go.kr/kcs/na/ntt/selectNttInfo.do?bbsId=1362&mi=2891&nttSn=10180503&nttSnUrl=53b39589b0b15e6f805640cc681acf5c",
+        "https://customs.go.kr/kcs/na/ntt/selectNttInfo.do?bbsId=1362&mi=2891&nttSn=10180663&nttSnUrl=d94f8040fe608aaa2d2c4489c322c50d"
       ],
       "modifiedAt": null,
       "lastModified": null,
-      "fetchedAt": "2026-10-22T00:56:35.399Z",
+      "fetchedAt": "2026-10-22T05:39:26.786Z",
       "status": "checked",
       "coverage": "registered_public_endpoint_only",
-      "lastChangedAt": "2026-10-22T00:56:36.003Z"
+      "lastChangedAt": "2026-10-22T05:39:27.950Z"
     },
     "customs-exports-20261021": {
       "sourceId": "customs-exports-20261021",
       "url": "https://customs.go.kr/kcs/na/ntt/selectNttInfo.do?bbsId=1362&mi=2891&nttSn=10180465&nttSnUrl=3b279b0d8ae0387ac138c4741fb65b67",
       "scope": "public_text",
       "role": "evidence",
-      "sha256": "7d7122a551868a649265fe7121d77d7def402261034182301008c6d70815bd10",
+      "sha256": "93e6a4b602a8ec93d12a1abe6ae447553190d81d77e9085cc06974bf4541d4c5",
       "links": [],
       "modifiedAt": null,
       "lastModified": null,
-      "fetchedAt": "2026-10-22T00:56:35.347Z",
+      "fetchedAt": "2026-10-22T05:39:27.305Z",
       "status": "checked",
       "coverage": "registered_public_endpoint_only",
-      "lastChangedAt": "2026-10-22T00:56:36.003Z"
+      "lastChangedAt": "2026-10-22T05:39:27.950Z"
     },
     "youth-savings-20261006": {
       "sourceId": "youth-savings-20261006",
       "url": "https://fsc.go.kr/po010104/87880",
       "scope": "public_text",
       "role": "evidence",
-      "sha256": "33b0d19430868c315c7a08914c1b5cac7e496a7782d5f7cce4cf3e1205eeab35",
+      "sha256": "df6c852708d0b1cff25eb293c3c8b603cf114525a6ea09964941b34276b9053a",
       "links": [],
       "modifiedAt": null,
       "lastModified": null,
-      "fetchedAt": "2026-10-22T00:56:35.932Z",
+      "fetchedAt": "2026-10-22T05:39:27.828Z",
       "status": "checked",
       "coverage": "registered_public_endpoint_only",
-      "lastChangedAt": "2026-10-22T00:56:36.003Z"
+      "lastChangedAt": "2026-10-22T05:39:27.950Z"
     },
     "october-policy-confirmed": {
       "sourceId": "october-policy-confirmed",
       "url": "https://www.korea.kr/news/policyNewsView.do?newsId=148972822",
       "scope": "public_text",
       "role": "evidence",
-      "sha256": "d2078b21cf09ee5bc4725142772f5f511739cd7e170372bd511466393f824fc1",
+      "sha256": "07bfeef640da7401c640f71ab8a4998f9ef212751f83d084138b63fe32180d8e",
       "links": [],
       "modifiedAt": null,
       "lastModified": null,
-      "fetchedAt": "2026-10-22T00:56:36.003Z",
+      "fetchedAt": "2026-10-22T05:39:27.950Z",
       "status": "checked",
       "coverage": "registered_public_endpoint_only",
-      "lastChangedAt": "2026-10-22T00:56:36.003Z"
+      "lastChangedAt": "2026-10-22T05:39:27.950Z"
     },
     "article-a75e0a4c1e046f79d409": {
       "sourceId": "article-a75e0a4c1e046f79d409",
@@ -1903,7 +2000,7 @@
       "links": [],
       "modifiedAt": null,
       "lastModified": null,
-      "fetchedAt": "2026-10-22T00:56:37.113Z",
+      "fetchedAt": "2026-10-22T05:39:29.561Z",
       "status": "checked",
       "coverage": "public_head_metadata_only",
       "lastChangedAt": null
@@ -1917,7 +2014,7 @@
       "links": [],
       "modifiedAt": null,
       "lastModified": null,
-      "fetchedAt": "2026-10-22T00:56:37.354Z",
+      "fetchedAt": "2026-10-22T05:39:29.760Z",
       "status": "checked",
       "coverage": "public_head_metadata_only",
       "lastChangedAt": "2026-10-21T10:52:02.586Z"
@@ -1931,7 +2028,7 @@
       "links": [],
       "modifiedAt": null,
       "lastModified": null,
-      "fetchedAt": "2026-10-22T00:56:37.462Z",
+      "fetchedAt": "2026-10-22T05:39:29.731Z",
       "status": "checked",
       "coverage": "public_head_metadata_only",
       "lastChangedAt": null
@@ -1945,7 +2042,7 @@
       "links": [],
       "modifiedAt": null,
       "lastModified": null,
-      "fetchedAt": "2026-10-22T00:56:37.829Z",
+      "fetchedAt": "2026-10-22T05:39:30.147Z",
       "status": "checked",
       "coverage": "public_head_metadata_only",
       "lastChangedAt": null
@@ -1959,7 +2056,7 @@
       "links": [],
       "modifiedAt": null,
       "lastModified": null,
-      "fetchedAt": "2026-10-22T00:56:37.827Z",
+      "fetchedAt": "2026-10-22T05:39:30.137Z",
       "status": "checked",
       "coverage": "public_head_metadata_only",
       "lastChangedAt": null
@@ -1973,7 +2070,7 @@
       "links": [],
       "modifiedAt": null,
       "lastModified": null,
-      "fetchedAt": "2026-10-22T00:56:37.931Z",
+      "fetchedAt": "2026-10-22T05:39:30.253Z",
       "status": "checked",
       "coverage": "public_head_metadata_only",
       "lastChangedAt": null
@@ -1987,7 +2084,7 @@
       "links": [],
       "modifiedAt": null,
       "lastModified": null,
-      "fetchedAt": "2026-10-22T00:56:37.684Z",
+      "fetchedAt": "2026-10-22T05:39:30.134Z",
       "status": "checked",
       "coverage": "public_head_metadata_only",
       "lastChangedAt": null
@@ -2295,7 +2392,7 @@
       "links": [],
       "modifiedAt": null,
       "lastModified": null,
-      "fetchedAt": "2026-10-22T00:56:41.623Z",
+      "fetchedAt": "2026-10-22T05:39:36.091Z",
       "status": "checked",
       "coverage": "public_head_metadata_only",
       "lastChangedAt": null
@@ -2323,7 +2420,7 @@
       "links": [],
       "modifiedAt": null,
       "lastModified": null,
-      "fetchedAt": "2026-10-22T00:56:41.615Z",
+      "fetchedAt": "2026-10-22T05:39:36.120Z",
       "status": "checked",
       "coverage": "public_head_metadata_only",
       "lastChangedAt": "2026-10-21T15:44:53.442Z"
@@ -2365,7 +2462,7 @@
       "links": [],
       "modifiedAt": null,
       "lastModified": null,
-      "fetchedAt": "2026-10-22T00:56:39.862Z",
+      "fetchedAt": "2026-10-22T05:39:34.265Z",
       "status": "checked",
       "coverage": "public_head_metadata_only",
       "lastChangedAt": null
@@ -2477,7 +2574,7 @@
       "links": [],
       "modifiedAt": null,
       "lastModified": null,
-      "fetchedAt": "2026-10-22T00:56:40.121Z",
+      "fetchedAt": "2026-10-22T05:39:34.559Z",
       "status": "checked",
       "coverage": "public_head_metadata_only",
       "lastChangedAt": null
@@ -2491,7 +2588,7 @@
       "links": [],
       "modifiedAt": null,
       "lastModified": null,
-      "fetchedAt": "2026-10-22T00:56:41.473Z",
+      "fetchedAt": "2026-10-22T05:39:36.220Z",
       "status": "checked",
       "coverage": "public_head_metadata_only",
       "lastChangedAt": null
@@ -2505,7 +2602,7 @@
       "links": [],
       "modifiedAt": null,
       "lastModified": null,
-      "fetchedAt": "2026-10-22T00:56:40.213Z",
+      "fetchedAt": "2026-10-22T05:39:34.724Z",
       "status": "checked",
       "coverage": "public_head_metadata_only",
       "lastChangedAt": null
@@ -2519,7 +2616,7 @@
       "links": [],
       "modifiedAt": null,
       "lastModified": null,
-      "fetchedAt": "2026-10-22T00:56:40.186Z",
+      "fetchedAt": "2026-10-22T05:39:34.659Z",
       "status": "checked",
       "coverage": "public_head_metadata_only",
       "lastChangedAt": null
@@ -2533,7 +2630,7 @@
       "links": [],
       "modifiedAt": null,
       "lastModified": null,
-      "fetchedAt": "2026-10-22T00:56:40.194Z",
+      "fetchedAt": "2026-10-22T05:39:34.591Z",
       "status": "checked",
       "coverage": "public_head_metadata_only",
       "lastChangedAt": null
@@ -2547,7 +2644,7 @@
       "links": [],
       "modifiedAt": null,
       "lastModified": null,
-      "fetchedAt": "2026-10-22T00:56:40.693Z",
+      "fetchedAt": "2026-10-22T05:39:35.142Z",
       "status": "checked",
       "coverage": "public_head_metadata_only",
       "lastChangedAt": null
@@ -2561,7 +2658,7 @@
       "links": [],
       "modifiedAt": null,
       "lastModified": null,
-      "fetchedAt": "2026-10-22T00:56:40.493Z",
+      "fetchedAt": "2026-10-22T05:39:35.067Z",
       "status": "checked",
       "coverage": "public_head_metadata_only",
       "lastChangedAt": null
@@ -2575,7 +2672,7 @@
       "links": [],
       "modifiedAt": null,
       "lastModified": null,
-      "fetchedAt": "2026-10-22T00:56:40.521Z",
+      "fetchedAt": "2026-10-22T05:39:35.088Z",
       "status": "checked",
       "coverage": "public_head_metadata_only",
       "lastChangedAt": null
@@ -2589,7 +2686,7 @@
       "links": [],
       "modifiedAt": null,
       "lastModified": null,
-      "fetchedAt": "2026-10-22T00:56:41.552Z",
+      "fetchedAt": "2026-10-22T05:39:36.225Z",
       "status": "checked",
       "coverage": "public_head_metadata_only",
       "lastChangedAt": null
@@ -2603,7 +2700,7 @@
       "links": [],
       "modifiedAt": null,
       "lastModified": null,
-      "fetchedAt": "2026-10-22T00:56:40.532Z",
+      "fetchedAt": "2026-10-22T05:39:35.133Z",
       "status": "checked",
       "coverage": "public_head_metadata_only",
       "lastChangedAt": null
@@ -2617,7 +2714,7 @@
       "links": [],
       "modifiedAt": null,
       "lastModified": null,
-      "fetchedAt": "2026-10-22T00:56:41.205Z",
+      "fetchedAt": "2026-10-22T05:39:35.636Z",
       "status": "checked",
       "coverage": "public_head_metadata_only",
       "lastChangedAt": null
@@ -2631,7 +2728,7 @@
       "links": [],
       "modifiedAt": null,
       "lastModified": null,
-      "fetchedAt": "2026-10-22T00:56:40.840Z",
+      "fetchedAt": "2026-10-22T05:39:35.361Z",
       "status": "checked",
       "coverage": "public_head_metadata_only",
       "lastChangedAt": null
@@ -2645,7 +2742,7 @@
       "links": [],
       "modifiedAt": null,
       "lastModified": null,
-      "fetchedAt": "2026-10-22T00:56:40.887Z",
+      "fetchedAt": "2026-10-22T05:39:35.348Z",
       "status": "checked",
       "coverage": "public_head_metadata_only",
       "lastChangedAt": null
@@ -2659,7 +2756,7 @@
       "links": [],
       "modifiedAt": null,
       "lastModified": null,
-      "fetchedAt": "2026-10-22T00:56:41.000Z",
+      "fetchedAt": "2026-10-22T05:39:35.543Z",
       "status": "checked",
       "coverage": "public_head_metadata_only",
       "lastChangedAt": null
@@ -2669,14 +2766,14 @@
       "url": "https://v.daum.net/v/20261022043325318",
       "scope": "metadata",
       "role": "evidence",
-      "sha256": "331d5077b953c3904c74638b1f2f9470e3d53609bf8e23c3eb273e1f681f76e9",
+      "sha256": "b276a7c510fdf43ec496ed40dc5a325d9fb1ab4a99941e8afbf0a793f9e94f14",
       "links": [],
       "modifiedAt": null,
       "lastModified": null,
-      "fetchedAt": "2026-10-22T00:56:39.039Z",
+      "fetchedAt": "2026-10-22T05:39:33.290Z",
       "status": "checked",
       "coverage": "public_head_metadata_only",
-      "lastChangedAt": null
+      "lastChangedAt": "2026-10-22T05:39:33.342Z"
     },
     "article-ad898916671495cd802d": {
       "sourceId": "article-ad898916671495cd802d",
@@ -2687,7 +2784,7 @@
       "links": [],
       "modifiedAt": null,
       "lastModified": null,
-      "fetchedAt": "2026-10-22T00:56:39.035Z",
+      "fetchedAt": "2026-10-22T05:39:33.184Z",
       "status": "checked",
       "coverage": "public_head_metadata_only",
       "lastChangedAt": null
@@ -2701,7 +2798,7 @@
       "links": [],
       "modifiedAt": null,
       "lastModified": null,
-      "fetchedAt": "2026-10-22T00:56:39.037Z",
+      "fetchedAt": "2026-10-22T05:39:33.342Z",
       "status": "checked",
       "coverage": "public_head_metadata_only",
       "lastChangedAt": null
@@ -2715,7 +2812,7 @@
       "links": [],
       "modifiedAt": null,
       "lastModified": null,
-      "fetchedAt": "2026-10-22T00:56:39.254Z",
+      "fetchedAt": "2026-10-22T05:39:33.757Z",
       "status": "checked",
       "coverage": "public_head_metadata_only",
       "lastChangedAt": null
@@ -2729,7 +2826,7 @@
       "links": [],
       "modifiedAt": null,
       "lastModified": null,
-      "fetchedAt": "2026-10-22T00:56:38.088Z",
+      "fetchedAt": "2026-10-22T05:39:31.942Z",
       "status": "checked",
       "coverage": "public_head_metadata_only",
       "lastChangedAt": null
@@ -2743,7 +2840,7 @@
       "links": [],
       "modifiedAt": null,
       "lastModified": null,
-      "fetchedAt": "2026-10-22T00:56:37.390Z",
+      "fetchedAt": "2026-10-22T05:39:29.451Z",
       "status": "checked",
       "coverage": "public_head_metadata_only",
       "lastChangedAt": null
@@ -2757,7 +2854,7 @@
       "links": [],
       "modifiedAt": null,
       "lastModified": null,
-      "fetchedAt": "2026-10-22T00:56:39.461Z",
+      "fetchedAt": "2026-10-22T05:39:33.771Z",
       "status": "checked",
       "coverage": "public_head_metadata_only",
       "lastChangedAt": null
@@ -2771,7 +2868,7 @@
       "links": [],
       "modifiedAt": null,
       "lastModified": null,
-      "fetchedAt": "2026-10-22T00:56:39.445Z",
+      "fetchedAt": "2026-10-22T05:39:33.808Z",
       "status": "checked",
       "coverage": "public_head_metadata_only",
       "lastChangedAt": null
@@ -2785,7 +2882,7 @@
       "links": [],
       "modifiedAt": null,
       "lastModified": null,
-      "fetchedAt": "2026-10-22T00:56:38.116Z",
+      "fetchedAt": "2026-10-22T05:39:31.836Z",
       "status": "checked",
       "coverage": "public_head_metadata_only",
       "lastChangedAt": null
@@ -2799,7 +2896,7 @@
       "links": [],
       "modifiedAt": null,
       "lastModified": null,
-      "fetchedAt": "2026-10-22T00:56:39.367Z",
+      "fetchedAt": "2026-10-22T05:39:33.809Z",
       "status": "checked",
       "coverage": "public_head_metadata_only",
       "lastChangedAt": null
@@ -2813,7 +2910,7 @@
       "links": [],
       "modifiedAt": null,
       "lastModified": null,
-      "fetchedAt": "2026-10-22T00:56:39.867Z",
+      "fetchedAt": "2026-10-22T05:39:34.263Z",
       "status": "checked",
       "coverage": "public_head_metadata_only",
       "lastChangedAt": null
@@ -2827,7 +2924,7 @@
       "links": [],
       "modifiedAt": null,
       "lastModified": null,
-      "fetchedAt": "2026-10-22T00:56:39.905Z",
+      "fetchedAt": "2026-10-22T05:39:34.221Z",
       "status": "checked",
       "coverage": "public_head_metadata_only",
       "lastChangedAt": null
@@ -2841,7 +2938,7 @@
       "links": [],
       "modifiedAt": null,
       "lastModified": null,
-      "fetchedAt": "2026-10-22T00:56:39.769Z",
+      "fetchedAt": "2026-10-22T05:39:34.209Z",
       "status": "checked",
       "coverage": "public_head_metadata_only",
       "lastChangedAt": null
@@ -2851,14 +2948,14 @@
       "url": "https://v.daum.net/v/20261022084830870",
       "scope": "metadata",
       "role": "evidence",
-      "sha256": "ff91b5db0a6f01415c7daf1c41e54a74371388e5da7ceffe4ecf4b43fc263220",
+      "sha256": "cd52a4820756ecebbbbda662c29220040f68c39b5913a64d6df1ee25e889a09a",
       "links": [],
       "modifiedAt": null,
       "lastModified": null,
-      "fetchedAt": "2026-10-22T00:56:38.080Z",
+      "fetchedAt": "2026-10-22T05:39:31.637Z",
       "status": "checked",
       "coverage": "public_head_metadata_only",
-      "lastChangedAt": null
+      "lastChangedAt": "2026-10-22T05:39:31.942Z"
     },
     "article-eed4573611b28d87471e": {
       "sourceId": "article-eed4573611b28d87471e",
@@ -2869,7 +2966,7 @@
       "links": [],
       "modifiedAt": null,
       "lastModified": null,
-      "fetchedAt": "2026-10-22T00:56:38.081Z",
+      "fetchedAt": "2026-10-22T05:39:32.133Z",
       "status": "checked",
       "coverage": "public_head_metadata_only",
       "lastChangedAt": null
@@ -2883,7 +2980,7 @@
       "links": [],
       "modifiedAt": null,
       "lastModified": null,
-      "fetchedAt": "2026-10-22T00:56:38.275Z",
+      "fetchedAt": "2026-10-22T05:39:32.423Z",
       "status": "checked",
       "coverage": "public_head_metadata_only",
       "lastChangedAt": null
@@ -2897,7 +2994,7 @@
       "links": [],
       "modifiedAt": null,
       "lastModified": null,
-      "fetchedAt": "2026-10-22T00:56:38.273Z",
+      "fetchedAt": "2026-10-22T05:39:32.191Z",
       "status": "checked",
       "coverage": "public_head_metadata_only",
       "lastChangedAt": null
@@ -2911,7 +3008,7 @@
       "links": [],
       "modifiedAt": null,
       "lastModified": null,
-      "fetchedAt": "2026-10-22T00:56:38.483Z",
+      "fetchedAt": "2026-10-22T05:39:32.418Z",
       "status": "checked",
       "coverage": "public_head_metadata_only",
       "lastChangedAt": null
@@ -2925,7 +3022,7 @@
       "links": [],
       "modifiedAt": null,
       "lastModified": null,
-      "fetchedAt": "2026-10-22T00:56:38.465Z",
+      "fetchedAt": "2026-10-22T05:39:32.905Z",
       "status": "checked",
       "coverage": "public_head_metadata_only",
       "lastChangedAt": null
@@ -2939,7 +3036,7 @@
       "links": [],
       "modifiedAt": null,
       "lastModified": null,
-      "fetchedAt": "2026-10-22T00:56:38.654Z",
+      "fetchedAt": "2026-10-22T05:39:30.563Z",
       "status": "checked",
       "coverage": "public_head_metadata_only",
       "lastChangedAt": null
@@ -2953,7 +3050,7 @@
       "links": [],
       "modifiedAt": null,
       "lastModified": null,
-      "fetchedAt": "2026-10-22T00:56:38.631Z",
+      "fetchedAt": "2026-10-22T05:39:32.682Z",
       "status": "checked",
       "coverage": "public_head_metadata_only",
       "lastChangedAt": null
@@ -2967,7 +3064,7 @@
       "links": [],
       "modifiedAt": null,
       "lastModified": null,
-      "fetchedAt": "2026-10-22T00:56:38.694Z",
+      "fetchedAt": "2026-10-22T05:39:32.768Z",
       "status": "checked",
       "coverage": "public_head_metadata_only",
       "lastChangedAt": null
@@ -2981,7 +3078,7 @@
       "links": [],
       "modifiedAt": null,
       "lastModified": null,
-      "fetchedAt": "2026-10-22T00:56:38.885Z",
+      "fetchedAt": "2026-10-22T05:39:32.935Z",
       "status": "checked",
       "coverage": "public_head_metadata_only",
       "lastChangedAt": null
@@ -2995,7 +3092,175 @@
       "links": [],
       "modifiedAt": null,
       "lastModified": null,
-      "fetchedAt": "2026-10-22T00:56:39.088Z",
+      "fetchedAt": "2026-10-22T05:39:33.311Z",
+      "status": "checked",
+      "coverage": "public_head_metadata_only",
+      "lastChangedAt": null
+    },
+    "article-7de3d3275203f83da7a7": {
+      "sourceId": "article-7de3d3275203f83da7a7",
+      "url": "https://v.daum.net/v/20261022115512038",
+      "scope": "metadata",
+      "role": "evidence",
+      "sha256": "328b1cbb7b2f2acc52022e389392bec2524e820985c480c58872665330390abb",
+      "links": [],
+      "modifiedAt": null,
+      "lastModified": null,
+      "fetchedAt": "2026-10-22T05:39:30.432Z",
+      "status": "checked",
+      "coverage": "public_head_metadata_only",
+      "lastChangedAt": null
+    },
+    "article-8e8c3e00403798a6560f": {
+      "sourceId": "article-8e8c3e00403798a6560f",
+      "url": "https://v.daum.net/v/20261022141200166",
+      "scope": "metadata",
+      "role": "evidence",
+      "sha256": "94061d066fffba8db52ad8def9b463bb0befb3cbf04ac0fc4e91e41d3647f266",
+      "links": [],
+      "modifiedAt": null,
+      "lastModified": null,
+      "fetchedAt": "2026-10-22T05:39:30.514Z",
+      "status": "checked",
+      "coverage": "public_head_metadata_only",
+      "lastChangedAt": null
+    },
+    "article-a15b6c768be4e527f903": {
+      "sourceId": "article-a15b6c768be4e527f903",
+      "url": "https://v.daum.net/v/20261022143149097",
+      "scope": "metadata",
+      "role": "evidence",
+      "sha256": "0faf512492195895448934e2a8e657db84cc22c18f43d10b7ab810443bd56bd4",
+      "links": [],
+      "modifiedAt": null,
+      "lastModified": null,
+      "fetchedAt": "2026-10-22T05:39:30.509Z",
+      "status": "checked",
+      "coverage": "public_head_metadata_only",
+      "lastChangedAt": null
+    },
+    "article-2d1bec6c72c42229304a": {
+      "sourceId": "article-2d1bec6c72c42229304a",
+      "url": "https://v.daum.net/v/20261022140239660",
+      "scope": "metadata",
+      "role": "evidence",
+      "sha256": "79baa1efcfe54723b3587e7457a0abcbfeac75cce3976a3c310ab74b1af325b6",
+      "links": [],
+      "modifiedAt": null,
+      "lastModified": null,
+      "fetchedAt": "2026-10-22T05:39:30.754Z",
+      "status": "checked",
+      "coverage": "public_head_metadata_only",
+      "lastChangedAt": null
+    },
+    "article-dde092c39e3fedbb1b13": {
+      "sourceId": "article-dde092c39e3fedbb1b13",
+      "url": "https://v.daum.net/v/20261022122131178",
+      "scope": "metadata",
+      "role": "evidence",
+      "sha256": "86a60c188cf4d953215001fbf7d56c460ea6c87a1bf78aac0a58755fd407175d",
+      "links": [],
+      "modifiedAt": null,
+      "lastModified": null,
+      "fetchedAt": "2026-10-22T05:39:30.836Z",
+      "status": "checked",
+      "coverage": "public_head_metadata_only",
+      "lastChangedAt": null
+    },
+    "article-60cc42a88b435317b3f2": {
+      "sourceId": "article-60cc42a88b435317b3f2",
+      "url": "https://v.daum.net/v/20261022081018877",
+      "scope": "metadata",
+      "role": "evidence",
+      "sha256": "6eb30b658cc350f28adb0a622a20051ff4e0c5a3d17b95cbe01d550604331680",
+      "links": [],
+      "modifiedAt": null,
+      "lastModified": null,
+      "fetchedAt": "2026-10-22T05:39:30.956Z",
+      "status": "checked",
+      "coverage": "public_head_metadata_only",
+      "lastChangedAt": null
+    },
+    "article-b0f42e57d67bafbb0796": {
+      "sourceId": "article-b0f42e57d67bafbb0796",
+      "url": "https://v.daum.net/v/20261022093756371",
+      "scope": "metadata",
+      "role": "evidence",
+      "sha256": "c8c7b3e015bd9cbff0b8364128c06055c19546354fff8d45bbd347fca26aed47",
+      "links": [],
+      "modifiedAt": null,
+      "lastModified": null,
+      "fetchedAt": "2026-10-22T05:39:30.855Z",
+      "status": "checked",
+      "coverage": "public_head_metadata_only",
+      "lastChangedAt": null
+    },
+    "article-bffe780f9949db38e11a": {
+      "sourceId": "article-bffe780f9949db38e11a",
+      "url": "https://v.daum.net/v/20261022080143678",
+      "scope": "metadata",
+      "role": "evidence",
+      "sha256": "c892ab5ce5f75e180224c833b782672dd1ad705f9c4f96a92537070974de0e0b",
+      "links": [],
+      "modifiedAt": null,
+      "lastModified": null,
+      "fetchedAt": "2026-10-22T05:39:31.278Z",
+      "status": "checked",
+      "coverage": "public_head_metadata_only",
+      "lastChangedAt": null
+    },
+    "article-d4459dc12d77a05ec180": {
+      "sourceId": "article-d4459dc12d77a05ec180",
+      "url": "https://v.daum.net/v/20261022135039106",
+      "scope": "metadata",
+      "role": "evidence",
+      "sha256": "98b034824404f425a7f92d7709e1db134c492ab69502e057c9f2cfd572fbf4a1",
+      "links": [],
+      "modifiedAt": null,
+      "lastModified": null,
+      "fetchedAt": "2026-10-22T05:39:31.174Z",
+      "status": "checked",
+      "coverage": "public_head_metadata_only",
+      "lastChangedAt": null
+    },
+    "article-13aa9b0043cbd4eb45d7": {
+      "sourceId": "article-13aa9b0043cbd4eb45d7",
+      "url": "https://v.daum.net/v/20261022110240688",
+      "scope": "metadata",
+      "role": "evidence",
+      "sha256": "f31e2c3cc011cfb2adccfb27b8efa9ed57819ba6fc7bc5476c9c93f433527066",
+      "links": [],
+      "modifiedAt": null,
+      "lastModified": null,
+      "fetchedAt": "2026-10-22T05:39:31.278Z",
+      "status": "checked",
+      "coverage": "public_head_metadata_only",
+      "lastChangedAt": null
+    },
+    "article-12f3571c2936109a4770": {
+      "sourceId": "article-12f3571c2936109a4770",
+      "url": "https://v.daum.net/v/20261022095924648",
+      "scope": "metadata",
+      "role": "evidence",
+      "sha256": "039571f7c030762ed137233f2c8ad4bbc9141b4a2f022a38f3c8a98eafcddd46",
+      "links": [],
+      "modifiedAt": null,
+      "lastModified": null,
+      "fetchedAt": "2026-10-22T05:39:31.456Z",
+      "status": "checked",
+      "coverage": "public_head_metadata_only",
+      "lastChangedAt": null
+    },
+    "article-b1ee177c29b2f8c96a5c": {
+      "sourceId": "article-b1ee177c29b2f8c96a5c",
+      "url": "https://v.daum.net/v/20261022113621019",
+      "scope": "metadata",
+      "role": "evidence",
+      "sha256": "7af87406adac8c62d6e5ac5433a232808603ed9d874f650f455229fe7be0a719",
+      "links": [],
+      "modifiedAt": null,
+      "lastModified": null,
+      "fetchedAt": "2026-10-22T05:39:31.646Z",
       "status": "checked",
       "coverage": "public_head_metadata_only",
       "lastChangedAt": null
@@ -3017,7 +3282,7 @@
         "tesla-kr-connectivity",
         "article-e48416db002a381152b4"
       ],
-      "updatedAt": "2026-10-22T00:56:32.925Z"
+      "updatedAt": "2026-10-22T05:39:24.537Z"
     },
     {
       "storyKey": "exports-household-20261021",
@@ -3035,7 +3300,7 @@
         "youth-savings-20261006",
         "october-policy-confirmed"
       ],
-      "updatedAt": "2026-10-22T00:56:36.003Z"
+      "updatedAt": "2026-10-22T05:39:27.950Z"
     },
     {
       "storyKey": "0587d965934dcf263a275696",
@@ -3694,12 +3959,13 @@
       "status": "needs_research",
       "createdAt": "2026-10-21T22:44:20.467Z",
       "reasons": [
-        "INITIAL_SOURCE_REVIEW_REQUIRED"
+        "INITIAL_SOURCE_REVIEW_REQUIRED",
+        "SOURCE_CONTENT_CHANGED"
       ],
       "sourceIds": [
         "article-2fc0ecefc85c664a0194"
       ],
-      "updatedAt": "2026-10-21T22:44:20.467Z"
+      "updatedAt": "2026-10-22T05:39:33.342Z"
     },
     {
       "storyKey": "1f731efc6a3e298ee383c65e",
@@ -3850,12 +4116,13 @@
       "status": "needs_research",
       "createdAt": "2026-10-22T00:56:38.116Z",
       "reasons": [
-        "INITIAL_SOURCE_REVIEW_REQUIRED"
+        "INITIAL_SOURCE_REVIEW_REQUIRED",
+        "SOURCE_CONTENT_CHANGED"
       ],
       "sourceIds": [
         "article-1105f12c0fc90b4fc0cc"
       ],
-      "updatedAt": "2026-10-22T00:56:38.116Z"
+      "updatedAt": "2026-10-22T05:39:31.942Z"
     },
     {
       "storyKey": "e40d4a957eec2a464417e397",
@@ -3976,21 +4243,165 @@
         "article-bf508f647025c9ad079f"
       ],
       "updatedAt": "2026-10-22T00:56:39.088Z"
+    },
+    {
+      "storyKey": "c4b2fb8d9ed8ba7a1df6764a",
+      "status": "needs_research",
+      "createdAt": "2026-10-22T05:39:30.563Z",
+      "reasons": [
+        "INITIAL_SOURCE_REVIEW_REQUIRED"
+      ],
+      "sourceIds": [
+        "article-7de3d3275203f83da7a7"
+      ],
+      "updatedAt": "2026-10-22T05:39:30.563Z"
+    },
+    {
+      "storyKey": "5788d38fae1b483b688033cf",
+      "status": "needs_research",
+      "createdAt": "2026-10-22T05:39:30.563Z",
+      "reasons": [
+        "INITIAL_SOURCE_REVIEW_REQUIRED"
+      ],
+      "sourceIds": [
+        "article-8e8c3e00403798a6560f"
+      ],
+      "updatedAt": "2026-10-22T05:39:30.563Z"
+    },
+    {
+      "storyKey": "e69406287c7fae166420d9c9",
+      "status": "needs_research",
+      "createdAt": "2026-10-22T05:39:30.563Z",
+      "reasons": [
+        "INITIAL_SOURCE_REVIEW_REQUIRED"
+      ],
+      "sourceIds": [
+        "article-a15b6c768be4e527f903"
+      ],
+      "updatedAt": "2026-10-22T05:39:30.563Z"
+    },
+    {
+      "storyKey": "6e5ff594c329b494ab6a08a1",
+      "status": "needs_research",
+      "createdAt": "2026-10-22T05:39:30.956Z",
+      "reasons": [
+        "INITIAL_SOURCE_REVIEW_REQUIRED"
+      ],
+      "sourceIds": [
+        "article-2d1bec6c72c42229304a"
+      ],
+      "updatedAt": "2026-10-22T05:39:30.956Z"
+    },
+    {
+      "storyKey": "23aa7e69ca0aa42e075ae802",
+      "status": "needs_research",
+      "createdAt": "2026-10-22T05:39:30.956Z",
+      "reasons": [
+        "INITIAL_SOURCE_REVIEW_REQUIRED"
+      ],
+      "sourceIds": [
+        "article-dde092c39e3fedbb1b13"
+      ],
+      "updatedAt": "2026-10-22T05:39:30.956Z"
+    },
+    {
+      "storyKey": "62ce81f7afb546ffe3279188",
+      "status": "needs_research",
+      "createdAt": "2026-10-22T05:39:30.956Z",
+      "reasons": [
+        "INITIAL_SOURCE_REVIEW_REQUIRED"
+      ],
+      "sourceIds": [
+        "article-60cc42a88b435317b3f2"
+      ],
+      "updatedAt": "2026-10-22T05:39:30.956Z"
+    },
+    {
+      "storyKey": "8f98268fd9f11f2ed907941a",
+      "status": "needs_research",
+      "createdAt": "2026-10-22T05:39:30.956Z",
+      "reasons": [
+        "INITIAL_SOURCE_REVIEW_REQUIRED"
+      ],
+      "sourceIds": [
+        "article-b0f42e57d67bafbb0796"
+      ],
+      "updatedAt": "2026-10-22T05:39:30.956Z"
+    },
+    {
+      "storyKey": "1581efbd7a4e8a20630519e2",
+      "status": "needs_research",
+      "createdAt": "2026-10-22T05:39:31.456Z",
+      "reasons": [
+        "INITIAL_SOURCE_REVIEW_REQUIRED"
+      ],
+      "sourceIds": [
+        "article-bffe780f9949db38e11a"
+      ],
+      "updatedAt": "2026-10-22T05:39:31.456Z"
+    },
+    {
+      "storyKey": "2ca03eedd9df6adfb5559bc5",
+      "status": "needs_research",
+      "createdAt": "2026-10-22T05:39:31.456Z",
+      "reasons": [
+        "INITIAL_SOURCE_REVIEW_REQUIRED"
+      ],
+      "sourceIds": [
+        "article-d4459dc12d77a05ec180"
+      ],
+      "updatedAt": "2026-10-22T05:39:31.456Z"
+    },
+    {
+      "storyKey": "d48c5d845231c3f6695e3e82",
+      "status": "needs_research",
+      "createdAt": "2026-10-22T05:39:31.456Z",
+      "reasons": [
+        "INITIAL_SOURCE_REVIEW_REQUIRED"
+      ],
+      "sourceIds": [
+        "article-13aa9b0043cbd4eb45d7"
+      ],
+      "updatedAt": "2026-10-22T05:39:31.456Z"
+    },
+    {
+      "storyKey": "7544365762aad8edc7174e27",
+      "status": "needs_research",
+      "createdAt": "2026-10-22T05:39:31.456Z",
+      "reasons": [
+        "INITIAL_SOURCE_REVIEW_REQUIRED"
+      ],
+      "sourceIds": [
+        "article-12f3571c2936109a4770"
+      ],
+      "updatedAt": "2026-10-22T05:39:31.456Z"
+    },
+    {
+      "storyKey": "e07c9444732c8517c85f9c95",
+      "status": "needs_research",
+      "createdAt": "2026-10-22T05:39:31.942Z",
+      "reasons": [
+        "INITIAL_SOURCE_REVIEW_REQUIRED"
+      ],
+      "sourceIds": [
+        "article-b1ee177c29b2f8c96a5c"
+      ],
+      "updatedAt": "2026-10-22T05:39:31.942Z"
     }
   ],
   "sourceWatchLastRun": {
     "checked": 65,
-    "changed": 4,
+    "changed": 6,
     "failed": 3,
-    "initial": 11,
-    "at": "2026-10-22T00:56:32.205Z"
+    "initial": 12,
+    "at": "2026-10-22T05:39:24.179Z"
   },
   "slotOutcomes": [
     {
       "key": "my.love.manual|2026-10-21T07:00:00.000Z",
       "slotAt": "2026-10-21T16:00:00+09:00",
       "status": "SKIPPED",
-      "checkedAt": "2026-10-22T00:56:43.026Z",
+      "checkedAt": "2026-10-22T05:39:45.038Z",
       "reasons": [
         "OPERATIONAL_CAP_REACHED",
         "ANTHROPIC_LOCAL_KEY_UNAVAILABLE",
@@ -4006,7 +4417,7 @@
       "key": "my.love.manual|2026-10-21T07:30:00.000Z",
       "slotAt": "2026-10-21T16:30:00+09:00",
       "status": "SKIPPED",
-      "checkedAt": "2026-10-22T00:56:43.026Z",
+      "checkedAt": "2026-10-22T05:39:45.038Z",
       "reasons": [
         "OPERATIONAL_CAP_REACHED",
         "INDEPENDENT_VERIFIER_NOT_CONNECTED",
@@ -4021,7 +4432,7 @@
       "key": "my.love.manual|2026-10-21T08:00:00.000Z",
       "slotAt": "2026-10-21T17:00:00+09:00",
       "status": "SKIPPED",
-      "checkedAt": "2026-10-22T00:56:43.026Z",
+      "checkedAt": "2026-10-22T05:39:45.038Z",
       "reasons": [
         "OPERATIONAL_CAP_REACHED",
         "INDEPENDENT_VERIFIER_NOT_CONNECTED",
@@ -4036,7 +4447,7 @@
       "key": "my.love.manual|2026-10-21T08:30:00.000Z",
       "slotAt": "2026-10-21T17:30:00+09:00",
       "status": "SKIPPED",
-      "checkedAt": "2026-10-22T00:56:43.026Z",
+      "checkedAt": "2026-10-22T05:39:45.038Z",
       "reasons": [
         "OPERATIONAL_CAP_REACHED",
         "INDEPENDENT_VERIFIER_NOT_CONNECTED",
