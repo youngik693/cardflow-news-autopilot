@@ -6646,12 +6646,21 @@
         "scope": "관측한 계정·게시물만 비교, 인스타 전체 순위 아님",
         "sources": []
       },
-      "qualification": "portal_proxy_only"
+      "qualification": "portal_proxy_only",
+      "status": "invalidated",
+      "invalidation": {
+        "reason": "INITIAL_SOURCE_REVIEW_REQUIRED",
+        "at": "2026-11-14T20:09:47.279Z",
+        "sourceId": "article-30777bdfdebbfe5e1c43"
+      },
+      "publicationAuthorized": false,
+      "verification": null,
+      "sourceManifest": null
     }
   ],
   "signals": [],
   "lastRun": {
-    "at": "2026-11-14T15:50:22.786Z",
+    "at": "2026-11-14T20:09:53.606Z",
     "sources": [
       {
         "provider": "daum",
@@ -6672,9 +6681,9 @@
       "changed": 4,
       "failed": 3,
       "initial": 1,
-      "at": "2026-11-14T15:50:09.781Z"
+      "at": "2026-11-14T20:09:42.763Z"
     },
-    "draftStatus": "created",
+    "draftStatus": "no_new_commercial_candidate",
     "blockers": [
       "INDEPENDENT_VERIFIER_NOT_CONNECTED",
       "PUBLICATION_WINDOW_CLOSED",
@@ -6708,7 +6717,7 @@
       ],
       "category": "other",
       "categoryMethod": "headline_keyword_hypothesis",
-      "ageHours": 4.9321625,
+      "ageHours": 9.257390277777779,
       "instagram": {
         "score": null,
         "availableMetrics": [],
@@ -6717,7 +6726,43 @@
         "sources": []
       },
       "score": null,
-      "proxyScore": 59,
+      "proxyScore": 41,
+      "portalProxyOnly": true,
+      "eligible": false,
+      "blocks": [
+        "CONTENT_RIGHTS_UNVERIFIED",
+        "INSTAGRAM_EVIDENCE_MISSING",
+        "BELOW_SELECTION_THRESHOLD"
+      ]
+    },
+    {
+      "title": "\"폐업 고민했는데\" 반전…문구점 살린 딸의 조언",
+      "description": "",
+      "url": "https://v.daum.net/v/20261114204806863",
+      "source": "SBS",
+      "publishedAt": "2026-11-14T11:48:06.000Z",
+      "descriptionKind": "headline_only",
+      "provider": "daum",
+      "portalRank": 2,
+      "storyKey": "e1bddfd09b6b6a156609b6ba",
+      "sources": [
+        {
+          "provider": "daum",
+          "url": "https://v.daum.net/v/20261114204806863"
+        }
+      ],
+      "category": "other",
+      "categoryMethod": "headline_keyword_hypothesis",
+      "ageHours": 8.363223611111112,
+      "instagram": {
+        "score": null,
+        "availableMetrics": [],
+        "sampleCount": 0,
+        "scope": "관측한 계정·게시물만 비교, 인스타 전체 순위 아님",
+        "sources": []
+      },
+      "score": null,
+      "proxyScore": 36,
       "portalProxyOnly": true,
       "eligible": false,
       "blocks": [
@@ -6744,7 +6789,7 @@
       ],
       "category": "other",
       "categoryMethod": "headline_keyword_hypothesis",
-      "ageHours": 3.4310513888888887,
+      "ageHours": 7.756279166666666,
       "instagram": {
         "score": null,
         "availableMetrics": [],
@@ -6753,79 +6798,7 @@
         "sources": []
       },
       "score": null,
-      "proxyScore": 51,
-      "portalProxyOnly": true,
-      "eligible": false,
-      "blocks": [
-        "CONTENT_RIGHTS_UNVERIFIED",
-        "INSTAGRAM_EVIDENCE_MISSING",
-        "BELOW_SELECTION_THRESHOLD"
-      ]
-    },
-    {
-      "title": "\"폐업 고민했는데\" 반전…문구점 살린 딸의 조언",
-      "description": "",
-      "url": "https://v.daum.net/v/20261114204806863",
-      "source": "SBS",
-      "publishedAt": "2026-11-14T11:48:06.000Z",
-      "descriptionKind": "headline_only",
-      "provider": "daum",
-      "portalRank": 3,
-      "storyKey": "e1bddfd09b6b6a156609b6ba",
-      "sources": [
-        {
-          "provider": "daum",
-          "url": "https://v.daum.net/v/20261114204806863"
-        }
-      ],
-      "category": "other",
-      "categoryMethod": "headline_keyword_hypothesis",
-      "ageHours": 4.0379958333333335,
-      "instagram": {
-        "score": null,
-        "availableMetrics": [],
-        "sampleCount": 0,
-        "scope": "관측한 계정·게시물만 비교, 인스타 전체 순위 아님",
-        "sources": []
-      },
-      "score": null,
-      "proxyScore": 50,
-      "portalProxyOnly": true,
-      "eligible": false,
-      "blocks": [
-        "CONTENT_RIGHTS_UNVERIFIED",
-        "INSTAGRAM_EVIDENCE_MISSING",
-        "BELOW_SELECTION_THRESHOLD"
-      ]
-    },
-    {
-      "title": "인천공항도 지연·결항…전 세계 파장",
-      "description": "",
-      "url": "https://v.daum.net/v/20261114184836571",
-      "source": "채널A",
-      "publishedAt": "2026-11-14T09:48:36.000Z",
-      "descriptionKind": "headline_only",
-      "provider": "daum",
-      "portalRank": 2,
-      "storyKey": "6c982600906a38c6663312e7",
-      "sources": [
-        {
-          "provider": "daum",
-          "url": "https://v.daum.net/v/20261114184836571"
-        }
-      ],
-      "category": "other",
-      "categoryMethod": "headline_keyword_hypothesis",
-      "ageHours": 6.0296625,
-      "instagram": {
-        "score": null,
-        "availableMetrics": [],
-        "sampleCount": 0,
-        "scope": "관측한 계정·게시물만 비교, 인스타 전체 순위 아님",
-        "sources": []
-      },
-      "score": null,
-      "proxyScore": 46,
+      "proxyScore": 33,
       "portalProxyOnly": true,
       "eligible": false,
       "blocks": [
@@ -6852,7 +6825,7 @@
       ],
       "category": "other",
       "categoryMethod": "headline_keyword_hypothesis",
-      "ageHours": 3.4446625,
+      "ageHours": 7.769890277777778,
       "instagram": {
         "score": null,
         "availableMetrics": [],
@@ -6861,7 +6834,7 @@
         "sources": []
       },
       "score": null,
-      "proxyScore": 45,
+      "proxyScore": 27,
       "portalProxyOnly": true,
       "eligible": false,
       "blocks": [
@@ -6888,7 +6861,7 @@
       ],
       "category": "other",
       "categoryMethod": "headline_keyword_hypothesis",
-      "ageHours": 3.2441069444444444,
+      "ageHours": 7.569334722222222,
       "instagram": {
         "score": null,
         "availableMetrics": [],
@@ -6897,7 +6870,7 @@
         "sources": []
       },
       "score": null,
-      "proxyScore": 45,
+      "proxyScore": 27,
       "portalProxyOnly": true,
       "eligible": false,
       "blocks": [
@@ -6924,7 +6897,7 @@
       ],
       "category": "other",
       "categoryMethod": "headline_keyword_hypothesis",
-      "ageHours": 4.786884722222222,
+      "ageHours": 9.1121125,
       "instagram": {
         "score": null,
         "availableMetrics": [],
@@ -6933,7 +6906,43 @@
         "sources": []
       },
       "score": null,
-      "proxyScore": 43,
+      "proxyScore": 25,
+      "portalProxyOnly": true,
+      "eligible": false,
+      "blocks": [
+        "CONTENT_RIGHTS_UNVERIFIED",
+        "INSTAGRAM_EVIDENCE_MISSING",
+        "BELOW_SELECTION_THRESHOLD"
+      ]
+    },
+    {
+      "title": "인천공항도 지연·결항…전 세계 파장",
+      "description": "",
+      "url": "https://v.daum.net/v/20261114184836571",
+      "source": "채널A",
+      "publishedAt": "2026-11-14T09:48:36.000Z",
+      "descriptionKind": "headline_only",
+      "provider": "daum",
+      "portalRank": 3,
+      "storyKey": "6c982600906a38c6663312e7",
+      "sources": [
+        {
+          "provider": "daum",
+          "url": "https://v.daum.net/v/20261114184836571"
+        }
+      ],
+      "category": "other",
+      "categoryMethod": "headline_keyword_hypothesis",
+      "ageHours": 10.354890277777777,
+      "instagram": {
+        "score": null,
+        "availableMetrics": [],
+        "sampleCount": 0,
+        "scope": "관측한 계정·게시물만 비교, 인스타 전체 순위 아님",
+        "sources": []
+      },
+      "score": null,
+      "proxyScore": 24,
       "portalProxyOnly": true,
       "eligible": false,
       "blocks": [
@@ -6960,7 +6969,7 @@
       ],
       "category": "other",
       "categoryMethod": "headline_keyword_hypothesis",
-      "ageHours": 4.6213291666666665,
+      "ageHours": 8.946556944444444,
       "instagram": {
         "score": null,
         "availableMetrics": [],
@@ -6969,7 +6978,7 @@
         "sources": []
       },
       "score": null,
-      "proxyScore": 42,
+      "proxyScore": 24,
       "portalProxyOnly": true,
       "eligible": false,
       "blocks": [
@@ -6996,7 +7005,7 @@
       ],
       "category": "other",
       "categoryMethod": "headline_keyword_hypothesis",
-      "ageHours": 4.571329166666667,
+      "ageHours": 8.896556944444445,
       "instagram": {
         "score": null,
         "availableMetrics": [],
@@ -7005,7 +7014,7 @@
         "sources": []
       },
       "score": null,
-      "proxyScore": 41,
+      "proxyScore": 23,
       "portalProxyOnly": true,
       "eligible": false,
       "blocks": [
@@ -7032,7 +7041,7 @@
       ],
       "category": "money_life",
       "categoryMethod": "headline_keyword_hypothesis",
-      "ageHours": 5.783829166666667,
+      "ageHours": 10.109056944444445,
       "instagram": {
         "score": null,
         "availableMetrics": [],
@@ -7041,7 +7050,7 @@
         "sources": []
       },
       "score": null,
-      "proxyScore": 35,
+      "proxyScore": 17,
       "portalProxyOnly": true,
       "eligible": false,
       "blocks": [
@@ -7068,7 +7077,7 @@
       ],
       "category": "other",
       "categoryMethod": "headline_keyword_hypothesis",
-      "ageHours": 5.643551388888889,
+      "ageHours": 9.968779166666666,
       "instagram": {
         "score": null,
         "availableMetrics": [],
@@ -7077,7 +7086,7 @@
         "sources": []
       },
       "score": null,
-      "proxyScore": 35,
+      "proxyScore": 17,
       "portalProxyOnly": true,
       "eligible": false,
       "blocks": [
@@ -7104,7 +7113,7 @@
       ],
       "category": "other",
       "categoryMethod": "headline_keyword_hypothesis",
-      "ageHours": 7.733273611111111,
+      "ageHours": 12.058501388888889,
       "instagram": {
         "score": null,
         "availableMetrics": [],
@@ -7113,11 +7122,12 @@
         "sources": []
       },
       "score": null,
-      "proxyScore": 30,
+      "proxyScore": 12,
       "portalProxyOnly": true,
       "eligible": false,
       "blocks": [
         "CONTENT_RIGHTS_UNVERIFIED",
+        "ARTICLE_STALE_OR_FUTURE",
         "INSTAGRAM_EVIDENCE_MISSING",
         "BELOW_SELECTION_THRESHOLD"
       ]
@@ -7140,7 +7150,7 @@
       ],
       "category": "technology",
       "categoryMethod": "headline_keyword_hypothesis",
-      "ageHours": 7.317718055555556,
+      "ageHours": 11.642945833333334,
       "instagram": {
         "score": null,
         "availableMetrics": [],
@@ -7149,7 +7159,7 @@
         "sources": []
       },
       "score": null,
-      "proxyScore": 30,
+      "proxyScore": 12,
       "portalProxyOnly": true,
       "eligible": false,
       "blocks": [
@@ -7195,7 +7205,7 @@
     }
   ],
   "commercialDashboard": {
-    "updatedAt": "2026-11-14T15:50:31.030Z",
+    "updatedAt": "2026-11-14T20:09:53.607Z",
     "offers": [
       {
         "id": "creative_only",
@@ -7320,7 +7330,7 @@
       "at": "2026-10-21T03:13:07.287Z",
       "invalidation": {
         "reason": "SOURCE_UNVERIFIED",
-        "at": "2026-11-14T15:50:10.035Z",
+        "at": "2026-11-14T20:09:42.999Z",
         "sourceId": "tesla-kr-connectivity"
       },
       "publicationAuthorized": false,
@@ -7329,6 +7339,13 @@
     }
   ],
   "watchedArticles": [
+    {
+      "url": "https://v.daum.net/v/20261114190321767",
+      "storyKey": "ed27f4a7d8c45e2ea507c692",
+      "firstSeenAt": "2026-11-14T20:09:42.762Z",
+      "lastSeenAt": "2026-11-14T20:09:42.762Z",
+      "priority": true
+    },
     {
       "url": "https://v.daum.net/v/20261114115806747",
       "storyKey": "21fb9b41dee5a1f65b60b12c",
@@ -7741,13 +7758,6 @@
       "firstSeenAt": "2026-10-21T22:44:15.711Z",
       "lastSeenAt": "2026-10-21T22:44:15.711Z",
       "priority": true
-    },
-    {
-      "url": "https://v.daum.net/v/20261021135108166",
-      "storyKey": "0587d965934dcf263a275696",
-      "firstSeenAt": "2026-10-21T06:23:59.404Z",
-      "lastSeenAt": "2026-10-21T15:44:46.978Z",
-      "priority": true
     }
   ],
   "sourceSnapshots": {
@@ -7755,14 +7765,14 @@
       "sourceId": "tesla-ir-updates",
       "url": "https://ir.tesla.com/",
       "status": "unverified",
-      "lastAttemptAt": "2026-11-14T15:50:10.034Z",
+      "lastAttemptAt": "2026-11-14T20:09:42.998Z",
       "error": "SOURCE_HTTP_403"
     },
     "tesla-sec-updates": {
       "sourceId": "tesla-sec-updates",
       "url": "https://ir.tesla.com/sec-filings",
       "status": "unverified",
-      "lastAttemptAt": "2026-11-14T15:50:10.035Z",
+      "lastAttemptAt": "2026-11-14T20:09:42.999Z",
       "error": "SOURCE_HTTP_403"
     },
     "tesla-proxy-20261019": {
@@ -7774,7 +7784,7 @@
       "links": [],
       "modifiedAt": null,
       "lastModified": "Mon, 19 Oct 2026 10:16:00 GMT",
-      "fetchedAt": "2026-11-14T15:50:10.034Z",
+      "fetchedAt": "2026-11-14T20:09:42.998Z",
       "status": "checked",
       "coverage": "registered_public_endpoint_only",
       "lastChangedAt": null
@@ -7783,7 +7793,7 @@
       "sourceId": "tesla-kr-connectivity",
       "url": "https://www.tesla.com/ko_kr/support/connectivity",
       "status": "unverified",
-      "lastAttemptAt": "2026-11-14T15:50:10.035Z",
+      "lastAttemptAt": "2026-11-14T20:09:42.999Z",
       "error": "SOURCE_HTTP_403"
     },
     "customs-release-updates": {
@@ -7791,7 +7801,7 @@
       "url": "https://customs.go.kr/kcs/na/ntt/selectNttList.do?bbsId=1362&mi=2891",
       "scope": "public_text",
       "role": "discovery",
-      "sha256": "4b15983b4c582b24bed851e18a0a0b151d5955e48408fec0da6e574b87850cd6",
+      "sha256": "d58b16591f21f05407d74af3ccf9bf40732b06af33a1cb6365bf196dbe5b1a4b",
       "links": [
         "https://customs.go.kr/kcs/na/ntt/selectNttInfo.do?bbsId=1362&mi=2891&nttSn=10181844&nttSnUrl=f800fe56d540cfe0f2529d51491a729f",
         "https://customs.go.kr/kcs/na/ntt/selectNttInfo.do?bbsId=1362&mi=2891&nttSn=10182087&nttSnUrl=ee678d7b18dfca72ace05177b252c249",
@@ -7806,52 +7816,52 @@
       ],
       "modifiedAt": null,
       "lastModified": null,
-      "fetchedAt": "2026-11-14T15:50:12.166Z",
+      "fetchedAt": "2026-11-14T20:09:44.600Z",
       "status": "checked",
       "coverage": "registered_public_endpoint_only",
-      "lastChangedAt": "2026-11-14T15:50:13.693Z"
+      "lastChangedAt": "2026-11-14T20:09:45.868Z"
     },
     "customs-exports-20261021": {
       "sourceId": "customs-exports-20261021",
       "url": "https://customs.go.kr/kcs/na/ntt/selectNttInfo.do?bbsId=1362&mi=2891&nttSn=10180465&nttSnUrl=3b279b0d8ae0387ac138c4741fb65b67",
       "scope": "public_text",
       "role": "evidence",
-      "sha256": "2f98ade03215fe21a0122cfc76b67db64bea6399a336b39c62c0f3ef6d3d5706",
+      "sha256": "09e3bdec971c1e990bcd169ad11c838bdf7cd78e2a41d0b28350eb40ad6c11ae",
       "links": [],
       "modifiedAt": null,
       "lastModified": null,
-      "fetchedAt": "2026-11-14T15:50:12.719Z",
+      "fetchedAt": "2026-11-14T20:09:45.079Z",
       "status": "checked",
       "coverage": "registered_public_endpoint_only",
-      "lastChangedAt": "2026-11-14T15:50:13.693Z"
+      "lastChangedAt": "2026-11-14T20:09:45.868Z"
     },
     "youth-savings-20261006": {
       "sourceId": "youth-savings-20261006",
       "url": "https://fsc.go.kr/po010104/87880",
       "scope": "public_text",
       "role": "evidence",
-      "sha256": "d56237528d876cb7ce5543592f6f72092e09d839f16755daad3c12dc1fc6215d",
+      "sha256": "aa07f9b87147e5624d9826f914bf5ce244fac07541357982079b02db2f8ab5ce",
       "links": [],
       "modifiedAt": null,
       "lastModified": null,
-      "fetchedAt": "2026-11-14T15:50:13.504Z",
+      "fetchedAt": "2026-11-14T20:09:45.744Z",
       "status": "checked",
       "coverage": "registered_public_endpoint_only",
-      "lastChangedAt": "2026-11-14T15:50:13.693Z"
+      "lastChangedAt": "2026-11-14T20:09:45.868Z"
     },
     "october-policy-confirmed": {
       "sourceId": "october-policy-confirmed",
       "url": "https://www.korea.kr/news/policyNewsView.do?newsId=148972822",
       "scope": "public_text",
       "role": "evidence",
-      "sha256": "ebfb4111e038534f3a559ac53383bb69d8fa3381143ee7df7f565fc620a0c3dd",
+      "sha256": "8d01fed5c0dd363848bc453624dabf6f0ffbb015d9b49f7b8f60029fd160b04d",
       "links": [],
       "modifiedAt": null,
       "lastModified": null,
-      "fetchedAt": "2026-11-14T15:50:13.693Z",
+      "fetchedAt": "2026-11-14T20:09:45.868Z",
       "status": "checked",
       "coverage": "registered_public_endpoint_only",
-      "lastChangedAt": "2026-11-14T15:50:13.693Z"
+      "lastChangedAt": "2026-11-14T20:09:45.868Z"
     },
     "article-a75e0a4c1e046f79d409": {
       "sourceId": "article-a75e0a4c1e046f79d409",
@@ -8702,7 +8712,7 @@
       "links": [],
       "modifiedAt": null,
       "lastModified": null,
-      "fetchedAt": "2026-11-14T15:50:22.660Z",
+      "fetchedAt": "2026-11-14T20:09:53.556Z",
       "status": "checked",
       "coverage": "public_head_metadata_only",
       "lastChangedAt": null
@@ -9024,7 +9034,7 @@
       "links": [],
       "modifiedAt": null,
       "lastModified": null,
-      "fetchedAt": "2026-11-14T15:50:22.673Z",
+      "fetchedAt": "2026-11-14T20:09:53.531Z",
       "status": "checked",
       "coverage": "public_head_metadata_only",
       "lastChangedAt": null
@@ -9192,7 +9202,7 @@
       "links": [],
       "modifiedAt": null,
       "lastModified": null,
-      "fetchedAt": "2026-11-14T15:50:22.722Z",
+      "fetchedAt": "2026-11-14T20:09:53.605Z",
       "status": "checked",
       "coverage": "public_head_metadata_only",
       "lastChangedAt": null
@@ -9444,7 +9454,7 @@
       "links": [],
       "modifiedAt": null,
       "lastModified": null,
-      "fetchedAt": "2026-11-14T15:50:22.299Z",
+      "fetchedAt": "2026-11-14T20:09:53.577Z",
       "status": "checked",
       "coverage": "public_head_metadata_only",
       "lastChangedAt": null
@@ -9724,7 +9734,7 @@
       "links": [],
       "modifiedAt": null,
       "lastModified": null,
-      "fetchedAt": "2026-11-14T15:50:22.224Z",
+      "fetchedAt": "2026-11-14T20:09:53.188Z",
       "status": "checked",
       "coverage": "public_head_metadata_only",
       "lastChangedAt": null
@@ -9948,7 +9958,7 @@
       "links": [],
       "modifiedAt": null,
       "lastModified": null,
-      "fetchedAt": "2026-11-14T15:50:22.228Z",
+      "fetchedAt": "2026-11-14T20:09:53.086Z",
       "status": "checked",
       "coverage": "public_head_metadata_only",
       "lastChangedAt": null
@@ -10004,7 +10014,7 @@
       "links": [],
       "modifiedAt": null,
       "lastModified": null,
-      "fetchedAt": "2026-11-14T15:50:22.226Z",
+      "fetchedAt": "2026-11-14T20:09:53.218Z",
       "status": "checked",
       "coverage": "public_head_metadata_only",
       "lastChangedAt": null
@@ -10144,7 +10154,7 @@
       "links": [],
       "modifiedAt": null,
       "lastModified": null,
-      "fetchedAt": "2026-11-14T15:50:21.805Z",
+      "fetchedAt": "2026-11-14T20:09:53.190Z",
       "status": "checked",
       "coverage": "public_head_metadata_only",
       "lastChangedAt": null
@@ -10326,7 +10336,7 @@
       "links": [],
       "modifiedAt": null,
       "lastModified": null,
-      "fetchedAt": "2026-11-14T15:50:21.777Z",
+      "fetchedAt": "2026-11-14T20:09:52.605Z",
       "status": "checked",
       "coverage": "public_head_metadata_only",
       "lastChangedAt": null
@@ -10452,7 +10462,7 @@
       "links": [],
       "modifiedAt": null,
       "lastModified": null,
-      "fetchedAt": "2026-11-14T15:50:21.888Z",
+      "fetchedAt": "2026-11-14T20:09:52.770Z",
       "status": "checked",
       "coverage": "public_head_metadata_only",
       "lastChangedAt": null
@@ -10550,7 +10560,7 @@
       "links": [],
       "modifiedAt": null,
       "lastModified": null,
-      "fetchedAt": "2026-11-14T15:50:20.551Z",
+      "fetchedAt": "2026-11-14T20:09:52.806Z",
       "status": "checked",
       "coverage": "public_head_metadata_only",
       "lastChangedAt": null
@@ -10718,7 +10728,7 @@
       "links": [],
       "modifiedAt": null,
       "lastModified": null,
-      "fetchedAt": "2026-11-14T15:50:21.853Z",
+      "fetchedAt": "2026-11-14T20:09:52.749Z",
       "status": "checked",
       "coverage": "public_head_metadata_only",
       "lastChangedAt": null
@@ -10844,7 +10854,7 @@
       "links": [],
       "modifiedAt": null,
       "lastModified": null,
-      "fetchedAt": "2026-11-14T15:50:21.428Z",
+      "fetchedAt": "2026-11-14T20:09:52.233Z",
       "status": "checked",
       "coverage": "public_head_metadata_only",
       "lastChangedAt": null
@@ -11026,7 +11036,7 @@
       "links": [],
       "modifiedAt": null,
       "lastModified": null,
-      "fetchedAt": "2026-11-14T15:50:20.357Z",
+      "fetchedAt": "2026-11-14T20:09:52.151Z",
       "status": "checked",
       "coverage": "public_head_metadata_only",
       "lastChangedAt": null
@@ -11138,7 +11148,7 @@
       "links": [],
       "modifiedAt": null,
       "lastModified": null,
-      "fetchedAt": "2026-11-14T15:50:20.558Z",
+      "fetchedAt": "2026-11-14T20:09:52.163Z",
       "status": "checked",
       "coverage": "public_head_metadata_only",
       "lastChangedAt": null
@@ -11348,7 +11358,7 @@
       "links": [],
       "modifiedAt": null,
       "lastModified": null,
-      "fetchedAt": "2026-11-14T15:50:19.892Z",
+      "fetchedAt": "2026-11-14T20:09:52.347Z",
       "status": "checked",
       "coverage": "public_head_metadata_only",
       "lastChangedAt": null
@@ -11446,7 +11456,7 @@
       "links": [],
       "modifiedAt": null,
       "lastModified": null,
-      "fetchedAt": "2026-11-14T15:50:19.717Z",
+      "fetchedAt": "2026-11-14T20:09:51.681Z",
       "status": "checked",
       "coverage": "public_head_metadata_only",
       "lastChangedAt": null
@@ -12076,7 +12086,7 @@
       "links": [],
       "modifiedAt": null,
       "lastModified": null,
-      "fetchedAt": "2026-11-14T15:50:19.757Z",
+      "fetchedAt": "2026-11-14T20:09:51.633Z",
       "status": "checked",
       "coverage": "public_head_metadata_only",
       "lastChangedAt": null
@@ -12230,7 +12240,7 @@
       "links": [],
       "modifiedAt": null,
       "lastModified": null,
-      "fetchedAt": "2026-11-14T15:50:19.956Z",
+      "fetchedAt": "2026-11-14T20:09:51.778Z",
       "status": "checked",
       "coverage": "public_head_metadata_only",
       "lastChangedAt": null
@@ -12580,7 +12590,7 @@
       "links": [],
       "modifiedAt": null,
       "lastModified": null,
-      "fetchedAt": "2026-11-14T15:50:19.335Z",
+      "fetchedAt": "2026-11-14T20:09:51.677Z",
       "status": "checked",
       "coverage": "public_head_metadata_only",
       "lastChangedAt": null
@@ -12636,7 +12646,7 @@
       "links": [],
       "modifiedAt": null,
       "lastModified": null,
-      "fetchedAt": "2026-11-14T15:50:19.349Z",
+      "fetchedAt": "2026-11-14T20:09:51.295Z",
       "status": "checked",
       "coverage": "public_head_metadata_only",
       "lastChangedAt": null
@@ -12818,7 +12828,7 @@
       "links": [],
       "modifiedAt": null,
       "lastModified": null,
-      "fetchedAt": "2026-11-14T15:50:19.332Z",
+      "fetchedAt": "2026-11-14T20:09:51.301Z",
       "status": "checked",
       "coverage": "public_head_metadata_only",
       "lastChangedAt": null
@@ -13000,7 +13010,7 @@
       "links": [],
       "modifiedAt": null,
       "lastModified": null,
-      "fetchedAt": "2026-11-14T15:50:19.347Z",
+      "fetchedAt": "2026-11-14T20:09:51.340Z",
       "status": "checked",
       "coverage": "public_head_metadata_only",
       "lastChangedAt": null
@@ -13742,7 +13752,7 @@
       "links": [],
       "modifiedAt": null,
       "lastModified": null,
-      "fetchedAt": "2026-11-14T15:50:18.916Z",
+      "fetchedAt": "2026-11-14T20:09:51.286Z",
       "status": "checked",
       "coverage": "public_head_metadata_only",
       "lastChangedAt": null
@@ -13952,7 +13962,7 @@
       "links": [],
       "modifiedAt": null,
       "lastModified": null,
-      "fetchedAt": "2026-11-14T15:50:18.919Z",
+      "fetchedAt": "2026-11-14T20:09:51.002Z",
       "status": "checked",
       "coverage": "public_head_metadata_only",
       "lastChangedAt": null
@@ -14008,7 +14018,7 @@
       "links": [],
       "modifiedAt": null,
       "lastModified": null,
-      "fetchedAt": "2026-11-14T15:50:18.976Z",
+      "fetchedAt": "2026-11-14T20:09:50.965Z",
       "status": "checked",
       "coverage": "public_head_metadata_only",
       "lastChangedAt": "2026-10-29T08:57:32.111Z"
@@ -14134,7 +14144,7 @@
       "links": [],
       "modifiedAt": null,
       "lastModified": null,
-      "fetchedAt": "2026-11-14T15:50:18.973Z",
+      "fetchedAt": "2026-11-14T20:09:50.850Z",
       "status": "checked",
       "coverage": "public_head_metadata_only",
       "lastChangedAt": null
@@ -14344,7 +14354,7 @@
       "links": [],
       "modifiedAt": null,
       "lastModified": null,
-      "fetchedAt": "2026-11-14T15:50:18.568Z",
+      "fetchedAt": "2026-11-14T20:09:50.833Z",
       "status": "checked",
       "coverage": "public_head_metadata_only",
       "lastChangedAt": null
@@ -15282,7 +15292,7 @@
       "links": [],
       "modifiedAt": null,
       "lastModified": null,
-      "fetchedAt": "2026-11-14T15:50:18.551Z",
+      "fetchedAt": "2026-11-14T20:09:50.500Z",
       "status": "checked",
       "coverage": "public_head_metadata_only",
       "lastChangedAt": null
@@ -15590,7 +15600,7 @@
       "links": [],
       "modifiedAt": null,
       "lastModified": null,
-      "fetchedAt": "2026-11-14T15:50:18.588Z",
+      "fetchedAt": "2026-11-14T20:09:50.492Z",
       "status": "checked",
       "coverage": "public_head_metadata_only",
       "lastChangedAt": null
@@ -15982,7 +15992,7 @@
       "links": [],
       "modifiedAt": null,
       "lastModified": null,
-      "fetchedAt": "2026-11-14T15:50:18.183Z",
+      "fetchedAt": "2026-11-14T20:09:50.493Z",
       "status": "checked",
       "coverage": "public_head_metadata_only",
       "lastChangedAt": null
@@ -16136,7 +16146,7 @@
       "links": [],
       "modifiedAt": null,
       "lastModified": null,
-      "fetchedAt": "2026-11-14T15:50:18.604Z",
+      "fetchedAt": "2026-11-14T20:09:50.537Z",
       "status": "checked",
       "coverage": "public_head_metadata_only",
       "lastChangedAt": null
@@ -16374,7 +16384,7 @@
       "links": [],
       "modifiedAt": null,
       "lastModified": null,
-      "fetchedAt": "2026-11-14T15:50:18.188Z",
+      "fetchedAt": "2026-11-14T20:09:50.036Z",
       "status": "checked",
       "coverage": "public_head_metadata_only",
       "lastChangedAt": null
@@ -16836,7 +16846,7 @@
       "links": [],
       "modifiedAt": null,
       "lastModified": null,
-      "fetchedAt": "2026-11-14T15:50:18.104Z",
+      "fetchedAt": "2026-11-14T20:09:50.029Z",
       "status": "checked",
       "coverage": "public_head_metadata_only",
       "lastChangedAt": null
@@ -17004,7 +17014,7 @@
       "links": [],
       "modifiedAt": null,
       "lastModified": null,
-      "fetchedAt": "2026-11-14T15:50:18.133Z",
+      "fetchedAt": "2026-11-14T20:09:50.024Z",
       "status": "checked",
       "coverage": "public_head_metadata_only",
       "lastChangedAt": null
@@ -17228,7 +17238,7 @@
       "links": [],
       "modifiedAt": null,
       "lastModified": null,
-      "fetchedAt": "2026-11-14T15:50:17.718Z",
+      "fetchedAt": "2026-11-14T20:09:50.126Z",
       "status": "checked",
       "coverage": "public_head_metadata_only",
       "lastChangedAt": null
@@ -17634,7 +17644,7 @@
       "links": [],
       "modifiedAt": null,
       "lastModified": null,
-      "fetchedAt": "2026-11-14T15:50:17.503Z",
+      "fetchedAt": "2026-11-14T20:09:49.530Z",
       "status": "checked",
       "coverage": "public_head_metadata_only",
       "lastChangedAt": "2026-11-03T12:45:27.782Z"
@@ -17774,7 +17784,7 @@
       "links": [],
       "modifiedAt": null,
       "lastModified": null,
-      "fetchedAt": "2026-11-14T15:50:17.508Z",
+      "fetchedAt": "2026-11-14T20:09:49.544Z",
       "status": "checked",
       "coverage": "public_head_metadata_only",
       "lastChangedAt": null
@@ -18012,7 +18022,7 @@
       "links": [],
       "modifiedAt": null,
       "lastModified": null,
-      "fetchedAt": "2026-11-14T15:50:17.522Z",
+      "fetchedAt": "2026-11-14T20:09:49.584Z",
       "status": "checked",
       "coverage": "public_head_metadata_only",
       "lastChangedAt": null
@@ -18208,7 +18218,7 @@
       "links": [],
       "modifiedAt": null,
       "lastModified": null,
-      "fetchedAt": "2026-11-14T15:50:17.150Z",
+      "fetchedAt": "2026-11-14T20:09:49.718Z",
       "status": "checked",
       "coverage": "public_head_metadata_only",
       "lastChangedAt": null
@@ -18586,7 +18596,7 @@
       "links": [],
       "modifiedAt": null,
       "lastModified": null,
-      "fetchedAt": "2026-11-14T15:50:17.171Z",
+      "fetchedAt": "2026-11-14T20:09:49.252Z",
       "status": "checked",
       "coverage": "public_head_metadata_only",
       "lastChangedAt": "2026-11-04T20:59:34.070Z"
@@ -18656,7 +18666,7 @@
       "links": [],
       "modifiedAt": null,
       "lastModified": null,
-      "fetchedAt": "2026-11-14T15:50:17.075Z",
+      "fetchedAt": "2026-11-14T20:09:49.156Z",
       "status": "checked",
       "coverage": "public_head_metadata_only",
       "lastChangedAt": null
@@ -18950,7 +18960,7 @@
       "links": [],
       "modifiedAt": null,
       "lastModified": null,
-      "fetchedAt": "2026-11-14T15:50:17.107Z",
+      "fetchedAt": "2026-11-14T20:09:49.181Z",
       "status": "checked",
       "coverage": "public_head_metadata_only",
       "lastChangedAt": null
@@ -19034,7 +19044,7 @@
       "links": [],
       "modifiedAt": null,
       "lastModified": null,
-      "fetchedAt": "2026-11-14T15:50:16.692Z",
+      "fetchedAt": "2026-11-14T20:09:49.261Z",
       "status": "checked",
       "coverage": "public_head_metadata_only",
       "lastChangedAt": null
@@ -19202,7 +19212,7 @@
       "links": [],
       "modifiedAt": null,
       "lastModified": null,
-      "fetchedAt": "2026-11-14T15:50:16.768Z",
+      "fetchedAt": "2026-11-14T20:09:48.800Z",
       "status": "checked",
       "coverage": "public_head_metadata_only",
       "lastChangedAt": null
@@ -19580,7 +19590,7 @@
       "links": [],
       "modifiedAt": null,
       "lastModified": null,
-      "fetchedAt": "2026-11-14T15:50:16.751Z",
+      "fetchedAt": "2026-11-14T20:09:48.880Z",
       "status": "checked",
       "coverage": "public_head_metadata_only",
       "lastChangedAt": "2026-11-07T07:13:44.795Z"
@@ -19776,7 +19786,7 @@
       "links": [],
       "modifiedAt": null,
       "lastModified": null,
-      "fetchedAt": "2026-11-14T15:50:16.666Z",
+      "fetchedAt": "2026-11-14T20:09:48.770Z",
       "status": "checked",
       "coverage": "public_head_metadata_only",
       "lastChangedAt": null
@@ -20042,7 +20052,7 @@
       "links": [],
       "modifiedAt": null,
       "lastModified": null,
-      "fetchedAt": "2026-11-14T15:50:16.191Z",
+      "fetchedAt": "2026-11-14T20:09:48.884Z",
       "status": "checked",
       "coverage": "public_head_metadata_only",
       "lastChangedAt": null
@@ -20196,7 +20206,7 @@
       "links": [],
       "modifiedAt": null,
       "lastModified": null,
-      "fetchedAt": "2026-11-14T15:50:16.111Z",
+      "fetchedAt": "2026-11-14T20:09:48.286Z",
       "status": "checked",
       "coverage": "public_head_metadata_only",
       "lastChangedAt": null
@@ -20238,7 +20248,7 @@
       "links": [],
       "modifiedAt": null,
       "lastModified": null,
-      "fetchedAt": "2026-11-14T15:50:16.159Z",
+      "fetchedAt": "2026-11-14T20:09:48.279Z",
       "status": "checked",
       "coverage": "public_head_metadata_only",
       "lastChangedAt": null
@@ -20266,7 +20276,7 @@
       "links": [],
       "modifiedAt": null,
       "lastModified": null,
-      "fetchedAt": "2026-11-14T15:50:16.317Z",
+      "fetchedAt": "2026-11-14T20:09:48.452Z",
       "status": "checked",
       "coverage": "public_head_metadata_only",
       "lastChangedAt": null
@@ -20336,7 +20346,7 @@
       "links": [],
       "modifiedAt": null,
       "lastModified": null,
-      "fetchedAt": "2026-11-14T15:50:15.727Z",
+      "fetchedAt": "2026-11-14T20:09:48.415Z",
       "status": "checked",
       "coverage": "public_head_metadata_only",
       "lastChangedAt": null
@@ -20378,7 +20388,7 @@
       "links": [],
       "modifiedAt": null,
       "lastModified": null,
-      "fetchedAt": "2026-11-14T15:50:15.729Z",
+      "fetchedAt": "2026-11-14T20:09:47.909Z",
       "status": "checked",
       "coverage": "public_head_metadata_only",
       "lastChangedAt": null
@@ -20392,7 +20402,7 @@
       "links": [],
       "modifiedAt": null,
       "lastModified": null,
-      "fetchedAt": "2026-11-14T15:50:15.779Z",
+      "fetchedAt": "2026-11-14T20:09:47.707Z",
       "status": "checked",
       "coverage": "public_head_metadata_only",
       "lastChangedAt": null
@@ -20406,7 +20416,7 @@
       "links": [],
       "modifiedAt": null,
       "lastModified": null,
-      "fetchedAt": "2026-11-14T15:50:15.779Z",
+      "fetchedAt": "2026-11-14T20:09:47.971Z",
       "status": "checked",
       "coverage": "public_head_metadata_only",
       "lastChangedAt": null
@@ -20420,7 +20430,7 @@
       "links": [],
       "modifiedAt": null,
       "lastModified": null,
-      "fetchedAt": "2026-11-14T15:50:15.322Z",
+      "fetchedAt": "2026-11-14T20:09:47.846Z",
       "status": "checked",
       "coverage": "public_head_metadata_only",
       "lastChangedAt": null
@@ -20434,7 +20444,7 @@
       "links": [],
       "modifiedAt": null,
       "lastModified": null,
-      "fetchedAt": "2026-11-14T15:50:15.230Z",
+      "fetchedAt": "2026-11-14T20:09:47.252Z",
       "status": "checked",
       "coverage": "public_head_metadata_only",
       "lastChangedAt": null
@@ -20448,7 +20458,7 @@
       "links": [],
       "modifiedAt": null,
       "lastModified": null,
-      "fetchedAt": "2026-11-14T15:50:15.141Z",
+      "fetchedAt": "2026-11-14T20:09:47.279Z",
       "status": "checked",
       "coverage": "public_head_metadata_only",
       "lastChangedAt": null
@@ -20462,25 +20472,27 @@
       "links": [],
       "modifiedAt": null,
       "lastModified": null,
-      "fetchedAt": "2026-11-14T15:50:15.320Z",
+      "fetchedAt": "2026-11-14T20:09:47.176Z",
+      "status": "checked",
+      "coverage": "public_head_metadata_only",
+      "lastChangedAt": null
+    },
+    "article-30777bdfdebbfe5e1c43": {
+      "sourceId": "article-30777bdfdebbfe5e1c43",
+      "url": "https://v.daum.net/v/20261114190321767",
+      "scope": "metadata",
+      "role": "evidence",
+      "sha256": "a360030e12db4d02ae524036f112e7f5974718d7212aa44970433c02cd4f7fb1",
+      "links": [],
+      "modifiedAt": null,
+      "lastModified": null,
+      "fetchedAt": "2026-11-14T20:09:46.939Z",
       "status": "checked",
       "coverage": "public_head_metadata_only",
       "lastChangedAt": null
     }
   },
   "regenerationQueue": [
-    {
-      "storyKey": "b67996dd4e364d36a9e319b8",
-      "status": "needs_research",
-      "createdAt": "2026-11-01T00:03:56.539Z",
-      "reasons": [
-        "INITIAL_SOURCE_REVIEW_REQUIRED"
-      ],
-      "sourceIds": [
-        "article-5281f33c2d1a3989ff9d"
-      ],
-      "updatedAt": "2026-11-01T00:03:56.539Z"
-    },
     {
       "storyKey": "d0308dc469695d753a4c9dd7",
       "status": "needs_research",
@@ -20566,7 +20578,7 @@
         "tesla-sec-updates",
         "tesla-kr-connectivity"
       ],
-      "updatedAt": "2026-11-14T15:50:10.035Z"
+      "updatedAt": "2026-11-14T20:09:42.999Z"
     },
     {
       "storyKey": "exports-household-20261021",
@@ -20583,7 +20595,7 @@
         "youth-savings-20261006",
         "october-policy-confirmed"
       ],
-      "updatedAt": "2026-11-14T15:50:13.693Z"
+      "updatedAt": "2026-11-14T20:09:45.868Z"
     },
     {
       "storyKey": "9b5e6feb0063945507c4511d",
@@ -24085,6 +24097,18 @@
         "article-42d7a06413733b63762d"
       ],
       "updatedAt": "2026-11-14T15:50:15.322Z"
+    },
+    {
+      "storyKey": "ed27f4a7d8c45e2ea507c692",
+      "status": "needs_research",
+      "createdAt": "2026-11-14T20:09:47.279Z",
+      "reasons": [
+        "INITIAL_SOURCE_REVIEW_REQUIRED"
+      ],
+      "sourceIds": [
+        "article-30777bdfdebbfe5e1c43"
+      ],
+      "updatedAt": "2026-11-14T20:09:47.279Z"
     }
   ],
   "sourceWatchLastRun": {
@@ -24092,14 +24116,14 @@
     "changed": 4,
     "failed": 3,
     "initial": 1,
-    "at": "2026-11-14T15:50:09.781Z"
+    "at": "2026-11-14T20:09:42.763Z"
   },
   "slotOutcomes": [
     {
       "key": "my.love.manual|2026-10-21T07:00:00.000Z",
       "slotAt": "2026-10-21T16:00:00+09:00",
       "status": "SKIPPED",
-      "checkedAt": "2026-11-14T15:50:31.030Z",
+      "checkedAt": "2026-11-14T20:09:53.608Z",
       "reasons": [
         "OPERATIONAL_CAP_REACHED",
         "ANTHROPIC_LOCAL_KEY_UNAVAILABLE",
@@ -24115,7 +24139,7 @@
       "key": "my.love.manual|2026-10-21T07:30:00.000Z",
       "slotAt": "2026-10-21T16:30:00+09:00",
       "status": "SKIPPED",
-      "checkedAt": "2026-11-14T15:50:31.030Z",
+      "checkedAt": "2026-11-14T20:09:53.608Z",
       "reasons": [
         "OPERATIONAL_CAP_REACHED",
         "INDEPENDENT_VERIFIER_NOT_CONNECTED",
@@ -24130,7 +24154,7 @@
       "key": "my.love.manual|2026-10-21T08:00:00.000Z",
       "slotAt": "2026-10-21T17:00:00+09:00",
       "status": "SKIPPED",
-      "checkedAt": "2026-11-14T15:50:31.030Z",
+      "checkedAt": "2026-11-14T20:09:53.608Z",
       "reasons": [
         "OPERATIONAL_CAP_REACHED",
         "INDEPENDENT_VERIFIER_NOT_CONNECTED",
@@ -24145,7 +24169,7 @@
       "key": "my.love.manual|2026-10-21T08:30:00.000Z",
       "slotAt": "2026-10-21T17:30:00+09:00",
       "status": "SKIPPED",
-      "checkedAt": "2026-11-14T15:50:31.030Z",
+      "checkedAt": "2026-11-14T20:09:53.608Z",
       "reasons": [
         "OPERATIONAL_CAP_REACHED",
         "INDEPENDENT_VERIFIER_NOT_CONNECTED",
