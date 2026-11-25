@@ -6874,7 +6874,7 @@
   ],
   "signals": [],
   "lastRun": {
-    "at": "2026-11-24T18:01:20.980Z",
+    "at": "2026-11-25T02:18:23.396Z",
     "sources": [
       {
         "provider": "daum",
@@ -6891,11 +6891,11 @@
     "eligible": 0,
     "status": "awaiting_connections",
     "sourceWatch": {
-      "checked": 50,
+      "checked": 48,
       "changed": 4,
       "failed": 3,
       "initial": 0,
-      "at": "2026-11-24T18:01:10.246Z"
+      "at": "2026-11-25T02:18:13.085Z"
     },
     "draftStatus": "no_new_commercial_candidate",
     "blockers": [
@@ -6949,7 +6949,7 @@
     }
   ],
   "commercialDashboard": {
-    "updatedAt": "2026-11-24T18:01:20.981Z",
+    "updatedAt": "2026-11-25T02:18:23.397Z",
     "offers": [
       {
         "id": "creative_only",
@@ -7074,7 +7074,7 @@
       "at": "2026-10-21T03:13:07.287Z",
       "invalidation": {
         "reason": "SOURCE_UNVERIFIED",
-        "at": "2026-11-24T18:01:10.589Z",
+        "at": "2026-11-25T02:18:13.519Z",
         "sourceId": "tesla-kr-connectivity"
       },
       "publicationAuthorized": false,
@@ -7383,20 +7383,6 @@
       "firstSeenAt": "2026-10-26T13:29:57.500Z",
       "lastSeenAt": "2026-10-26T13:29:57.500Z",
       "priority": true
-    },
-    {
-      "url": "https://v.daum.net/v/20261026060603047",
-      "storyKey": "814c64b53c3a9b768dc5f11f",
-      "firstSeenAt": "2026-10-25T23:24:19.657Z",
-      "lastSeenAt": "2026-10-26T01:25:56.681Z",
-      "priority": true
-    },
-    {
-      "url": "https://v.daum.net/v/20261026091612608",
-      "storyKey": "11d51969b4cb23a55cdd8d5f",
-      "firstSeenAt": "2026-10-26T01:25:56.681Z",
-      "lastSeenAt": "2026-10-26T01:25:56.681Z",
-      "priority": true
     }
   ],
   "sourceSnapshots": {
@@ -7404,14 +7390,14 @@
       "sourceId": "tesla-ir-updates",
       "url": "https://ir.tesla.com/",
       "status": "unverified",
-      "lastAttemptAt": "2026-11-24T18:01:10.589Z",
+      "lastAttemptAt": "2026-11-25T02:18:13.518Z",
       "error": "SOURCE_HTTP_403"
     },
     "tesla-sec-updates": {
       "sourceId": "tesla-sec-updates",
       "url": "https://ir.tesla.com/sec-filings",
       "status": "unverified",
-      "lastAttemptAt": "2026-11-24T18:01:10.589Z",
+      "lastAttemptAt": "2026-11-25T02:18:13.519Z",
       "error": "SOURCE_HTTP_403"
     },
     "tesla-proxy-20261019": {
@@ -7423,7 +7409,7 @@
       "links": [],
       "modifiedAt": null,
       "lastModified": "Mon, 19 Oct 2026 10:16:00 GMT",
-      "fetchedAt": "2026-11-24T18:01:10.589Z",
+      "fetchedAt": "2026-11-25T02:18:13.518Z",
       "status": "checked",
       "coverage": "registered_public_endpoint_only",
       "lastChangedAt": null
@@ -7432,7 +7418,7 @@
       "sourceId": "tesla-kr-connectivity",
       "url": "https://www.tesla.com/ko_kr/support/connectivity",
       "status": "unverified",
-      "lastAttemptAt": "2026-11-24T18:01:10.589Z",
+      "lastAttemptAt": "2026-11-25T02:18:13.519Z",
       "error": "SOURCE_HTTP_403"
     },
     "customs-release-updates": {
@@ -7440,10 +7426,8 @@
       "url": "https://customs.go.kr/kcs/na/ntt/selectNttList.do?bbsId=1362&mi=2891",
       "scope": "public_text",
       "role": "discovery",
-      "sha256": "53aaf3accc47aa9a3e0f61827912812884dc75c3526508fbfc9414842d7519bd",
+      "sha256": "8e0780c0cb5177b04b7e24a388ed656cb3787dbb2c4a6dc0494791d6931effad",
       "links": [
-        "https://customs.go.kr/kcs/na/ntt/selectNttInfo.do?bbsId=1362&mi=2891&nttSn=10183825&nttSnUrl=a6b63104d1af5adb80a282a9513052e1",
-        "https://customs.go.kr/kcs/na/ntt/selectNttInfo.do?bbsId=1362&mi=2891&nttSn=10184123&nttSnUrl=a45e2146e432490b13c61c0e3e80af2a",
         "https://customs.go.kr/kcs/na/ntt/selectNttInfo.do?bbsId=1362&mi=2891&nttSn=10184124&nttSnUrl=46275c730bddd4e4c69b81f17277e931",
         "https://customs.go.kr/kcs/na/ntt/selectNttInfo.do?bbsId=1362&mi=2891&nttSn=10184144&nttSnUrl=5e43b13f77d149e165ec62608a372a04",
         "https://customs.go.kr/kcs/na/ntt/selectNttInfo.do?bbsId=1362&mi=2891&nttSn=10184145&nttSnUrl=c8f514cd440f3f1ed8935b28cb6e9a85",
@@ -7451,56 +7435,58 @@
         "https://customs.go.kr/kcs/na/ntt/selectNttInfo.do?bbsId=1362&mi=2891&nttSn=10184283&nttSnUrl=5b141dccc13a13335fe32982d23af29d",
         "https://customs.go.kr/kcs/na/ntt/selectNttInfo.do?bbsId=1362&mi=2891&nttSn=10184343&nttSnUrl=13b53b42fb1a86288b05629142151693",
         "https://customs.go.kr/kcs/na/ntt/selectNttInfo.do?bbsId=1362&mi=2891&nttSn=10184463&nttSnUrl=4c59e856edf583f89135066302c4f33d",
-        "https://customs.go.kr/kcs/na/ntt/selectNttInfo.do?bbsId=1362&mi=2891&nttSn=10184543&nttSnUrl=43a049fa6ef549676d0fd8060dd13efa"
+        "https://customs.go.kr/kcs/na/ntt/selectNttInfo.do?bbsId=1362&mi=2891&nttSn=10184543&nttSnUrl=43a049fa6ef549676d0fd8060dd13efa",
+        "https://customs.go.kr/kcs/na/ntt/selectNttInfo.do?bbsId=1362&mi=2891&nttSn=10184703&nttSnUrl=9bf5a93770bbaa9e5cdd35db2875d0c2",
+        "https://customs.go.kr/kcs/na/ntt/selectNttInfo.do?bbsId=1362&mi=2891&nttSn=10184704&nttSnUrl=f99ce6b0607b649a0545b59afe914642"
       ],
       "modifiedAt": null,
       "lastModified": null,
-      "fetchedAt": "2026-11-24T18:01:14.015Z",
+      "fetchedAt": "2026-11-25T02:18:15.339Z",
       "status": "checked",
       "coverage": "registered_public_endpoint_only",
-      "lastChangedAt": "2026-11-24T18:01:14.729Z"
+      "lastChangedAt": "2026-11-25T02:18:17.105Z"
     },
     "customs-exports-20261021": {
       "sourceId": "customs-exports-20261021",
       "url": "https://customs.go.kr/kcs/na/ntt/selectNttInfo.do?bbsId=1362&mi=2891&nttSn=10180465&nttSnUrl=3b279b0d8ae0387ac138c4741fb65b67",
       "scope": "public_text",
       "role": "evidence",
-      "sha256": "14921080c4077b66a75fac833fd63eb72d6bd2fd30f0c5ae57e15ac478ec0619",
+      "sha256": "8f8eddf7e8b8adb605ff6f4bdb1d5d52e30ed32c5942b5c8a46f46c0c4b2a140",
       "links": [],
       "modifiedAt": null,
       "lastModified": null,
-      "fetchedAt": "2026-11-24T18:01:14.729Z",
+      "fetchedAt": "2026-11-25T02:18:15.685Z",
       "status": "checked",
       "coverage": "registered_public_endpoint_only",
-      "lastChangedAt": "2026-11-24T18:01:14.729Z"
+      "lastChangedAt": "2026-11-25T02:18:17.105Z"
     },
     "youth-savings-20261006": {
       "sourceId": "youth-savings-20261006",
       "url": "https://fsc.go.kr/po010104/87880",
       "scope": "public_text",
       "role": "evidence",
-      "sha256": "21f35c4759dbd35d4383220b9c0406a5ebdbac7c9b46f3715b4047234d909983",
+      "sha256": "65fb3e16e39f4d73094385e66ef60e113f53c691d9f3d40ff887dcc2feb0ea09",
       "links": [],
       "modifiedAt": null,
       "lastModified": null,
-      "fetchedAt": "2026-11-24T18:01:13.665Z",
+      "fetchedAt": "2026-11-25T02:18:16.408Z",
       "status": "checked",
       "coverage": "registered_public_endpoint_only",
-      "lastChangedAt": "2026-11-24T18:01:14.729Z"
+      "lastChangedAt": "2026-11-25T02:18:17.105Z"
     },
     "october-policy-confirmed": {
       "sourceId": "october-policy-confirmed",
       "url": "https://www.korea.kr/news/policyNewsView.do?newsId=148972822",
       "scope": "public_text",
       "role": "evidence",
-      "sha256": "eb53e7c9cc4b12cb93acf1319a7ec4a18a589cf1433b0de8de22d1ddffd5e3d0",
+      "sha256": "5ad690651d3fb01f0582f91b395deb1271437292ff64ac767b848757cfaaf0c2",
       "links": [],
       "modifiedAt": null,
       "lastModified": null,
-      "fetchedAt": "2026-11-24T18:01:13.461Z",
+      "fetchedAt": "2026-11-25T02:18:17.105Z",
       "status": "checked",
       "coverage": "registered_public_endpoint_only",
-      "lastChangedAt": "2026-11-24T18:01:14.729Z"
+      "lastChangedAt": "2026-11-25T02:18:17.105Z"
     },
     "article-a75e0a4c1e046f79d409": {
       "sourceId": "article-a75e0a4c1e046f79d409",
@@ -12229,7 +12215,7 @@
       "links": [],
       "modifiedAt": null,
       "lastModified": null,
-      "fetchedAt": "2026-11-24T18:01:20.550Z",
+      "fetchedAt": "2026-11-25T02:18:23.395Z",
       "status": "checked",
       "coverage": "public_head_metadata_only",
       "lastChangedAt": null
@@ -12285,7 +12271,7 @@
       "links": [],
       "modifiedAt": null,
       "lastModified": null,
-      "fetchedAt": "2026-11-24T18:01:20.492Z",
+      "fetchedAt": "2026-11-25T02:18:23.353Z",
       "status": "checked",
       "coverage": "public_head_metadata_only",
       "lastChangedAt": null
@@ -12467,7 +12453,7 @@
       "links": [],
       "modifiedAt": null,
       "lastModified": null,
-      "fetchedAt": "2026-11-24T18:01:20.518Z",
+      "fetchedAt": "2026-11-25T02:18:23.370Z",
       "status": "checked",
       "coverage": "public_head_metadata_only",
       "lastChangedAt": null
@@ -12649,7 +12635,7 @@
       "links": [],
       "modifiedAt": null,
       "lastModified": null,
-      "fetchedAt": "2026-11-24T18:01:20.134Z",
+      "fetchedAt": "2026-11-25T02:18:23.043Z",
       "status": "checked",
       "coverage": "public_head_metadata_only",
       "lastChangedAt": null
@@ -13391,7 +13377,7 @@
       "links": [],
       "modifiedAt": null,
       "lastModified": null,
-      "fetchedAt": "2026-11-24T18:01:20.094Z",
+      "fetchedAt": "2026-11-25T02:18:22.863Z",
       "status": "checked",
       "coverage": "public_head_metadata_only",
       "lastChangedAt": null
@@ -13601,7 +13587,7 @@
       "links": [],
       "modifiedAt": null,
       "lastModified": null,
-      "fetchedAt": "2026-11-24T18:01:20.104Z",
+      "fetchedAt": "2026-11-25T02:18:22.876Z",
       "status": "checked",
       "coverage": "public_head_metadata_only",
       "lastChangedAt": null
@@ -13657,7 +13643,7 @@
       "links": [],
       "modifiedAt": null,
       "lastModified": null,
-      "fetchedAt": "2026-11-24T18:01:19.750Z",
+      "fetchedAt": "2026-11-25T02:18:22.470Z",
       "status": "checked",
       "coverage": "public_head_metadata_only",
       "lastChangedAt": "2026-10-29T08:57:32.111Z"
@@ -13783,7 +13769,7 @@
       "links": [],
       "modifiedAt": null,
       "lastModified": null,
-      "fetchedAt": "2026-11-24T18:01:20.163Z",
+      "fetchedAt": "2026-11-25T02:18:22.950Z",
       "status": "checked",
       "coverage": "public_head_metadata_only",
       "lastChangedAt": null
@@ -13993,7 +13979,7 @@
       "links": [],
       "modifiedAt": null,
       "lastModified": null,
-      "fetchedAt": "2026-11-24T18:01:19.718Z",
+      "fetchedAt": "2026-11-25T02:18:22.401Z",
       "status": "checked",
       "coverage": "public_head_metadata_only",
       "lastChangedAt": null
@@ -14931,7 +14917,7 @@
       "links": [],
       "modifiedAt": null,
       "lastModified": null,
-      "fetchedAt": "2026-11-24T18:01:19.750Z",
+      "fetchedAt": "2026-11-25T02:18:22.397Z",
       "status": "checked",
       "coverage": "public_head_metadata_only",
       "lastChangedAt": null
@@ -15239,7 +15225,7 @@
       "links": [],
       "modifiedAt": null,
       "lastModified": null,
-      "fetchedAt": "2026-11-24T18:01:19.711Z",
+      "fetchedAt": "2026-11-25T02:18:22.569Z",
       "status": "checked",
       "coverage": "public_head_metadata_only",
       "lastChangedAt": null
@@ -15631,7 +15617,7 @@
       "links": [],
       "modifiedAt": null,
       "lastModified": null,
-      "fetchedAt": "2026-11-24T18:01:19.292Z",
+      "fetchedAt": "2026-11-25T02:18:22.005Z",
       "status": "checked",
       "coverage": "public_head_metadata_only",
       "lastChangedAt": null
@@ -15785,7 +15771,7 @@
       "links": [],
       "modifiedAt": null,
       "lastModified": null,
-      "fetchedAt": "2026-11-24T18:01:19.240Z",
+      "fetchedAt": "2026-11-25T02:18:22.003Z",
       "status": "checked",
       "coverage": "public_head_metadata_only",
       "lastChangedAt": null
@@ -16023,7 +16009,7 @@
       "links": [],
       "modifiedAt": null,
       "lastModified": null,
-      "fetchedAt": "2026-11-24T18:01:19.192Z",
+      "fetchedAt": "2026-11-25T02:18:22.014Z",
       "status": "checked",
       "coverage": "public_head_metadata_only",
       "lastChangedAt": null
@@ -16485,7 +16471,7 @@
       "links": [],
       "modifiedAt": null,
       "lastModified": null,
-      "fetchedAt": "2026-11-24T18:01:18.735Z",
+      "fetchedAt": "2026-11-25T02:18:21.519Z",
       "status": "checked",
       "coverage": "public_head_metadata_only",
       "lastChangedAt": null
@@ -16653,7 +16639,7 @@
       "links": [],
       "modifiedAt": null,
       "lastModified": null,
-      "fetchedAt": "2026-11-24T18:01:19.231Z",
+      "fetchedAt": "2026-11-25T02:18:21.913Z",
       "status": "checked",
       "coverage": "public_head_metadata_only",
       "lastChangedAt": null
@@ -16877,7 +16863,7 @@
       "links": [],
       "modifiedAt": null,
       "lastModified": null,
-      "fetchedAt": "2026-11-24T18:01:18.813Z",
+      "fetchedAt": "2026-11-25T02:18:21.604Z",
       "status": "checked",
       "coverage": "public_head_metadata_only",
       "lastChangedAt": null
@@ -17283,7 +17269,7 @@
       "links": [],
       "modifiedAt": null,
       "lastModified": null,
-      "fetchedAt": "2026-11-24T18:01:18.722Z",
+      "fetchedAt": "2026-11-25T02:18:21.501Z",
       "status": "checked",
       "coverage": "public_head_metadata_only",
       "lastChangedAt": "2026-11-03T12:45:27.782Z"
@@ -17423,7 +17409,7 @@
       "links": [],
       "modifiedAt": null,
       "lastModified": null,
-      "fetchedAt": "2026-11-24T18:01:18.723Z",
+      "fetchedAt": "2026-11-25T02:18:21.474Z",
       "status": "checked",
       "coverage": "public_head_metadata_only",
       "lastChangedAt": null
@@ -17661,7 +17647,7 @@
       "links": [],
       "modifiedAt": null,
       "lastModified": null,
-      "fetchedAt": "2026-11-24T18:01:18.362Z",
+      "fetchedAt": "2026-11-25T02:18:21.045Z",
       "status": "checked",
       "coverage": "public_head_metadata_only",
       "lastChangedAt": null
@@ -17857,7 +17843,7 @@
       "links": [],
       "modifiedAt": null,
       "lastModified": null,
-      "fetchedAt": "2026-11-24T18:01:18.365Z",
+      "fetchedAt": "2026-11-25T02:18:21.161Z",
       "status": "checked",
       "coverage": "public_head_metadata_only",
       "lastChangedAt": null
@@ -18235,7 +18221,7 @@
       "links": [],
       "modifiedAt": null,
       "lastModified": null,
-      "fetchedAt": "2026-11-24T18:01:18.401Z",
+      "fetchedAt": "2026-11-25T02:18:21.037Z",
       "status": "checked",
       "coverage": "public_head_metadata_only",
       "lastChangedAt": "2026-11-04T20:59:34.070Z"
@@ -18305,7 +18291,7 @@
       "links": [],
       "modifiedAt": null,
       "lastModified": null,
-      "fetchedAt": "2026-11-24T18:01:18.301Z",
+      "fetchedAt": "2026-11-25T02:18:21.018Z",
       "status": "checked",
       "coverage": "public_head_metadata_only",
       "lastChangedAt": null
@@ -18599,7 +18585,7 @@
       "links": [],
       "modifiedAt": null,
       "lastModified": null,
-      "fetchedAt": "2026-11-24T18:01:17.721Z",
+      "fetchedAt": "2026-11-25T02:18:20.585Z",
       "status": "checked",
       "coverage": "public_head_metadata_only",
       "lastChangedAt": null
@@ -18683,7 +18669,7 @@
       "links": [],
       "modifiedAt": null,
       "lastModified": null,
-      "fetchedAt": "2026-11-24T18:01:17.803Z",
+      "fetchedAt": "2026-11-25T02:18:20.548Z",
       "status": "checked",
       "coverage": "public_head_metadata_only",
       "lastChangedAt": null
@@ -18851,7 +18837,7 @@
       "links": [],
       "modifiedAt": null,
       "lastModified": null,
-      "fetchedAt": "2026-11-24T18:01:17.840Z",
+      "fetchedAt": "2026-11-25T02:18:20.589Z",
       "status": "checked",
       "coverage": "public_head_metadata_only",
       "lastChangedAt": null
@@ -19229,7 +19215,7 @@
       "links": [],
       "modifiedAt": null,
       "lastModified": null,
-      "fetchedAt": "2026-11-24T18:01:17.975Z",
+      "fetchedAt": "2026-11-25T02:18:20.609Z",
       "status": "checked",
       "coverage": "public_head_metadata_only",
       "lastChangedAt": "2026-11-07T07:13:44.795Z"
@@ -19425,7 +19411,7 @@
       "links": [],
       "modifiedAt": null,
       "lastModified": null,
-      "fetchedAt": "2026-11-24T18:01:17.384Z",
+      "fetchedAt": "2026-11-25T02:18:20.084Z",
       "status": "checked",
       "coverage": "public_head_metadata_only",
       "lastChangedAt": null
@@ -19691,7 +19677,7 @@
       "links": [],
       "modifiedAt": null,
       "lastModified": null,
-      "fetchedAt": "2026-11-24T18:01:17.397Z",
+      "fetchedAt": "2026-11-25T02:18:20.149Z",
       "status": "checked",
       "coverage": "public_head_metadata_only",
       "lastChangedAt": null
@@ -19845,7 +19831,7 @@
       "links": [],
       "modifiedAt": null,
       "lastModified": null,
-      "fetchedAt": "2026-11-24T18:01:17.369Z",
+      "fetchedAt": "2026-11-25T02:18:20.062Z",
       "status": "checked",
       "coverage": "public_head_metadata_only",
       "lastChangedAt": null
@@ -19887,7 +19873,7 @@
       "links": [],
       "modifiedAt": null,
       "lastModified": null,
-      "fetchedAt": "2026-11-24T18:01:17.386Z",
+      "fetchedAt": "2026-11-25T02:18:20.084Z",
       "status": "checked",
       "coverage": "public_head_metadata_only",
       "lastChangedAt": null
@@ -19915,7 +19901,7 @@
       "links": [],
       "modifiedAt": null,
       "lastModified": null,
-      "fetchedAt": "2026-11-24T18:01:16.999Z",
+      "fetchedAt": "2026-11-25T02:18:19.773Z",
       "status": "checked",
       "coverage": "public_head_metadata_only",
       "lastChangedAt": null
@@ -19985,7 +19971,7 @@
       "links": [],
       "modifiedAt": null,
       "lastModified": null,
-      "fetchedAt": "2026-11-24T18:01:16.792Z",
+      "fetchedAt": "2026-11-25T02:18:19.486Z",
       "status": "checked",
       "coverage": "public_head_metadata_only",
       "lastChangedAt": null
@@ -20027,7 +20013,7 @@
       "links": [],
       "modifiedAt": null,
       "lastModified": null,
-      "fetchedAt": "2026-11-24T18:01:16.839Z",
+      "fetchedAt": "2026-11-25T02:18:19.504Z",
       "status": "checked",
       "coverage": "public_head_metadata_only",
       "lastChangedAt": null
@@ -20041,7 +20027,7 @@
       "links": [],
       "modifiedAt": null,
       "lastModified": null,
-      "fetchedAt": "2026-11-24T18:01:16.855Z",
+      "fetchedAt": "2026-11-25T02:18:19.560Z",
       "status": "checked",
       "coverage": "public_head_metadata_only",
       "lastChangedAt": null
@@ -20055,7 +20041,7 @@
       "links": [],
       "modifiedAt": null,
       "lastModified": null,
-      "fetchedAt": "2026-11-24T18:01:16.465Z",
+      "fetchedAt": "2026-11-25T02:18:19.175Z",
       "status": "checked",
       "coverage": "public_head_metadata_only",
       "lastChangedAt": null
@@ -20069,7 +20055,7 @@
       "links": [],
       "modifiedAt": null,
       "lastModified": null,
-      "fetchedAt": "2026-11-24T18:01:16.397Z",
+      "fetchedAt": "2026-11-25T02:18:19.163Z",
       "status": "checked",
       "coverage": "public_head_metadata_only",
       "lastChangedAt": null
@@ -20083,7 +20069,7 @@
       "links": [],
       "modifiedAt": null,
       "lastModified": null,
-      "fetchedAt": "2026-11-24T18:01:16.430Z",
+      "fetchedAt": "2026-11-25T02:18:19.141Z",
       "status": "checked",
       "coverage": "public_head_metadata_only",
       "lastChangedAt": null
@@ -20097,7 +20083,7 @@
       "links": [],
       "modifiedAt": null,
       "lastModified": null,
-      "fetchedAt": "2026-11-24T18:01:16.398Z",
+      "fetchedAt": "2026-11-25T02:18:19.068Z",
       "status": "checked",
       "coverage": "public_head_metadata_only",
       "lastChangedAt": null
@@ -20111,7 +20097,7 @@
       "links": [],
       "modifiedAt": null,
       "lastModified": null,
-      "fetchedAt": "2026-11-24T18:01:16.008Z",
+      "fetchedAt": "2026-11-25T02:18:18.768Z",
       "status": "checked",
       "coverage": "public_head_metadata_only",
       "lastChangedAt": null
@@ -20125,7 +20111,7 @@
       "links": [],
       "modifiedAt": null,
       "lastModified": null,
-      "fetchedAt": "2026-11-24T18:01:15.964Z",
+      "fetchedAt": "2026-11-25T02:18:18.549Z",
       "status": "checked",
       "coverage": "public_head_metadata_only",
       "lastChangedAt": null
@@ -20139,7 +20125,7 @@
       "links": [],
       "modifiedAt": null,
       "lastModified": null,
-      "fetchedAt": "2026-11-24T18:01:16.054Z",
+      "fetchedAt": "2026-11-25T02:18:18.453Z",
       "status": "checked",
       "coverage": "public_head_metadata_only",
       "lastChangedAt": null
@@ -20153,7 +20139,7 @@
       "links": [],
       "modifiedAt": null,
       "lastModified": null,
-      "fetchedAt": "2026-11-24T18:01:15.976Z",
+      "fetchedAt": "2026-11-25T02:18:18.405Z",
       "status": "checked",
       "coverage": "public_head_metadata_only",
       "lastChangedAt": null
@@ -20220,7 +20206,7 @@
         "tesla-sec-updates",
         "tesla-kr-connectivity"
       ],
-      "updatedAt": "2026-11-24T18:01:10.589Z"
+      "updatedAt": "2026-11-25T02:18:13.519Z"
     },
     {
       "storyKey": "exports-household-20261021",
@@ -20237,7 +20223,7 @@
         "youth-savings-20261006",
         "october-policy-confirmed"
       ],
-      "updatedAt": "2026-11-24T18:01:14.729Z"
+      "updatedAt": "2026-11-25T02:18:17.105Z"
     },
     {
       "storyKey": "9b5e6feb0063945507c4511d",
@@ -23778,18 +23764,18 @@
     }
   ],
   "sourceWatchLastRun": {
-    "checked": 50,
+    "checked": 48,
     "changed": 4,
     "failed": 3,
     "initial": 0,
-    "at": "2026-11-24T18:01:10.246Z"
+    "at": "2026-11-25T02:18:13.085Z"
   },
   "slotOutcomes": [
     {
       "key": "my.love.manual|2026-10-21T07:00:00.000Z",
       "slotAt": "2026-10-21T16:00:00+09:00",
       "status": "SKIPPED",
-      "checkedAt": "2026-11-24T18:01:20.981Z",
+      "checkedAt": "2026-11-25T02:18:23.397Z",
       "reasons": [
         "OPERATIONAL_CAP_REACHED",
         "ANTHROPIC_LOCAL_KEY_UNAVAILABLE",
@@ -23805,7 +23791,7 @@
       "key": "my.love.manual|2026-10-21T07:30:00.000Z",
       "slotAt": "2026-10-21T16:30:00+09:00",
       "status": "SKIPPED",
-      "checkedAt": "2026-11-24T18:01:20.981Z",
+      "checkedAt": "2026-11-25T02:18:23.397Z",
       "reasons": [
         "OPERATIONAL_CAP_REACHED",
         "INDEPENDENT_VERIFIER_NOT_CONNECTED",
@@ -23820,7 +23806,7 @@
       "key": "my.love.manual|2026-10-21T08:00:00.000Z",
       "slotAt": "2026-10-21T17:00:00+09:00",
       "status": "SKIPPED",
-      "checkedAt": "2026-11-24T18:01:20.981Z",
+      "checkedAt": "2026-11-25T02:18:23.397Z",
       "reasons": [
         "OPERATIONAL_CAP_REACHED",
         "INDEPENDENT_VERIFIER_NOT_CONNECTED",
@@ -23835,7 +23821,7 @@
       "key": "my.love.manual|2026-10-21T08:30:00.000Z",
       "slotAt": "2026-10-21T17:30:00+09:00",
       "status": "SKIPPED",
-      "checkedAt": "2026-11-24T18:01:20.981Z",
+      "checkedAt": "2026-11-25T02:18:23.397Z",
       "reasons": [
         "OPERATIONAL_CAP_REACHED",
         "INDEPENDENT_VERIFIER_NOT_CONNECTED",
