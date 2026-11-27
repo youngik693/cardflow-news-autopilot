@@ -7081,7 +7081,7 @@
   ],
   "signals": [],
   "lastRun": {
-    "at": "2026-11-27T03:48:26.827Z",
+    "at": "2026-11-27T13:10:18.444Z",
     "sources": [
       {
         "provider": "daum",
@@ -7098,11 +7098,11 @@
     "eligible": 0,
     "status": "awaiting_connections",
     "sourceWatch": {
-      "checked": 5,
+      "checked": 43,
       "changed": 4,
-      "failed": 42,
+      "failed": 3,
       "initial": 0,
-      "at": "2026-11-27T03:46:32.402Z"
+      "at": "2026-11-27T13:10:08.193Z"
     },
     "draftStatus": "no_new_commercial_candidate",
     "blockers": [
@@ -7156,7 +7156,7 @@
     }
   ],
   "commercialDashboard": {
-    "updatedAt": "2026-11-27T03:48:26.829Z",
+    "updatedAt": "2026-11-27T13:10:18.444Z",
     "offers": [
       {
         "id": "creative_only",
@@ -7281,7 +7281,7 @@
       "at": "2026-10-21T03:13:07.287Z",
       "invalidation": {
         "reason": "SOURCE_UNVERIFIED",
-        "at": "2026-11-27T03:46:32.562Z",
+        "at": "2026-11-27T13:10:08.618Z",
         "sourceId": "tesla-kr-connectivity"
       },
       "publicationAuthorized": false,
@@ -7555,13 +7555,6 @@
       "firstSeenAt": "2026-10-28T14:26:18.185Z",
       "lastSeenAt": "2026-10-28T14:26:18.185Z",
       "priority": true
-    },
-    {
-      "url": "https://v.daum.net/v/20261028120829873",
-      "storyKey": "f2b280a97a601481242ce55a",
-      "firstSeenAt": "2026-10-28T07:30:52.453Z",
-      "lastSeenAt": "2026-10-28T07:30:52.453Z",
-      "priority": true
     }
   ],
   "sourceSnapshots": {
@@ -7569,14 +7562,14 @@
       "sourceId": "tesla-ir-updates",
       "url": "https://ir.tesla.com/",
       "status": "unverified",
-      "lastAttemptAt": "2026-11-27T03:46:32.562Z",
+      "lastAttemptAt": "2026-11-27T13:10:08.617Z",
       "error": "SOURCE_HTTP_403"
     },
     "tesla-sec-updates": {
       "sourceId": "tesla-sec-updates",
       "url": "https://ir.tesla.com/sec-filings",
       "status": "unverified",
-      "lastAttemptAt": "2026-11-27T03:46:32.562Z",
+      "lastAttemptAt": "2026-11-27T13:10:08.617Z",
       "error": "SOURCE_HTTP_403"
     },
     "tesla-proxy-20261019": {
@@ -7588,7 +7581,7 @@
       "links": [],
       "modifiedAt": null,
       "lastModified": "Mon, 19 Oct 2026 10:16:00 GMT",
-      "fetchedAt": "2026-11-27T03:46:32.553Z",
+      "fetchedAt": "2026-11-27T13:10:08.617Z",
       "status": "checked",
       "coverage": "registered_public_endpoint_only",
       "lastChangedAt": null
@@ -7597,7 +7590,7 @@
       "sourceId": "tesla-kr-connectivity",
       "url": "https://www.tesla.com/ko_kr/support/connectivity",
       "status": "unverified",
-      "lastAttemptAt": "2026-11-27T03:46:32.562Z",
+      "lastAttemptAt": "2026-11-27T13:10:08.618Z",
       "error": "SOURCE_HTTP_403"
     },
     "customs-release-updates": {
@@ -7605,7 +7598,7 @@
       "url": "https://customs.go.kr/kcs/na/ntt/selectNttList.do?bbsId=1362&mi=2891",
       "scope": "public_text",
       "role": "discovery",
-      "sha256": "46e25162c35ca9ede97f226ce837245e364607ff8c5d4b328aae20ae6d3e69e7",
+      "sha256": "1d0139002a0f31adf047d7866ee611e8e295e6c4df86da2d6703c0c395837878",
       "links": [
         "https://customs.go.kr/kcs/na/ntt/selectNttInfo.do?bbsId=1362&mi=2891&nttSn=10184243&nttSnUrl=1a69b271560e020900fbb713d9248673",
         "https://customs.go.kr/kcs/na/ntt/selectNttInfo.do?bbsId=1362&mi=2891&nttSn=10184283&nttSnUrl=5b141dccc13a13335fe32982d23af29d",
@@ -7620,52 +7613,52 @@
       ],
       "modifiedAt": null,
       "lastModified": null,
-      "fetchedAt": "2026-11-27T03:46:35.591Z",
+      "fetchedAt": "2026-11-27T13:10:10.648Z",
       "status": "checked",
       "coverage": "registered_public_endpoint_only",
-      "lastChangedAt": "2026-11-27T03:46:41.888Z"
+      "lastChangedAt": "2026-11-27T13:10:12.271Z"
     },
     "customs-exports-20261021": {
       "sourceId": "customs-exports-20261021",
       "url": "https://customs.go.kr/kcs/na/ntt/selectNttInfo.do?bbsId=1362&mi=2891&nttSn=10180465&nttSnUrl=3b279b0d8ae0387ac138c4741fb65b67",
       "scope": "public_text",
       "role": "evidence",
-      "sha256": "ba5bb16af5619b47d50996d89f36136ed5fca566227086dcb22fdc46380f68e2",
+      "sha256": "97ac925de166e8e2611babadbf2885f5100a1fa1c47c7e3ae4f54c50e31d2b5f",
       "links": [],
       "modifiedAt": null,
       "lastModified": null,
-      "fetchedAt": "2026-11-27T03:46:41.887Z",
+      "fetchedAt": "2026-11-27T13:10:11.186Z",
       "status": "checked",
       "coverage": "registered_public_endpoint_only",
-      "lastChangedAt": "2026-11-27T03:46:41.888Z"
+      "lastChangedAt": "2026-11-27T13:10:12.271Z"
     },
     "youth-savings-20261006": {
       "sourceId": "youth-savings-20261006",
       "url": "https://fsc.go.kr/po010104/87880",
       "scope": "public_text",
       "role": "evidence",
-      "sha256": "d2907744d7571d05ee281aa817e8b0116daf6608af9505ba851ebbafcad74943",
+      "sha256": "d0c9c80a226655e55fa660472711c74606d8a4ebf54fec78b7406257c9ab1ba1",
       "links": [],
       "modifiedAt": null,
       "lastModified": null,
-      "fetchedAt": "2026-11-27T03:46:36.372Z",
+      "fetchedAt": "2026-11-27T13:10:11.850Z",
       "status": "checked",
       "coverage": "registered_public_endpoint_only",
-      "lastChangedAt": "2026-11-27T03:46:41.888Z"
+      "lastChangedAt": "2026-11-27T13:10:12.271Z"
     },
     "october-policy-confirmed": {
       "sourceId": "october-policy-confirmed",
       "url": "https://www.korea.kr/news/policyNewsView.do?newsId=148972822",
       "scope": "public_text",
       "role": "evidence",
-      "sha256": "61845022a0bab7698a99575a5c609f8cc1a0ef1692907c58b2bb645fe11be324",
+      "sha256": "46e793404e501628c9d3104a80ce0d11635ec4e572cd88e5dbcd74ac8e6d7870",
       "links": [],
       "modifiedAt": null,
       "lastModified": null,
-      "fetchedAt": "2026-11-27T03:46:36.732Z",
+      "fetchedAt": "2026-11-27T13:10:12.271Z",
       "status": "checked",
       "coverage": "registered_public_endpoint_only",
-      "lastChangedAt": "2026-11-27T03:46:41.888Z"
+      "lastChangedAt": "2026-11-27T13:10:12.271Z"
     },
     "article-a75e0a4c1e046f79d409": {
       "sourceId": "article-a75e0a4c1e046f79d409",
@@ -13768,12 +13761,10 @@
       "links": [],
       "modifiedAt": null,
       "lastModified": null,
-      "fetchedAt": "2026-11-26T12:15:03.468Z",
-      "status": "unverified",
+      "fetchedAt": "2026-11-27T13:10:18.443Z",
+      "status": "checked",
       "coverage": "public_head_metadata_only",
-      "lastChangedAt": null,
-      "lastAttemptAt": "2026-11-27T03:48:26.827Z",
-      "error": "SOURCE_FETCH_FAILED"
+      "lastChangedAt": null
     },
     "article-bf932bd147defc452c8b": {
       "sourceId": "article-bf932bd147defc452c8b",
@@ -13826,12 +13817,10 @@
       "links": [],
       "modifiedAt": null,
       "lastModified": null,
-      "fetchedAt": "2026-11-26T12:15:03.113Z",
-      "status": "unverified",
+      "fetchedAt": "2026-11-27T13:10:18.019Z",
+      "status": "checked",
       "coverage": "public_head_metadata_only",
-      "lastChangedAt": "2026-10-29T08:57:32.111Z",
-      "lastAttemptAt": "2026-11-27T03:48:16.333Z",
-      "error": "SOURCE_FETCH_FAILED"
+      "lastChangedAt": "2026-10-29T08:57:32.111Z"
     },
     "article-b6815a739f92a70af95f": {
       "sourceId": "article-b6815a739f92a70af95f",
@@ -13954,12 +13943,10 @@
       "links": [],
       "modifiedAt": null,
       "lastModified": null,
-      "fetchedAt": "2026-11-26T12:15:03.603Z",
-      "status": "unverified",
+      "fetchedAt": "2026-11-27T13:10:18.387Z",
+      "status": "checked",
       "coverage": "public_head_metadata_only",
-      "lastChangedAt": null,
-      "lastAttemptAt": "2026-11-27T03:48:26.827Z",
-      "error": "SOURCE_FETCH_FAILED"
+      "lastChangedAt": null
     },
     "article-760702ea767591b13563": {
       "sourceId": "article-760702ea767591b13563",
@@ -14166,12 +14153,10 @@
       "links": [],
       "modifiedAt": null,
       "lastModified": null,
-      "fetchedAt": "2026-11-26T12:15:03.078Z",
-      "status": "unverified",
+      "fetchedAt": "2026-11-27T13:10:18.021Z",
+      "status": "checked",
       "coverage": "public_head_metadata_only",
-      "lastChangedAt": null,
-      "lastAttemptAt": "2026-11-27T03:48:16.333Z",
-      "error": "SOURCE_FETCH_FAILED"
+      "lastChangedAt": null
     },
     "article-ce902f1e0632a03d3141": {
       "sourceId": "article-ce902f1e0632a03d3141",
@@ -15106,12 +15091,10 @@
       "links": [],
       "modifiedAt": null,
       "lastModified": null,
-      "fetchedAt": "2026-11-26T12:15:03.093Z",
-      "status": "unverified",
+      "fetchedAt": "2026-11-27T13:10:17.869Z",
+      "status": "checked",
       "coverage": "public_head_metadata_only",
-      "lastChangedAt": null,
-      "lastAttemptAt": "2026-11-27T03:48:16.333Z",
-      "error": "SOURCE_FETCH_FAILED"
+      "lastChangedAt": null
     },
     "article-f8ae0c2da6a7df92183b": {
       "sourceId": "article-f8ae0c2da6a7df92183b",
@@ -15416,12 +15399,10 @@
       "links": [],
       "modifiedAt": null,
       "lastModified": null,
-      "fetchedAt": "2026-11-26T12:15:03.132Z",
-      "status": "unverified",
+      "fetchedAt": "2026-11-27T13:10:18.017Z",
+      "status": "checked",
       "coverage": "public_head_metadata_only",
-      "lastChangedAt": null,
-      "lastAttemptAt": "2026-11-27T03:48:16.333Z",
-      "error": "SOURCE_FETCH_FAILED"
+      "lastChangedAt": null
     },
     "article-22290caeabe2f2769ab4": {
       "sourceId": "article-22290caeabe2f2769ab4",
@@ -15810,12 +15791,10 @@
       "links": [],
       "modifiedAt": null,
       "lastModified": null,
-      "fetchedAt": "2026-11-26T12:15:02.711Z",
-      "status": "unverified",
+      "fetchedAt": "2026-11-27T13:10:17.360Z",
+      "status": "checked",
       "coverage": "public_head_metadata_only",
-      "lastChangedAt": null,
-      "lastAttemptAt": "2026-11-27T03:48:05.839Z",
-      "error": "SOURCE_FETCH_FAILED"
+      "lastChangedAt": null
     },
     "article-c97d52e7364c6202fb32": {
       "sourceId": "article-c97d52e7364c6202fb32",
@@ -15966,12 +15945,10 @@
       "links": [],
       "modifiedAt": null,
       "lastModified": null,
-      "fetchedAt": "2026-11-26T12:15:02.723Z",
-      "status": "unverified",
+      "fetchedAt": "2026-11-27T13:10:17.507Z",
+      "status": "checked",
       "coverage": "public_head_metadata_only",
-      "lastChangedAt": null,
-      "lastAttemptAt": "2026-11-27T03:48:05.839Z",
-      "error": "SOURCE_FETCH_FAILED"
+      "lastChangedAt": null
     },
     "article-94d0c239a0b355ef639f": {
       "sourceId": "article-94d0c239a0b355ef639f",
@@ -16206,12 +16183,10 @@
       "links": [],
       "modifiedAt": null,
       "lastModified": null,
-      "fetchedAt": "2026-11-26T12:15:02.683Z",
-      "status": "unverified",
+      "fetchedAt": "2026-11-27T13:10:17.472Z",
+      "status": "checked",
       "coverage": "public_head_metadata_only",
-      "lastChangedAt": null,
-      "lastAttemptAt": "2026-11-27T03:48:05.839Z",
-      "error": "SOURCE_FETCH_FAILED"
+      "lastChangedAt": null
     },
     "article-fba0307883b1a66f134b": {
       "sourceId": "article-fba0307883b1a66f134b",
@@ -16670,12 +16645,10 @@
       "links": [],
       "modifiedAt": null,
       "lastModified": null,
-      "fetchedAt": "2026-11-26T12:15:02.294Z",
-      "status": "unverified",
+      "fetchedAt": "2026-11-27T13:10:16.816Z",
+      "status": "checked",
       "coverage": "public_head_metadata_only",
-      "lastChangedAt": null,
-      "lastAttemptAt": "2026-11-27T03:47:55.344Z",
-      "error": "SOURCE_FETCH_FAILED"
+      "lastChangedAt": null
     },
     "article-b8423965d2675aa969d7": {
       "sourceId": "article-b8423965d2675aa969d7",
@@ -16840,12 +16813,10 @@
       "links": [],
       "modifiedAt": null,
       "lastModified": null,
-      "fetchedAt": "2026-11-26T12:15:02.655Z",
-      "status": "unverified",
+      "fetchedAt": "2026-11-27T13:10:17.260Z",
+      "status": "checked",
       "coverage": "public_head_metadata_only",
-      "lastChangedAt": null,
-      "lastAttemptAt": "2026-11-27T03:48:05.839Z",
-      "error": "SOURCE_FETCH_FAILED"
+      "lastChangedAt": null
     },
     "article-a9c31e8a90bbb5b7bade": {
       "sourceId": "article-a9c31e8a90bbb5b7bade",
@@ -17066,12 +17037,10 @@
       "links": [],
       "modifiedAt": null,
       "lastModified": null,
-      "fetchedAt": "2026-11-26T12:15:02.318Z",
-      "status": "unverified",
+      "fetchedAt": "2026-11-27T13:10:16.942Z",
+      "status": "checked",
       "coverage": "public_head_metadata_only",
-      "lastChangedAt": null,
-      "lastAttemptAt": "2026-11-27T03:47:55.344Z",
-      "error": "SOURCE_FETCH_FAILED"
+      "lastChangedAt": null
     },
     "article-43c3e1b86caebd1b1208": {
       "sourceId": "article-43c3e1b86caebd1b1208",
@@ -17474,12 +17443,10 @@
       "links": [],
       "modifiedAt": null,
       "lastModified": null,
-      "fetchedAt": "2026-11-26T12:15:02.212Z",
-      "status": "unverified",
+      "fetchedAt": "2026-11-27T13:10:16.815Z",
+      "status": "checked",
       "coverage": "public_head_metadata_only",
-      "lastChangedAt": "2026-11-03T12:45:27.782Z",
-      "lastAttemptAt": "2026-11-27T03:47:55.344Z",
-      "error": "SOURCE_FETCH_FAILED"
+      "lastChangedAt": "2026-11-03T12:45:27.782Z"
     },
     "article-b472bebfb4313debaf80": {
       "sourceId": "article-b472bebfb4313debaf80",
@@ -17616,12 +17583,10 @@
       "links": [],
       "modifiedAt": null,
       "lastModified": null,
-      "fetchedAt": "2026-11-26T12:15:02.221Z",
-      "status": "unverified",
+      "fetchedAt": "2026-11-27T13:10:16.866Z",
+      "status": "checked",
       "coverage": "public_head_metadata_only",
-      "lastChangedAt": null,
-      "lastAttemptAt": "2026-11-27T03:47:55.344Z",
-      "error": "SOURCE_FETCH_FAILED"
+      "lastChangedAt": null
     },
     "article-14d5dab4540ff49940a4": {
       "sourceId": "article-14d5dab4540ff49940a4",
@@ -17856,12 +17821,10 @@
       "links": [],
       "modifiedAt": null,
       "lastModified": null,
-      "fetchedAt": "2026-11-26T12:15:01.785Z",
-      "status": "unverified",
+      "fetchedAt": "2026-11-27T13:10:16.384Z",
+      "status": "checked",
       "coverage": "public_head_metadata_only",
-      "lastChangedAt": null,
-      "lastAttemptAt": "2026-11-27T03:47:44.850Z",
-      "error": "SOURCE_FETCH_FAILED"
+      "lastChangedAt": null
     },
     "article-ec34a42a3bc87cccea0f": {
       "sourceId": "article-ec34a42a3bc87cccea0f",
@@ -18054,12 +18017,10 @@
       "links": [],
       "modifiedAt": null,
       "lastModified": null,
-      "fetchedAt": "2026-11-26T12:15:01.860Z",
-      "status": "unverified",
+      "fetchedAt": "2026-11-27T13:10:16.467Z",
+      "status": "checked",
       "coverage": "public_head_metadata_only",
-      "lastChangedAt": null,
-      "lastAttemptAt": "2026-11-27T03:47:44.850Z",
-      "error": "SOURCE_FETCH_FAILED"
+      "lastChangedAt": null
     },
     "article-6b8bc41eeaed9f540292": {
       "sourceId": "article-6b8bc41eeaed9f540292",
@@ -18434,12 +18395,10 @@
       "links": [],
       "modifiedAt": null,
       "lastModified": null,
-      "fetchedAt": "2026-11-26T12:15:01.859Z",
-      "status": "unverified",
+      "fetchedAt": "2026-11-27T13:10:16.435Z",
+      "status": "checked",
       "coverage": "public_head_metadata_only",
-      "lastChangedAt": "2026-11-04T20:59:34.070Z",
-      "lastAttemptAt": "2026-11-27T03:47:44.850Z",
-      "error": "SOURCE_FETCH_FAILED"
+      "lastChangedAt": "2026-11-04T20:59:34.070Z"
     },
     "article-342dffaa29d2b4601be0": {
       "sourceId": "article-342dffaa29d2b4601be0",
@@ -18506,12 +18465,10 @@
       "links": [],
       "modifiedAt": null,
       "lastModified": null,
-      "fetchedAt": "2026-11-26T12:15:01.711Z",
-      "status": "unverified",
+      "fetchedAt": "2026-11-27T13:10:16.361Z",
+      "status": "checked",
       "coverage": "public_head_metadata_only",
-      "lastChangedAt": null,
-      "lastAttemptAt": "2026-11-27T03:47:44.850Z",
-      "error": "SOURCE_FETCH_FAILED"
+      "lastChangedAt": null
     },
     "article-3b984b188e9ecfccd92e": {
       "sourceId": "article-3b984b188e9ecfccd92e",
@@ -18802,12 +18759,10 @@
       "links": [],
       "modifiedAt": null,
       "lastModified": null,
-      "fetchedAt": "2026-11-26T12:15:01.218Z",
-      "status": "unverified",
+      "fetchedAt": "2026-11-27T13:10:15.957Z",
+      "status": "checked",
       "coverage": "public_head_metadata_only",
-      "lastChangedAt": null,
-      "lastAttemptAt": "2026-11-27T03:47:34.356Z",
-      "error": "SOURCE_FETCH_FAILED"
+      "lastChangedAt": null
     },
     "article-d4b5ff5f1f48503cfbaf": {
       "sourceId": "article-d4b5ff5f1f48503cfbaf",
@@ -18888,12 +18843,10 @@
       "links": [],
       "modifiedAt": null,
       "lastModified": null,
-      "fetchedAt": "2026-11-26T12:15:01.282Z",
-      "status": "unverified",
+      "fetchedAt": "2026-11-27T13:10:16.039Z",
+      "status": "checked",
       "coverage": "public_head_metadata_only",
-      "lastChangedAt": null,
-      "lastAttemptAt": "2026-11-27T03:47:34.356Z",
-      "error": "SOURCE_FETCH_FAILED"
+      "lastChangedAt": null
     },
     "article-26c8120fa7c863ad82ca": {
       "sourceId": "article-26c8120fa7c863ad82ca",
@@ -19058,12 +19011,10 @@
       "links": [],
       "modifiedAt": null,
       "lastModified": null,
-      "fetchedAt": "2026-11-26T12:15:01.291Z",
-      "status": "unverified",
+      "fetchedAt": "2026-11-27T13:10:16.017Z",
+      "status": "checked",
       "coverage": "public_head_metadata_only",
-      "lastChangedAt": null,
-      "lastAttemptAt": "2026-11-27T03:47:34.356Z",
-      "error": "SOURCE_FETCH_FAILED"
+      "lastChangedAt": null
     },
     "article-7a46f5c9964b43ca3f6e": {
       "sourceId": "article-7a46f5c9964b43ca3f6e",
@@ -19438,12 +19389,10 @@
       "links": [],
       "modifiedAt": null,
       "lastModified": null,
-      "fetchedAt": "2026-11-26T12:15:01.361Z",
-      "status": "unverified",
+      "fetchedAt": "2026-11-27T13:10:16.011Z",
+      "status": "checked",
       "coverage": "public_head_metadata_only",
-      "lastChangedAt": "2026-11-07T07:13:44.795Z",
-      "lastAttemptAt": "2026-11-27T03:47:34.356Z",
-      "error": "SOURCE_FETCH_FAILED"
+      "lastChangedAt": "2026-11-07T07:13:44.795Z"
     },
     "article-861fcb25fb6d6fde22c1": {
       "sourceId": "article-861fcb25fb6d6fde22c1",
@@ -19636,12 +19585,10 @@
       "links": [],
       "modifiedAt": null,
       "lastModified": null,
-      "fetchedAt": "2026-11-26T12:15:00.643Z",
-      "status": "unverified",
+      "fetchedAt": "2026-11-27T13:10:15.461Z",
+      "status": "checked",
       "coverage": "public_head_metadata_only",
-      "lastChangedAt": null,
-      "lastAttemptAt": "2026-11-27T03:47:23.862Z",
-      "error": "SOURCE_FETCH_FAILED"
+      "lastChangedAt": null
     },
     "article-efe7f8ea31e212a32507": {
       "sourceId": "article-efe7f8ea31e212a32507",
@@ -19904,12 +19851,10 @@
       "links": [],
       "modifiedAt": null,
       "lastModified": null,
-      "fetchedAt": "2026-11-26T12:15:00.902Z",
-      "status": "unverified",
+      "fetchedAt": "2026-11-27T13:10:15.495Z",
+      "status": "checked",
       "coverage": "public_head_metadata_only",
-      "lastChangedAt": null,
-      "lastAttemptAt": "2026-11-27T03:47:23.862Z",
-      "error": "SOURCE_FETCH_FAILED"
+      "lastChangedAt": null
     },
     "article-135f35eca13da0bcf037": {
       "sourceId": "article-135f35eca13da0bcf037",
@@ -20060,12 +20005,10 @@
       "links": [],
       "modifiedAt": null,
       "lastModified": null,
-      "fetchedAt": "2026-11-26T12:15:00.640Z",
-      "status": "unverified",
+      "fetchedAt": "2026-11-27T13:10:15.404Z",
+      "status": "checked",
       "coverage": "public_head_metadata_only",
-      "lastChangedAt": null,
-      "lastAttemptAt": "2026-11-27T03:47:23.862Z",
-      "error": "SOURCE_FETCH_FAILED"
+      "lastChangedAt": null
     },
     "article-c5dca5f39e2c28aee81b": {
       "sourceId": "article-c5dca5f39e2c28aee81b",
@@ -20104,12 +20047,10 @@
       "links": [],
       "modifiedAt": null,
       "lastModified": null,
-      "fetchedAt": "2026-11-26T12:15:00.638Z",
-      "status": "unverified",
+      "fetchedAt": "2026-11-27T13:10:15.326Z",
+      "status": "checked",
       "coverage": "public_head_metadata_only",
-      "lastChangedAt": null,
-      "lastAttemptAt": "2026-11-27T03:47:23.862Z",
-      "error": "SOURCE_FETCH_FAILED"
+      "lastChangedAt": null
     },
     "article-9519516d3f109f84bf55": {
       "sourceId": "article-9519516d3f109f84bf55",
@@ -20134,12 +20075,10 @@
       "links": [],
       "modifiedAt": null,
       "lastModified": null,
-      "fetchedAt": "2026-11-26T12:15:00.266Z",
-      "status": "unverified",
+      "fetchedAt": "2026-11-27T13:10:15.015Z",
+      "status": "checked",
       "coverage": "public_head_metadata_only",
-      "lastChangedAt": null,
-      "lastAttemptAt": "2026-11-27T03:47:13.367Z",
-      "error": "SOURCE_FETCH_FAILED"
+      "lastChangedAt": null
     },
     "article-f047eebdeb67fe5667de": {
       "sourceId": "article-f047eebdeb67fe5667de",
@@ -20206,12 +20145,10 @@
       "links": [],
       "modifiedAt": null,
       "lastModified": null,
-      "fetchedAt": "2026-11-26T12:14:59.988Z",
-      "status": "unverified",
+      "fetchedAt": "2026-11-27T13:10:14.810Z",
+      "status": "checked",
       "coverage": "public_head_metadata_only",
-      "lastChangedAt": null,
-      "lastAttemptAt": "2026-11-27T03:47:13.367Z",
-      "error": "SOURCE_FETCH_FAILED"
+      "lastChangedAt": null
     },
     "article-9af4537a5dbf35d54e21": {
       "sourceId": "article-9af4537a5dbf35d54e21",
@@ -20250,12 +20187,10 @@
       "links": [],
       "modifiedAt": null,
       "lastModified": null,
-      "fetchedAt": "2026-11-26T12:15:00.001Z",
-      "status": "unverified",
+      "fetchedAt": "2026-11-27T13:10:14.822Z",
+      "status": "checked",
       "coverage": "public_head_metadata_only",
-      "lastChangedAt": null,
-      "lastAttemptAt": "2026-11-27T03:47:13.367Z",
-      "error": "SOURCE_FETCH_FAILED"
+      "lastChangedAt": null
     },
     "article-85aeebadf293798b6c66": {
       "sourceId": "article-85aeebadf293798b6c66",
@@ -20266,12 +20201,10 @@
       "links": [],
       "modifiedAt": null,
       "lastModified": null,
-      "fetchedAt": "2026-11-26T12:15:00.163Z",
-      "status": "unverified",
+      "fetchedAt": "2026-11-27T13:10:14.890Z",
+      "status": "checked",
       "coverage": "public_head_metadata_only",
-      "lastChangedAt": null,
-      "lastAttemptAt": "2026-11-27T03:47:13.366Z",
-      "error": "SOURCE_FETCH_FAILED"
+      "lastChangedAt": null
     },
     "article-afac8f297c00b00f71c1": {
       "sourceId": "article-afac8f297c00b00f71c1",
@@ -20282,12 +20215,10 @@
       "links": [],
       "modifiedAt": null,
       "lastModified": null,
-      "fetchedAt": "2026-11-26T12:14:59.680Z",
-      "status": "unverified",
+      "fetchedAt": "2026-11-27T13:10:14.497Z",
+      "status": "checked",
       "coverage": "public_head_metadata_only",
-      "lastChangedAt": null,
-      "lastAttemptAt": "2026-11-27T03:47:02.873Z",
-      "error": "SOURCE_FETCH_FAILED"
+      "lastChangedAt": null
     },
     "article-5ea7cc8966208585b126": {
       "sourceId": "article-5ea7cc8966208585b126",
@@ -20298,12 +20229,10 @@
       "links": [],
       "modifiedAt": null,
       "lastModified": null,
-      "fetchedAt": "2026-11-26T12:14:59.669Z",
-      "status": "unverified",
+      "fetchedAt": "2026-11-27T13:10:14.432Z",
+      "status": "checked",
       "coverage": "public_head_metadata_only",
-      "lastChangedAt": null,
-      "lastAttemptAt": "2026-11-27T03:47:02.873Z",
-      "error": "SOURCE_FETCH_FAILED"
+      "lastChangedAt": null
     },
     "article-9b30f0276bde3c37400a": {
       "sourceId": "article-9b30f0276bde3c37400a",
@@ -20314,12 +20243,10 @@
       "links": [],
       "modifiedAt": null,
       "lastModified": null,
-      "fetchedAt": "2026-11-26T12:14:59.603Z",
-      "status": "unverified",
+      "fetchedAt": "2026-11-27T13:10:14.353Z",
+      "status": "checked",
       "coverage": "public_head_metadata_only",
-      "lastChangedAt": null,
-      "lastAttemptAt": "2026-11-27T03:47:02.872Z",
-      "error": "SOURCE_FETCH_FAILED"
+      "lastChangedAt": null
     },
     "article-cbba627e3db762cb4ba4": {
       "sourceId": "article-cbba627e3db762cb4ba4",
@@ -20330,12 +20257,10 @@
       "links": [],
       "modifiedAt": null,
       "lastModified": null,
-      "fetchedAt": "2026-11-26T12:14:59.616Z",
-      "status": "unverified",
+      "fetchedAt": "2026-11-27T13:10:14.376Z",
+      "status": "checked",
       "coverage": "public_head_metadata_only",
-      "lastChangedAt": null,
-      "lastAttemptAt": "2026-11-27T03:47:02.872Z",
-      "error": "SOURCE_FETCH_FAILED"
+      "lastChangedAt": null
     },
     "article-42d7a06413733b63762d": {
       "sourceId": "article-42d7a06413733b63762d",
@@ -20346,12 +20271,10 @@
       "links": [],
       "modifiedAt": null,
       "lastModified": null,
-      "fetchedAt": "2026-11-26T12:14:59.306Z",
-      "status": "unverified",
+      "fetchedAt": "2026-11-27T13:10:13.972Z",
+      "status": "checked",
       "coverage": "public_head_metadata_only",
-      "lastChangedAt": null,
-      "lastAttemptAt": "2026-11-27T03:46:52.379Z",
-      "error": "SOURCE_FETCH_FAILED"
+      "lastChangedAt": null
     },
     "article-30777bdfdebbfe5e1c43": {
       "sourceId": "article-30777bdfdebbfe5e1c43",
@@ -20362,12 +20285,10 @@
       "links": [],
       "modifiedAt": null,
       "lastModified": null,
-      "fetchedAt": "2026-11-26T12:14:59.277Z",
-      "status": "unverified",
+      "fetchedAt": "2026-11-27T13:10:13.943Z",
+      "status": "checked",
       "coverage": "public_head_metadata_only",
-      "lastChangedAt": null,
-      "lastAttemptAt": "2026-11-27T03:46:52.379Z",
-      "error": "SOURCE_FETCH_FAILED"
+      "lastChangedAt": null
     },
     "article-9979c700276ae9406636": {
       "sourceId": "article-9979c700276ae9406636",
@@ -20378,12 +20299,10 @@
       "links": [],
       "modifiedAt": null,
       "lastModified": null,
-      "fetchedAt": "2026-11-26T12:14:59.211Z",
-      "status": "unverified",
+      "fetchedAt": "2026-11-27T13:10:13.672Z",
+      "status": "checked",
       "coverage": "public_head_metadata_only",
-      "lastChangedAt": null,
-      "lastAttemptAt": "2026-11-27T03:46:52.379Z",
-      "error": "SOURCE_FETCH_FAILED"
+      "lastChangedAt": null
     },
     "article-21e2041c646f765ed4c9": {
       "sourceId": "article-21e2041c646f765ed4c9",
@@ -20394,12 +20313,10 @@
       "links": [],
       "modifiedAt": null,
       "lastModified": null,
-      "fetchedAt": "2026-11-26T12:14:59.236Z",
-      "status": "unverified",
+      "fetchedAt": "2026-11-27T13:10:13.635Z",
+      "status": "checked",
       "coverage": "public_head_metadata_only",
-      "lastChangedAt": null,
-      "lastAttemptAt": "2026-11-27T03:46:52.379Z",
-      "error": "SOURCE_FETCH_FAILED"
+      "lastChangedAt": null
     }
   },
   "regenerationQueue": [
@@ -24015,7 +23932,7 @@
         "tesla-sec-updates",
         "tesla-kr-connectivity"
       ],
-      "updatedAt": "2026-11-27T03:46:32.562Z"
+      "updatedAt": "2026-11-27T13:10:08.618Z"
     },
     {
       "storyKey": "exports-household-20261021",
@@ -24031,7 +23948,7 @@
         "youth-savings-20261006",
         "october-policy-confirmed"
       ],
-      "updatedAt": "2026-11-27T03:46:41.888Z"
+      "updatedAt": "2026-11-27T13:10:12.271Z"
     },
     {
       "storyKey": "5cd879fad3f74bfbe0471c1b",
@@ -24047,18 +23964,18 @@
     }
   ],
   "sourceWatchLastRun": {
-    "checked": 5,
+    "checked": 43,
     "changed": 4,
-    "failed": 42,
+    "failed": 3,
     "initial": 0,
-    "at": "2026-11-27T03:46:32.402Z"
+    "at": "2026-11-27T13:10:08.193Z"
   },
   "slotOutcomes": [
     {
       "key": "my.love.manual|2026-10-21T07:00:00.000Z",
       "slotAt": "2026-10-21T16:00:00+09:00",
       "status": "SKIPPED",
-      "checkedAt": "2026-11-27T03:48:26.829Z",
+      "checkedAt": "2026-11-27T13:10:18.444Z",
       "reasons": [
         "OPERATIONAL_CAP_REACHED",
         "ANTHROPIC_LOCAL_KEY_UNAVAILABLE",
@@ -24074,7 +23991,7 @@
       "key": "my.love.manual|2026-10-21T07:30:00.000Z",
       "slotAt": "2026-10-21T16:30:00+09:00",
       "status": "SKIPPED",
-      "checkedAt": "2026-11-27T03:48:26.829Z",
+      "checkedAt": "2026-11-27T13:10:18.444Z",
       "reasons": [
         "OPERATIONAL_CAP_REACHED",
         "INDEPENDENT_VERIFIER_NOT_CONNECTED",
@@ -24089,7 +24006,7 @@
       "key": "my.love.manual|2026-10-21T08:00:00.000Z",
       "slotAt": "2026-10-21T17:00:00+09:00",
       "status": "SKIPPED",
-      "checkedAt": "2026-11-27T03:48:26.829Z",
+      "checkedAt": "2026-11-27T13:10:18.444Z",
       "reasons": [
         "OPERATIONAL_CAP_REACHED",
         "INDEPENDENT_VERIFIER_NOT_CONNECTED",
@@ -24104,7 +24021,7 @@
       "key": "my.love.manual|2026-10-21T08:30:00.000Z",
       "slotAt": "2026-10-21T17:30:00+09:00",
       "status": "SKIPPED",
-      "checkedAt": "2026-11-27T03:48:26.829Z",
+      "checkedAt": "2026-11-27T13:10:18.444Z",
       "reasons": [
         "OPERATIONAL_CAP_REACHED",
         "INDEPENDENT_VERIFIER_NOT_CONNECTED",
